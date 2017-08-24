@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "@types/core-js": "^0.9.43",
-    "@types/node": "^8.0.24"
+    "@types/node": "^8.0.24",
+    "webpack": "^3.5.5"
   }
 }
