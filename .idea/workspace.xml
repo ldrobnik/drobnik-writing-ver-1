@@ -22,9 +22,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-171">
               <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding>
-                <marker date="1503578330836" expanded="true" signature="143:963" ph="{&quot;@angular/animations&quot;: &quot;^4.0.0&quot;...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -285,12 +283,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503576092777</updated>
-      <workItem from="1503576094178" duration="2862000" />
+      <workItem from="1503576094178" duration="3113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2862000" />
+    <option name="totallyTimeSpent" value="3113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="138" width="1700" height="614" extended-state="0" />
@@ -360,9 +358,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-171">
           <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <marker date="1503578330836" expanded="true" signature="143:963" ph="{&quot;@angular/animations&quot;: &quot;^4.0.0&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
