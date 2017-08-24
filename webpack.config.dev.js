@@ -1,3 +1,5 @@
+var path = require('path');
+
 var webpackMerge = require('webpack-merge');
 var commonConfig = require('./webpack.config.common.js');
 
@@ -9,5 +11,14 @@ module.exports = webpackMerge(commonConfig, {
         filename: 'bundle.js',
         publicPath: '/js/app/',
         chunkFilename: '[id].chunk.js'
-    }
+    },
+
+    loaders: [
+        // Typescript loader
+        {
+            test: /\.ts$/,
+            loaders: ['awesome-typescript-loader', 'angular2-template-loader'],
+            exclude: [/node_modules\/(?!(ng2-.+|ngx-.+))/]
+        }
+        ]
 });
