@@ -2,7 +2,6 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var schema = new Schema({
-    inEnglish: {type: Boolean, required: true}, // is it in English (true) or in Polish (false)
     fixedOrder: {type: Boolean, required: true}, // when chosen randomly, whether the texts should be read sequentially or in any order
     color: {type: String}, // theme colour
     video: {type: String}, // name of the video file to be loaded into the jumbotron
