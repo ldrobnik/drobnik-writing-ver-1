@@ -10,7 +10,7 @@ module.exports = {
         extensions: ['.js', '.ts']
     },
 
-    // tells webpack what to do with the files
+    // setting up loaders for .html and .css files
     module: {
         rules: [
             {
@@ -19,7 +19,7 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                use: [{ loader: 'raw-loader' }]
+                use: [{ loader: 'raw-loader' }] // simply copies any .css files
             }
         ],
         exprContextCritical: false
