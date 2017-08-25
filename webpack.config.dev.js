@@ -3,7 +3,7 @@ var path = require('path');
 var webpackMerge = require('webpack-merge');
 var commonConfig = require('./webpack.config.common.js');
 
-// merges this configuration with webpack.config.common.js and specifies what should be overwrittens
+// merges this configuration with webpack.config.common.js and specifies what should be overwritten
 module.exports = webpackMerge(commonConfig, {
     devtool: 'cheap-module-eval-source-map', //specifies the source map
 
