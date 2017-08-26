@@ -5,11 +5,20 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
+var dotenv = require('dotenv'); // to be able to access environment variables
 
 var appRoutes = require('./routes/app'); // refers to the app.js file in the routes folder
 
 var app = express();
-mongoose.connect('localhost:27017/lukasz-drobnik'); // connects with mongoose on each request
+
+dotenv.load(); // load the environment variables
+
+var login = process.env.LOGIN;
+var password = process.env.PASSWORD;
+var connectLink = "mongodb://" + login + ":" + password;
+
+mongoose.connect(connectLink); // connects with mongoose on each request
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
