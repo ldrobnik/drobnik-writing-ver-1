@@ -13,9 +13,9 @@ var app = express();
 
 dotenv.load(); // load the environment variables
 
-var login = process.env.LOGIN;
+var user = process.env.USER;
 var password = process.env.PASSWORD;
-var connectLink = "mongodb://" + login + ":" + password;
+var connectLink = "mongodb://" + user + ":" + password + "@ds159953.mlab.com:59953/lukasz-drobnik";
 
 mongoose.connect(connectLink); // connects with mongoose on each request
 

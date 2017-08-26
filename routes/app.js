@@ -4,10 +4,12 @@ var Group = require('../models/group');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  Group.findOne({
-
+  Group.findOne({}, function(err, doc) {
+    if (err) {
+      return res.send('Error!');
+    }
+      res.render('index', { title: 'Express' }); // renders the view (index page)
   });
-  res.render('index', { title: 'Express' }); // renders the view (index page)
 });
 
 module.exports = router;
