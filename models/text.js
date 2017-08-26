@@ -2,12 +2,15 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var schema = new Schema({
-    title: {type: String, required: true}, // title of the text
-    description: {type: String, required: true}, // description of the text
-    titleEn: {type: String, required: true}, // English title of the text
-    descriptionEn: {type: String, required: true}, // English description of the text
+    name: {type: String}, // name of the text, also used in routing
+    nameEN: {type: String}, // English name, if different from above
+    title: {type: String}, // title of the text
+    subtitle: {type: String}, // subtitle of the text
+    description: {type: String}, // description of the text
+    titleEn: {type: String}, // English title of the text
+    descriptionEn: {type: String}, // English description of the text
     group: {type: Schema.Types.ObjectId, ref: 'Group'}, // group of texts it belongs to
-    position: {type: Number, required: true}, // sequential position within the group
+    position: {type: Number}, // sequential position within the group
     filename: {type: String} //name of the file holding the text
 });
 
