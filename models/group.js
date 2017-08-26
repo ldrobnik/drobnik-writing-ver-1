@@ -8,4 +8,4 @@ var schema = new Schema({
     texts: [{type: Schema.Types.ObjectId, ref: 'Text'}] // group of texts it belongs to
 });
 
-module.exports = mongoose.model('Group', schema); // exports the Text model with the structure defined above
+module.exports = mongoose.model('Group', schema); // exports the Group model with the structure defined above
