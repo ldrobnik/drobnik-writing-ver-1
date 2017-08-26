@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
     if (err) {
       return res.send('Error!');
     }
-      res.render('index', { title: 'Express' }); // renders the view (index page)
+      res.render('index', { name: doc}); // renders the view (index page)
   });
 });
 
