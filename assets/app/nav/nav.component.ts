@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 
 
 @Component ({
@@ -7,6 +7,16 @@ import { Component } from "@angular/core";
     styleUrls: ['./nav.component.css']
 })
 
-export class NavComponent {
+export class NavComponent implements OnInit {
+
+    logoPath: string;
+
+    constructor() {
+        this.logoPath = '../../assets/images/logo_1_small.png'
+    }
+
+    ngOnInit() {
+
+    }
 
 }
