@@ -17,6 +17,7 @@ a:hover {
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:focus,
-.navbar-default .navbar-nav > .open > a:hover {
+.navbar-default .navbar-nav > .open > a:hover,
+.dropdown-item:hover {
   background-color: #c36d75;
 }
