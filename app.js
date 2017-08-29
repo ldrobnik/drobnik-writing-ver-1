@@ -50,6 +50,4 @@ app.use(function(req, res, next) {
   res.render('index'); // direct to index page in case of error
 });
 
-angular.module(app, ['ui.bootstrap']);
-
 module.exports = app;
