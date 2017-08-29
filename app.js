@@ -7,9 +7,12 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var dotenv = require('dotenv'); // to be able to access environment variables
 
+
 var appRoutes = require('./routes/app'); // refers to the app.js file in the routes folder
 
 var app = express();
+
+
 
 dotenv.load(); // load the environment variables
 
@@ -46,5 +49,7 @@ app.use('/', appRoutes); // imports the app.js file referred to in the appRoutes
 app.use(function(req, res, next) {
   res.render('index'); // direct to index page in case of error
 });
+
+angular.module(app, ['ui.bootstrap']);
 
 module.exports = app;

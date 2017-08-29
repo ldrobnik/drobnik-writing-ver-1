@@ -13,9 +13,9 @@
             <ul class="nav navbar-nav">
                 <li><a href="#">stories</a></li>
                 <li><a href="#">bio</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" type="button" data-toggle="dropdown" id="links-menu">links</a>
-                    <ul class="dropdown-menu">
+                <li uib-dropdown>
+                    <a href="#" uib-dropdown-toggle>links</a>
+                    <ul uib-dropdown-menu>
                         <li><a href="https://facebook.com/drobnik.books" target="_blank">facebook</a></li>
                         <li><a href="https://twitter.com/drobnik" target="_blank">twitter</a></li>
                         <li><a href="https://www.patreon.com/" target="_blank">patreon</a></li>
@@ -25,4 +25,19 @@
             </ul>
         </div>
     </div>
+    <div class="btn-group" dropdown>
+        <button dropdownToggle type="button" class="btn btn-primary dropdown-toggle">
+            Button dropdown <span class="caret"></span>
+        </button>
+        <ul *dropdownMenu class="dropdown-menu" role="menu">
+            <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">Another action</a></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">Something else here</a></li>
+            <li class="divider dropdown-divider"></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a>
+            </li>
+        </ul>
+    </div>
 </nav>
+
+
