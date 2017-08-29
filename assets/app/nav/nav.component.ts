@@ -12,7 +12,7 @@ export class NavComponent implements OnInit {
     logoPath: string;
 
     constructor() {
-        this.logoPath = '../../assets/images/logo_1_small.png'
+        this.logoPath = '/assets/images/logo_1_small.png'
     }
 
     ngOnInit() {
