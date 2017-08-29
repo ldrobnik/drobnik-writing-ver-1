@@ -1,0 +1,14 @@
+/* Variables */
+/* colours */
+/* typography */
+nav {
+  background-color: #b34a53;
+  color: white !important;
+  font-family: 'Maven Pro', sans-serif;
+}
+a {
+  color: white !important;
+}
+a:hover {
+  color: #e6e6e6 !important;
+}
