@@ -11,32 +11,26 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href="#">stories</a></li>
+                <li dropdown>
+                    <a href="#" dropdownToggle class="dropdown-toggle">texts</a>
+                    <ul *dropdownMenu class="dropdown-menu" role="menu">
+                        <li role="menuitem"><a class="dropdown-item" href="#">vostok [1]</a></li>
+                        <li role="menuitem"><a class="dropdown-item" href="#">vostok [2]</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">bio</a></li>
-                <li uib-dropdown>
-                    <a href="#" uib-dropdown-toggle>links</a>
-                    <ul uib-dropdown-menu>
-                        <li><a href="https://facebook.com/drobnik.books" target="_blank">facebook</a></li>
-                        <li><a href="https://twitter.com/drobnik" target="_blank">twitter</a></li>
-                        <li><a href="https://www.patreon.com/" target="_blank">patreon</a></li>
+                <li dropdown>
+                    <a href="#" dropdownToggle class="dropdown-toggle">links
+                    </a>
+                    <ul *dropdownMenu class="dropdown-menu" role="menu">
+                        <li role="menuitem"><a class="dropdown-item" href="https://facebook.com/drobnik.books" target="_blank">facebook</a></li>
+                        <li role="menuitem"><a class="dropdown-item" href="https://twitter.com/drobnik" target="_blank">twitter</a></li>
+                        <li role="menuitem"><a class="dropdown-item" href="https://www.patreon.com/" target="_blank">patreon</a></li>
                     </ul>
                 </li>
                 <li><a href="#">pl</a></li>
             </ul>
         </div>
-    </div>
-    <div class="btn-group" dropdown>
-        <button dropdownToggle type="button" class="btn btn-primary dropdown-toggle">
-            Button dropdown <span class="caret"></span>
-        </button>
-        <ul *dropdownMenu class="dropdown-menu" role="menu">
-            <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
-            <li role="menuitem"><a class="dropdown-item" href="#">Another action</a></li>
-            <li role="menuitem"><a class="dropdown-item" href="#">Something else here</a></li>
-            <li class="divider dropdown-divider"></li>
-            <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a>
-            </li>
-        </ul>
     </div>
 </nav>
 
