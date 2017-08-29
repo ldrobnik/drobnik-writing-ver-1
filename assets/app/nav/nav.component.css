@@ -12,3 +12,11 @@ a {
 a:hover {
   color: #e6e6e6 !important;
 }
+.dropdown-menu {
+  background-color: #b34a53;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  background-color: #c36d75;
+}
