@@ -1,6 +1,41 @@
 /* Variables */
 /* colours */
 /* typography */
+/* to make navbar collapse at a lower width than default */
+@media only screen and (min-width: 500px) {
+  .collapse {
+    display: block;
+  }
+  .navbar-header {
+    float: left;
+  }
+  .navbar-toggle {
+    display: none;
+  }
+  .navbar-nav.navbar-left {
+    float: left;
+    margin: 0;
+  }
+  .navbar-nav.navbar-right {
+    float: right;
+    margin: 0;
+  }
+  .navbar-nav > li {
+    float: left;
+  }
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .collapse {
+    display: none;
+  }
+  .navbar-header {
+    display: block;
+  }
+}
 nav {
   background-color: #b34a53;
   color: white !important;
@@ -20,4 +55,7 @@ a:hover {
 .navbar-default .navbar-nav > .open > a:hover,
 .dropdown-item:hover {
   background-color: #c36d75;
+}
+* {
+  background-color: rgba(0, 0, 0, 0.1);
 }

@@ -20,6 +20,10 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: [{ loader: 'raw-loader' }] // simply copies any .css files
+            },
+            {
+                test: /\.png$/,
+                use: [{ loader: 'raw-loader' }] // same with .pgn files
             }
         ],
         exprContextCritical: false

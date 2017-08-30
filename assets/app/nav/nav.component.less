@@ -1,5 +1,48 @@
 @import '../shared.less';
 
+/* to make navbar collapse at a lower width than default */
+
+@media only screen and (min-width: 500px) {
+  .collapse {
+    display: block;
+  }
+
+  .navbar-header {
+    float: left;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .navbar-nav.navbar-left {
+    float: left;
+    margin: 0;
+  }
+
+  .navbar-nav.navbar-right {
+    float: right;
+    margin: 0;
+  }
+  .navbar-nav>li {
+    float: left;
+  }
+  .navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .collapse {
+    display: none;
+  }
+
+  .navbar-header {
+    display: block;
+  }
+}
+
 nav {
   background-color: @colorObrovsky;
   color: @lightColor !important;
@@ -21,3 +64,7 @@ a {
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover, .dropdown-item:hover {
   background-color: lighten(@colorObrovsky, 10%);
 }
+
+* {
+   background-color: rgba(0,0,0, 0.1);
+ }
