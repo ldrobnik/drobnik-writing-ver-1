@@ -94,13 +94,30 @@ a:hover {
 }
 .icon-bar {
   background-color: white !important;
+  width: 15px;
+  margin-top: -4px;
+  margin-left: -5px;
+}
+#dropdown-toggle {
+  top: 5px;
+  width: 27px;
+  height: 25px;
+}
+#dropdown-toggle:link {
+  background-color: #c36d75;
+}
+#dropdown-toggle:visited {
+  background-color: #c36d75;
 }
 #dropdown-toggle:hover {
   background-color: #c36d75;
 }
-#dropdown-toggle:hover:active {
+#dropdown-toggle:active {
   background-color: #c36d75;
 }
 .open #dropdown-toggle {
   background-color: #c36d75;
+}
+.collapse {
+  border: none !important;
 }

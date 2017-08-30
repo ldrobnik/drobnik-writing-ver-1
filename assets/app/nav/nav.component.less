@@ -105,10 +105,28 @@ a {
 
 .icon-bar {
   background-color: @lightColor !important;
+  width: 15px;
+  margin-top: -4px;
+  margin-left: -5px;
 }
 
-#dropdown-toggle:hover {
-  background-color: lighten(@colorObrovsky, 10%);
+#dropdown-toggle {
+  top: 5px;
+  width: 27px;
+  height: 25px;
+
+  &:link {
+    background-color: lighten(@colorObrovsky, 10%);
+  }
+
+  &:visited {
+    background-color: lighten(@colorObrovsky, 10%);
+  }
+
+  &:hover {
+    background-color: lighten(@colorObrovsky, 10%);
+  }
+
   &:active {
     background-color: lighten(@colorObrovsky, 10%);
   }
@@ -116,4 +134,8 @@ a {
 
 .open #dropdown-toggle {
   background-color: lighten(@colorObrovsky, 10%);
+}
+
+.collapse {
+  border:none !important;
 }
