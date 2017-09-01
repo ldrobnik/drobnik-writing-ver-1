@@ -96,38 +96,3 @@ a {
 .collapse {
   border: none !important;
 }
-/* to make navbar collapse at a lower width than default */
-nav {
-  background-color: #99aac6;
-}
-a:hover {
-  color: #e6e6e6 !important;
-}
-.dropdown-menu {
-  background-color: #99aac6 !important;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:focus,
-.navbar-default .navbar-nav > .open > a:hover,
-.dropdown-item:hover {
-  background-color: #bac5d8;
-}
-#dropdown-toggle:link {
-  background-color: #bac5d8;
-}
-#dropdown-toggle:visited {
-  background-color: #bac5d8;
-}
-#dropdown-toggle:hover {
-  background-color: #bac5d8;
-}
-#dropdown-toggle:active {
-  background-color: #bac5d8;
-}
-.open #dropdown-toggle {
-  background-color: #bac5d8;
-}
-#logo {
-  width: 25px;
-  height: 25px;
-}
