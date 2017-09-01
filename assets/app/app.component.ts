@@ -9,8 +9,7 @@ export class AppComponent {
 
 
     // set a property that holds a random color for our style
-    // theme = this.getRandomTheme();
-    theme = 1;
+    theme = this.getRandomTheme();
 
     // function to get random colors
     public getRandomTheme() {
