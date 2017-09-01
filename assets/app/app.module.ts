@@ -5,14 +5,14 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { routing } from "./app.routing";
 
 import { AppComponent } from "./app.component";
-import { NavComponent } from "./nav/nav.component";
+import { NavObrovskyComponent } from "./nav/nav-obrovsky.component";
 import { BioComponent } from "./bio/bio.component";
 import { TextsComponent } from "./texts/texts.component";
 
 @NgModule({
     declarations: [
         AppComponent,
-        NavComponent,
+        NavObrovskyComponent,
         BioComponent,
         TextsComponent
     ],
@@ -25,6 +25,6 @@ import { TextsComponent } from "./texts/texts.component";
 })
 export class AppModule {
 
-    
+
 
 }

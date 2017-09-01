@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+
+    // set a property that holds a random color for our style
+    randomtheme = this.getRandomTheme();
+
+    // function to get random colors
+    public getRandomTheme() {
+
+        return Math.floor(Math.random() * 6);
+    }
+
+    //function to set a new random color
+    setTheme() {
+        this.randomtheme = this.getRandomTheme();
+    }
+
 }
