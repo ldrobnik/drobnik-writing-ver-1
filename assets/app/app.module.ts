@@ -11,6 +11,10 @@ import { NavVostokComponent } from "./nav/nav-vostok.component";
 import { NavOmnivoriaComponent } from "./nav/nav-omnivoria.component";
 import { NavDevonianComponent } from "./nav/nav-devonian.component";
 import { NavObrovskyComponent } from "./nav/nav-obrovsky.component";
+import { NavLinksComponent } from "./nav/nav-links.component";
+import { NavLinksMobileComponent } from "./nav/nav-links-mobile.component";
+import { NavLogoMainComponent } from "./nav/nav-logo-main.component";
+import { NavLogoSecondaryComponent } from "./nav/nav-logo-secondary.component";
 import { BioComponent } from "./bio/bio.component";
 import { TextsComponent } from "./texts/texts.component";
 
@@ -23,6 +27,10 @@ import { TextsComponent } from "./texts/texts.component";
         NavOmnivoriaComponent,
         NavDevonianComponent,
         NavObrovskyComponent,
+        NavLinksComponent,
+        NavLinksMobileComponent,
+        NavLogoMainComponent,
+        NavLogoSecondaryComponent,
         BioComponent,
         TextsComponent
     ],

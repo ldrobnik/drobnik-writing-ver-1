@@ -1,0 +1,20 @@
+<ul class="nav navbar-nav">
+    <li dropdown>
+        <a dropdownToggle class="dropdown-toggle">texts</a>
+        <ul *dropdownMenu class="dropdown-menu" role="menu">
+            <li role="menuitem"><a class="dropdown-item" [routerLink]="['/texts']">random text</a></li>
+            <li class="divider dropdown-divider"></li>
+            <li role="menuitem"><a class="dropdown-item" [routerLink]="['/texts']">vostok [1]</a></li>
+            <li role="menuitem"><a class="dropdown-item" [routerLink]="['/texts']">vostok [2]</a></li>
+        </ul>
+    </li>
+    <li><a [routerLink]="['/bio']">bio</a></li>
+    <li dropdown>
+        <a dropdownToggle class="dropdown-toggle">links</a>
+        <ul *dropdownMenu class="dropdown-menu" role="menu">
+            <li role="menuitem"><a class="dropdown-item" href="https://facebook.com/drobnik.books" target="_blank">facebook</a></li>
+            <li role="menuitem"><a class="dropdown-item" href="https://www.patreon.com/" target="_blank">patreon</a></li>
+        </ul>
+    </li>
+    <li><a>pl</a></li>
+</ul>

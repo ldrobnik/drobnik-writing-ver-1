@@ -12,7 +12,7 @@ export class NavCunninghamellaComponent implements OnInit {
     logoPath: string;
 
     constructor() {
-        this.logoPath = 'images/logo1.png'
+        this.logoPath = 'images/logo2.png'
     }
 
     ngOnInit() {
