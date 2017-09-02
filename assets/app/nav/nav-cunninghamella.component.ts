@@ -1,6 +1,5 @@
 import { Component, OnInit } from "@angular/core";
 
-
 @Component ({
     selector: 'app-nav-cunninghamella',
     templateUrl: './nav.component.html',
