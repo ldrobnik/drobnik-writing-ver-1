@@ -13,6 +13,7 @@ import { NavDevonianComponent } from "./nav/nav-devonian.component";
 import { NavObrovskyComponent } from "./nav/nav-obrovsky.component";
 import { BioComponent } from "./bio/bio.component";
 import { TextsComponent } from "./texts/texts.component";
+import { ThemeManagerService } from "./services/theme-manager.service";
 
 @NgModule({
     declarations: [
@@ -31,7 +32,8 @@ import { TextsComponent } from "./texts/texts.component";
         BsDropdownModule.forRoot(),
         routing
     ],
-    bootstrap: [AppComponent] // tells Angular to bootstrap with AppComponent
+    bootstrap: [AppComponent], // tells Angular to bootstrap with AppComponent
+    prividers: [ThemeManagerService]
 })
 export class AppModule {
 
