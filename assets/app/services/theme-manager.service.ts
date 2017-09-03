@@ -1,14 +1,14 @@
-import { Injectable, OnInit } from "@angular/core";
+import { Injectable, OnInit, Input } from "@angular/core";
 
 @Injectable()
 
 export class ThemeManagerService implements OnInit {
 
-    public theme = 0;
-
-    setTheme(value: number) {
-        this.theme = value;
-    }
+    // @Input() theme = 0;
+    //
+    // setTheme(themeNumber: number) {
+    //     this.theme = themeNumber;
+    // }
 
     ngOnInit() {};
 }

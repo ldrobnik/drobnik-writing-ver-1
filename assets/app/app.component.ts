@@ -1,23 +1,26 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
-import { ThemeManagerService } from "./services/theme-manager.service";
+// import { ThemeManagerService } from "./services/theme-manager.service";
 
 @Component({
     selector: 'my-app',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css'],
-    providers: [ ThemeManagerService ]
+    // providers: [ ThemeManagerService ]
 })
 export class AppComponent {
     theme: number;
 
-    constructor(private themeManagerService: ThemeManagerService) {
-        this.theme = themeManagerService.theme;
+    @Input() theme = 0;
+
+    setTheme(themeNumber: number) {
+        this.theme = themeNumber;
     }
 
+    constructor() {}
 
-    setTheme(value) {
-        this.theme = value;
-    }
+    // constructor(private themeManagerService: ThemeManagerService) {
+    //     this.theme = themeManagerService.theme;
+    // }
 
 }
