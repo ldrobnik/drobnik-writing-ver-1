@@ -24,7 +24,7 @@
                 </ul>
             </div>
             <a class="navbar-brand">
-                <img id="logo" alt="logo" [src]="logoPath" (click)="increaseTheme(theme)">
+                <img id="logo" alt="logo" [src]="logoPath">
             </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
@@ -33,7 +33,7 @@
                 <li dropdown>
                     <a dropdownToggle class="dropdown-toggle">texts</a>
                     <ul *dropdownMenu class="dropdown-menu" role="menu">
-                        <li role="menuitem"><a class="dropdown-item" [routerLink]="['/texts']">random text</a></li>
+                        <li role="menuitem"><a class="dropdown-item" (click)="setTheme(2)" [routerLink]="['/texts']">random text</a></li>
                         <li class="divider dropdown-divider"></li>
                         <li role="menuitem"><a class="dropdown-item" [routerLink]="['/texts']">vostok [1]</a></li>
                         <li role="menuitem"><a class="dropdown-item" [routerLink]="['/texts']">vostok [2]</a></li>

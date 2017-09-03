@@ -6,14 +6,18 @@ import { ThemeManagerService } from "./services/theme-manager.service";
     selector: 'my-app',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css'],
-    providers: [ThemeManagerService]
+    providers: [ ThemeManagerService ]
 })
 export class AppComponent {
-    theme: Number;
+    theme: number;
 
     constructor(private themeManagerService: ThemeManagerService) {
         this.theme = themeManagerService.theme;
     }
 
+
+    setTheme(value) {
+        this.theme = value;
+    }
 
 }

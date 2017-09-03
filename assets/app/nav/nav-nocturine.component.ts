@@ -1,5 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 
+import { ThemeManagerService } from "../services/theme-manager.service";
+
 @Component ({
     selector: 'app-nav-nocturine',
     templateUrl: './nav.component.html',
@@ -9,10 +11,14 @@ import { Component, OnInit } from "@angular/core";
 export class NavNocturineComponent implements OnInit {
 
     logoPath: string;
+    theme: number;
 
-    constructor() {
+
+    constructor(private themeManagerService: ThemeManagerService) {
         this.logoPath = 'images/logo1.png';
+        this.theme = themeManagerService.theme;
     }
+
 
     ngOnInit() {
 
