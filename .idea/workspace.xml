@@ -5,22 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/nav/nav-cunninghamella.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/nav/nav-cunninghamella.component.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/nav/nav-cunninghamella.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/nav/nav-devonian.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/nav/nav-devonian.component.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/nav/nav-devonian.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/nav/nav-obrovsky.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/nav/nav-obrovsky.component.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/nav/nav-obrovsky.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/nav/nav-omnivoria.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/nav/nav-omnivoria.component.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/nav/nav-omnivoria.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/nav/nav-vostok.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/nav/nav-vostok.component.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/nav/nav-vostok.component.ts" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/app.component.ts" afterPath="$PROJECT_DIR$/assets/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bio/bio.component.css" afterPath="$PROJECT_DIR$/assets/app/bio/bio.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav-cunninghamella.component.css" afterPath="$PROJECT_DIR$/assets/app/nav/nav-cunninghamella.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav-cunninghamella.component.less" afterPath="$PROJECT_DIR$/assets/app/nav/nav-cunninghamella.component.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav-devonian.component.css" afterPath="$PROJECT_DIR$/assets/app/nav/nav-devonian.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav-obrovsky.component.css" afterPath="$PROJECT_DIR$/assets/app/nav/nav-obrovsky.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav-omnivoria.component.css" afterPath="$PROJECT_DIR$/assets/app/nav/nav-omnivoria.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav-shared.css" afterPath="$PROJECT_DIR$/assets/app/nav/nav-shared.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav-vostok.component.css" afterPath="$PROJECT_DIR$/assets/app/nav/nav-vostok.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav.component.css" afterPath="$PROJECT_DIR$/assets/app/nav/nav.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav.component.less" afterPath="$PROJECT_DIR$/assets/app/nav/nav.component.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav.component.ts" afterPath="$PROJECT_DIR$/assets/app/nav/nav.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/shared.css" afterPath="$PROJECT_DIR$/assets/app/shared.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/shared.less" afterPath="$PROJECT_DIR$/assets/app/shared.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/texts.component.css" afterPath="$PROJECT_DIR$/assets/app/texts/texts.component.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,8 +51,8 @@
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="60">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -87,16 +87,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2576">
               <caret line="406" column="1" lean-forward="false" selection-start-line="406" selection-start-column="1" selection-end-line="406" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav-cunninghamella.component.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/nav/nav-cunninghamella.component.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -675,12 +665,12 @@
       <workItem from="1504359555974" duration="5635000" />
       <workItem from="1504368564186" duration="136000" />
       <workItem from="1504437751467" duration="8512000" />
-      <workItem from="1504511880771" duration="3709000" />
+      <workItem from="1504511880771" duration="3907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108385000" />
+    <option name="totallyTimeSpent" value="108583000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -693,17 +683,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="95" y="90" width="1597" height="874" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24852072" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25225806" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25225806" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24924745" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26035503" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26035503" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1024,8 +1013,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="60">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
