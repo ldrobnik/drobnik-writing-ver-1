@@ -2,12 +2,12 @@ import { Component, OnInit, Output, EventEmitter } from "@angular/core";
 
 
 @Component ({
-    selector: 'app-nav-nocturine',
+    selector: 'app-nav',
     templateUrl: './nav.component.html',
-    styleUrls: ['./nav-nocturine.component.css']
+    styleUrls: ['./nav.component.css']
 })
 
-export class NavNocturineComponent implements OnInit {
+export class NavComponent implements OnInit {
 
     logoPath: string;
     theme: number;

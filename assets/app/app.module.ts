@@ -5,24 +5,14 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { routing } from "./app.routing";
 
 import { AppComponent } from "./app.component";
-import { NavNocturineComponent } from "./nav/nav-nocturine.component";
-import { NavCunninghamellaComponent } from "./nav/nav-cunninghamella.component";
-import { NavVostokComponent } from "./nav/nav-vostok.component";
-import { NavOmnivoriaComponent } from "./nav/nav-omnivoria.component";
-import { NavDevonianComponent } from "./nav/nav-devonian.component";
-import { NavObrovskyComponent } from "./nav/nav-obrovsky.component";
+import { NavComponent } from "./nav/nav.component";
 import { BioComponent } from "./bio/bio.component";
 import { TextsComponent } from "./texts/texts.component";
 
 @NgModule({
     declarations: [
         AppComponent,
-        NavNocturineComponent,
-        NavCunninghamellaComponent,
-        NavVostokComponent,
-        NavOmnivoriaComponent,
-        NavDevonianComponent,
-        NavObrovskyComponent,
+        NavComponent,
         BioComponent,
         TextsComponent
     ],
