@@ -34,7 +34,7 @@
                     <li dropdown>
                         <a dropdownToggle class="dropdown-toggle">texts</a>
                         <ul *dropdownMenu class="dropdown-menu" role="menu">
-                            <li role="menuitem"><a class="dropdown-item" [routerLink]="['/texts']">random text</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(3)" [routerLink]="['/texts']">random text</a></li>
                             <li class="divider dropdown-divider"></li>
                             <li role="menuitem"><a class="dropdown-item" [routerLink]="['/texts']">vostok [1]</a></li>
                             <li role="menuitem"><a class="dropdown-item" [routerLink]="['/texts']">vostok [2]</a></li>

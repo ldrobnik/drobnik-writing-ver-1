@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import {Component, OnInit } from "@angular/core";
 
 @Component({
     selector: 'app-bio',
@@ -6,6 +6,10 @@ import { Component } from "@angular/core";
     styleUrls: ['./bio.component.css']
 })
 
-export class BioComponent {
+export class BioComponent implements OnInit {
+
+    ngOnInit() {
+
+    }
 
 }

@@ -9,18 +9,18 @@ import { AppComponent } from "../app.component";
 })
 
 export class NavComponent implements OnInit {
-
+    @Output() themeChanged = new EventEmitter<any>();
     logoPath: string;
     theme: number;
-    // @Output themeChanged = new EventEmitter<number>();
-    //
-    // onThemeChange(themeNumber) {
-    //     this.themeChanged.emit(themeNumber);
-    // }
 
     constructor(private appComponent: AppComponent) {
         this.theme = appComponent.theme;
         this.logoPath = (this.theme == 1 || this.theme == 5)? 'images/logo2.png' : 'images/logo1.png';
+    }
+
+    onChangeTheme(themeNumber) {
+        this.theme = themeNumber;
+        this.themeChanged.emit({theme: this.theme});
     }
 
 
