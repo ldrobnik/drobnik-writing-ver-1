@@ -96,38 +96,38 @@ a {
 .collapse {
   border: none !important;
 }
-/* to make navbar collapse at a lower width than default */
-nav {
+/* style specific for the .nocturine class */
+.nocturine nav {
   background-color: #a98086;
 }
-a:hover {
+.nocturine a:hover {
   color: #e6e6e6 !important;
 }
-.dropdown-menu {
+.nocturine .dropdown-menu {
   background-color: #a98086 !important;
 }
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:focus,
-.navbar-default .navbar-nav > .open > a:hover,
-.dropdown-item:hover {
+.nocturine .navbar-default .navbar-nav > .open > a,
+.nocturine .navbar-default .navbar-nav > .open > a:focus,
+.nocturine .navbar-default .navbar-nav > .open > a:hover,
+.nocturine .dropdown-item:hover {
   background-color: #be9ea3;
 }
-#dropdown-toggle:link {
+.nocturine #dropdown-toggle:link {
   background-color: #be9ea3;
 }
-#dropdown-toggle:visited {
+.nocturine #dropdown-toggle:visited {
   background-color: #be9ea3;
 }
-#dropdown-toggle:hover {
+.nocturine #dropdown-toggle:hover {
   background-color: #be9ea3;
 }
-#dropdown-toggle:active {
+.nocturine #dropdown-toggle:active {
   background-color: #be9ea3;
 }
-.open #dropdown-toggle {
+.nocturine .open #dropdown-toggle {
   background-color: #be9ea3;
 }
-#logo {
+.nocturine #logo {
   width: 25px;
   height: 25px;
   margin-top: -4px;

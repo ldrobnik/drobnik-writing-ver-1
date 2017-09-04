@@ -1,5 +1,6 @@
 import { Component, OnInit, Output, EventEmitter } from "@angular/core";
 
+import { AppComponent } from "../app.component";
 
 @Component ({
     selector: 'app-nav',
@@ -17,12 +18,16 @@ export class NavComponent implements OnInit {
     //     this.themeChanged.emit(themeNumber);
     // }
 
-    constructor() {
+    constructor(private appComponent: AppComponent) {
+        this.theme = appComponent.theme;
+        console.log(this.theme);
         this.logoPath = 'images/logo1.png';
     }
 
 
+
     ngOnInit() {
+
 
     }
 
