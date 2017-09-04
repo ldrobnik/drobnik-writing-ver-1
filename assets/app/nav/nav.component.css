@@ -1,6 +1,3 @@
-/* Variables */
-/* colours */
-/* typography */
 /* to make navbar collapse at a lower width than default */
 @media only screen and (min-width: 310px) {
   .collapse {
@@ -131,4 +128,279 @@ a {
   width: 25px;
   height: 25px;
   margin-top: -4px;
+}
+/* style specific for the .cunninghamella class */
+/* to make navbar collapse at a lower width than default */
+@media only screen and (min-width: 310px) {
+  .collapse {
+    display: block;
+  }
+  .navbar-header {
+    float: left;
+  }
+  .navbar-toggle {
+    display: none;
+  }
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+  }
+  .container > .navbar-header,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container-fluid > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+  .navbar-nav.navbar-right {
+    float: right;
+    margin: 0;
+  }
+  .navbar-nav > li {
+    float: left;
+  }
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .navbar-nav .open .dropdown-menu {
+    position: absolute;
+    float: left;
+    width: auto;
+    margin-top: 2px;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  }
+  .navbar-nav .open .dropdown-menu > li > a {
+    line-height: 1.42857143;
+  }
+  .navbar-nav .open .dropdown-menu > li > a,
+  .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 3px 20px;
+  }
+  .navbar-right .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+}
+@media only screen and (max-width: 309px) {
+  .collapse {
+    display: none;
+  }
+  .navbar-header {
+    display: block;
+  }
+}
+nav {
+  color: white !important;
+  font-family: 'Maven Pro', sans-serif;
+}
+a {
+  color: white !important;
+}
+.dropdown-menu {
+  background-color: #566f0c !important;
+}
+#mobile-dropdown {
+  right: 0;
+  left: auto;
+}
+.icon-bar {
+  background-color: white !important;
+  width: 15px;
+  margin-top: -4px;
+  margin-left: -5px;
+}
+#dropdown-toggle {
+  top: 3px;
+  width: 27px;
+  height: 25px;
+}
+.collapse {
+  border: none !important;
+}
+.cunninghamella nav {
+  background-color: #566f0c;
+}
+.cunninghamella a:hover {
+  color: #e6e6e6 !important;
+}
+.cunninghamella .dropdown-menu {
+  background-color: #566f0c !important;
+}
+.cunninghamella .navbar-default .navbar-nav > .open > a,
+.cunninghamella .navbar-default .navbar-nav > .open > a:focus,
+.cunninghamella .navbar-default .navbar-nav > .open > a:hover,
+.cunninghamella .dropdown-item:hover {
+  background-color: #7a9d11;
+}
+.cunninghamella #dropdown-toggle:link {
+  background-color: #7a9d11;
+}
+.cunninghamella #dropdown-toggle:visited {
+  background-color: #7a9d11;
+}
+.cunninghamella #dropdown-toggle:hover {
+  background-color: #7a9d11;
+}
+.cunninghamella #dropdown-toggle:active {
+  background-color: #7a9d11;
+}
+.cunninghamella .open #dropdown-toggle {
+  background-color: #7a9d11;
+}
+.cunninghamella #logo {
+  width: 30px;
+  height: 30px;
+  margin-top: -5px;
+}
+/* style specific for the .vostok class */
+.vostok nav {
+  background-color: #a67847;
+}
+.vostok a:hover {
+  color: #e6e6e6 !important;
+}
+.vostok .dropdown-menu {
+  background-color: #a67847 !important;
+}
+.vostok .navbar-default .navbar-nav > .open > a,
+.vostok .navbar-default .navbar-nav > .open > a:focus,
+.vostok .navbar-default .navbar-nav > .open > a:hover,
+.vostok .dropdown-item:hover {
+  background-color: #bc9164;
+}
+.vostok #dropdown-toggle:link {
+  background-color: #bc9164;
+}
+.vostok #dropdown-toggle:visited {
+  background-color: #bc9164;
+}
+.vostok #dropdown-toggle:hover {
+  background-color: #bc9164;
+}
+.vostok #dropdown-toggle:active {
+  background-color: #bc9164;
+}
+.vostok .open #dropdown-toggle {
+  background-color: #bc9164;
+}
+.vostok #logo {
+  width: 25px;
+  height: 25px;
+  margin-top: -4px;
+}
+/* style specific for the .omnivoria class */
+.omnivoria nav {
+  background-color: #616a65;
+}
+.omnivoria a:hover {
+  color: #e6e6e6 !important;
+}
+.omnivoria .dropdown-menu {
+  background-color: #616a65 !important;
+}
+.omnivoria .navbar-default .navbar-nav > .open > a,
+.omnivoria .navbar-default .navbar-nav > .open > a:focus,
+.omnivoria .navbar-default .navbar-nav > .open > a:hover,
+.omnivoria .dropdown-item:hover {
+  background-color: #79857e;
+}
+.omnivoria #dropdown-toggle:link {
+  background-color: #79857e;
+}
+.omnivoria #dropdown-toggle:visited {
+  background-color: #79857e;
+}
+.omnivoria #dropdown-toggle:hover {
+  background-color: #79857e;
+}
+.omnivoria #dropdown-toggle:active {
+  background-color: #79857e;
+}
+.omnivoria .open #dropdown-toggle {
+  background-color: #79857e;
+}
+.omnivoria #logo {
+  width: 25px;
+  height: 25px;
+  margin-top: -4px;
+}
+/* style specific for the .devonian class */
+.devonian nav {
+  background-color: #99aac6;
+}
+.devonian a:hover {
+  color: #e6e6e6 !important;
+}
+.devonian .dropdown-menu {
+  background-color: #99aac6 !important;
+}
+.devonian .navbar-default .navbar-nav > .open > a,
+.devonian .navbar-default .navbar-nav > .open > a:focus,
+.devonian .navbar-default .navbar-nav > .open > a:hover,
+.devonian .dropdown-item:hover {
+  background-color: #bac5d8;
+}
+.devonian #dropdown-toggle:link {
+  background-color: #bac5d8;
+}
+.devonian #dropdown-toggle:visited {
+  background-color: #bac5d8;
+}
+.devonian #dropdown-toggle:hover {
+  background-color: #bac5d8;
+}
+.devonian #dropdown-toggle:active {
+  background-color: #bac5d8;
+}
+.devonian .open #dropdown-toggle {
+  background-color: #bac5d8;
+}
+.devonian #logo {
+  width: 25px;
+  height: 25px;
+  margin-top: -4px;
+}
+/* style specific for the .obrovsky class */
+.obrovsky nav {
+  background-color: #b34a53;
+}
+.obrovsky a:hover {
+  color: #e6e6e6 !important;
+}
+.obrovsky .dropdown-menu {
+  background-color: #b34a53 !important;
+}
+.obrovsky .navbar-default .navbar-nav > .open > a,
+.obrovsky .navbar-default .navbar-nav > .open > a:focus,
+.obrovsky .navbar-default .navbar-nav > .open > a:hover,
+.obrovsky .dropdown-item:hover {
+  background-color: #c36d75;
+}
+.obrovsky #dropdown-toggle:link {
+  background-color: #c36d75;
+}
+.obrovsky #dropdown-toggle:visited {
+  background-color: #c36d75;
+}
+.obrovsky #dropdown-toggle:hover {
+  background-color: #c36d75;
+}
+.obrovsky #dropdown-toggle:active {
+  background-color: #c36d75;
+}
+.obrovsky .open #dropdown-toggle {
+  background-color: #c36d75;
+}
+.obrovsky #logo {
+  width: 30px;
+  height: 30px;
+  margin-top: -5px;
 }

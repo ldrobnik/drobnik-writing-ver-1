@@ -1,48 +1,46 @@
 @import 'nav-shared.less';
 
-/* to make navbar collapse at a lower width than default */
-
-nav {
-  background-color: @colorCunninghamella;
+.obrovsky nav {
+  background-color: @colorObrovsky;
 }
 
-a:hover {
-    color: darken(@lightColor, 10%) !important;
-  }
-
-
-.dropdown-menu {
-  background-color: @colorCunninghamella !important;
+.obrovsky a:hover {
+  color: darken(@lightColor, 10%) !important;
 }
 
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover, .dropdown-item:hover {
-  background-color: lighten(@colorCunninghamella, 10%);
+
+.obrovsky .dropdown-menu {
+  background-color: @colorObrovsky !important;
 }
 
-#dropdown-toggle {
+.obrovsky .navbar-default .navbar-nav>.open>a, .obrovsky .navbar-default .navbar-nav>.open>a:focus, .obrovsky .navbar-default .navbar-nav>.open>a:hover, .obrovsky .dropdown-item:hover {
+  background-color: lighten(@colorObrovsky, 10%);
+}
+
+.obrovsky #dropdown-toggle {
 
   &:link {
-    background-color: lighten(@colorCunninghamella, 10%);
+    background-color: lighten(@colorObrovsky, 10%);
   }
 
   &:visited {
-    background-color: lighten(@colorCunninghamella, 10%);
+    background-color: lighten(@colorObrovsky, 10%);
   }
 
   &:hover {
-    background-color: lighten(@colorCunninghamella, 10%);
+    background-color: lighten(@colorObrovsky, 10%);
   }
 
   &:active {
-    background-color: lighten(@colorCunninghamella, 10%);
+    background-color: lighten(@colorObrovsky, 10%);
   }
 }
 
-.open #dropdown-toggle {
-  background-color: lighten(@colorCunninghamella, 10%);
+.obrovsky .open #dropdown-toggle {
+  background-color: lighten(@colorObrovsky, 10%);
 }
 
-#logo {
+.obrovsky #logo {
   width: 30px;
   height: 30px;
   margin-top: -5px;

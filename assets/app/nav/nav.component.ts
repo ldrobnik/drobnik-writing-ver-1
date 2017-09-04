@@ -20,8 +20,7 @@ export class NavComponent implements OnInit {
 
     constructor(private appComponent: AppComponent) {
         this.theme = appComponent.theme;
-        console.log(this.theme);
-        this.logoPath = 'images/logo1.png';
+        this.logoPath = (this.theme == 1 || this.theme == 5)? 'images/logo2.png' : 'images/logo1.png';
     }
 
 

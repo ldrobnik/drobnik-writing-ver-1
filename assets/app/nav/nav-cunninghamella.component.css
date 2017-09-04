@@ -1,6 +1,3 @@
-/* Variables */
-/* colours */
-/* typography */
 /* to make navbar collapse at a lower width than default */
 @media only screen and (min-width: 310px) {
   .collapse {
@@ -96,38 +93,37 @@ a {
 .collapse {
   border: none !important;
 }
-/* to make navbar collapse at a lower width than default */
-nav {
-  background-color: #566f0c;
+.obrovsky nav {
+  background-color: #b34a53;
 }
-a:hover {
+.obrovsky a:hover {
   color: #e6e6e6 !important;
 }
-.dropdown-menu {
-  background-color: #566f0c !important;
+.obrovsky .dropdown-menu {
+  background-color: #b34a53 !important;
 }
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:focus,
-.navbar-default .navbar-nav > .open > a:hover,
-.dropdown-item:hover {
-  background-color: #7a9d11;
+.obrovsky .navbar-default .navbar-nav > .open > a,
+.obrovsky .navbar-default .navbar-nav > .open > a:focus,
+.obrovsky .navbar-default .navbar-nav > .open > a:hover,
+.obrovsky .dropdown-item:hover {
+  background-color: #c36d75;
 }
-#dropdown-toggle:link {
-  background-color: #7a9d11;
+.obrovsky #dropdown-toggle:link {
+  background-color: #c36d75;
 }
-#dropdown-toggle:visited {
-  background-color: #7a9d11;
+.obrovsky #dropdown-toggle:visited {
+  background-color: #c36d75;
 }
-#dropdown-toggle:hover {
-  background-color: #7a9d11;
+.obrovsky #dropdown-toggle:hover {
+  background-color: #c36d75;
 }
-#dropdown-toggle:active {
-  background-color: #7a9d11;
+.obrovsky #dropdown-toggle:active {
+  background-color: #c36d75;
 }
-.open #dropdown-toggle {
-  background-color: #7a9d11;
+.obrovsky .open #dropdown-toggle {
+  background-color: #c36d75;
 }
-#logo {
+.obrovsky #logo {
   width: 30px;
   height: 30px;
   margin-top: -5px;
