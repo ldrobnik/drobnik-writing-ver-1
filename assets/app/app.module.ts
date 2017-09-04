@@ -8,13 +8,15 @@ import { AppComponent } from "./app.component";
 import { NavComponent } from "./nav/nav.component";
 import { BioComponent } from "./bio/bio.component";
 import { TextsComponent } from "./texts/texts.component";
+import { TextNocturine1Component } from "./texts/text-nocturine1-component";
 
 @NgModule({
     declarations: [
         AppComponent,
         NavComponent,
         BioComponent,
-        TextsComponent
+        TextsComponent,
+        TextNocturine1Component
     ],
     imports: [
         BrowserModule,

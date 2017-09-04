@@ -13,8 +13,19 @@
                     <ul *dropdownMenu class="dropdown-menu" id="mobile-dropdown" role="menu">
                         <li role="menuitem"><a class="dropdown-item" [routerLink]="['/texts']">random text</a></li>
                         <li class="divider dropdown-divider"></li>
-                        <li role="menuitem"><a class="dropdown-item" [routerLink]="['/texts']">vostok [1]</a></li>
-                        <li role="menuitem"><a class="dropdown-item" [routerLink]="['/texts']">vostok [2]</a></li>
+                        <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(0)" [routerLink]="['/texts']">nocturine [1]</a></li>
+                        <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(0)" [routerLink]="['/texts']">nocturine [2]</a></li>
+                        <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(0)" [routerLink]="['/texts']">nocturine [3]</a></li>
+                        <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(1)" [routerLink]="['/texts']">cunninghamella [1]</a></li>
+                        <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(1)" [routerLink]="['/texts']">cunninghamella [2]</a></li>
+                        <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(2)" [routerLink]="['/texts']">vostok [1]</a></li>
+                        <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(2)" [routerLink]="['/texts']">vostok [2]</a></li>
+                        <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(2)" [routerLink]="['/texts']">vostok [3]</a></li>
+                        <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(2)" [routerLink]="['/texts']">vostok [4]</a></li>
+                        <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(3)" [routerLink]="['/texts']">wszystkożerność</a></li>
+                        <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(3)" [routerLink]="['/texts']">biegnący człowiek</a></li>
+                        <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(4)" [routerLink]="['/texts']">ćmy</a></li>
+                        <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(5)" [routerLink]="['/texts']">obrovsky</a></li>
                         <li class="divider dropdown-divider"></li>
                         <li role="menuitem"><a class="dropdown-item" [routerLink]="['/bio']">bio</a></li>
                         <li class="divider dropdown-divider"></li>
@@ -36,8 +47,19 @@
                         <ul *dropdownMenu class="dropdown-menu" role="menu">
                             <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(5)" [routerLink]="['/texts']">random text</a></li>
                             <li class="divider dropdown-divider"></li>
-                            <li role="menuitem"><a class="dropdown-item" [routerLink]="['/texts']">vostok [1]</a></li>
-                            <li role="menuitem"><a class="dropdown-item" [routerLink]="['/texts']">vostok [2]</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(0)" [routerLink]="['/texts']">nocturine [1]</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(0)" [routerLink]="['/texts']">nocturine [2]</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(0)" [routerLink]="['/texts']">nocturine [3]</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(1)" [routerLink]="['/texts']">cunninghamella [1]</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(1)" [routerLink]="['/texts']">cunninghamella [2]</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(2)" [routerLink]="['/texts']">vostok [1]</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(2)" [routerLink]="['/texts']">vostok [2]</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(2)" [routerLink]="['/texts']">vostok [3]</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(2)" [routerLink]="['/texts']">vostok [4]</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(3)" [routerLink]="['/texts']">wszystkożerność</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(3)" [routerLink]="['/texts']">biegnący człowiek</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(4)" [routerLink]="['/texts']">ćmy</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="onChangeTheme(5)" [routerLink]="['/texts']">obrovsky</a></li>
                         </ul>
                     </li>
                     <li><a [routerLink]="['/bio']">bio</a></li>
