@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine1-template.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine1-template.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text.component.css" afterPath="$PROJECT_DIR$/assets/app/texts/text.component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text.component.less" afterPath="$PROJECT_DIR$/assets/app/texts/text.component.less" />
@@ -66,14 +65,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text-nocturine1-template.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="text-nocturine1-template.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine1-template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
               <folding>
-                <element signature="e#188#195#0" expanded="true" />
-                <element signature="e#207#214#0" expanded="true" />
+                <element signature="e#187#194#0" expanded="true" />
+                <element signature="e#206#213#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text.component.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="text.component.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/texts/text.component.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            <state relative-caret-position="365">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -172,6 +171,7 @@
       <replace>.nav-logo</replace>
       <replace>#logo</replace>
       <replace>cunninghamella</replace>
+      <replace>obrovsky</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -229,8 +229,8 @@
         <option value="$PROJECT_DIR$/assets/app/app.routing.ts" />
         <option value="$PROJECT_DIR$/assets/app/nav/nav.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1-component.ts" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1-template.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text.component.less" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1-template.html" />
       </list>
     </option>
   </component>
@@ -680,12 +680,12 @@
       <workItem from="1504368564186" duration="136000" />
       <workItem from="1504437751467" duration="8512000" />
       <workItem from="1504511880771" duration="11410000" />
-      <workItem from="1504592262814" duration="2859000" />
+      <workItem from="1504592262814" duration="3046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118945000" />
+    <option name="totallyTimeSpent" value="119132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -705,7 +705,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711443" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24924745" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.289801" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -942,22 +942,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine1-template.html">
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text.component.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="e#188#195#0" expanded="true" />
-            <element signature="e#207#214#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="365">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text.component.less">
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine1-template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding>
+            <element signature="e#187#194#0" expanded="true" />
+            <element signature="e#206#213#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
