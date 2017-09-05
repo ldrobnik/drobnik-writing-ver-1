@@ -5,8 +5,12 @@
   font-family: 'Maven Pro', sans-serif;
   color: white;
 }
-.jumbotron .author {
-  margin-top: 110px;
+.jumbotron .main-jumbopanel {
+  margin-top: 90px;
+  padding: 15px 70px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .jumbotron h1 {
   font-weight: 900;
@@ -15,13 +19,22 @@
   margin-top: 25px;
 }
 .jumbotron .secondary-jumbopanel {
-  margin-top: 60px;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   width: 400px;
+  padding: 15px;
 }
 /* Styles for class .nocturine */
+.nocturine .main-jumbopanel,
+.nocturine .secondary-jumbopanel {
+  background-color: #a98086;
+}
 /* Styles for class .cunninghamella */
+.cunninghamella .main-jumbopanel,
+.cunninghamella .secondary-jumbopanel {
+  background-color: #566f0c;
+}
 /* Styles for class .vostok */
 /* Styles for class .omnivoria */
 /* Styles for class .devonian */
