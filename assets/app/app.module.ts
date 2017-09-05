@@ -8,7 +8,12 @@ import { AppComponent } from "./app.component";
 import { NavComponent } from "./nav/nav.component";
 import { BioComponent } from "./bio/bio.component";
 import { TextsComponent } from "./texts/texts.component";
-import { TextNocturine1Component } from "./texts/text-nocturine1-component";
+import { TextNocturine1Component } from "./texts/text-nocturine1.component";
+import { TextCunninghamella1Component } from "./texts/text-cunninghamella1.component";
+import { TextVostok1Component } from "./texts/text-vostok1.component";
+import { TextWszystkozernoscComponent } from "./texts/text-wszystkozernosc.component";
+import { TextMothsComponent } from "./texts/text-moths.component";
+import { TextObrovskyComponent } from "./texts/text-obrovsky.component";
 
 @NgModule({
     declarations: [
@@ -16,7 +21,12 @@ import { TextNocturine1Component } from "./texts/text-nocturine1-component";
         NavComponent,
         BioComponent,
         TextsComponent,
-        TextNocturine1Component
+        TextNocturine1Component,
+        TextCunninghamella1Component,
+        TextVostok1Component,
+        TextWszystkozernoscComponent,
+        TextMothsComponent,
+        TextObrovskyComponent
     ],
     imports: [
         BrowserModule,

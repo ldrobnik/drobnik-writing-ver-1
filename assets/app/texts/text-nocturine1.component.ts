@@ -1,8 +1,7 @@
 import { Component } from "@angular/core";
 
 @Component({
-    selector: 'app-nocturine1',
-    templateUrl: 'text-nocturine1-template.html',
+    templateUrl: 'text-nocturine1.component.html',
     styleUrls: ['text.component.css']
 })
 

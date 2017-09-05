@@ -13,7 +13,7 @@
 
   .main-jumbopanel {
     margin-top: 90px;
-    padding: 15px 70px;
+    padding: 1vw 5vw;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -31,8 +31,8 @@
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    width: 420px;
-    padding: 15px 20px;
+    max-width: 420px;
+    padding: 1vw 5vw;
   }
 
   video {
@@ -48,29 +48,49 @@
     z-index: -99;
   }
 
-  .content {
-    z-index: 1;
-  }
-
 }
 
 .story {
 
   font-family: @readingFont;
   color: @readingColor;
-  font-size: 1.2em;
+  font-size: 1.4em;
   background-color: @lightColor;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 22vw;
+  padding-right: 30vw;
+  width: 100%;
+  text-indent: 2.5em;
 
 
-  div::first-letter {
-  font-font: @displayFont;
+  #first {
+    text-indent: 0;
+  }
+
+  #first::first-letter {
+    font-family: @displayFont;
     font-weight: 900;
     font-size: 2em;
   }
 
+  .story-footnote {
+    margin-top: 30px;
+    font-size: 0.8em;
+    text-indent: 0 !important;
+    text-align: center;
+  }
+
 }
 
+@media screen and (max-width: 1000px) {
 
+  .story {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+}
 
 /* Styles for class .nocturine */
 
@@ -78,6 +98,13 @@
   background-color: @colorNocturine;
 }
 
+.nocturine #first::first-letter {
+  color: @colorNocturine;
+}
+
+.nocturine .story-footnote {
+  color: lighten(@colorNocturine, 30%);
+}
 
 /* Styles for class .cunninghamella */
 
@@ -85,10 +112,27 @@
   background-color: @colorCunninghamella;
 }
 
+.cunninghamella #first::first-letter {
+  color: @colorCunninghamella;
+}
+
+.cunninghamella .story-footnote {
+  color: lighten(@colorCunninghamella, 30%);
+}
+
+
 /* Styles for class .vostok */
 
 .vostok .main-jumbopanel, .vostok .secondary-jumbopanel {
   background-color: @colorVostok;
+}
+
+.vostok #first::first-letter {
+  color: @colorVostok;
+}
+
+.vostok .story-footnote {
+  color: lighten(@colorVostok, 30%);
 }
 
 /* Styles for class .omnivoria */
@@ -97,14 +141,38 @@
   background-color: @colorOmnivoria;
 }
 
+.omnivoria #first::first-letter {
+  color: @colorOmnivoria;
+}
+
+.omnivoria .story-footnote {
+  color: lighten(@colorOmnivoria, 30%);
+}
+
 /* Styles for class .devonian */
 
 .devonian .main-jumbopanel, .devonian .secondary-jumbopanel {
   background-color: @colorDevonian;
 }
 
+.devonian #first::first-letter {
+  color: @colorDevonian;
+}
+
+.devonian .story-footnote {
+  color: lighten(@colorDevonian, 30%);
+}
+
 /* Styles for class .obrovsky */
 
 .obrovsky .main-jumbopanel, .obrovsky .secondary-jumbopanel {
   background-color: @colorObrovsky;
+}
+
+.obrovsky #first::first-letter {
+  color: @colorObrovsky;
+}
+
+.obrovsky .story-footnote {
+  color: lighten(@colorObrovsky, 30%);
 }
