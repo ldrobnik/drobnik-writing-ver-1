@@ -4,6 +4,7 @@
   text-align: center;
   font-family: 'Maven Pro', sans-serif;
   color: white;
+  background: transparent;
 }
 .jumbotron .main-jumbopanel {
   margin-top: 90px;
@@ -28,18 +29,28 @@
 .jumbotron video {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 35%;
   /* The following will size the video to fit the full container. */
   min-width: 100%;
-  min-height: 100%;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  z-index: 0;
+  z-index: -99;
 }
 .jumbotron .content {
   z-index: 1;
+}
+.story {
+  font-family: 'Roboto Slab', serif;
+  color: #2e2e2e;
+  font-size: 1.2em;
+  background-color: white;
+}
+.story div::first-letter {
+  font-font: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 2em;
 }
 /* Styles for class .nocturine */
 .nocturine .main-jumbopanel,

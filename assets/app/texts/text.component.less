@@ -7,6 +7,8 @@
   text-align: center;
   font-family: @displayFont;
   color: @lightColor;
+  background: transparent;
+
 
 
   .main-jumbopanel {
@@ -36,19 +38,34 @@
   video {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 35%;
     /* The following will size the video to fit the full container. */
     min-width: 100%;
-    min-height: 100%;
     -webkit-transform: translate(-50%,-50%);
     -moz-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
-    z-index: 0;
+    z-index: -99;
   }
 
   .content {
     z-index: 1;
+  }
+
+}
+
+.story {
+
+  font-family: @readingFont;
+  color: @readingColor;
+  font-size: 1.2em;
+  background-color: @lightColor;
+
+
+  div::first-letter {
+  font-font: @displayFont;
+    font-weight: 900;
+    font-size: 2em;
   }
 
 }
