@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/app.routing.ts" afterPath="$PROJECT_DIR$/assets/app/app.routing.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav.component.html" afterPath="$PROJECT_DIR$/assets/app/nav/nav.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav.component.ts" afterPath="$PROJECT_DIR$/assets/app/nav/nav.component.ts" />
     </list>
@@ -38,7 +37,7 @@
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="191">
               <caret line="39" column="59" lean-forward="false" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
@@ -48,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nav.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+            <state relative-caret-position="191">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="e#0#72#0" expanded="true" />
               </folding>
@@ -60,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nav.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="62" column="23" lean-forward="false" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+            <state relative-caret-position="320">
+              <caret line="153" column="57" lean-forward="false" selection-start-line="153" selection-start-column="57" selection-end-line="153" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -222,9 +221,9 @@
         <option value="$PROJECT_DIR$/routes/app.js" />
         <option value="$PROJECT_DIR$/assets/app/texts/text.component.less" />
         <option value="$PROJECT_DIR$/assets/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/assets/app/nav/nav.component.html" />
         <option value="$PROJECT_DIR$/assets/app/app.routing.ts" />
         <option value="$PROJECT_DIR$/assets/app/nav/nav.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/nav/nav.component.html" />
       </list>
     </option>
   </component>
@@ -675,12 +674,12 @@
       <workItem from="1504437751467" duration="8512000" />
       <workItem from="1504511880771" duration="11410000" />
       <workItem from="1504592262814" duration="13722000" />
-      <workItem from="1504772678477" duration="3195000" />
+      <workItem from="1504772678477" duration="3657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133159000" />
+    <option name="totallyTimeSpent" value="133621000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -970,14 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="62" column="23" lean-forward="false" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/app.routing.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -988,9 +979,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="191">
           <caret line="39" column="59" lean-forward="false" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
@@ -999,13 +1000,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.ts">
+    <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#72#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="320">
+          <caret line="153" column="57" lean-forward="false" selection-start-line="153" selection-start-column="57" selection-end-line="153" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>

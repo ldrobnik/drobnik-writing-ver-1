@@ -17,18 +17,16 @@ export class NavComponent implements OnInit {
     // @Output() themeChanged = new EventEmitter<any>();
     logoPath: string;
     theme: number;
+    langEn: boolean;
 
     constructor(private router: Router, private activatedRoute: ActivatedRoute, private appComponent: AppComponent) {
         // this.theme = appComponent.theme;
         // this.logoPath = (this.theme == 1 || this.theme == 5) ? 'images/logo2.png' : 'images/logo1.png';
     }
 
-    // onChangeTheme(themeNumber) {
-    //     this.theme = themeNumber;
-    //     this.logoPath = (this.theme == 1 || this.theme == 5) ? 'images/logo2.png' : 'images/logo1.png';
-    //     this.themeChanged.emit({theme: this.theme});
-    // }
-
+    changeLang() {
+        this.langEn =! this.langEn;
+    }
 
 
     ngOnInit() {
@@ -50,7 +48,7 @@ export class NavComponent implements OnInit {
                 this.logoPath = (this.theme == 1 || this.theme == 5) ? 'images/logo2.png' : 'images/logo1.png';
                 console.log(this.theme);
             });
-
+        this.langEn = false;
 
 
     }
