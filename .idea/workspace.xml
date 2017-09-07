@@ -6,28 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cmy.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-cmy.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-moths.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-moths.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine3en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine3en.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav.component.html" afterPath="$PROJECT_DIR$/assets/app/nav/nav.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok2.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok2.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok3.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok3.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok3en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok3en.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok4.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok4.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text.component.css" afterPath="$PROJECT_DIR$/assets/app/texts/text.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text.component.less" afterPath="$PROJECT_DIR$/assets/app/texts/text.component.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,7 +34,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text-wszystkozernosc.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nav.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="130" column="169" lean-forward="false" selection-start-line="130" selection-start-column="169" selection-end-line="130" selection-end-column="169" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text.component.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/texts/text.component.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text-obrovsky.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+              <folding>
+                <element signature="e#187#194#0" expanded="true" />
+                <element signature="e#216#223#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text-wszystkozernosc.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
@@ -74,7 +89,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>-comp</find>
       <find>-compo</find>
       <find>-compon</find>
       <find>-componen</find>
@@ -104,6 +118,7 @@
       <find>#mobile</find>
       <find>losowy</find>
       <find>biegną</find>
+      <find>description</find>
     </findStrings>
     <replaceStrings>
       <replace>-devonian</replace>
@@ -144,14 +159,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/index.hbs" />
         <option value="$PROJECT_DIR$/assets/app/texts/randomcomponent.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/random.component.html" />
         <option value="$PROJECT_DIR$/assets/app/services/random-text.service.ts" />
         <option value="$PROJECT_DIR$/assets/app/app.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/random.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/nav/nav-shared.less" />
-        <option value="$PROJECT_DIR$/assets/app/nav/nav.component.less" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.ts" />
@@ -167,7 +180,6 @@
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok3en.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.ts" />
-        <option value="$PROJECT_DIR$/assets/app/nav/nav.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-cmy.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.ts" />
@@ -185,7 +197,6 @@
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.html" />
@@ -195,6 +206,10 @@
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok4.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok3.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/nav/nav.component.less" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text.component.less" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/nav/nav.component.html" />
       </list>
     </option>
   </component>
@@ -623,12 +638,12 @@
       <workItem from="1504437751467" duration="8512000" />
       <workItem from="1504511880771" duration="11410000" />
       <workItem from="1504592262814" duration="13722000" />
-      <workItem from="1504772678477" duration="14065000" />
+      <workItem from="1504772678477" duration="14288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144029000" />
+    <option name="totallyTimeSpent" value="144252000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -651,7 +666,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32614943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24880128" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28879312" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28879312" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -692,14 +707,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/app/services/themeManager.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/services/random-text.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -731,14 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-49">
           <caret line="88" column="16" lean-forward="false" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -861,14 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -1015,17 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding>
-            <element signature="e#187#194#0" expanded="true" />
-            <element signature="e#216#223#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok2.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1098,6 +1078,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1106,10 +1102,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.ts">
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text.component.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="120">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+          <folding>
+            <element signature="e#187#194#0" expanded="true" />
+            <element signature="e#216#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="130" column="169" lean-forward="false" selection-start-line="130" selection-start-column="169" selection-end-line="130" selection-end-column="169" />
           <folding />
         </state>
       </provider>
