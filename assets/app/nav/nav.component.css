@@ -67,6 +67,10 @@
 nav {
   color: white !important;
   font-family: 'Maven Pro', sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 a {
   color: white !important;
