@@ -12,7 +12,7 @@ import { TextObrovskyComponent } from "./texts/text-obrovsky.component";
 
 const APP_ROUTES: Routes = [
     {path: '', redirectTo: '/nocturine1', pathMatch: 'full'},
-    {path: 'bio', component: BioComponent},
+    {path: 'bio', component: BioComponent, data: {title: 'Łukasz Drobnik - fiction writer', theme: 0}},
     {path: 'texts', component: TextsComponent},
     {path: 'nocturine1', component: TextNocturine1Component, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
     {path: 'cunninghamella1', component: TextCunninghamella1Component, data: {title: 'Łukasz Drobnik - Cunninghamella', theme: 1}},

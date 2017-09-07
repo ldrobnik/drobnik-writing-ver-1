@@ -17,10 +17,10 @@ export class AppComponent implements OnInit {
 
 
     //Method changing the theme:
-
-    setTheme(newTheme: number) {
-        this.theme = newTheme;
-    }
+    //
+    // setTheme(newTheme: number) {
+    //     this.theme = newTheme;
+    // }
 
     constructor(private router: Router, private activatedRoute: ActivatedRoute, private titleService: Title) {
 
@@ -38,8 +38,6 @@ export class AppComponent implements OnInit {
             .mergeMap((route) => route.data)
             .subscribe((event) => {
                 this.titleService.setTitle(event['title']);
-                this.setTheme(event['theme']);
-                console.log(event['theme']);
             });
     }
 
