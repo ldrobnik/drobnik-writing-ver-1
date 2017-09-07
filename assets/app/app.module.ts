@@ -18,6 +18,13 @@ import { TextCunninghamella1Component } from "./texts/text-cunninghamella1.compo
 import { TextCunninghamella2Component } from "./texts/text-cunninghamella2.component";
 import { TextCunninghamella1EnComponent } from "./texts/text-cunninghamella1en.component";
 import { TextVostok1Component } from "./texts/text-vostok1.component";
+import { TextVostok2Component } from "./texts/text-vostok2.component";
+import { TextVostok3Component } from "./texts/text-vostok3.component";
+import { TextVostok4Component } from "./texts/text-vostok4.component";
+import { TextVostok1EnComponent } from "./texts/text-vostok1en.component";
+import { TextVostok2EnComponent } from "./texts/text-vostok2en.component";
+import { TextVostok3EnComponent } from "./texts/text-vostok3en.component";
+import { TextVostok4EnComponent } from "./texts/text-vostok4en.component";
 import { TextWszystkozernoscComponent } from "./texts/text-wszystkozernosc.component";
 import { TextMothsComponent } from "./texts/text-moths.component";
 import { TextObrovskyComponent } from "./texts/text-obrovsky.component";
@@ -38,6 +45,13 @@ import { TextObrovskyComponent } from "./texts/text-obrovsky.component";
         TextCunninghamella2Component,
         TextCunninghamella1EnComponent,
         TextVostok1Component,
+        TextVostok2Component,
+        TextVostok3Component,
+        TextVostok4Component,
+        TextVostok1EnComponent,
+        TextVostok2EnComponent,
+        TextVostok3EnComponent,
+        TextVostok4EnComponent,
         TextWszystkozernoscComponent,
         TextMothsComponent,
         TextObrovskyComponent

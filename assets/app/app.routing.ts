@@ -12,6 +12,13 @@ import { TextCunninghamella1Component } from "./texts/text-cunninghamella1.compo
 import { TextCunninghamella2Component } from "./texts/text-cunninghamella2.component";
 import { TextCunninghamella1EnComponent } from "./texts/text-cunninghamella1en.component";
 import { TextVostok1Component } from "./texts/text-vostok1.component";
+import { TextVostok2Component } from "./texts/text-vostok2.component";
+import { TextVostok3Component } from "./texts/text-vostok3.component";
+import { TextVostok4Component } from "./texts/text-vostok4.component";
+import { TextVostok1EnComponent } from "./texts/text-vostok1en.component";
+import { TextVostok2EnComponent } from "./texts/text-vostok2en.component";
+import { TextVostok3EnComponent } from "./texts/text-vostok3en.component";
+import { TextVostok4EnComponent } from "./texts/text-vostok4en.component";
 import { TextWszystkozernoscComponent } from "./texts/text-wszystkozernosc.component";
 import { TextMothsComponent } from "./texts/text-moths.component";
 import { TextObrovskyComponent } from "./texts/text-obrovsky.component";
@@ -31,9 +38,19 @@ const APP_ROUTES: Routes = [
     {path: 'cunninghamella2', component: TextCunninghamella2Component, data: {title: 'Łukasz Drobnik - Cunninghamella', theme: 1}},
     {path: 'cunninghamella1/en', component: TextCunninghamella1EnComponent, data: {title: 'Łukasz Drobnik - Cunninghamella', theme: 1}},
     {path: 'vostok1', component: TextVostok1Component, data: {title: 'Łukasz Drobnik - Vostok', theme: 2}},
+    {path: 'vostok2', component: TextVostok2Component, data: {title: 'Łukasz Drobnik - Vostok', theme: 2}},
+    {path: 'vostok3', component: TextVostok3Component, data: {title: 'Łukasz Drobnik - Vostok', theme: 2}},
+    {path: 'vostok4', component: TextVostok4Component, data: {title: 'Łukasz Drobnik - Vostok', theme: 2}},
+    {path: 'vostok1/en', component: TextVostok1EnComponent, data: {title: 'Łukasz Drobnik - Vostok', theme: 2}},
+    {path: 'vostok2/en', component: TextVostok2EnComponent, data: {title: 'Łukasz Drobnik - Vostok', theme: 2}},
+    {path: 'vostok3/en', component: TextVostok3EnComponent, data: {title: 'Łukasz Drobnik - Vostok', theme: 2}},
+    {path: 'vostok4/en', component: TextVostok4EnComponent, data: {title: 'Łukasz Drobnik - Vostok', theme: 2}},
     {path: 'wszystkozernosc', component: TextWszystkozernoscComponent, data: {title: 'Łukasz Drobnik - Wszystkożerność', theme: 3}},
-    {path: 'moths', component: TextMothsComponent, data: {title: 'Łukasz Drobnik - Moths', theme: 4}},
+    {path: 'biegnacyczlowiek', component: TextWszystkozernoscComponent, data: {title: 'Łukasz Drobnik - Biegnący człowiek', theme: 3}},
+    {path: 'cmy', component: TextMothsComponent, data: {title: 'Łukasz Drobnik - Ćmy', theme: 4}},
+    {path: 'moths/en', component: TextMothsComponent, data: {title: 'Łukasz Drobnik - Moths', theme: 4}},
     {path: 'obrovsky', component: TextObrovskyComponent, data: {title: 'Łukasz Drobnik - Obrovsky', theme: 5}},
+    {path: 'obrovsky/en', component: TextObrovskyComponent, data: {title: 'Łukasz Drobnik - Obrovsky', theme: 5}},
     {path: '**', redirectTo: '/random'}
 ];
 
