@@ -35,6 +35,8 @@ export class NavComponent implements OnInit {
 
     ngOnInit() {
 
+        //dynamically change theme depending on routing
+
         this.router.events
             .filter((event) => event instanceof NavigationEnd)
             .map(() => this.activatedRoute)
