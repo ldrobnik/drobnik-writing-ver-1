@@ -14,12 +14,12 @@ const APP_ROUTES: Routes = [
     {path: '', redirectTo: '/nocturine1', pathMatch: 'full'},
     {path: 'bio', component: BioComponent},
     {path: 'texts', component: TextsComponent},
-    {path: 'nocturine1', component: TextNocturine1Component},
-    {path: 'cunninghamella1', component: TextCunninghamella1Component},
-    {path: 'vostok1', component: TextVostok1Component},
-    {path: 'wszystkozernosc', component: TextWszystkozernoscComponent},
-    {path: 'moths', component: TextMothsComponent},
-    {path: 'obrovsky', component: TextObrovskyComponent}
+    {path: 'nocturine1', component: TextNocturine1Component, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
+    {path: 'cunninghamella1', component: TextCunninghamella1Component, data: {title: 'Łukasz Drobnik - Cunninghamella', theme: 1}},
+    {path: 'vostok1', component: TextVostok1Component, data: {title: 'Łukasz Drobnik - Vostok', theme: 2}},
+    {path: 'wszystkozernosc', component: TextWszystkozernoscComponent, data: {title: 'Łukasz Drobnik - Wszystkożerność', theme: 3}},
+    {path: 'moths', component: TextMothsComponent, data: {title: 'Łukasz Drobnik - Moths', theme: 4}},
+    {path: 'obrovsky', component: TextObrovskyComponent, data: {title: 'Łukasz Drobnik - Obrovsky', theme: 5}}
 ];
 
 export const routing = RouterModule.forRoot(APP_ROUTES);
