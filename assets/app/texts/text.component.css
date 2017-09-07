@@ -12,6 +12,7 @@
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
+  opacity: 0.9;
 }
 .jumbotron h1 {
   font-weight: 900;
@@ -25,6 +26,7 @@
   margin-right: auto;
   max-width: 420px;
   padding: 1vw 2vw;
+  opacity: 0.9;
 }
 .jumbotron video {
   position: absolute;
