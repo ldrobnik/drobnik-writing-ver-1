@@ -21,6 +21,7 @@ export class NavComponent implements OnInit {
     routesPl = ['nocturine1', 'cunninghamella1', 'vostok1', 'wszystkozernosc', 'moths', 'obrovsky'];
     routesEn = ['nocturine1/en', 'cunninghamella1/en', 'vostok1/en', 'wszystkozernosc/en', 'moths/en', 'obrovsky/en'];
     randomPath : string;
+    equivalentPath: string;
 
     constructor(private router: Router, private activatedRoute: ActivatedRoute, private appComponent: AppComponent) {
         // this.theme = appComponent.theme;
@@ -36,6 +37,7 @@ export class NavComponent implements OnInit {
     }
 
     goToRandomText() {
+
         if (this.langEn) {
             this.randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
         } else {

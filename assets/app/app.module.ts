@@ -13,7 +13,10 @@ import { TextNocturine2Component } from "./texts/text-nocturine2.component";
 import { TextNocturine3Component } from "./texts/text-nocturine3.component";
 import { TextNocturine1EnComponent } from "./texts/text-nocturine1en.component";
 import { TextNocturine2EnComponent } from "./texts/text-nocturine2en.component";
+import { TextNocturine3EnComponent } from "./texts/text-nocturine3en.component";
 import { TextCunninghamella1Component } from "./texts/text-cunninghamella1.component";
+import { TextCunninghamella2Component } from "./texts/text-cunninghamella2.component";
+import { TextCunninghamella1EnComponent } from "./texts/text-cunninghamella1en.component";
 import { TextVostok1Component } from "./texts/text-vostok1.component";
 import { TextWszystkozernoscComponent } from "./texts/text-wszystkozernosc.component";
 import { TextMothsComponent } from "./texts/text-moths.component";
@@ -30,7 +33,10 @@ import { TextObrovskyComponent } from "./texts/text-obrovsky.component";
         TextNocturine3Component,
         TextNocturine1EnComponent,
         TextNocturine2EnComponent,
+        TextNocturine3EnComponent,
         TextCunninghamella1Component,
+        TextCunninghamella2Component,
+        TextCunninghamella1EnComponent,
         TextVostok1Component,
         TextWszystkozernoscComponent,
         TextMothsComponent,

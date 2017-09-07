@@ -9,6 +9,8 @@ import { TextNocturine1EnComponent } from "./texts/text-nocturine1en.component";
 import { TextNocturine2EnComponent } from "./texts/text-nocturine2en.component";
 import { TextNocturine3EnComponent } from "./texts/text-nocturine3en.component";
 import { TextCunninghamella1Component } from "./texts/text-cunninghamella1.component";
+import { TextCunninghamella2Component } from "./texts/text-cunninghamella2.component";
+import { TextCunninghamella1EnComponent } from "./texts/text-cunninghamella1en.component";
 import { TextVostok1Component } from "./texts/text-vostok1.component";
 import { TextWszystkozernoscComponent } from "./texts/text-wszystkozernosc.component";
 import { TextMothsComponent } from "./texts/text-moths.component";
@@ -26,6 +28,8 @@ const APP_ROUTES: Routes = [
     {path: 'nocturine2/en', component: TextNocturine2EnComponent, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
     {path: 'nocturine3/en', component: TextNocturine3EnComponent, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
     {path: 'cunninghamella1', component: TextCunninghamella1Component, data: {title: 'Łukasz Drobnik - Cunninghamella', theme: 1}},
+    {path: 'cunninghamella2', component: TextCunninghamella2Component, data: {title: 'Łukasz Drobnik - Cunninghamella', theme: 1}},
+    {path: 'cunninghamella1/en', component: TextCunninghamella1EnComponent, data: {title: 'Łukasz Drobnik - Cunninghamella', theme: 1}},
     {path: 'vostok1', component: TextVostok1Component, data: {title: 'Łukasz Drobnik - Vostok', theme: 2}},
     {path: 'wszystkozernosc', component: TextWszystkozernoscComponent, data: {title: 'Łukasz Drobnik - Wszystkożerność', theme: 3}},
     {path: 'moths', component: TextMothsComponent, data: {title: 'Łukasz Drobnik - Moths', theme: 4}},
