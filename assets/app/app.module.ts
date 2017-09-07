@@ -9,6 +9,10 @@ import { NavComponent } from "./nav/nav.component";
 import { BioComponent } from "./bio/bio.component";
 import { RandomComponent } from "./texts/random.component";
 import { TextNocturine1Component } from "./texts/text-nocturine1.component";
+import { TextNocturine2Component } from "./texts/text-nocturine2.component";
+import { TextNocturine3Component } from "./texts/text-nocturine3.component";
+import { TextNocturine1EnComponent } from "./texts/text-nocturine1en.component";
+import { TextNocturine2EnComponent } from "./texts/text-nocturine2en.component";
 import { TextCunninghamella1Component } from "./texts/text-cunninghamella1.component";
 import { TextVostok1Component } from "./texts/text-vostok1.component";
 import { TextWszystkozernoscComponent } from "./texts/text-wszystkozernosc.component";
@@ -22,6 +26,10 @@ import { TextObrovskyComponent } from "./texts/text-obrovsky.component";
         BioComponent,
         RandomComponent,
         TextNocturine1Component,
+        TextNocturine2Component,
+        TextNocturine3Component,
+        TextNocturine1EnComponent,
+        TextNocturine2EnComponent,
         TextCunninghamella1Component,
         TextVostok1Component,
         TextWszystkozernoscComponent,

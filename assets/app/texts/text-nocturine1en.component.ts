@@ -1,10 +1,10 @@
 import { Component } from "@angular/core";
 
 @Component({
-    templateUrl: 'text-nocturine1.component.html',
+    templateUrl: 'text-nocturine1en.component.html',
     styleUrls: ['text.component.css']
 })
 
-export class TextNocturine1Component {
+export class TextNocturine1EnComponent {
 
 }

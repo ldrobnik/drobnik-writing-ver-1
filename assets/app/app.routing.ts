@@ -3,6 +3,11 @@ import { Routes, RouterModule } from "@angular/router";
 import { BioComponent } from "./bio/bio.component";
 import { RandomComponent } from "./texts/random.component";
 import { TextNocturine1Component } from "./texts/text-nocturine1.component";
+import { TextNocturine2Component } from "./texts/text-nocturine2.component";
+import { TextNocturine3Component } from "./texts/text-nocturine3.component";
+import { TextNocturine1EnComponent } from "./texts/text-nocturine1en.component";
+import { TextNocturine2EnComponent } from "./texts/text-nocturine2en.component";
+import { TextNocturine3EnComponent } from "./texts/text-nocturine3en.component";
 import { TextCunninghamella1Component } from "./texts/text-cunninghamella1.component";
 import { TextVostok1Component } from "./texts/text-vostok1.component";
 import { TextWszystkozernoscComponent } from "./texts/text-wszystkozernosc.component";
@@ -15,11 +20,11 @@ const APP_ROUTES: Routes = [
     {path: 'bio', component: BioComponent, data: {title: 'Łukasz Drobnik - fiction writer', theme: 9}},
     {path: 'random', component: RandomComponent, data: {title: 'Łukasz Drobnik', theme: 0 }},
     {path: 'nocturine1', component: TextNocturine1Component, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
-    {path: 'nocturine2', component: TextNocturine1Component, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
-    {path: 'nocturine3', component: TextNocturine1Component, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
-    {path: 'nocturine1/en', component: TextNocturine1Component, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
-    {path: 'nocturine2/en', component: TextNocturine1Component, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
-    {path: 'nocturine3/en', component: TextNocturine1Component, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
+    {path: 'nocturine2', component: TextNocturine2Component, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
+    {path: 'nocturine3', component: TextNocturine3Component, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
+    {path: 'nocturine1/en', component: TextNocturine1EnComponent, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
+    {path: 'nocturine2/en', component: TextNocturine2EnComponent, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
+    {path: 'nocturine3/en', component: TextNocturine3EnComponent, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
     {path: 'cunninghamella1', component: TextCunninghamella1Component, data: {title: 'Łukasz Drobnik - Cunninghamella', theme: 1}},
     {path: 'vostok1', component: TextVostok1Component, data: {title: 'Łukasz Drobnik - Vostok', theme: 2}},
     {path: 'wszystkozernosc', component: TextWszystkozernoscComponent, data: {title: 'Łukasz Drobnik - Wszystkożerność', theme: 3}},
