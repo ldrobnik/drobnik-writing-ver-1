@@ -78,7 +78,7 @@ a {
 .dropdown-menu {
   background-color: #566f0c !important;
 }
-#mobile-dropdown {
+.mobile-dropdown {
   right: 0;
   left: auto;
 }
@@ -213,7 +213,7 @@ a {
 .dropdown-menu {
   background-color: #566f0c !important;
 }
-#mobile-dropdown {
+.mobile-dropdown {
   right: 0;
   left: auto;
 }
