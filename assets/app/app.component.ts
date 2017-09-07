@@ -13,7 +13,7 @@ import "rxjs/add/operator/mergeMap";
 export class AppComponent implements OnInit {
     // Property specifying the theme: 0 = nocturine, 1 = cunninghamella, 2 = vostok, 3 = omnivoria, 4 = devonian, 5 = obrovsky
 
-    // @Input() theme: number;
+    @Input() langEn: boolean;
 
 
     constructor(private router: Router, private activatedRoute: ActivatedRoute, private titleService: Title) {

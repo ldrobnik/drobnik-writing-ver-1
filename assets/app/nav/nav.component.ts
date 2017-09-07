@@ -14,7 +14,7 @@ import { AppComponent } from "../app.component";
 })
 
 export class NavComponent implements OnInit {
-    // @Output() themeChanged = new EventEmitter<any>();
+    @Output() langChanged = new EventEmitter<any>();
     logoPath: string;
     theme: number;
     langEn: boolean;
@@ -26,6 +26,7 @@ export class NavComponent implements OnInit {
 
     changeLang() {
         this.langEn =! this.langEn; //change website language langEN - English; !langEn - Polish
+        this.langChanged.emit(this.langEn);
     }
 
     resetScroll() {
@@ -52,8 +53,9 @@ export class NavComponent implements OnInit {
                     this.theme =Math.floor(Math.random()*6); //assign random theme for bio page
                 }
                 this.logoPath = (this.theme == 1 || this.theme == 5) ? 'images/logo2.png' : 'images/logo1.png'; //choose theme-appropriate logo
+                this.langEn = this.router.url.includes('/en');
             });
-        this.langEn = false;
+
 
 
     }
