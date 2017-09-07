@@ -21,6 +21,7 @@ export class NavComponent implements OnInit {
     routesPl = ['nocturine1', 'cunninghamella1', 'vostok1', 'wszystkozernosc', 'moths', 'obrovsky'];
     routesEn = ['nocturine1/en', 'cunninghamella1/en', 'vostok1/en', 'wszystkozernosc/en', 'moths/en', 'obrovsky/en'];
     randomPath : string;
+    currentUrl: string;
     equivalentPath: string;
 
     constructor(private router: Router, private activatedRoute: ActivatedRoute, private appComponent: AppComponent) {
@@ -29,7 +30,35 @@ export class NavComponent implements OnInit {
     }
 
     changeLang() {
+        this.currentUrl = this.router.url;
+        console.log(this.currentUrl);
+        //look for equivalent of the current text in the other language
+        if (this.langEn) {
+
+            if (this.currentUrl.includes('moths')) {
+                this.equivalentPath = "cmy";
+            } else {
+                this.equivalentPath = this.currentUrl.slice(1, -3); //cut the '/en' ending off the path
+            }
+
+        } else {
+            if (this.currentUrl.includes('cmy')) {
+                this.equivalentPath = "moths/en";
+            } else {
+                this.equivalentPath = this.currentUrl + "/en";
+            }
+        }
         this.langEn =! this.langEn; //change website language langEN - English; !langEn - Polish
+
+        //for Polish texts not having English equivalents go to random text, for the rest - go to the equivalent text path:
+
+        if (this.currentUrl.includes('cunninghamella2') || this.currentUrl.includes('wszystkozernosc') || this.currentUrl.includes('biegnacyczlowiek')) {
+            this.goToRandomText();
+        } else {
+            this.router.navigate([this.equivalentPath]);
+        }
+
+        this.resetScroll();
     }
 
     resetScroll() {
