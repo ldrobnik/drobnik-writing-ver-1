@@ -25,6 +25,7 @@ import { TextVostok1EnComponent } from "./texts/text-vostok1en.component";
 import { TextVostok2EnComponent } from "./texts/text-vostok2en.component";
 import { TextVostok3EnComponent } from "./texts/text-vostok3en.component";
 import { TextVostok4EnComponent } from "./texts/text-vostok4en.component";
+import { TextBiegnacyczlowiekComponent } from "./texts/text-biegnacyczlowiek.component";
 import { TextWszystkozernoscComponent } from "./texts/text-wszystkozernosc.component";
 import { TextMothsComponent } from "./texts/text-moths.component";
 import { TextObrovskyComponent } from "./texts/text-obrovsky.component";
@@ -52,6 +53,7 @@ import { TextObrovskyComponent } from "./texts/text-obrovsky.component";
         TextVostok2EnComponent,
         TextVostok3EnComponent,
         TextVostok4EnComponent,
+        TextBiegnacyczlowiekComponent,
         TextWszystkozernoscComponent,
         TextMothsComponent,
         TextObrovskyComponent

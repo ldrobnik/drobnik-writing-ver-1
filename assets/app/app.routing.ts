@@ -19,6 +19,7 @@ import { TextVostok1EnComponent } from "./texts/text-vostok1en.component";
 import { TextVostok2EnComponent } from "./texts/text-vostok2en.component";
 import { TextVostok3EnComponent } from "./texts/text-vostok3en.component";
 import { TextVostok4EnComponent } from "./texts/text-vostok4en.component";
+import { TextBiegnacyczlowiekComponent } from "./texts/text-biegnacyczlowiek.component";
 import { TextWszystkozernoscComponent } from "./texts/text-wszystkozernosc.component";
 import { TextMothsComponent } from "./texts/text-moths.component";
 import { TextObrovskyComponent } from "./texts/text-obrovsky.component";
@@ -45,8 +46,8 @@ const APP_ROUTES: Routes = [
     {path: 'vostok2/en', component: TextVostok2EnComponent, data: {title: 'Łukasz Drobnik - Vostok', theme: 2}},
     {path: 'vostok3/en', component: TextVostok3EnComponent, data: {title: 'Łukasz Drobnik - Vostok', theme: 2}},
     {path: 'vostok4/en', component: TextVostok4EnComponent, data: {title: 'Łukasz Drobnik - Vostok', theme: 2}},
+    {path: 'biegnacyczlowiek', component: TextBiegnacyczlowiekComponent, data: {title: 'Łukasz Drobnik - Biegnący człowiek', theme: 3}},
     {path: 'wszystkozernosc', component: TextWszystkozernoscComponent, data: {title: 'Łukasz Drobnik - Wszystkożerność', theme: 3}},
-    {path: 'biegnacyczlowiek', component: TextWszystkozernoscComponent, data: {title: 'Łukasz Drobnik - Biegnący człowiek', theme: 3}},
     {path: 'cmy', component: TextMothsComponent, data: {title: 'Łukasz Drobnik - Ćmy', theme: 4}},
     {path: 'moths/en', component: TextMothsComponent, data: {title: 'Łukasz Drobnik - Moths', theme: 4}},
     {path: 'obrovsky', component: TextObrovskyComponent, data: {title: 'Łukasz Drobnik - Obrovsky', theme: 5}},
