@@ -44,8 +44,11 @@ export class NavComponent implements OnInit {
             .mergeMap((route) => route.data)
             .subscribe((event) => {
                 this.theme = event['theme'];
+                if (this.theme == 9) {
+                    this.theme =Math.floor(Math.random()*6);
+                }
                 this.logoPath = (this.theme == 1 || this.theme == 5) ? 'images/logo2.png' : 'images/logo1.png';
-                console.log(event['theme']);
+                console.log(this.theme);
             });
 
 
