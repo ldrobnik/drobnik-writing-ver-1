@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/texts/random.component.ts" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/services/themeManager.service.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/texts/texts.component.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/texts/texts.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/texts/random.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/app/texts/random.component.less" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/app.component.ts" afterPath="$PROJECT_DIR$/assets/app/app.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/app.module.ts" afterPath="$PROJECT_DIR$/assets/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/app.routing.ts" afterPath="$PROJECT_DIR$/assets/app/app.routing.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav.component.ts" afterPath="$PROJECT_DIR$/assets/app/nav/nav.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/app/texts/texts.component.css" afterPath="$PROJECT_DIR$/assets/app/texts/random.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/app/texts/texts.component.less" afterPath="$PROJECT_DIR$/assets/app/texts/random.component.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/random.component.ts" afterPath="$PROJECT_DIR$/assets/app/texts/random.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,17 +29,17 @@
         <entry file="file://$PROJECT_DIR$/assets/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
                 <marker date="1504797455281" expanded="true" signature="7:33" ph="..." />
@@ -53,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.component.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nav.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="-129">
+              <caret line="41" column="43" lean-forward="true" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
               <folding>
                 <element signature="e#0#72#0" expanded="true" />
               </folding>
@@ -68,8 +63,8 @@
       <file leaf-file-name="app.routing.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/app.routing.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="111">
+              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="22" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
@@ -80,11 +75,9 @@
       <file leaf-file-name="random.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/texts/random.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="160">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -215,11 +208,11 @@
         <option value="$PROJECT_DIR$/views/index.hbs" />
         <option value="$PROJECT_DIR$/assets/app/nav/nav.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/randomcomponent.ts" />
-        <option value="$PROJECT_DIR$/assets/app/app.module.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/random.component.html" />
         <option value="$PROJECT_DIR$/assets/app/app.routing.ts" />
         <option value="$PROJECT_DIR$/assets/app/services/random-text.service.ts" />
         <option value="$PROJECT_DIR$/assets/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/app.module.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/random.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/nav/nav.component.ts" />
       </list>
@@ -650,12 +643,12 @@
       <workItem from="1504437751467" duration="8512000" />
       <workItem from="1504511880771" duration="11410000" />
       <workItem from="1504592262814" duration="13722000" />
-      <workItem from="1504772678477" duration="8814000" />
+      <workItem from="1504772678477" duration="9649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138778000" />
+    <option name="totallyTimeSpent" value="139613000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -949,32 +942,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+            <marker date="1504797455281" expanded="true" signature="7:33" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/app.routing.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="111">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/random.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -982,18 +966,25 @@
     <entry file="file://$PROJECT_DIR$/assets/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/random.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="160">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="41" column="43" lean-forward="true" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
           <folding>
-            <element signature="e#0#57#0" expanded="true" />
-            <marker date="1504797455281" expanded="true" signature="7:33" ph="..." />
+            <element signature="e#0#72#0" expanded="true" />
           </folding>
         </state>
       </provider>

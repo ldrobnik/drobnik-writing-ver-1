@@ -1,22 +1,10 @@
-import { Component, OnInit } from "@angular/core";
-import { Router, ActivatedRoute } from '@angular/router';
+import { Component } from "@angular/core";
 
 
 @Component({
-    template: '<div></div>',
-    styleUrls: ['./random.component.css']
+    template: ''
 })
 
-export class RandomComponent implements OnInit {
+export class RandomComponent {
 
-    routesPl = ['nocturine1', 'cunninghamella1', 'vostok1', 'wszystkozernosc', 'moths', 'obrovsky'];
-    routesEn = ['nocturine1/en', 'cunninghamella1/en', 'vostok1/en', 'wszystkozernosc/en', 'moths/en', 'obrovsky/en'];
-
-
-    constructor(private router: Router, private activatedRoute: ActivatedRoute) {
-    }
-
-    ngOnInit() {
-        console.log(this.router.url);
-    }
 }

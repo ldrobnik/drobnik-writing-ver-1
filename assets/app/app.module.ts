@@ -7,7 +7,7 @@ import { routing } from "./app.routing";
 import { AppComponent } from "./app.component";
 import { NavComponent } from "./nav/nav.component";
 import { BioComponent } from "./bio/bio.component";
-import {RandomComponent} from "./texts/random.component";
+import { RandomComponent } from "./texts/random.component";
 import { TextNocturine1Component } from "./texts/text-nocturine1.component";
 import { TextCunninghamella1Component } from "./texts/text-cunninghamella1.component";
 import { TextVostok1Component } from "./texts/text-vostok1.component";
