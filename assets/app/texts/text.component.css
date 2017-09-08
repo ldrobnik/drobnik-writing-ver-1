@@ -1,6 +1,5 @@
 /*Styles shared by all components */
 .jumbotron {
-  height: 550px;
   text-align: center;
   font-family: 'Maven Pro', sans-serif;
   color: white;
@@ -8,17 +7,26 @@
 }
 .jumbotron .main-jumbopanel {
   margin-top: 90px;
-  padding: 1vw 5vw 2vw 5vw;
+  padding: 1vw 3vw 2vw 3vw;
   display: inline-block;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   opacity: 0.9;
 }
 .jumbotron h1 {
   font-weight: 900;
+  max-width: 100%;
+}
+.jumbotron h3 {
+  font-size: 3vh;
+}
+.jumbotron h4 {
+  font-size: 2.5vh;
 }
 .jumbotron .description {
   margin-top: 25px;
+  font-size: 2vh;
 }
 .jumbotron .secondary-jumbopanel {
   margin-top: 40px;
@@ -34,11 +42,17 @@
   top: 35%;
   /* The following will size the video to fit the full container. */
   min-width: 100%;
+  min-height: 100%;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   z-index: -99;
+}
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 8vw;
+  }
 }
 .story {
   font-family: 'Roboto Slab', serif;

@@ -1,9 +1,5 @@
 .idea
 
+
 .env
-
-/node_modules
-
-npm-debug.log
-
-/public/js
+node_modules/
