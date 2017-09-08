@@ -76,12 +76,23 @@
     font-size: 2em;
   }
 
-  .story-footnote {
-    margin-top: 30px;
-    font-size: 0.8em;
-    text-indent: 0 !important;
-    text-align: center;
-  }
+}
+
+.story-footnote {
+  margin-top: 30px;
+  font-size: 0.8em;
+  text-indent: 0 !important;
+  text-align: center;
+}
+
+.text-separator {
+  display: inline-block;
+  height: 55px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  background: transparent repeat-x center center;
+  padding: 0;
 
 }
 
@@ -108,6 +119,10 @@
   color: lighten(@colorNocturine, 30%);
 }
 
+.nocturine .text-separator {
+  background-image: url("../images/sep-nocturine.png");
+}
+
 /* Styles for class .cunninghamella */
 
 .cunninghamella .main-jumbopanel, .cunninghamella .secondary-jumbopanel {
@@ -120,6 +135,10 @@
 
 .cunninghamella .story-footnote {
   color: lighten(@colorCunninghamella, 30%);
+}
+
+.cunninghamella .text-separator {
+  background-image: url("../images/sep-cunninghamella.png");
 }
 
 
@@ -137,6 +156,11 @@
   color: lighten(@colorVostok, 30%);
 }
 
+.vostok .text-separator {
+  background-image: url("../images/sep-vostok.png");
+}
+
+
 /* Styles for class .omnivoria */
 
 .omnivoria .main-jumbopanel, .omnivoria .secondary-jumbopanel {
@@ -149,6 +173,10 @@
 
 .omnivoria .story-footnote {
   color: lighten(@colorOmnivoria, 30%);
+}
+
+.omnivoria .text-separator {
+  background-image: url("../images/sep-omnivoria.png");
 }
 
 /* Styles for class .devonian */
@@ -165,6 +193,10 @@
   color: lighten(@colorDevonian, 10%);
 }
 
+.devonian .text-separator {
+  background-image: url("../images/sep-devonian.png");
+}
+
 /* Styles for class .obrovsky */
 
 .obrovsky .main-jumbopanel, .obrovsky .secondary-jumbopanel {
@@ -177,4 +209,8 @@
 
 .obrovsky .story-footnote {
   color: lighten(@colorObrovsky, 30%);
+}
+
+.obrovsky .text-separator {
+  background-image: url("../images/sep-obrovsky.png");
 }
