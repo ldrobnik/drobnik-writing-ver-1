@@ -116,6 +116,16 @@
 
 }
 
+.read-on {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-family: @displayFont;
+  font-size: 1em;
+  color: @lightColor;
+}
+
 @media screen and (max-width: 1000px) {
 
   .story {
@@ -143,6 +153,14 @@
   background-image: url("../images/sep-nocturine.png");
 }
 
+.nocturine .read-on {
+  background-color: @colorNocturine;
+
+  &:hover {
+    background-color: lighten(@colorNocturine, 10%);
+  }
+}
+
 /* Styles for class .cunninghamella */
 
 .cunninghamella .main-jumbopanel, .cunninghamella .secondary-jumbopanel {
@@ -159,6 +177,14 @@
 
 .cunninghamella .text-separator {
   background-image: url("../images/sep-cunninghamella.png");
+}
+
+.cunninghamella .read-on {
+  background-color: @colorCunninghamella;
+
+  &:hover {
+    background-color: lighten(@colorCunninghamella, 10%);
+  }
 }
 
 
@@ -180,6 +206,14 @@
   background-image: url("../images/sep-vostok.png");
 }
 
+.vostok .read-on {
+  background-color: @colorVostok;
+
+  &:hover {
+    background-color: lighten(@colorVostok, 10%);
+  }
+}
+
 
 /* Styles for class .omnivoria */
 
@@ -197,6 +231,14 @@
 
 .omnivoria .text-separator {
   background-image: url("../images/sep-omnivoria.png");
+}
+
+.omnivoria .read-on {
+  background-color: @colorOmnivoria;
+
+  &:hover {
+    background-color: lighten(@colorOmnivoria, 10%);
+  }
 }
 
 /* Styles for class .devonian */
@@ -217,6 +259,14 @@
   background-image: url("../images/sep-devonian.png");
 }
 
+.devonian .read-on {
+  background-color: @colorDevonian;
+
+  &:hover {
+    background-color: lighten(@colorDevonian, 10%);
+  }
+}
+
 /* Styles for class .obrovsky */
 
 .obrovsky .main-jumbopanel, .obrovsky .secondary-jumbopanel {
@@ -233,4 +283,12 @@
 
 .obrovsky .text-separator {
   background-image: url("../images/sep-obrovsky.png");
+}
+
+.obrovsky .read-on {
+  background-color: @colorObrovsky;
+
+  &:hover {
+    background-color: lighten(@colorObrovsky, 10%);
+  }
 }

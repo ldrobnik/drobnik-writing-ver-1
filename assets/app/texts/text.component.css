@@ -89,6 +89,15 @@
   background: transparent repeat-x center center;
   padding: 0;
 }
+.read-on {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 1em;
+  color: white;
+}
 @media screen and (max-width: 1000px) {
   .story {
     padding-left: 5vw;
@@ -109,6 +118,12 @@
 .nocturine .text-separator {
   background-image: url("../images/sep-nocturine.png");
 }
+.nocturine .read-on {
+  background-color: #a98086;
+}
+.nocturine .read-on:hover {
+  background-color: #be9ea3;
+}
 /* Styles for class .cunninghamella */
 .cunninghamella .main-jumbopanel,
 .cunninghamella .secondary-jumbopanel {
@@ -122,6 +137,12 @@
 }
 .cunninghamella .text-separator {
   background-image: url("../images/sep-cunninghamella.png");
+}
+.cunninghamella .read-on {
+  background-color: #566f0c;
+}
+.cunninghamella .read-on:hover {
+  background-color: #7a9d11;
 }
 /* Styles for class .vostok */
 .vostok .main-jumbopanel,
@@ -137,6 +158,12 @@
 .vostok .text-separator {
   background-image: url("../images/sep-vostok.png");
 }
+.vostok .read-on {
+  background-color: #a67847;
+}
+.vostok .read-on:hover {
+  background-color: #bc9164;
+}
 /* Styles for class .omnivoria */
 .omnivoria .main-jumbopanel,
 .omnivoria .secondary-jumbopanel {
@@ -150,6 +177,12 @@
 }
 .omnivoria .text-separator {
   background-image: url("../images/sep-omnivoria.png");
+}
+.omnivoria .read-on {
+  background-color: #616a65;
+}
+.omnivoria .read-on:hover {
+  background-color: #79857e;
 }
 /* Styles for class .devonian */
 .devonian .main-jumbopanel,
@@ -165,6 +198,12 @@
 .devonian .text-separator {
   background-image: url("../images/sep-devonian.png");
 }
+.devonian .read-on {
+  background-color: #99aac6;
+}
+.devonian .read-on:hover {
+  background-color: #bac5d8;
+}
 /* Styles for class .obrovsky */
 .obrovsky .main-jumbopanel,
 .obrovsky .secondary-jumbopanel {
@@ -178,4 +217,10 @@
 }
 .obrovsky .text-separator {
   background-image: url("../images/sep-obrovsky.png");
+}
+.obrovsky .read-on {
+  background-color: #b34a53;
+}
+.obrovsky .read-on:hover {
+  background-color: #c36d75;
 }
