@@ -3,7 +3,6 @@ import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import "rxjs/add/operator/filter";
 import "rxjs/add/operator/map";
 import "rxjs/add/operator/mergeMap";
-import 'rxjs/add/operator/pairwise';
 
 import { ResetScrollService } from "../services/reset-scroll.service";
 
@@ -25,7 +24,6 @@ export class NavComponent implements OnInit {
     routesEn = ['nocturine1/en', 'cunninghamella1/en', 'vostok1/en', 'wszystkozernosc/en', 'moths/en', 'obrovsky/en'];
     randomPath : string;
     currentUrl: string;
-    lastUrl: string;
     equivalentPath: string;
 
     constructor(private router: Router, private activatedRoute: ActivatedRoute, private appComponent: AppComponent) {
@@ -73,12 +71,12 @@ export class NavComponent implements OnInit {
 
     goToRandomText() {
 
-        if (this.router.url.includes('random/en')) {
+        if (this.router.url.includes('/en')) {
             this.randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
         } else {
             this.randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
         }
-
+        this.resetScroll();
         this.router.navigate([this.randomPath]);
     }
 
@@ -99,7 +97,7 @@ export class NavComponent implements OnInit {
             .subscribe((event) => {
                 this.theme = event['theme'];
                 if (this.theme == 9) {
-                    this.theme = Math.floor(Math.random()*6); //assign random theme for bio page
+                    this.theme =Math.floor(Math.random()*6); //assign random theme for bio page
                 }
                 this.logoPath = (this.theme == 1 || this.theme == 5) ? 'images/logo2.png' : 'images/logo1.png'; //choose theme-appropriate logo
                 this.langEn = this.router.url.includes('/en'); //check the language based on the routing path (all English texts have the '/en' bit
