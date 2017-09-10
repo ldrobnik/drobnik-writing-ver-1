@@ -2,6 +2,7 @@ import { Routes, RouterModule } from "@angular/router";
 
 import { BioComponent } from "./bio/bio.component";
 import { RandomComponent } from "./texts/random.component";
+import { RandomEnComponent } from "./texts/random-en.component";
 import { TextNocturine1Component } from "./texts/text-nocturine1.component";
 import { TextNocturine2Component } from "./texts/text-nocturine2.component";
 import { TextNocturine3Component } from "./texts/text-nocturine3.component";
@@ -31,6 +32,7 @@ const APP_ROUTES: Routes = [
     {path: '', redirectTo: '/random', pathMatch: 'full'},
     {path: 'bio', component: BioComponent, data: {title: 'Łukasz Drobnik - fiction writer', theme: 9}},
     {path: 'random', component: RandomComponent, data: {title: 'Łukasz Drobnik', theme: 0 }},
+    {path: 'random/en', component: RandomEnComponent, data: {title: 'Łukasz Drobnik', theme: 0 }},
     {path: 'nocturine1', component: TextNocturine1Component, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
     {path: 'nocturine2', component: TextNocturine2Component, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
     {path: 'nocturine3', component: TextNocturine3Component, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},

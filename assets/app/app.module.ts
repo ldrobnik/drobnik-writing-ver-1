@@ -8,6 +8,7 @@ import { AppComponent } from "./app.component";
 import { NavComponent } from "./nav/nav.component";
 import { BioComponent } from "./bio/bio.component";
 import { RandomComponent } from "./texts/random.component";
+import { RandomEnComponent } from "./texts/random-en.component";
 import { TextNocturine1Component } from "./texts/text-nocturine1.component";
 import { TextNocturine2Component } from "./texts/text-nocturine2.component";
 import { TextNocturine3Component } from "./texts/text-nocturine3.component";
@@ -38,6 +39,7 @@ import { TextObrovskyEnComponent } from "./texts/text-obrovskyen.component";
         NavComponent,
         BioComponent,
         RandomComponent,
+        RandomEnComponent,
         TextNocturine1Component,
         TextNocturine2Component,
         TextNocturine3Component,

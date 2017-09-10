@@ -1,8 +1,10 @@
-import { Component, OnInit, Output, EventEmitter } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import "rxjs/add/operator/filter";
 import "rxjs/add/operator/map";
 import "rxjs/add/operator/mergeMap";
+
+import { ResetScrollService } from "../services/reset-scroll.service";
 
 
 import { AppComponent } from "../app.component";
@@ -61,13 +63,15 @@ export class NavComponent implements OnInit {
         this.resetScroll();
     }
 
+    //function to reset window scrolling
     resetScroll() {
-        window.scrollTo(0,0); //to reset position when clicking menu links
+        const service = new ResetScrollService();
+        service.resetScroll();
     }
 
     goToRandomText() {
 
-        if (this.langEn) {
+        if (this.router.url.includes('random/en')) {
             this.randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
         } else {
             this.randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
