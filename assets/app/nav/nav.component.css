@@ -130,7 +130,7 @@ nav {
 .nocturine .open #dropdown-toggle {
   background-color: #be9ea3;
 }
-.nocturine #logo {
+.nocturine .main-logo {
   width: 25px;
   height: 25px;
   margin-top: -4px;
@@ -166,7 +166,7 @@ nav {
 .cunninghamella .open #dropdown-toggle {
   background-color: #7a9d11;
 }
-.cunninghamella #logo {
+.cunninghamella .main-logo {
   width: 30px;
   height: 30px;
   margin-top: -5px;
@@ -202,7 +202,7 @@ nav {
 .vostok .open #dropdown-toggle {
   background-color: #bc9164;
 }
-.vostok #logo {
+.vostok .main-logo {
   width: 25px;
   height: 25px;
   margin-top: -4px;
@@ -238,7 +238,7 @@ nav {
 .omnivoria .open #dropdown-toggle {
   background-color: #79857e;
 }
-.omnivoria #logo {
+.omnivoria .main-logo {
   width: 25px;
   height: 25px;
   margin-top: -4px;
@@ -274,7 +274,7 @@ nav {
 .devonian .open #dropdown-toggle {
   background-color: #bac5d8;
 }
-.devonian #logo {
+.devonian .main-logo {
   width: 25px;
   height: 25px;
   margin-top: -4px;
@@ -310,7 +310,7 @@ nav {
 .obrovsky .open #dropdown-toggle {
   background-color: #c36d75;
 }
-.obrovsky #logo {
+.obrovsky .main-logo {
   width: 30px;
   height: 30px;
   margin-top: -5px;
