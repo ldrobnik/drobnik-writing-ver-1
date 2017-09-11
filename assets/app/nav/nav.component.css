@@ -78,13 +78,9 @@ nav {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  z-index: 0;
 }
 a {
   color: white !important;
-}
-.dropdown-menu {
-  background-color: #566f0c !important;
 }
 .mobile-dropdown {
   right: 0;
@@ -125,6 +121,7 @@ a {
 #splash-screen a {
   color: #e7dbdd !important;
   text-decoration: none;
+  cursor: hand;
 }
 #splash-screen a:hover {
   opacity: 0.7;

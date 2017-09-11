@@ -53,6 +53,7 @@ export class NavComponent implements OnInit {
             }
         }
         this.langEn =! this.langEn; //change website language langEN - English; !langEn - Polish
+        // this.storeLang(); //stores the language in local storage
 
         //for texts not having equivalents in the other language, go to random text, for the rest - go to the equivalent text path:
 
@@ -72,15 +73,27 @@ export class NavComponent implements OnInit {
     }
 
 
+    //method to store current language in localStorage
+
+    storeLang() {
+        if (this.langEn) {
+            localStorage.setItem("langEn", "true")
+        } else {
+            localStorage.setItem("langEn", "false")
+        }
+    }
+
     //method for choosing language on splash screen
 
     chooseLang(lang: boolean) {
         this.langEn = lang; // set to false if Polish, to true if English
+        this.storeLang(); // stores the language in local storage
         this.langChosen = true; // let the app know the user has chosen their language
-
         if (!this.langEn) {
+
             this.router.navigate(['/']);
         } else {
+
             this.router.navigate(['random/en']);
         }
 
@@ -96,6 +109,10 @@ export class NavComponent implements OnInit {
             }
             if (this.visitedRoutesPl.indexOf(url) === -1) {
                 this.visitedRoutesPl.push(url); //add the current url to Polish texts read
+
+                if (typeof(Storage) !== "undefined") {
+                    localStorage.setItem("visitedRoutesPl", JSON.stringify(this.visitedRoutesPl)); //store the array in local storage
+                }
             }
         } else {
             if (this.visitedRoutesEn.length > this.routesEn.length + 1) {
@@ -103,6 +120,10 @@ export class NavComponent implements OnInit {
             }
             if (this.visitedRoutesEn.indexOf(url) === -1) {
                 this.visitedRoutesEn.push(url); //add the current url to English texts read
+
+                if (typeof(Storage) !== "undefined") {
+                    localStorage.setItem("visitedRoutesEn", JSON.stringify(this.visitedRoutesEn)); //store the array in local storage
+                }
             }
         }
         //
@@ -133,9 +154,32 @@ export class NavComponent implements OnInit {
 
     ngOnInit() {
 
-        //set random theme for the splash screen
+        console.log(localStorage);
 
-        this.theme = Math.floor(Math.random()*6);
+        //check whether language and texts visited are stored in local storage
+
+        if (typeof(Storage) !== "undefined") {
+
+            //check info about langague in local storage
+            if (localStorage.getItem("langEn") !== "undefined"){
+                console.log(localStorage.getItem("langEn"));
+                if (localStorage.getItem("langEn") == "true") {
+                    this.langEn = true;
+                } else {
+                    this.langEn = false;
+                }
+            }
+
+            //check info about visited links in local storage
+            if (localStorage.getItem("visitedRoutesPl") !== "undefined"){
+                this.visitedRoutesPl = JSON.parse(localStorage.getItem("visitedRoutesPl"));
+            }
+
+            if (localStorage.getItem("visitedRoutesPl") !== "undefined"){
+                this.visitedRoutesEn = JSON.parse(localStorage.getItem("visitedRoutesEn"));
+            }
+
+        }
 
         //dynamically change theme depending on routing
 
@@ -157,10 +201,16 @@ export class NavComponent implements OnInit {
                     this.theme = Math.floor(Math.random()*6); //assign random theme for bio page
                 }
                 this.logoPath = (this.theme == 1 || this.theme == 5) ? 'images/logo2.png' : 'images/logo1.png'; //choose theme-appropriate logo
-                this.langEn = this.router.url.includes('/en'); //check the language based on the routing path (all English texts have the '/en' bit
+
+                if (!this.router.url.includes('random')) {
+                    this.langEn = this.router.url.includes('/en'); //check the language based on the routing path (all English texts have the '/en' bit
+                    this.storeLang(); // store the language in local storage
+                }
+
                 //make langChosen true if user reaches the site through specific route
                 if (!this.router.url.includes('random') && this.router.url.length > 1) {
                     this.langChosen = true;
+                    this.storeLang();
                 }
                 if (this.router.url.includes('random')) {
                     this.goToRandomText();
