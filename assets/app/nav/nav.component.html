@@ -1,9 +1,10 @@
 <!-- Splash screen visible when langage is not defined -->
 <div [ngClass]="{nocturine: theme == 0, cunninghamella: theme == 1, vostok: theme == 2, omnivoria: theme == 3, devonian: theme == 4, obrovsky: theme == 5}" *ngIf="!langChosen && this.router.url.includes('random')">
     <div id="splash-screen">
-        <div></div>
-        <div>wybierz język / choose your langage</div>
-        <div><a>pl</a>&nbsp;&nbsp;&nbsp;&nbsp;<a>en</a></div>
+        <div id="splash-screen-content">
+            <div id="prompt">wybierz język / choose your langage</div>
+            <div id="options"><a>pl</a> / <a>en</a></div>
+        </div>
     </div>
 </div>
 <!--Polish version of the navbar-->

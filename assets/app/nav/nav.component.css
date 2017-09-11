@@ -1,3 +1,9 @@
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 /* to make navbar collapse at a lower width than default */
 @media only screen and (min-width: 310px) {
   .collapse {
@@ -108,16 +114,28 @@ a {
   text-align: center;
   font-family: 'Maven Pro', sans-serif;
   font-size: 120%;
-  color: white;
-  opacity: 0.9;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-
 #splash-screen a {
   text-decoration: none;
-  font-size: 200%;
 }
 #splash-screen a:hover {
-  opacity: 0.6;
+  opacity: 0.7;
+}
+#splash-screen-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+#prompt {
+  padding-left: 50px;
+}
+#options {
+  font-size: 200%;
 }
 /* styles specific for the .nocturine class */
 .nocturine nav {
@@ -162,6 +180,10 @@ a {
 }
 .nocturine #splash-screen {
   background-color: #a98086;
+  color: #e7dbdd;
+}
+.nocturine #splash-screen a {
+  color: #e7dbdd !important;
 }
 /* styles specific for the .cunninghamella class */
 .cunninghamella nav {

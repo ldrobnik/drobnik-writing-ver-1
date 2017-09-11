@@ -79,11 +79,7 @@ nav {
   color: @lightColor !important;
   font-family: @displayFont;
   border: none;
-
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  .no-select;
 }
 
 a {
@@ -130,20 +126,32 @@ a {
   text-align: center;
   font-family: @displayFont;
   font-size: 120%;
-  color: @lightColor;
+  .no-select;
 
-  &:first-child {
-    margin-top: 45%;
-  }
+
   
   a {
     text-decoration: none;
-    font-size: 200%;
 
     &:hover {
       opacity: 0.7;
     }
   }
+}
+
+#splash-screen-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+#prompt {
+  padding-left: 50px;
+}
+
+#options {
+  font-size: 200%;
 }
 
 
@@ -196,6 +204,11 @@ a {
 
 .nocturine #splash-screen {
   background-color: @colorNocturine;
+  color: lighten(@colorNocturine, 30%);
+
+  a {
+    color: lighten(@colorNocturine, 30%) !important;
+  }
 }
 
 
