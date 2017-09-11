@@ -17,20 +17,23 @@ import { AppComponent } from "../app.component";
 
 export class NavComponent implements OnInit {
 
-    logoPath: string;
-    theme: number;
-    langEn: boolean;
-    routesPl = ['nocturine1', 'cunninghamella1', 'vostok1', 'wszystkozernosc', 'moths', 'obrovsky'];
-    routesEn = ['nocturine1/en', 'cunninghamella1/en', 'vostok1/en', 'wszystkozernosc/en', 'moths/en', 'obrovsky/en'];
-    randomPath : string;
-    currentUrl: string;
-    equivalentPath: string;
+    logoPath: string; //specifies the path of website logo depending on the current theme
+    theme: number; //the number 0-5 specifying the theme
+    langEn: boolean; //specifies whether the language is English (true) or Polish (false)
+    routesPl = ['nocturine1', 'nocturine2', 'nocturine3', 'cunninghamella1', 'cunninghamella2', 'vostok1', 'vostok2', 'vostok3', 'vostok4', 'biegnacyczlowiek', 'wszystkozernosc', 'moths', 'obrovsky']; //specifies all available urls of Polish texts
+    routesEn = ['nocturine1/en', 'nocturine2/en', 'nocturine3/en', 'cunninghamella1/en', 'vostok1/en', 'vostok2/en', 'vostok3/en', 'vostok4/en', 'moths/en', 'obrovsky/en']; //specifies all available urls of English texts
+    randomPath : string; //holds the path to randomly chosen text
+    currentUrl: string; //holds the current path
+    equivalentPath: string; //specifies the path of the equivalent text in the other language, if exists
+    visitedPaths[] = []; //holds all visited paths to Polish texts
+    visitedPathsEn[] = []; //same for English texts
 
-    constructor(private router: Router, private activatedRoute: ActivatedRoute, private appComponent: AppComponent) {
-        // this.theme = appComponent.theme;
-        // this.logoPath = (this.theme == 1 || this.theme == 5) ? 'images/logo2.png' : 'images/logo1.png';
+
+    constructor(private router: Router, private activatedRoute: ActivatedRoute) {
+
     }
 
+    //method changing the language and looking for the equivalent text in the other language
     changeLang() {
         this.currentUrl = this.router.url;
         console.log(this.currentUrl);
@@ -52,7 +55,7 @@ export class NavComponent implements OnInit {
         }
         this.langEn =! this.langEn; //change website language langEN - English; !langEn - Polish
 
-        //for Polish texts not having English equivalents go to random text, for the rest - go to the equivalent text path:
+        //for texts not having equivalents in the other language, go to random text, for the rest - go to the equivalent text path:
 
         if (this.currentUrl.includes('cunninghamella2') || this.currentUrl.includes('wszystkozernosc') || this.currentUrl.includes('biegnacyczlowiek')) {
             this.goToRandomText();
@@ -63,11 +66,14 @@ export class NavComponent implements OnInit {
         this.resetScroll();
     }
 
-    //function to reset window scrolling
+    //method resetting window scrolling
     resetScroll() {
         const scrollService = new ResetScrollService();
         scrollService.resetScroll();
     }
+
+
+    //method
 
     goToRandomText() {
 
