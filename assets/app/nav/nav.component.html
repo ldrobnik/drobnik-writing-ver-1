@@ -1,5 +1,10 @@
 <!-- Splash screen visible when langage is not defined -->
-<div id="language-prompt" *ngIf="!langChosen">test!<br><br><br>test!<br><br><br>test!</div>
+<div [ngClass]="{nocturine: theme == 0, cunninghamella: theme == 1, vostok: theme == 2, omnivoria: theme == 3, devonian: theme == 4, obrovsky: theme == 5}" *ngIf="!langChosen">
+    <div id="splash-screen">
+        <p>wybierz język / choose your langage</p>
+        <p><a>pl</a>&nbsp;&nbsp;&nbsp;&nbsp;<a>en</a></p>
+    </div>
+</div>
 <!--Polish version of the navbar-->
 <div *ngIf="!langEn">
     <div [ngClass]="{nocturine: theme == 0, cunninghamella: theme == 1, vostok: theme == 2, omnivoria: theme == 3, devonian: theme == 4, obrovsky: theme == 5}">
