@@ -60,7 +60,6 @@ export class NavComponent implements OnInit {
         if (this.currentUrl.includes('cunninghamella2') || this.currentUrl.includes('wszystkozernosc') || this.currentUrl.includes('biegnacyczlowiek')) {
             this.goToRandomText();
         } else {
-            this.trackText(this.equivalentPath);
             this.router.navigate([this.equivalentPath]);
         }
 
@@ -92,12 +91,6 @@ export class NavComponent implements OnInit {
         console.log(this.visitedRoutesEn);
     }
 
-    //method for handling navbar menu links - combines resetScroll() and trackText()
-
-    handleLink(route: string) {
-        this.trackText(route);
-        this.resetScroll();
-    }
 
     goToRandomText() {
 
@@ -107,7 +100,6 @@ export class NavComponent implements OnInit {
             this.randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
         }
         this.resetScroll();
-        this.trackText(this.randomPath);
         this.router.navigate([this.randomPath]);
     }
 
@@ -126,9 +118,10 @@ export class NavComponent implements OnInit {
             .filter((route) => route.outlet === 'primary')
             .mergeMap((route) => route.data)
             .subscribe((event) => {
+                this.trackText(this.router.url);
                 this.theme = event['theme'];
                 if (this.theme == 9) {
-                    this.theme =Math.floor(Math.random()*6); //assign random theme for bio page
+                    this.theme = Math.floor(Math.random()*6); //assign random theme for bio page
                 }
                 this.logoPath = (this.theme == 1 || this.theme == 5) ? 'images/logo2.png' : 'images/logo1.png'; //choose theme-appropriate logo
                 this.langEn = this.router.url.includes('/en'); //check the language based on the routing path (all English texts have the '/en' bit

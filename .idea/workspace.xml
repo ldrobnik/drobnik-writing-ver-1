@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav.component.ts" afterPath="$PROJECT_DIR$/assets/app/nav/nav.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/bundle.js" afterPath="$PROJECT_DIR$/public/js/app/bundle.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,8 +26,8 @@
       <file leaf-file-name="nav.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="98" column="27" lean-forward="false" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
+            <state relative-caret-position="312">
+              <caret line="123" column="33" lean-forward="false" selection-start-line="123" selection-start-column="33" selection-end-line="123" selection-end-column="33" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -36,8 +38,58 @@
       <file leaf-file-name="nav.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="269">
+              <caret line="128" column="87" lean-forward="false" selection-start-line="128" selection-start-column="87" selection-end-line="128" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text-nocturine1en.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="19" column="295" lean-forward="false" selection-start-line="19" selection-start-column="295" selection-end-line="19" selection-end-column="295" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text-nocturine2en.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text-nocturine2.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="27" column="165" lean-forward="true" selection-start-line="27" selection-start-column="165" selection-end-line="27" selection-end-column="165" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text-nocturine1.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text-biegnacyczlowiek.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="24" column="315" lean-forward="false" selection-start-line="24" selection-start-column="315" selection-end-line="24" selection-end-column="315" />
               <folding />
             </state>
           </provider>
@@ -55,23 +107,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>nav-sh</find>
-      <find>id=&quot;</find>
-      <find>navbar</find>
-      <find>#main-logo</find>
-      <find>id=&quot;main-logo&quot;</find>
-      <find>mobile-dro</find>
-      <find>dropdown-toggle</find>
-      <find>id=&quot;main</find>
-      <find>id=&quot;dropdo</find>
-      <find>dropdown-togg</find>
-      <find>#dropdown-toggle-en</find>
-      <find>id=&quot;dropdown-toggle&quot;</find>
-      <find>#dropdown-toggle</find>
-      <find>goToRand</find>
-      <find>goToRandom</find>
-      <find>const service =</find>
-      <find>service.resetScroll</find>
       <find>vi</find>
       <find>visit</find>
       <find>visiter</find>
@@ -83,17 +118,27 @@
       <find>visitedPa</find>
       <find>visitedPath</find>
       <find>visitedPaths</find>
-      <find>navigate</find>
       <find>[routerLink]=&quot;['/nocturine1']</find>
+      <find>&quot;resetScroll()&quot;</find>
+      <find>navigate</find>
+      <find>&quot;resetScroll()&quot; [routerLink]=&quot;['/nocturine1']&quot;</find>
+      <find>&quot;resetScroll()&quot; [routerLink]=&quot;['/nocturine2']&quot;</find>
+      <find>&quot;resetScroll()&quot; [routerLink]=&quot;['/nocturine3']&quot;</find>
+      <find>&quot;resetScroll()&quot; [routerLink]=&quot;['/nocturine3/']&quot;</find>
+      <find>&quot;resetScroll()&quot; [routerLink]=&quot;['/nocturine3/e']&quot;</find>
+      <find>&quot;resetScroll()&quot; [routerLink]=&quot;['/nocturine1/en']&quot;</find>
+      <find>&quot;resetScroll()&quot; [routerLink]=&quot;['/nocturine2/en']&quot;</find>
+      <find>&quot;resetScroll()&quot; [routerLink]=&quot;['/nocturine/en']&quot;</find>
+      <find>&quot;resetScroll()&quot; [routerLink]=&quot;['/nocturine3/en']&quot;</find>
+      <find>&quot;resetScroll()&quot; [routerLink]=&quot;['/v']&quot;</find>
+      <find>&quot;resetScroll()&quot; [routerLink]=&quot;['/vo']&quot;</find>
+      <find>&quot;resetScroll()&quot; [routerLink]=&quot;['/vos']&quot;</find>
+      <find>&quot;resetScroll()&quot; [routerLink]=&quot;['/vost']&quot;</find>
+      <find>&quot;resetScroll()&quot; [routerLink]=&quot;['/vostok2']&quot;</find>
+      <find>&quot;resetScroll()&quot; [routerLink]=&quot;['/vostok']&quot;</find>
+      <find>&quot;resetScroll()&quot; [routerLink]=&quot;['/vostok1']&quot;</find>
     </findStrings>
     <replaceStrings>
-      <replace>.omnivoria</replace>
-      <replace>.devonian</replace>
-      <replace>@colorCunninghamella</replace>
-      <replace>@colorVostok</replace>
-      <replace>@colorOmnivoria</replace>
-      <replace>@colorDevonian</replace>
-      <replace>@colorObrovsky</replace>
       <replace>#logo img</replace>
       <replace>.nav-logo</replace>
       <replace>#logo</replace>
@@ -117,6 +162,13 @@
       <replace>const scrollService =</replace>
       <replace>scrollService.resetScroll</replace>
       <replace>visitedRoutes</replace>
+      <replace>&quot;handleLink()&quot;</replace>
+      <replace>&quot;handleLink('nocturine1')&quot; [routerLink]=&quot;['/nocturine1']&quot;</replace>
+      <replace>&quot;handleLink('nocturine2')&quot; [routerLink]=&quot;['/nocturine2']&quot;</replace>
+      <replace>&quot;handleLink('nocturine3')&quot; [routerLink]=&quot;['/nocturine3']&quot;</replace>
+      <replace>&quot;handleLink('nocturine3/en')&quot; [routerLink]=&quot;['/nocturine3/en']&quot;</replace>
+      <replace>&quot;handleLink('nocturine1/en')&quot; [routerLink]=&quot;['/nocturine1/en']&quot;</replace>
+      <replace>&quot;handleLink('nocturine2/en')&quot; [routerLink]=&quot;['/nocturine2/en']&quot;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -125,10 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine3en.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-moths.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-cmy.component.html" />
@@ -151,7 +199,6 @@
         <option value="$PROJECT_DIR$/assets/app/app.routing.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.html" />
         <option value="$PROJECT_DIR$/assets/app/nav/nav.component.less" />
-        <option value="$PROJECT_DIR$/assets/app/nav/nav.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text.component.less" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-cmy.component.ts" />
@@ -175,6 +222,11 @@
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok4.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/nav/nav.component.html" />
         <option value="$PROJECT_DIR$/assets/app/nav/nav.component.ts" />
       </list>
     </option>
@@ -586,7 +638,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168933000" />
+    <option name="totallyTimeSpent" value="169915000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,38 +713,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-moths.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="27" column="113" lean-forward="false" selection-start-line="27" selection-start-column="113" selection-end-line="27" selection-end-column="113" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="118" lean-forward="false" selection-start-line="28" selection-start-column="118" selection-end-line="28" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="104" lean-forward="false" selection-start-line="28" selection-start-column="104" selection-end-line="28" selection-end-column="104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -834,14 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
           <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="761">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1049,18 +1061,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="24" column="315" lean-forward="false" selection-start-line="24" selection-start-column="315" selection-end-line="24" selection-end-column="315" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="269">
+          <caret line="128" column="87" lean-forward="false" selection-start-line="128" selection-start-column="87" selection-end-line="128" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="19" column="295" lean-forward="false" selection-start-line="19" selection-start-column="295" selection-end-line="19" selection-end-column="295" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="27" column="165" lean-forward="true" selection-start-line="27" selection-start-column="165" selection-end-line="27" selection-end-column="165" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="98" column="27" lean-forward="false" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
+        <state relative-caret-position="312">
+          <caret line="123" column="33" lean-forward="false" selection-start-line="123" selection-start-column="33" selection-end-line="123" selection-end-column="33" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
