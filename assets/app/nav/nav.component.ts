@@ -75,22 +75,23 @@ export class NavComponent implements OnInit {
     //method to track texts read
 
     trackText(url: string) {
-        var justPathName = url.substr(1);
+
         if (url.includes('/en')) {
             if (this.visitedRoutesPl.length >= this.routesPl.length) {
                 this.visitedRoutesPl = [];
             }
-            if (this.visitedRoutesPl.indexOf(justPathName) === -1) {
+            if (this.visitedRoutesPl.indexOf(url) === -1) {
                 this.visitedRoutesPl.push(url);
             }
         } else {
             if (this.visitedRoutesEn.length >= this.routesEn.length) {
                 this.visitedRoutesEn = [];
             }
-            if (this.visitedRoutesEn.indexOf(justPathName) === -1) {
+            if (this.visitedRoutesEn.indexOf(url) === -1) {
                 this.visitedRoutesEn.push(url);
             }
         }
+
         console.log(this.visitedRoutesPl);
         console.log(this.visitedRoutesEn);
     }
@@ -124,7 +125,9 @@ export class NavComponent implements OnInit {
             .filter((route) => route.outlet === 'primary')
             .mergeMap((route) => route.data)
             .subscribe((event) => {
-                this.trackText(this.router.url);
+                if (!this.router.url.includes('random')) {
+                    this.trackText(this.router.url);
+                }
                 this.theme = event['theme'];
                 if (this.theme == 9) {
                     this.theme = Math.floor(Math.random()*6); //assign random theme for bio page

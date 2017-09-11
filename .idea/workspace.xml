@@ -25,8 +25,8 @@
       <file leaf-file-name="nav.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+            <state relative-caret-position="50">
+              <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -637,7 +637,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171985000" />
+    <option name="totallyTimeSpent" value="172505000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1110,8 +1110,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+        <state relative-caret-position="50">
+          <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
