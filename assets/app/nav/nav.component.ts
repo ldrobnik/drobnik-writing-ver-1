@@ -75,7 +75,7 @@ export class NavComponent implements OnInit {
     //method to store current language in localStorage
 
     storeLang() {
-        if (this.langEn === true) {
+        if (this.langEn == true) {
             localStorage.setItem("langEn", "true")
         } else {
             localStorage.setItem("langEn", "false")
@@ -151,30 +151,30 @@ export class NavComponent implements OnInit {
 
     ngOnInit() {
 
-
-        //check whether language and texts visited are stored in local storage
-
-        if (typeof(Storage) !== "undefined") {
-
-            //check info about langague in local storage
-            if (localStorage.getItem("langEn") !== "undefined"){
-                if (localStorage.getItem("langEn") === "true") {
-                    this.langEn = true;
-                } else {
-                    this.langEn = false;
-                }
-            }
-
-            //check info about visited links in local storage
-            if (localStorage.getItem("visitedRoutesPl") !== "undefined"){
-                this.visitedRoutesPl = JSON.parse(localStorage.getItem("visitedRoutesPl"));
-            }
-
-            if (localStorage.getItem("visitedRoutesPl") !== "undefined"){
-                this.visitedRoutesEn = JSON.parse(localStorage.getItem("visitedRoutesEn"));
-            }
-
-        }
+        //
+        // //check whether language and texts visited are stored in local storage
+        //
+        // if (typeof(Storage) !== "undefined") {
+        //
+        //     //check info about langague in local storage
+        //     if (localStorage.getItem("langEn") !== "undefined"){
+        //         if (localStorage.getItem("langEn") === "true") {
+        //             this.langEn = true;
+        //         } else {
+        //             this.langEn = false;
+        //         }
+        //     }
+        //
+        //     //check info about visited links in local storage
+        //     if (localStorage.getItem("visitedRoutesPl") !== "undefined"){
+        //         this.visitedRoutesPl = JSON.parse(localStorage.getItem("visitedRoutesPl"));
+        //     }
+        //
+        //     if (localStorage.getItem("visitedRoutesPl") !== "undefined"){
+        //         this.visitedRoutesEn = JSON.parse(localStorage.getItem("visitedRoutesEn"));
+        //     }
+        //
+        // }
 
         //dynamically change theme depending on routing
 
