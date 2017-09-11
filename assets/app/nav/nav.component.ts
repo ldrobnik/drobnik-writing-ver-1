@@ -25,8 +25,8 @@ export class NavComponent implements OnInit {
     randomPath : string; //holds the path to randomly chosen text
     currentUrl: string; //holds the current path
     equivalentPath: string; //specifies the path of the equivalent text in the other language, if exists
-    visitedPaths[] = []; //holds all visited paths to Polish texts
-    visitedPathsEn[] = []; //same for English texts
+    visitedRoutesPl = []; //holds all visited paths to Polish texts
+    visitedRoutesEn = []; //same for English texts
 
 
     constructor(private router: Router, private activatedRoute: ActivatedRoute) {
@@ -60,6 +60,7 @@ export class NavComponent implements OnInit {
         if (this.currentUrl.includes('cunninghamella2') || this.currentUrl.includes('wszystkozernosc') || this.currentUrl.includes('biegnacyczlowiek')) {
             this.goToRandomText();
         } else {
+            this.trackText(this.equivalentPath);
             this.router.navigate([this.equivalentPath]);
         }
 
@@ -73,7 +74,30 @@ export class NavComponent implements OnInit {
     }
 
 
-    //method
+    //method to track texts read
+
+    trackText(url: string) {
+        if (url.includes('/en')) {
+            if (this.visitedRoutesPl.length >= this.routesPl) {
+                this.visitedRoutesPl = [];
+            }
+            this.visitedRoutesPl.push(url);
+        } else {
+            if (this.visitedRoutesEn.length >= this.routesEn) {
+                this.visitedRoutesEn = [];
+            }
+            this.visitedRoutesEn.push(url);
+        }
+        console.log(this.visitedRoutesPl);
+        console.log(this.visitedRoutesEn);
+    }
+
+    //method for handling navbar menu links - combines resetScroll() and trackText()
+
+    handleLink(route: string) {
+        this.trackText(route);
+        this.resetScroll();
+    }
 
     goToRandomText() {
 
@@ -83,6 +107,7 @@ export class NavComponent implements OnInit {
             this.randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
         }
         this.resetScroll();
+        this.trackText(this.randomPath);
         this.router.navigate([this.randomPath]);
     }
 
