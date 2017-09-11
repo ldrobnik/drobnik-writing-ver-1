@@ -119,8 +119,11 @@ a {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  background-color: #a98086;
+  color: #e7dbdd;
 }
 #splash-screen a {
+  color: #e7dbdd !important;
   text-decoration: none;
 }
 #splash-screen a:hover {
@@ -131,9 +134,6 @@ a {
   justify-content: center;
   flex-direction: column;
   height: 100%;
-}
-#prompt {
-  padding-left: 50px;
 }
 #options {
   font-size: 200%;
@@ -178,13 +178,6 @@ a {
   width: 25px;
   height: 25px;
   margin-top: -4px;
-}
-.nocturine #splash-screen {
-  background-color: #a98086;
-  color: #e7dbdd;
-}
-.nocturine #splash-screen a {
-  color: #e7dbdd !important;
 }
 /* styles specific for the .cunninghamella class */
 .cunninghamella nav {

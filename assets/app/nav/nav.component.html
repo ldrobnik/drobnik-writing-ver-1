@@ -1,14 +1,12 @@
 <!-- Splash screen visible when langage is not defined -->
-<div [ngClass]="{nocturine: theme == 0, cunninghamella: theme == 1, vostok: theme == 2, omnivoria: theme == 3, devonian: theme == 4, obrovsky: theme == 5}" *ngIf="!langChosen && router.url.includes('random')">
-    <div id="splash-screen">
-        <div id="splash-screen-content">
-            <div id="prompt">wybierz język / choose your langage</div>
-            <div id="options"><a>pl</a> / <a>en</a></div>
-        </div>
+<div id="splash-screen" *ngIf="!langChosen && router.url.includes('random')">
+    <div id="splash-screen-content">
+        <div id="prompt">wybierz język / choose your langage</div>
+        <div id="options"><a (click)="chooseLang(false)">pl</a> / <a (click)="chooseLang(true)">en</a></div>
     </div>
 </div>
 <!--Polish version of the navbar-->
-<div *ngIf="!langEn">
+<div *ngIf="!langEn && langChosen">
     <div [ngClass]="{nocturine: theme == 0, cunninghamella: theme == 1, vostok: theme == 2, omnivoria: theme == 3, devonian: theme == 4, obrovsky: theme == 5}">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
@@ -90,7 +88,7 @@
 </div>
 
 <!--English version of the navbar-->
-<div *ngIf="langEn">
+<div *ngIf="langEn && langChosen">
     <div [ngClass]="{nocturine: theme == 0, cunninghamella: theme == 1, vostok: theme == 2, omnivoria: theme == 3, devonian: theme == 4, obrovsky: theme == 5}">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">

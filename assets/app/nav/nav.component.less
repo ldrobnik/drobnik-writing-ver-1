@@ -128,10 +128,12 @@ a {
   font-family: @displayFont;
   font-size: 120%;
   .no-select;
-
+  background-color: @colorNocturine;
+  color: lighten(@colorNocturine, 30%);
 
   
   a {
+    color: lighten(@colorNocturine, 30%) !important;
     text-decoration: none;
 
     &:hover {
@@ -145,10 +147,11 @@ a {
   justify-content: center;
   flex-direction: column;
   height: 100%;
+
 }
 
 #prompt {
-  padding-left: 50px;
+  //padding-left: 50px;
 }
 
 #options {
@@ -201,15 +204,6 @@ a {
   width: 25px;
   height: 25px;
   margin-top: -4px;
-}
-
-.nocturine #splash-screen {
-  background-color: @colorNocturine;
-  color: lighten(@colorNocturine, 30%);
-
-  a {
-    color: lighten(@colorNocturine, 30%) !important;
-  }
 }
 
 

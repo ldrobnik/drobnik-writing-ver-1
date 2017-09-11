@@ -36,7 +36,6 @@ export class NavComponent implements OnInit {
     changeLang() {
         var currentUrl = this.router.url; //holds the current path
         var equivalentPath: string; //specifies the path of the equivalent text in the other language, if exists
-        console.log(currentUrl);
         //look for equivalent of the current text in the other language
         if (this.langEn) {
 
@@ -73,6 +72,20 @@ export class NavComponent implements OnInit {
     }
 
 
+    //method for choosing language on splash screen
+
+    chooseLang(lang: boolean) {
+        this.langEn = lang; // set to false if Polish, to true if English
+        this.langChosen = true; // let the app know the user has chosen their language
+
+        if (!this.langEn) {
+            this.router.navigate(['/']);
+        } else {
+            this.router.navigate(['random/en']);
+        }
+
+    }
+
     //method to track texts read
 
     trackText(url: string) {
@@ -92,9 +105,9 @@ export class NavComponent implements OnInit {
                 this.visitedRoutesEn.push(url); //add the current url to English texts read
             }
         }
-
-        console.log(this.visitedRoutesPl);
-        console.log(this.visitedRoutesEn);
+        //
+        // console.log(this.visitedRoutesPl);
+        // console.log(this.visitedRoutesEn);
     }
 
 
@@ -106,12 +119,10 @@ export class NavComponent implements OnInit {
             if (this.router.url.includes('/en')) {
                 do {
                     randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
-                    console.log(randomPath);
                 } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
             } else {
                 do {
                     randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
-                    console.log(randomPath);
                 } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
             }
             this.resetScroll();
@@ -147,6 +158,10 @@ export class NavComponent implements OnInit {
                 }
                 this.logoPath = (this.theme == 1 || this.theme == 5) ? 'images/logo2.png' : 'images/logo1.png'; //choose theme-appropriate logo
                 this.langEn = this.router.url.includes('/en'); //check the language based on the routing path (all English texts have the '/en' bit
+                //make langChosen true if user reaches the site through specific route
+                if (!this.router.url.includes('random') && this.router.url.length > 1) {
+                    this.langChosen = true;
+                }
                 if (this.router.url.includes('random')) {
                     this.goToRandomText();
                 }
