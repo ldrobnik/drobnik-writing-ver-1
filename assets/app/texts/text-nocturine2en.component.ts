@@ -10,8 +10,8 @@ import { ResetScrollService } from "../services/reset-scroll.service";
 export class TextNocturine2EnComponent {
 
     resetScroll() {
-        const service = new ResetScrollService();
-        service.resetScroll();
+        const scrollService = new ResetScrollService();
+        scrollService.resetScroll();
     }
 
 }

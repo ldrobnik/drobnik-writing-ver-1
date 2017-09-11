@@ -9,7 +9,7 @@ import { ResetScrollService } from "../services/reset-scroll.service";
 
 export class TextVostok4EnComponent {
     resetScroll() {
-        const service = new ResetScrollService();
-        service.resetScroll();
+        const scrollService = new ResetScrollService();
+        scrollService.resetScroll();
     }
 }

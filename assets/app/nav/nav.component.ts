@@ -65,8 +65,8 @@ export class NavComponent implements OnInit {
 
     //function to reset window scrolling
     resetScroll() {
-        const service = new ResetScrollService();
-        service.resetScroll();
+        const scrollService = new ResetScrollService();
+        scrollService.resetScroll();
     }
 
     goToRandomText() {
