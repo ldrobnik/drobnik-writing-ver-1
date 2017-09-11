@@ -18,7 +18,6 @@ export class NavComponent implements OnInit {
     logoPath: string; //specifies the path of website logo depending on the current theme
     theme: number; //the number 0-5 specifying the theme
     langEn: boolean; //specifies whether the language is English (true) or Polish (false)
-    langChosen: boolean; //specifies whether the user has chosen the language
     routesPl = ['nocturine1', 'nocturine2', 'nocturine3', 'cunninghamella1', 'cunninghamella2', 'vostok1', 'vostok2', 'vostok3', 'vostok4', 'biegnacyczlowiek', 'wszystkozernosc', 'moths', 'obrovsky']; //specifies all available urls of Polish texts
     routesEn = ['nocturine1/en', 'nocturine2/en', 'nocturine3/en', 'cunninghamella1/en', 'vostok1/en', 'vostok2/en', 'vostok3/en', 'vostok4/en', 'moths/en', 'obrovsky/en']; //specifies all available urls of English texts
     // randomPath : string; //holds the path to randomly chosen text
@@ -88,7 +87,6 @@ export class NavComponent implements OnInit {
     chooseLang(lang: boolean) {
         this.langEn = lang; // set to false if Polish, to true if English
         this.storeLang(); // stores the language in local storage
-        this.langChosen = true; // let the app know the user has chosen their language
         if (!this.langEn) {
 
             this.router.navigate(['/']);
@@ -136,19 +134,18 @@ export class NavComponent implements OnInit {
 
         var randomPath : string; //holds the path to randomly chosen text
 
-        if (this.langChosen) {
-            if (this.router.url.includes('/en')) {
-                do {
-                    randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
-                } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
-            } else {
-                do {
-                    randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
-                } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
-            }
-            this.resetScroll();
-            this.router.navigate([randomPath]);
+        if (this.router.url.includes('/en')) {
+            do {
+                randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
+            } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
+        } else {
+            do {
+                randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
+            } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
         }
+        this.resetScroll();
+        console.log(randomPath);
+        this.router.navigate([randomPath]);
     }
 
 
@@ -207,11 +204,6 @@ export class NavComponent implements OnInit {
                     this.storeLang(); // store the language in local storage
                 }
 
-                //make langChosen true if user reaches the site through specific route
-                if (!this.router.url.includes('random') && this.router.url.length > 1) {
-                    this.langChosen = true;
-                    this.storeLang();
-                }
                 if (this.router.url.includes('random')) {
                     this.goToRandomText();
                 }
