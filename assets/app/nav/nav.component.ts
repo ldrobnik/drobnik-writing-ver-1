@@ -77,14 +77,14 @@ export class NavComponent implements OnInit {
     trackText(url: string) {
 
         if (url.includes('/en')) {
-            if (this.visitedRoutesPl.length >= this.routesPl.length) {
+            if (this.visitedRoutesPl.length > this.routesPl.length + 1) {
                 this.visitedRoutesPl = [];
             }
             if (this.visitedRoutesPl.indexOf(url) === -1) {
                 this.visitedRoutesPl.push(url);
             }
         } else {
-            if (this.visitedRoutesEn.length >= this.routesEn.length) {
+            if (this.visitedRoutesEn.length > this.routesEn.length + 1) {
                 this.visitedRoutesEn = [];
             }
             if (this.visitedRoutesEn.indexOf(url) === -1) {
