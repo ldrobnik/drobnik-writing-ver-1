@@ -131,7 +131,7 @@ export class NavComponent implements OnInit {
             .filter((route) => route.outlet === 'primary')
             .mergeMap((route) => route.data)
             .subscribe((event) => {
-                if (!this.router.url.includes('random')) {
+                if (!this.router.url.includes('random') && !this.router.url.includes('bio')) {
                     this.trackText(this.router.url);
                 }
                 this.theme = event['theme'];
