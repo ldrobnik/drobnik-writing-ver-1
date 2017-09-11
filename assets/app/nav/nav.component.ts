@@ -18,6 +18,7 @@ export class NavComponent implements OnInit {
     logoPath: string; //specifies the path of website logo depending on the current theme
     theme: number; //the number 0-5 specifying the theme
     langEn: boolean; //specifies whether the language is English (true) or Polish (false)
+    langChosen: boolean; //specifies whether the user has chosen the language
     routesPl = ['nocturine1', 'nocturine2', 'nocturine3', 'cunninghamella1', 'cunninghamella2', 'vostok1', 'vostok2', 'vostok3', 'vostok4', 'biegnacyczlowiek', 'wszystkozernosc', 'moths', 'obrovsky']; //specifies all available urls of Polish texts
     routesEn = ['nocturine1/en', 'nocturine2/en', 'nocturine3/en', 'cunninghamella1/en', 'vostok1/en', 'vostok2/en', 'vostok3/en', 'vostok4/en', 'moths/en', 'obrovsky/en']; //specifies all available urls of English texts
     // randomPath : string; //holds the path to randomly chosen text
@@ -78,17 +79,17 @@ export class NavComponent implements OnInit {
 
         if (url.includes('/en')) {
             if (this.visitedRoutesPl.length > this.routesPl.length + 1) {
-                this.visitedRoutesPl = [];
+                this.visitedRoutesPl = []; //reset array if all Polish texts have been read
             }
             if (this.visitedRoutesPl.indexOf(url) === -1) {
-                this.visitedRoutesPl.push(url);
+                this.visitedRoutesPl.push(url); //add the current url to Polish texts read
             }
         } else {
             if (this.visitedRoutesEn.length > this.routesEn.length + 1) {
-                this.visitedRoutesEn = [];
+                this.visitedRoutesEn = []; //reset array if all English texts have been read
             }
             if (this.visitedRoutesEn.indexOf(url) === -1) {
-                this.visitedRoutesEn.push(url);
+                this.visitedRoutesEn.push(url); //add the current url to English texts read
             }
         }
 
@@ -105,12 +106,12 @@ export class NavComponent implements OnInit {
             do {
                 randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
                 console.log(randomPath);
-            } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0);
+            } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
         } else {
             do {
                 randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
                 console.log(randomPath);
-            } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0);
+            } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
         }
         this.resetScroll();
         this.router.navigate([randomPath]);

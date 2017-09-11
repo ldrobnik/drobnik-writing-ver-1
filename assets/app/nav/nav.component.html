@@ -1,3 +1,6 @@
+<!-- Splash screen visible when langage is not defined -->
+<div id="language-prompt" *ngIf="!langChosen">test!<br><br><br>test!<br><br><br>test!</div>
+<!--Polish version of the navbar-->
 <div *ngIf="!langEn">
     <div [ngClass]="{nocturine: theme == 0, cunninghamella: theme == 1, vostok: theme == 2, omnivoria: theme == 3, devonian: theme == 4, obrovsky: theme == 5}">
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -78,6 +81,8 @@
         </nav>
     </div>
 </div>
+
+<!--English version of the navbar-->
 <div *ngIf="langEn">
     <div [ngClass]="{nocturine: theme == 0, cunninghamella: theme == 1, vostok: theme == 2, omnivoria: theme == 3, devonian: theme == 4, obrovsky: theme == 5}">
         <nav class="navbar navbar-default navbar-fixed-top">
