@@ -102,9 +102,15 @@ export class NavComponent implements OnInit {
         var randomPath : string; //holds the path to randomly chosen text
 
         if (this.router.url.includes('/en')) {
-            randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
+            do {
+                randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
+                console.log(randomPath);
+            } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0);
         } else {
-            randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
+            do {
+                randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
+                console.log(randomPath);
+            } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0);
         }
         this.resetScroll();
         this.router.navigate([randomPath]);
