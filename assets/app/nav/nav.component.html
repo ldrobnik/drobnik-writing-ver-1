@@ -6,7 +6,7 @@
     </div>
 </div>
 <!--Polish version of the navbar-->
-<div *ngIf="!langEn">
+<div *ngIf="!langEn && langChosen">
     <div [ngClass]="{nocturine: theme == 0, cunninghamella: theme == 1, vostok: theme == 2, omnivoria: theme == 3, devonian: theme == 4, obrovsky: theme == 5}">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
@@ -88,7 +88,7 @@
 </div>
 
 <!--English version of the navbar-->
-<div *ngIf="langEn">
+<div *ngIf="langEn" && langChosen>
     <div [ngClass]="{nocturine: theme == 0, cunninghamella: theme == 1, vostok: theme == 2, omnivoria: theme == 3, devonian: theme == 4, obrovsky: theme == 5}">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">

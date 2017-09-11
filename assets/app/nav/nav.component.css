@@ -98,7 +98,15 @@ a {
 .collapse {
   border: none !important;
 }
-/* style specific for the .nocturine class */
+#splash-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+/* styles specific for the .nocturine class */
 .nocturine nav {
   background-color: #a98086;
 }
@@ -142,7 +150,7 @@ a {
 .nocturine #splash-screen {
   background-color: #a98086;
 }
-/* style specific for the .cunninghamella class */
+/* styles specific for the .cunninghamella class */
 .cunninghamella nav {
   background-color: #566f0c;
 }
@@ -186,7 +194,7 @@ a {
 .cunninghamella #splash-screen {
   background-color: #566f0c;
 }
-/* style specific for the .vostok class */
+/* styles specific for the .vostok class */
 .vostok nav {
   background-color: #a67847;
 }
@@ -230,7 +238,7 @@ a {
 .vostok #splash-screen {
   background-color: #a67847;
 }
-/* style specific for the .omnivoria class */
+/* styles specific for the .omnivoria class */
 .omnivoria nav {
   background-color: #616a65;
 }
@@ -274,7 +282,7 @@ a {
 .omnivoria #splash-screen {
   background-color: #616a65;
 }
-/* style specific for the .devonian class */
+/* styles specific for the .devonian class */
 .devonian nav {
   background-color: #99aac6;
 }
@@ -318,7 +326,7 @@ a {
 .devonian #splash-screen {
   background-color: #99aac6;
 }
-/* style specific for the .obrovsky class */
+/* styles specific for the .obrovsky class */
 .obrovsky nav {
   background-color: #b34a53;
 }
