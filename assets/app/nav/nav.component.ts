@@ -52,7 +52,7 @@ export class NavComponent implements OnInit {
             }
         }
         this.langEn =! this.langEn; //change website language langEN - English; !langEn - Polish
-        // this.storeLang(); //stores the language in local storage
+        this.storeLang(); //stores the language in local storage
 
         //for texts not having equivalents in the other language, go to random text, for the rest - go to the equivalent text path:
 
@@ -75,7 +75,7 @@ export class NavComponent implements OnInit {
     //method to store current language in localStorage
 
     storeLang() {
-        if (this.langEn) {
+        if (this.langEn === true) {
             localStorage.setItem("langEn", "true")
         } else {
             localStorage.setItem("langEn", "false")
@@ -134,7 +134,7 @@ export class NavComponent implements OnInit {
 
         var randomPath : string; //holds the path to randomly chosen text
 
-        if (this.router.url.includes('/en')) {
+        if (this.langEn) {
             do {
                 randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
             } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
@@ -144,14 +144,13 @@ export class NavComponent implements OnInit {
             } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
         }
         this.resetScroll();
-        console.log(randomPath);
+
         this.router.navigate([randomPath]);
     }
 
 
     ngOnInit() {
 
-        console.log(localStorage);
 
         //check whether language and texts visited are stored in local storage
 
@@ -159,8 +158,7 @@ export class NavComponent implements OnInit {
 
             //check info about langague in local storage
             if (localStorage.getItem("langEn") !== "undefined"){
-                console.log(localStorage.getItem("langEn"));
-                if (localStorage.getItem("langEn") == "true") {
+                if (localStorage.getItem("langEn") === "true") {
                     this.langEn = true;
                 } else {
                     this.langEn = false;
@@ -190,6 +188,7 @@ export class NavComponent implements OnInit {
             .filter((route) => route.outlet === 'primary')
             .mergeMap((route) => route.data)
             .subscribe((event) => {
+                console.log(this.langEn);
                 if (!this.router.url.includes('random') && !this.router.url.includes('bio')) {
                     this.trackText(this.router.url);
                 }
@@ -202,9 +201,7 @@ export class NavComponent implements OnInit {
                 if (!this.router.url.includes('random')) {
                     this.langEn = this.router.url.includes('/en'); //check the language based on the routing path (all English texts have the '/en' bit
                     this.storeLang(); // store the language in local storage
-                }
-
-                if (this.router.url.includes('random')) {
+                } else {
                     this.goToRandomText();
                 }
             });

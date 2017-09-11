@@ -26,8 +26,8 @@
       <file leaf-file-name="nav.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="205" column="0" lean-forward="true" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="142" column="93" lean-forward="false" selection-start-line="142" selection-start-column="93" selection-end-line="142" selection-end-column="93" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -38,8 +38,8 @@
       <file leaf-file-name="nav.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="90" column="18" lean-forward="false" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
+            <state relative-caret-position="210">
+              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -77,7 +77,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>this.</find>
       <find>url.i</find>
       <find>c</find>
       <find>coso</find>
@@ -86,7 +85,6 @@
       <find>conso</find>
       <find>console.</find>
       <find>console.l</find>
-      <find>console.log</find>
       <find>console</find>
       <find>console.lo</find>
       <find>undefi</find>
@@ -101,12 +99,14 @@
       <find>user</find>
       <find>localstorage</find>
       <find>storeLang()</find>
-      <find>z-inde</find>
-      <find>user-select</find>
       <find>navigate</find>
       <find>goTorandom</find>
-      <find>href</find>
       <find>langChosen</find>
+      <find>href</find>
+      <find>this.langEn</find>
+      <find>z-inde</find>
+      <find>user-select</find>
+      <find>console.log</find>
     </findStrings>
     <replaceStrings>
       <replace>.nav-logo</replace>
@@ -608,7 +608,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185718000" />
+    <option name="totallyTimeSpent" value="186663000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1076,16 +1076,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="90" column="18" lean-forward="false" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
+        <state relative-caret-position="210">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="205" column="0" lean-forward="true" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="142" column="93" lean-forward="false" selection-start-line="142" selection-start-column="93" selection-end-line="142" selection-end-column="93" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
