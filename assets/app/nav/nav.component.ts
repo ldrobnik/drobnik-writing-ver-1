@@ -122,6 +122,10 @@ export class NavComponent implements OnInit {
 
     ngOnInit() {
 
+        //set random theme for the splash screen
+
+        this.theme = Math.floor(Math.random()*6);
+
         //dynamically change theme depending on routing
 
         this.router.events
