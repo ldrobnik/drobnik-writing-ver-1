@@ -18,6 +18,7 @@ export class NavComponent implements OnInit {
     logoPath: string; //specifies the path of website logo depending on the current theme
     theme: number; //the number 0-5 specifying the theme
     langEn: boolean; //specifies whether the language is English (true) or Polish (false)
+    langSet = false; //specifies whether the user has chosen the language or reached the site with language-specific route (thus automatically setting the language)
     routesPl = ['nocturine1', 'nocturine2', 'nocturine3', 'cunninghamella1', 'cunninghamella2', 'vostok1', 'vostok2', 'vostok3', 'vostok4', 'biegnacyczlowiek', 'wszystkozernosc', 'moths', 'obrovsky']; //specifies all available urls of Polish texts
     routesEn = ['nocturine1/en', 'nocturine2/en', 'nocturine3/en', 'cunninghamella1/en', 'vostok1/en', 'vostok2/en', 'vostok3/en', 'vostok4/en', 'moths/en', 'obrovsky/en']; //specifies all available urls of English texts
     // randomPath : string; //holds the path to randomly chosen text
@@ -52,9 +53,9 @@ export class NavComponent implements OnInit {
             }
         }
         this.langEn =! this.langEn; //change website language langEN - English; !langEn - Polish
-        this.storeLang(); //stores the language in local storage
+        // this.storeLang(); //stores the language in local storage
 
-        //for texts not having equivalents in the other language, go to random text, for the rest - go to the equivalent text path:
+        //for English texts not having equivalents in Polish, go to random Polish text, for the rest - go to the Polish equivalent text path:
 
         if (currentUrl.includes('cunninghamella2') || currentUrl.includes('wszystkozernosc') || currentUrl.includes('biegnacyczlowiek')) {
             this.goToRandomText();
@@ -86,7 +87,7 @@ export class NavComponent implements OnInit {
 
     chooseLang(lang: boolean) {
         this.langEn = lang; // set to false if Polish, to true if English
-        this.storeLang(); // stores the language in local storage
+        // this.storeLang(); // stores the language in local storage
         if (!this.langEn) {
 
             this.router.navigate(['/']);
@@ -134,18 +135,20 @@ export class NavComponent implements OnInit {
 
         var randomPath : string; //holds the path to randomly chosen text
 
-        if (this.langEn) {
-            do {
-                randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
-            } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
-        } else {
-            do {
-                randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
-            } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
-        }
-        this.resetScroll();
+        if (this.langSet == true) {
+            if (this.langEn) {
+                do {
+                    randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
+                } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
+            } else {
+                do {
+                    randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
+                } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
+            }
+            this.resetScroll();
 
-        this.router.navigate([randomPath]);
+            this.router.navigate([randomPath]);
+        }
     }
 
 
@@ -154,16 +157,23 @@ export class NavComponent implements OnInit {
         //
         // //check whether language and texts visited are stored in local storage
         //
-        // if (typeof(Storage) !== "undefined") {
-        //
-        //     //check info about langague in local storage
-        //     if (localStorage.getItem("langEn") !== "undefined"){
-        //         if (localStorage.getItem("langEn") === "true") {
-        //             this.langEn = true;
-        //         } else {
-        //             this.langEn = false;
-        //         }
-        //     }
+        if (typeof(Storage) !== "undefined") {
+
+            //check info about language in local storage
+            if (localStorage.getItem("langEn") !== "undefined"){
+                if (localStorage.getItem("langEn") === "true") {
+                    this.langEn = true;
+                    this.langSet = true;
+                } else if (localStorage.getItem("langEn") === "false") {
+                    this.langEn = false;
+                    this.langSet = true;
+                } else {
+                    this.langEn = undefined;
+                    this.langSet = false;
+                }
+                console.log(localStorage);
+                console.log(this.langSet);
+            }
         //
         //     //check info about visited links in local storage
         //     if (localStorage.getItem("visitedRoutesPl") !== "undefined"){
@@ -174,7 +184,7 @@ export class NavComponent implements OnInit {
         //         this.visitedRoutesEn = JSON.parse(localStorage.getItem("visitedRoutesEn"));
         //     }
         //
-        // }
+        }
 
         //dynamically change theme depending on routing
 
@@ -200,7 +210,7 @@ export class NavComponent implements OnInit {
 
                 if (!this.router.url.includes('random')) {
                     this.langEn = this.router.url.includes('/en'); //check the language based on the routing path (all English texts have the '/en' bit
-                    this.storeLang(); // store the language in local storage
+                    // this.storeLang(); // store the language in local storage
                 } else {
                     this.goToRandomText();
                 }
