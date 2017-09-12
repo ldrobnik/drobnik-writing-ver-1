@@ -81,6 +81,7 @@ nav {
 }
 a {
   color: white !important;
+  cursor: pointer;
 }
 .mobile-dropdown {
   right: 0;
