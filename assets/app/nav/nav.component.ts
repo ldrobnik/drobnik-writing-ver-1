@@ -109,10 +109,10 @@ export class NavComponent implements OnInit {
 
         if (url.includes('/en')) {
             if (this.visitedRoutesEn.length > this.routesEn.length + 1) {
-                this.visitedRoutesEn = []; //reset array if all Polish texts have been read
+                this.visitedRoutesEn = []; //reset array if all English texts have been read
             }
             if (this.visitedRoutesEn.indexOf(url) === -1) {
-                this.visitedRoutesEn.push(url); //add the current url to Polish texts read
+                this.visitedRoutesEn.push(url); //add the current url to English texts read
 
                 if (typeof(Storage) !== "undefined") {
                     localStorage.setItem("visitedRoutesEn", JSON.stringify(this.visitedRoutesEn)); //store the array in local storage
@@ -120,10 +120,10 @@ export class NavComponent implements OnInit {
             }
         } else {
             if (this.visitedRoutesPl.length > this.routesPl.length + 1) {
-                this.visitedRoutesPl = []; //reset array if all English texts have been read
+                this.visitedRoutesPl = []; //reset array if all Polish texts have been read
             }
             if (this.visitedRoutesPl.indexOf(url) === -1) {
-                this.visitedRoutesPl.push(url); //add the current url to English texts read
+                this.visitedRoutesPl.push(url); //add the current url to Polish texts read
 
                 if (typeof(Storage) !== "undefined") {
                     localStorage.setItem("visitedRoutesPl", JSON.stringify(this.visitedRoutesPl)); //store the array in local storage
