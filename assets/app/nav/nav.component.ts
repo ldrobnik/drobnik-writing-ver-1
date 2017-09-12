@@ -215,7 +215,9 @@ export class NavComponent implements OnInit {
 
                 if (!this.router.url.includes('random')) {
                     this.langEn = this.router.url.includes('/en'); //check the language based on the routing path (all English texts have the '/en' bit
-                    // this.storeLang(); // store the language in local storage
+                    this.langSet = true; //inform the app the language has already been chosen
+                    this.storeLang(); // store the language in local storage
+                    console.log(localStorage);
                 } else {
                     this.goToRandomText();
                 }
