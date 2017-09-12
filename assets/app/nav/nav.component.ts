@@ -148,7 +148,7 @@ export class NavComponent implements OnInit {
 
                 do {
                     randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
-                } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
+                } while (this.visitedRoutesPl.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
             }
 
             this.resetScroll();
@@ -209,6 +209,8 @@ export class NavComponent implements OnInit {
             .subscribe((event) => {
 
                 console.log(localStorage);
+                console.log(this.visitedRoutesPl);
+                console.log(this.visitedRoutesEn);
 
                 if (!this.router.url.includes('random') && !this.router.url.includes('bio')) {
                     this.trackText(this.router.url);
