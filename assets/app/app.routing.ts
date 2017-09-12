@@ -31,8 +31,8 @@ import { TextObrovskyEnComponent } from "./texts/text-obrovskyen.component";
 const APP_ROUTES: Routes = [
     {path: '', redirectTo: '/random', pathMatch: 'full'},
     {path: 'bio', component: BioComponent, data: {title: 'Łukasz Drobnik - fiction writer', theme: 9}},
-    {path: 'random', component: RandomComponent, data: {title: 'Łukasz Drobnik', theme: 0 }},
-    {path: 'random/en', component: RandomEnComponent, data: {title: 'Łukasz Drobnik', theme: 0 }},
+    {path: 'random', component: RandomComponent, data: {title: 'Łukasz Drobnik - oficjalna strona / official website', theme: 0 }},
+    {path: 'random/en', component: RandomEnComponent, data: {title: 'Łukasz Drobnik - oficjalna strona / official website', theme: 0 }},
     {path: 'nocturine1', component: TextNocturine1Component, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
     {path: 'nocturine2', component: TextNocturine2Component, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
     {path: 'nocturine3', component: TextNocturine3Component, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},

@@ -135,21 +135,31 @@ export class NavComponent implements OnInit {
 
     goToRandomText() {
 
-        var randomPath : string; //holds the path to randomly chosen text
+        var randomPath : string; //holds the path to a randomly chosen text
 
         if (this.langSet == true) {
             if (this.langEn) {
+                if (this.visitedRoutesEn !== null) {
+                    do {
+                        randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
+                    } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
+                    } else {
+                        randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
 
-                do {
-                    randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
-                } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
+                }
+
             } else {
-                do {
-                    randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
-                } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
+                if (this.visitedRoutesPl !== null) {
+
+                    do {
+                        randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
+                    } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
+                } else {
+                        randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
+                }
             }
             this.resetScroll();
-
+            console.log("hello");
             this.router.navigate([randomPath]);
         }
     }
