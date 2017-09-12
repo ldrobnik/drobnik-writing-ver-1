@@ -178,16 +178,18 @@ export class NavComponent implements OnInit {
                     this.langSet = false;
                 }
             }
-        //
-        //     //check info about visited links in local storage
-        //     if (localStorage.getItem("visitedRoutesPl") !== "undefined"){
-        //         this.visitedRoutesPl = JSON.parse(localStorage.getItem("visitedRoutesPl"));
-        //     }
-        //
-        //     if (localStorage.getItem("visitedRoutesPl") !== "undefined"){
-        //         this.visitedRoutesEn = JSON.parse(localStorage.getItem("visitedRoutesEn"));
-        //     }
-        //
+
+            //check info about visited links in local storage
+            if (localStorage.getItem("visitedRoutesPl") !== "undefined"){
+                this.visitedRoutesPl = JSON.parse(localStorage.getItem("visitedRoutesPl"));
+            }
+
+            if (localStorage.getItem("visitedRoutesPl") !== "undefined"){
+                this.visitedRoutesEn = JSON.parse(localStorage.getItem("visitedRoutesEn"));
+            }
+
+            console.log(localStorage);
+
         }
 
         //dynamically change theme depending on routing
