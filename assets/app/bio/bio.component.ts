@@ -1,5 +1,7 @@
 import {Component, OnInit } from "@angular/core";
 
+import { Router } from "@angular/router";
+
 @Component({
     selector: 'app-bio',
     templateUrl: './bio.component.html',
@@ -8,6 +10,7 @@ import {Component, OnInit } from "@angular/core";
 
 export class BioComponent implements OnInit {
 
+    langEn: boolean; //specifies the language
     portraitPath = "images/portrait.jpg"; //path of the portrait image
 
     // Array with publication list
@@ -203,8 +206,12 @@ export class BioComponent implements OnInit {
         }
     ];
 
-    ngOnInit() {
+    constructor(private router: Router) {
 
+    }
+
+    ngOnInit() {
+        this.langEn = this.router.url.includes('/en');
     }
 
 }
