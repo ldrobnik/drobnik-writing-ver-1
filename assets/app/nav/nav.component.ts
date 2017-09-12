@@ -19,13 +19,13 @@ export class NavComponent implements OnInit {
     theme: number; //the number 0-5 specifying the theme
     langEn: boolean; //specifies whether the language is English (true) or Polish (false)
     langSet = false; //specifies whether the user has chosen the language or reached the site with language-specific route (thus automatically setting the language)
-    routesPl = ['nocturine1', 'nocturine2', 'nocturine3', 'cunninghamella1', 'cunninghamella2', 'vostok1', 'vostok2', 'vostok3', 'vostok4', 'biegnacyczlowiek', 'wszystkozernosc', 'moths', 'obrovsky']; //specifies all available urls of Polish texts
+    routesPl = ['nocturine1', 'nocturine2', 'nocturine3', 'cunninghamella1', 'cunninghamella2', 'vostok1', 'vostok2', 'vostok3', 'vostok4', 'biegnacyczlowiek', 'wszystkozernosc', 'cmy', 'obrovsky']; //specifies all available urls of Polish texts
     routesEn = ['nocturine1/en', 'nocturine2/en', 'nocturine3/en', 'cunninghamella1/en', 'vostok1/en', 'vostok2/en', 'vostok3/en', 'vostok4/en', 'moths/en', 'obrovsky/en']; //specifies all available urls of English texts
     // randomPath : string; //holds the path to randomly chosen text
     // currentUrl: string; //holds the current path
     // equivalentPath: string; //specifies the path of the equivalent text in the other language, if exists
-    visitedRoutesPl = []; //holds all visited paths to Polish texts
-    visitedRoutesEn = []; //same for English texts
+    visitedRoutesPl: Array<string>; //holds all visited paths to Polish texts
+    visitedRoutesEn: Array<string>; //same for English texts
 
 
     constructor(private router: Router, private activatedRoute: ActivatedRoute) {
@@ -112,6 +112,7 @@ export class NavComponent implements OnInit {
 
                 this.visitedRoutesEn.length = 0; //reset array if all English texts have been read
             }
+
             if (this.visitedRoutesEn.indexOf(url) === -1) {
                 this.visitedRoutesEn.push(url); //add the current url to English texts read
 
@@ -122,8 +123,9 @@ export class NavComponent implements OnInit {
         } else {
             if (this.visitedRoutesPl.length >= this.routesPl.length - 1) {
 
-                this.visitedRoutesPl.length = 0; //reset array if all Polish texts have been read
+                this.visitedRoutesPl.length = 0; //reset array if all English texts have been read
             }
+
             if (this.visitedRoutesPl.indexOf(url) === -1) {
                 this.visitedRoutesPl.push(url); //add the current url to Polish texts read
 
@@ -134,23 +136,57 @@ export class NavComponent implements OnInit {
         }
     }
 
+    //
+    // //method resetting visited routes arrays once all links have been visited
+    //
+    // resetVisitedRoutes() {
+    //     if (this.visitedRoutesEn.length >= this.routesEn.length - 1) {
+    //
+    //             this.visitedRoutesEn.length = 0; //reset array if all English texts have been read
+    //     }
+    //     if (this.visitedRoutesPl.length >= this.routesPl.length - 1) {
+    //
+    //         this.visitedRoutesPl.length = 0; //reset array if all English texts have been read
+    //     }
+    //     console.log(this.visitedRoutesPl);
+    //     console.log(this.visitedRoutesEn);
+    // }
 
+
+    //method navigating to a random text (that hasn't been yet read) in the current language
     goToRandomText() {
+
+        console.log(this.visitedRoutesPl);
+
+
 
         var randomPath : string; //holds the path to a randomly chosen text
 
         if (this.langSet == true) {
-            if (this.langEn) {
+            if (!this.langEn) {
 
-                do {
-                    randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
-                } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
+                if (this.visitedRoutesPl.length < this.routesPl.length) {
+
+                    do {
+                        randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
+                        console.log(this.visitedRoutesPl.indexOf("/" + randomPath));
+                        console.log(randomPath);
+                    } while (this.visitedRoutesPl.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
+                } else {
+                        randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
+                    this.visitedRoutesPl.length = 0;
+                }
 
             } else {
 
-                do {
-                    randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
-                } while (this.visitedRoutesPl.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
+                if (this.visitedRoutesEn.length < this.routesEn.length) {
+                    do {
+                        randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
+                    } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
+                } else {
+                    randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
+                    this.visitedRoutesEn.length = 0;
+                }
             }
 
             this.resetScroll();
@@ -187,7 +223,7 @@ export class NavComponent implements OnInit {
                 this.visitedRoutesPl = [];
             }
 
-            if (localStorage.getItem("visitedRoutesPl") !== null){
+            if (localStorage.getItem("visitedRoutesEn") !== null){
                 this.visitedRoutesEn = JSON.parse(localStorage.getItem("visitedRoutesEn"));
             } else {
                 this.visitedRoutesEn = [];
@@ -210,9 +246,9 @@ export class NavComponent implements OnInit {
             .mergeMap((route) => route.data)
             .subscribe((event) => {
 
-                console.log(localStorage);
-                console.log(this.visitedRoutesPl.length + " " + this.routesPl.length);
-                console.log(this.visitedRoutesEn.length + " " + this.routesEn.length);
+                // console.log(localStorage);
+                // console.log(this.visitedRoutesPl.length + " " + this.routesPl.length);
+                // console.log(this.visitedRoutesEn.length + " " + this.routesEn.length);
 
                 if (!this.router.url.includes('random') && !this.router.url.includes('bio')) {
                     this.trackText(this.router.url);
