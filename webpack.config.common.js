@@ -10,7 +10,7 @@ module.exports = {
         extensions: ['.js', '.ts']
     },
 
-    // setting up loaders for .html and .css files
+    // setting up loaders for .html. .css, .png and .jpg files
     module: {
         rules: [
             {
@@ -23,6 +23,10 @@ module.exports = {
             },
             {
                 test: /\.png$/,
+                use: [{ loader: 'raw-loader' }] // same with .pgn files
+            },
+            {
+                test: /\.jpg$/,
                 use: [{ loader: 'raw-loader' }] // same with .pgn files
             }
         ],

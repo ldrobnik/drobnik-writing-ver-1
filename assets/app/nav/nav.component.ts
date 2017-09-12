@@ -255,11 +255,11 @@ export class NavComponent implements OnInit {
                 }
                 this.theme = event['theme'];
 
-                if (this.theme == 9) {
-                    do {
-                        this.theme = Math.floor(Math.random() * 6);
-                    } while (this.theme != 0 && this.theme != 4 && this.theme != 5); //assign random theme 0, 4 or 5 for the bio page
-                }
+                // if (this.theme == 9) {
+                //     do {
+                //         this.theme = Math.floor(Math.random() * 6);
+                //     } while (this.theme != 0 && this.theme != 4 && this.theme != 5); //assign random theme 0, 4 or 5 for the bio page
+                // }
                 this.logoPath = (this.theme == 1 || this.theme == 5) ? 'images/logo2.png' : 'images/logo1.png'; //choose theme-appropriate logo
 
                 if (!this.router.url.includes('random')) {

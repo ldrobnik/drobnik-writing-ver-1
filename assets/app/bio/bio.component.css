@@ -4,3 +4,16 @@
   -ms-user-select: none;
   user-select: none;
 }
+img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border-width: 10px;
+  border-style: solid;
+}
+#portrait {
+  border-color: #b34a53;
+}
