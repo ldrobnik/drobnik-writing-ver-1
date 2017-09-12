@@ -2,9 +2,13 @@
     <div id="bio-introduction">
         <figure>
         <img [src]="portraitPath" alt="Łukasz Drobnik" id="portrait">
-        <figcaption>Photo by Weronika Woźniak</figcaption>
+        <figcaption *ngIf="!langEn">Fotografia: Weronika Woźniak</figcaption>
+        <figcaption *ngIf="langEn">Photo by Weronika Woźniak</figcaption>
         </figure>
     </div>
+    <div id="authorsname">Łukasz Drobnik</div>
+    <div class="col-md-6 col-md-offset-3 description" *ngIf="!langEn">Tekst polski dolor sit amet, consectetur adipisicing elit. Ab animi illo, maiores minus obcaecati saepe ullam. Alias pariatur sint voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut, blanditiis commodi dolor dolore doloremque ea fugiat, magni minima minus neque nisi?</div>
+    <div class="col-md-6 col-md-offset-3 description" *ngIf="langEn">Tekst angielski dolor sit amet, consectetur adipisicing elit. Ab animi illo, maiores minus obcaecati saepe ullam. Alias pariatur sint voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut, blanditiis commodi dolor dolore doloremque ea fugiat, magni minima minus neque nisi?</div>
 
 
 </div>

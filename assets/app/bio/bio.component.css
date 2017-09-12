@@ -13,7 +13,26 @@ img {
   background-clip: padding-box;
   border-width: 10px;
   border-style: solid;
+  margin-top: 80px;
 }
 #portrait {
   border-color: #b34a53;
+}
+figcaption {
+  font-size: 0.5em;
+  color: #b34a53;
+  margin-top: 5px;
+}
+#authorsname {
+  font-size: 2em;
+  color: #b34a53;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.description {
+  font-size: 1em;
+  color: #2e2e2e;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
