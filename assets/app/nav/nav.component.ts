@@ -87,7 +87,8 @@ export class NavComponent implements OnInit {
 
     chooseLang(lang: boolean) {
         this.langEn = lang; // set to false if Polish, to true if English
-        // this.storeLang(); // stores the language in local storage
+        this.storeLang(); // stores the language in local storage
+
         if (!this.langEn) {
 
             this.langSet = true;
