@@ -1,7 +1,7 @@
 <!-- Splash screen visible when langage is not defined -->
 <div id="splash-screen" *ngIf="!langSet && router.url.includes('random')">
     <div id="splash-screen-content">
-        <div id="prompt">wybierz język / choose your langage</div>
+        <div>wybierz język / choose your langage</div>
         <div id="options"><a (click)="chooseLang(false)">pl</a> / <a (click)="chooseLang(true)">en</a></div>
     </div>
 </div>
