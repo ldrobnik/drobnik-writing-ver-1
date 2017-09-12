@@ -108,8 +108,9 @@ export class NavComponent implements OnInit {
     trackText(url: string) {
 
         if (url.includes('/en')) {
-            if (this.visitedRoutesEn.length > this.routesEn.length + 1) {
-                this.visitedRoutesEn = []; //reset array if all English texts have been read
+            if (this.visitedRoutesEn.length >= this.routesEn.length - 1) {
+
+                this.visitedRoutesEn.length = 0; //reset array if all English texts have been read
             }
             if (this.visitedRoutesEn.indexOf(url) === -1) {
                 this.visitedRoutesEn.push(url); //add the current url to English texts read
@@ -119,8 +120,9 @@ export class NavComponent implements OnInit {
                 }
             }
         } else {
-            if (this.visitedRoutesPl.length > this.routesPl.length + 1) {
-                this.visitedRoutesPl = []; //reset array if all Polish texts have been read
+            if (this.visitedRoutesPl.length >= this.routesPl.length - 1) {
+
+                this.visitedRoutesPl.length = 0; //reset array if all Polish texts have been read
             }
             if (this.visitedRoutesPl.indexOf(url) === -1) {
                 this.visitedRoutesPl.push(url); //add the current url to Polish texts read
@@ -209,8 +211,8 @@ export class NavComponent implements OnInit {
             .subscribe((event) => {
 
                 console.log(localStorage);
-                console.log(this.visitedRoutesPl);
-                console.log(this.visitedRoutesEn);
+                console.log(this.visitedRoutesPl.length + " " + this.routesPl.length);
+                console.log(this.visitedRoutesEn.length + " " + this.routesEn.length);
 
                 if (!this.router.url.includes('random') && !this.router.url.includes('bio')) {
                     this.trackText(this.router.url);
