@@ -54,7 +54,6 @@ export class NavComponent implements OnInit {
         }
         this.langEn =! this.langEn; //change website language langEN - English; !langEn - Polish
         this.storeLang(); //stores the language in local storage
-        console.log(localStorage);
 
         //for English texts not having equivalents in Polish, go to random Polish text, for the rest - go to the Polish equivalent text path:
 
@@ -131,9 +130,6 @@ export class NavComponent implements OnInit {
                 }
             }
         }
-        //
-        // console.log(this.visitedRoutesPl);
-        // console.log(this.visitedRoutesEn);
     }
 
 
@@ -209,7 +205,7 @@ export class NavComponent implements OnInit {
             .filter((route) => route.outlet === 'primary')
             .mergeMap((route) => route.data)
             .subscribe((event) => {
-                console.log(this.langEn);
+
                 if (!this.router.url.includes('random') && !this.router.url.includes('bio')) {
                     this.trackText(this.router.url);
                 }
@@ -223,7 +219,7 @@ export class NavComponent implements OnInit {
                     this.langEn = this.router.url.includes('/en'); //check the language based on the routing path (all English texts have the '/en' bit
                     this.langSet = true; //inform the app the language has already been chosen
                     this.storeLang(); // store the language in local storage
-                    console.log(localStorage);
+
                 } else {
                     this.goToRandomText();
                 }
