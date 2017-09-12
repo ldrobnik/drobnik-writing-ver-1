@@ -32,14 +32,12 @@ import { TextMothsComponent } from "./texts/text-moths.component";
 import { TextCmyComponent } from "./texts/text-cmy.component";
 import { TextObrovskyComponent } from "./texts/text-obrovsky.component";
 import { TextObrovskyEnComponent } from "./texts/text-obrovskyen.component";
-import {BioEnComponent} from "./bio/bio-en.component";
 
 @NgModule({
     declarations: [
         AppComponent,
         NavComponent,
         BioComponent,
-        BioEnComponent,
         RandomComponent,
         RandomEnComponent,
         TextNocturine1Component,

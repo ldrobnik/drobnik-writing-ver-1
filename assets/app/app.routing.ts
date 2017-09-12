@@ -1,7 +1,6 @@
 import { Routes, RouterModule } from "@angular/router";
 
 import { BioComponent } from "./bio/bio.component";
-import { BioEnComponent } from "./bio/bio-en.component";
 import { RandomComponent } from "./texts/random.component";
 import { RandomEnComponent } from "./texts/random-en.component";
 import { TextNocturine1Component } from "./texts/text-nocturine1.component";
@@ -32,7 +31,7 @@ import { TextObrovskyEnComponent } from "./texts/text-obrovskyen.component";
 const APP_ROUTES: Routes = [
     {path: '', redirectTo: '/random', pathMatch: 'full'},
     {path: 'bio', component: BioComponent, data: {title: 'Łukasz Drobnik - prozaik', theme: 9}},
-    {path: 'bio/en', component: BioEnComponent, data: {title: 'Łukasz Drobnik - fiction writer', theme: 9}},
+    {path: 'bio/en', component: BioComponent, data: {title: 'Łukasz Drobnik - fiction writer', theme: 9}},
     {path: 'random', component: RandomComponent, data: {title: 'Łukasz Drobnik - oficjalna strona / official website', theme: 0 }},
     {path: 'random/en', component: RandomEnComponent, data: {title: 'Łukasz Drobnik - oficjalna strona / official website', theme: 0 }},
     {path: 'nocturine1', component: TextNocturine1Component, data: {title: 'Łukasz Drobnik - Nocturine', theme: 0}},
