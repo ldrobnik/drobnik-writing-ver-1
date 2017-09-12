@@ -90,10 +90,14 @@ export class NavComponent implements OnInit {
         // this.storeLang(); // stores the language in local storage
         if (!this.langEn) {
 
+            this.langSet = true;
             this.router.navigate(['/']);
+
         } else {
 
+            this.langSet = true;
             this.router.navigate(['random/en']);
+
         }
 
     }
