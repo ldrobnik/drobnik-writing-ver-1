@@ -116,6 +116,9 @@ a {
   -ms-user-select: none;
   user-select: none;
   background-color: #a98086;
+  background-image: url('../images/splash-screen-background.png');
+  background-position: center center;
+  background-repeat: no-repeat;
   color: #e7dbdd;
 }
 #splash-screen a {
