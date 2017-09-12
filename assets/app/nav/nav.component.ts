@@ -143,6 +143,7 @@ export class NavComponent implements OnInit {
 
         if (this.langSet == true) {
             if (this.langEn) {
+
                 do {
                     randomPath = this.routesEn[Math.floor(Math.random() * this.routesEn.length)];
                 } while (this.visitedRoutesEn.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
@@ -180,12 +181,16 @@ export class NavComponent implements OnInit {
             }
 
             //check info about visited links in local storage
-            if (localStorage.getItem("visitedRoutesPl") !== "undefined"){
+            if (localStorage.getItem("visitedRoutesPl") !== null){
                 this.visitedRoutesPl = JSON.parse(localStorage.getItem("visitedRoutesPl"));
+            } else {
+                this.visitedRoutesPl = [];
             }
 
-            if (localStorage.getItem("visitedRoutesPl") !== "undefined"){
+            if (localStorage.getItem("visitedRoutesPl") !== null){
                 this.visitedRoutesEn = JSON.parse(localStorage.getItem("visitedRoutesEn"));
+            } else {
+                this.visitedRoutesEn = [];
             }
 
             console.log(localStorage);
