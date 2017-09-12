@@ -53,7 +53,8 @@ export class NavComponent implements OnInit {
             }
         }
         this.langEn =! this.langEn; //change website language langEN - English; !langEn - Polish
-        // this.storeLang(); //stores the language in local storage
+        this.storeLang(); //stores the language in local storage
+        console.log(localStorage);
 
         //for English texts not having equivalents in Polish, go to random Polish text, for the rest - go to the Polish equivalent text path:
 
@@ -176,8 +177,6 @@ export class NavComponent implements OnInit {
                     this.langEn = undefined;
                     this.langSet = false;
                 }
-                console.log(localStorage);
-                console.log(this.langSet);
             }
         //
         //     //check info about visited links in local storage

@@ -25,8 +25,8 @@
       <file leaf-file-name="nav.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="217" column="94" lean-forward="false" selection-start-line="217" selection-start-column="94" selection-end-line="217" selection-end-column="94" />
+            <state relative-caret-position="272">
+              <caret line="178" column="17" lean-forward="false" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -78,7 +78,6 @@
       <find>this.langEn</find>
       <find>z-inde</find>
       <find>user-select</find>
-      <find>console.log</find>
       <find>localsto</find>
       <find>store</find>
       <find>visited</find>
@@ -86,6 +85,7 @@
       <find>goto</find>
       <find>set</find>
       <find>storeLang</find>
+      <find>console.log</find>
     </findStrings>
     <replaceStrings>
       <replace>.nav-logo</replace>
@@ -584,12 +584,12 @@
       <workItem from="1504851928705" duration="9289000" />
       <workItem from="1505055492037" duration="11575000" />
       <workItem from="1505152061055" duration="69000" />
-      <workItem from="1505196101054" duration="1972000" />
+      <workItem from="1505196101054" duration="2319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189416000" />
+    <option name="totallyTimeSpent" value="189763000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1007,8 +1007,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="217" column="94" lean-forward="false" selection-start-line="217" selection-start-column="94" selection-end-line="217" selection-end-column="94" />
+        <state relative-caret-position="272">
+          <caret line="178" column="17" lean-forward="false" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
