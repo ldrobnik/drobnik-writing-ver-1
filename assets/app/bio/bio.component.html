@@ -1,14 +1,95 @@
 <div class="container" class="text-center">
-    <div id="bio-introduction">
-        <figure>
-        <img [src]="portraitPath" alt="Łukasz Drobnik" id="portrait">
-        <figcaption *ngIf="!langEn">Fotografia: Weronika Woźniak</figcaption>
-        <figcaption *ngIf="langEn">Photo by Weronika Woźniak</figcaption>
-        </figure>
+    <div class="row">
+        <div id="bio-introduction">
+            <figure>
+            <img [src]="portraitPath" alt="Łukasz Drobnik" class="img-circle" id="portrait">
+            <figcaption *ngIf="!langEn">Fotografia: Weronika Woźniak</figcaption>
+            <figcaption *ngIf="langEn">Photo by Weronika Woźniak</figcaption>
+            </figure>
+        </div>
+        <div id="authorsname">Łukasz Drobnik</div>
+        <div class="col-md-6 col-md-offset-3 description" *ngIf="!langEn">Tekst polski dolor sit amet, consectetur adipisicing elit. Ab animi illo, maiores minus obcaecati saepe ullam. Alias pariatur sint voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut, blanditiis commodi dolor dolore doloremque ea fugiat, magni minima minus neque nisi?</div>
+        <div class="col-md-6 col-md-offset-3 description" *ngIf="langEn">Tekst angielski dolor sit amet, consectetur adipisicing elit. Ab animi illo, maiores minus obcaecati saepe ullam. Alias pariatur sint voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut, blanditiis commodi dolor dolore doloremque ea fugiat, magni minima minus neque nisi?</div>
     </div>
-    <div id="authorsname">Łukasz Drobnik</div>
-    <div class="col-md-6 col-md-offset-3 description" *ngIf="!langEn">Tekst polski dolor sit amet, consectetur adipisicing elit. Ab animi illo, maiores minus obcaecati saepe ullam. Alias pariatur sint voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut, blanditiis commodi dolor dolore doloremque ea fugiat, magni minima minus neque nisi?</div>
-    <div class="col-md-6 col-md-offset-3 description" *ngIf="langEn">Tekst angielski dolor sit amet, consectetur adipisicing elit. Ab animi illo, maiores minus obcaecati saepe ullam. Alias pariatur sint voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut, blanditiis commodi dolor dolore doloremque ea fugiat, magni minima minus neque nisi?</div>
-
-
+    <div class="row">
+        <ul class="timeline">
+            <li class="timeline adminchat">
+                <div class="timeline-badge"><i class="fa fa-terminal"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Chat</h4>
+                        <p></p>
+                    </div>
+                    <div class="timeline-body">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-18">
+                                    <input type="text" maxlength="100" class="form-control" id="input-live-chat" autocomplete="off" placeholder="Chatinput ...">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-18">
+                                    <p class="margin-top5">
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optionsChat" value="say" checked>
+                                            Say
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optionsChat" value="yell">
+                                            Yell(20sec)
+                                        </label>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline">
+                <div class="timeline-badge info"><i class="fa fa-envelope-o"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Jammsen-rE</h4>
+                        <p><small class="text-muted"><i class="fa fa-clock-o"></i> 22:29:22</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquy</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge warning"><i class="fa fa-bullseye"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Jammsen-rE</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p>killed m0nk3y-rE with G36C</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge danger"><i class="fa fa-crosshairs"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Jammsen-rE</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p>gave m0nk3y-rE a headshot with G36C</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline">
+                <div class="timeline-badge success"><i class="fa fa-thumbs-o-down"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Jammsen-rE</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p>killed himself o0</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
 </div>
