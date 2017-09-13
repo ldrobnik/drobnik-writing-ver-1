@@ -50,7 +50,7 @@ figcaption {
   position: absolute;
   content: "";
   width: 2px;
-  background-color: #f1f1f1;
+  background-color: #e1b5b9;
   left: 40px;
   margin-left: -1.5px;
 }
@@ -93,10 +93,10 @@ figcaption {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #fed136;
+  background-color: #b34a53;
   color: white;
   border-radius: 100%;
-  border: 7px solid #f1f1f1;
+  border: 10px solid #b34a53;
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
