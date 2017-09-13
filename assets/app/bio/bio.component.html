@@ -16,7 +16,7 @@
             <ul class="timeline">
                     <li *ngFor="let publication of publications; let i = index" [ngClass]="{'timeline-inverted': i%2 != 0}">
                         <div class="timeline-image" [ngClass]="{'press-image': publications[i].type == 'press', 'book-image': publications[i].type == 'book', 'collection-image': publications[i].type == 'collection'}">
-                            <img class="img-circle img-responsive" [src]="imagePathBeginning + publications[i].filename + imagePathEnd" alt="">
+                            <a [href]="publications[i].url" target="_blank"><img class="img-circle img-responsive" [src]="imagePathBeginning + publications[i].filename + imagePathEnd" alt=""></a>
                         </div>
                         <div class="timeline-panel" [ngClass]="{'press-text': publications[i].type == 'press', 'book-text': publications[i].type == 'book', 'collection-text': publications[i].type == 'collection'}">
                             <div class="timeline-heading">

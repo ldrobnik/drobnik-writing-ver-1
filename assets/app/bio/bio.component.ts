@@ -167,7 +167,7 @@ export class BioComponent implements OnInit {
 
             filename: 'dwutygodnik',
 
-            url: 'http://www.dwutygodnik.com/artykul/2252-nocturine-fragment-powiesci.html',
+            url: 'http://www.dwutygodnik.com/wydanie/2011/57',
 
             descriptionPl: 'Fragment powieści „Nocturine”',
 
