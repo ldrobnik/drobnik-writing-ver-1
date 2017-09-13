@@ -154,7 +154,22 @@ a {
   font-size: 200%;
 }
 
+#storage-message {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: @lightColor;
+  padding: 12px;
+}
 
+.accept {
+  font-family: @displayFont;
+  background-color: @lightColor;
+}
+
+button:hover {
+  opacity: 0.8;
+}
 /* styles specific for the .nocturine class */
 
 .nocturine nav {
@@ -204,6 +219,10 @@ a {
 
 .nocturine #storage-message {
   background-color: @colorNocturine;
+}
+
+.nocturine .accept{
+  color: @colorNocturine;
 }
 
 
@@ -262,6 +281,10 @@ a {
   background-color: @colorCunninghamella;
 }
 
+.cunninghamella .accept{
+  color: @colorCunninghamella;
+}
+
 /* styles specific for the .vostok class */
 
 .vostok nav {
@@ -315,6 +338,10 @@ a {
 
 .vostok #storage-message {
   background-color: @colorVostok;
+}
+
+.vostok .accept{
+  color: @colorVostok;
 }
 
 /* styles specific for the .omnivoria class */
@@ -372,6 +399,10 @@ a {
   background-color: @colorOmnivoria;
 }
 
+.omnivoria .accept{
+  color: @colorOmnivoria;
+}
+
 /* styles specific for the .devonian class */
 
 .devonian nav {
@@ -425,6 +456,10 @@ a {
 
 .devonian #storage-message {
   background-color: @colorDevonian;
+}
+
+.devonian .accept{
+  color: @colorDevonian;
 }
 
 /* styles specific for the .obrovsky class */
@@ -481,4 +516,8 @@ a {
 
 .obrovsky #storage-message {
   background-color: @colorObrovsky;
+}
+
+.obrovsky .accept{
+  color: @colorObrovsky;
 }

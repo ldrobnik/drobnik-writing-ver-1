@@ -74,7 +74,7 @@ export class NavComponent implements OnInit {
     }
 
 
-    //method to store current language in localStorage
+    //method to store current language in local storage
 
     storeLang() {
         if (this.langEn == true) {
@@ -82,6 +82,12 @@ export class NavComponent implements OnInit {
         } else {
             localStorage.setItem("langEn", "false")
         }
+    }
+
+    //method to remember the user has acknowledge the use local storage
+    acceptLocalStorage() {
+        this.locStorageAccepted = true;
+        localStorage.setItem("locStorageAccepted", "true");
     }
 
     //method for choosing language on splash screen
@@ -222,7 +228,7 @@ export class NavComponent implements OnInit {
             if (localStorage.getItem("locStorageAccepted") !== "undefined"){
                 if (localStorage.getItem("locStorageAccepted") === "true") {
                     this.locStorageAccepted = true;
-                } else if (localStorage.getItem("locStorageAccepted") === "false") {
+                } else {
                     this.locStorageAccepted = false;
                 }
             }

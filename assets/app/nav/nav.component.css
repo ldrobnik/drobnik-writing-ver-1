@@ -138,6 +138,20 @@ a {
 #options {
   font-size: 200%;
 }
+#storage-message {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  padding: 12px;
+}
+.accept {
+  font-family: 'Maven Pro', sans-serif;
+  background-color: white;
+}
+button:hover {
+  opacity: 0.8;
+}
 /* styles specific for the .nocturine class */
 .nocturine nav {
   background-color: #a98086;
@@ -181,6 +195,9 @@ a {
 }
 .nocturine #storage-message {
   background-color: #a98086;
+}
+.nocturine .accept {
+  color: #a98086;
 }
 /* styles specific for the .cunninghamella class */
 .cunninghamella nav {
@@ -229,6 +246,9 @@ a {
 .cunninghamella #storage-message {
   background-color: #566f0c;
 }
+.cunninghamella .accept {
+  color: #566f0c;
+}
 /* styles specific for the .vostok class */
 .vostok nav {
   background-color: #a67847;
@@ -275,6 +295,9 @@ a {
 }
 .vostok #storage-message {
   background-color: #a67847;
+}
+.vostok .accept {
+  color: #a67847;
 }
 /* styles specific for the .omnivoria class */
 .omnivoria nav {
@@ -323,6 +346,9 @@ a {
 .omnivoria #storage-message {
   background-color: #616a65;
 }
+.omnivoria .accept {
+  color: #616a65;
+}
 /* styles specific for the .devonian class */
 .devonian nav {
   background-color: #99aac6;
@@ -370,6 +396,9 @@ a {
 .devonian #storage-message {
   background-color: #99aac6;
 }
+.devonian .accept {
+  color: #99aac6;
+}
 /* styles specific for the .obrovsky class */
 .obrovsky nav {
   background-color: #b34a53;
@@ -416,4 +445,7 @@ a {
 }
 .obrovsky #storage-message {
   background-color: #b34a53;
+}
+.obrovsky .accept {
+  color: #b34a53;
 }
