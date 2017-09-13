@@ -179,6 +179,9 @@ a {
   height: 25px;
   margin-top: -4px;
 }
+.nocturine #storage-message {
+  background-color: #a98086;
+}
 /* styles specific for the .cunninghamella class */
 .cunninghamella nav {
   background-color: #566f0c;
@@ -221,6 +224,9 @@ a {
   margin-top: -5px;
 }
 .cunninghamella #splash-screen {
+  background-color: #566f0c;
+}
+.cunninghamella #storage-message {
   background-color: #566f0c;
 }
 /* styles specific for the .vostok class */
@@ -267,6 +273,9 @@ a {
 .vostok #splash-screen {
   background-color: #a67847;
 }
+.vostok #storage-message {
+  background-color: #a67847;
+}
 /* styles specific for the .omnivoria class */
 .omnivoria nav {
   background-color: #616a65;
@@ -309,6 +318,9 @@ a {
   margin-top: -4px;
 }
 .omnivoria #splash-screen {
+  background-color: #616a65;
+}
+.omnivoria #storage-message {
   background-color: #616a65;
 }
 /* styles specific for the .devonian class */
@@ -355,6 +367,9 @@ a {
 .devonian #splash-screen {
   background-color: #99aac6;
 }
+.devonian #storage-message {
+  background-color: #99aac6;
+}
 /* styles specific for the .obrovsky class */
 .obrovsky nav {
   background-color: #b34a53;
@@ -397,5 +412,8 @@ a {
   margin-top: -5px;
 }
 .obrovsky #splash-screen {
+  background-color: #b34a53;
+}
+.obrovsky #storage-message {
   background-color: #b34a53;
 }
