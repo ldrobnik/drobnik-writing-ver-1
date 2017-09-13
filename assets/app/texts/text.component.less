@@ -81,8 +81,8 @@
   background-color: @lightColor;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 22vw;
-  padding-right: 30vw;
+  padding-left: 25vw;
+  padding-right: 28vw;
   width: 100%;
   text-indent: 2.5em;
 
@@ -113,6 +113,9 @@
   margin-bottom: 10px;
   width: 100%;
   background: transparent repeat-x center center;
+  border-right-width: 12px;
+  border-right-style: solid;
+  border-right-color: @lightColor;
   padding: 0;
 
 }
@@ -127,11 +130,20 @@
   color: @lightColor;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
 
   .story {
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-left: 12vw;
+    padding-right: 15vw;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .story {
+    padding-left: 7vw;
+    padding-right: 7vw;
   }
 
 }

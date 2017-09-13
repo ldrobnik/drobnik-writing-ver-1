@@ -125,7 +125,6 @@ a {
 #splash-screen a {
   color: #e7dbdd !important;
   text-decoration: none;
-  cursor: hand;
 }
 #splash-screen a:hover {
   opacity: 0.7;
