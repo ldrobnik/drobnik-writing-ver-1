@@ -18,7 +18,7 @@
                         <div class="timeline-image" [ngClass]="{'press': publications[i].type == 'press', 'book': publications[i].type == 'book', 'collection': publications[i].type == 'collection'}">
                             <img class="img-circle img-responsive" [src]="imagePathBeginning + publications[i].filename + imagePathEnd" alt="">
                         </div>
-                        <div class="timeline-panel">
+                        <div class="timeline-panel" [ngClass]="{'press': publications[i].type == 'press', 'book': publications[i].type == 'book', 'collection': publications[i].type == 'collection'}">
                             <div class="timeline-heading">
                                 <h4>{{publications[i].title}}</h4>
                                 <h4 class="subheading">{{publications[i].year}}</h4>

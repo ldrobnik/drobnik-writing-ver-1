@@ -31,9 +31,9 @@ export class BioComponent implements OnInit {
 
             url: 'http://www.wforma.eu/2017-antologia-wspolczesnych-polskich-opowiadan.html',
 
-            descriptionPl: 'Zbiór opowiadań z&nbsp;moim tekstem &bdquo;Jeśli zapłonę&rdquo; przygotowany przez wydawnictwo Forma',
+            descriptionPl: 'Zbiór opowiadań z&nbsp;moim tekstem „Jeśli zapłonę” przygotowany przez wydawnictwo Forma',
 
-            descriptionEn: 'A collection of Polish contemporary short stories featuring my piece &ldquo;Jeśli zapłonę&rdquo; published by Forma publishing house'
+            descriptionEn: 'A collection of Polish contemporary short stories featuring my piece “Jeśli zapłonę” published by Forma publishing house'
 
         },
 
@@ -48,9 +48,9 @@ export class BioComponent implements OnInit {
 
             url: 'https://issuu.com/fabularie/docs/fabularie-nr10_issuu_ok',
 
-            descriptionPl: 'Opowiadanie &bdquo;Ćmy&rdquo; (polskie tłumaczenie opowiadania &bdquo;Moths&rdquo;)',
+            descriptionPl: 'Opowiadanie „Ćmy” (polskie tłumaczenie opowiadania „Moths”)',
 
-            descriptionEn: 'A short story &ldquo;Ćmy&rdquo; (Polish translation of &ldquo;Moths&rdquo;)'
+            descriptionEn: 'A short story “Ćmy” (Polish translation of “Moths”)'
 
         },
 
@@ -65,9 +65,9 @@ export class BioComponent implements OnInit {
 
             url: 'http://kwartalnikwyspa.pl/',
 
-            descriptionPl: 'Opowiadanie &bdquo;Wszystkożerność&rdquo;',
+            descriptionPl: 'Opowiadanie „Wszystkożerność”',
 
-            descriptionEn: 'A short story &ldquo;Wszystkożerność&rdquo;'
+            descriptionEn: 'A short story “Wszystkożerność”'
 
         },
 
@@ -82,9 +82,9 @@ export class BioComponent implements OnInit {
 
             url: 'http://www.gatehousepress.com/lighthouse/',
 
-            descriptionPl: 'Opowiadanie &bdquo;Moths&rdquo;',
+            descriptionPl: 'Opowiadanie „Moths”',
 
-            descriptionEn: 'A short story &ldquo;Moths&rdquo;'
+            descriptionEn: 'A short story “Moths”'
 
         },
 
@@ -99,9 +99,9 @@ export class BioComponent implements OnInit {
 
             url: 'http://www.wforma.eu/318,2014-antologia-wspolczesnych-polskich-opowiadan.html',
 
-            descriptionPl: 'Zbiór opowiadań z&nbsp;moim tekstem &bdquo;Biegnący człowiek&rdquo; przygotowany przez wydawnictwo Forma',
+            descriptionPl: 'Zbiór opowiadań z&nbsp;moim tekstem „Biegnący człowiek” przygotowany przez wydawnictwo Forma',
 
-            descriptionEn: 'A collection of Polish contemporary short stories featuring my piece &ldquo;Biegnący człowiek&rdquo; published by Forma publishing house'
+            descriptionEn: 'A collection of Polish contemporary short stories featuring my piece “Biegnący człowiek” published by Forma publishing house'
 
         },
 
@@ -117,9 +117,9 @@ export class BioComponent implements OnInit {
 
             url: 'http://lampa.art.pl/',
 
-            descriptionPl: 'Początkowe rozdziały powieści &bdquo;Vostok&rdquo;',
+            descriptionPl: 'Początkowe rozdziały powieści „Vostok”',
 
-            descriptionEn: 'Initial chapters of the novel &ldquo;Vostok&rdquo;'
+            descriptionEn: 'Initial chapters of the novel “Vostok”'
 
         },
 
@@ -135,9 +135,9 @@ export class BioComponent implements OnInit {
 
             url: 'http://nagrodaliterackagdynia.pl/sites/default/files/upload/dodatek-nr-9.pdf',
 
-            descriptionPl: 'Fragment powieści &bdquo;Nocturine&rdquo',
+            descriptionPl: 'Fragment powieści „Nocturine&rdquo',
 
-            descriptionEn: 'A fragment of the novel &ldquo;Nocturine&rdquo;'
+            descriptionEn: 'A fragment of the novel “Nocturine”'
 
         },
 
@@ -169,9 +169,9 @@ export class BioComponent implements OnInit {
 
             url: 'http://www.dwutygodnik.com/artykul/2252-nocturine-fragment-powiesci.html',
 
-            descriptionPl: 'Fragment powieści &bdquo;Nocturine&rdquo',
+            descriptionPl: 'Fragment powieści „Nocturine&rdquo',
 
-            descriptionEn: 'A fragment of the novel &ldquo;Nocturine&rdquo;'
+            descriptionEn: 'A fragment of the novel “Nocturine”'
 
         },
 
@@ -186,9 +186,9 @@ export class BioComponent implements OnInit {
 
             url: 'https://issuu.com/ritabaumwroclaw/docs/10',
 
-            descriptionPl: 'Opowiadanie &bdquo;Rozbieranie do snu&rdquo;',
+            descriptionPl: 'Opowiadanie „Rozbieranie do snu”',
 
-            descriptionEn: 'A short story &ldquo;Rozbieranie do snu&rdquo;'
+            descriptionEn: 'A short story “Rozbieranie do snu”'
 
         },
 
@@ -203,9 +203,9 @@ export class BioComponent implements OnInit {
 
             url: 'http://lampa.art.pl/',
 
-            descriptionPl: 'Opowiadanie &bdquo;Astroskopia&rdquo;',
+            descriptionPl: 'Opowiadanie „Astroskopia”',
 
-            descriptionEn: 'A short story &ldquo;Astroskopia&rdquo;'
+            descriptionEn: 'A short story “Astroskopia”'
         }
     ];
 
