@@ -14,7 +14,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <ul class="timeline">
-                    <li *ngFor="let publication of publications" [ngClass]="{'timeline-inverted': publication%2 != 0}">
+                    <li *ngFor="let publication of publications; let i = index" [ngClass]="{'timeline-inverted': i%2 != 0}">
                         <div class="timeline-image">
                             <img class="img-circle img-responsive" [src]="portraitPath" alt="">
                         </div>
