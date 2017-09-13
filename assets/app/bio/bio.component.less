@@ -7,7 +7,6 @@
   margin-top: 80px;
   max-width: 270px;
   max-height: 270px;
-  .rounded();
   border-width: 10px;
   border-style: solid;
 }
@@ -47,7 +46,7 @@ figcaption {
     position: absolute;
     content: "";
     width: 2px;
-    background-color: lighten(@colorObrovsky, 30%);
+    background-color: @colorObrovsky;
     left: 40px;
     margin-left: -1.5px;
   }
@@ -92,7 +91,8 @@ figcaption {
       background-color: @colorObrovsky;
       color: white;
       border-radius: 100%;
-      border: 10px solid @colorObrovsky;
+      border-width: 10px;
+      border-style: solid;
       text-align: center;
       h4 {
         font-size: 10px;

@@ -9,12 +9,6 @@
   margin-top: 80px;
   max-width: 270px;
   max-height: 270px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
   border-width: 10px;
   border-style: solid;
 }
@@ -48,7 +42,7 @@ figcaption {
   position: absolute;
   content: "";
   width: 2px;
-  background-color: #e1b5b9;
+  background-color: #b34a53;
   left: 40px;
   margin-left: -1.5px;
 }
@@ -94,7 +88,8 @@ figcaption {
   background-color: #b34a53;
   color: white;
   border-radius: 100%;
-  border: 10px solid #b34a53;
+  border-width: 10px;
+  border-style: solid;
   text-align: center;
 }
 .timeline > li .timeline-image h4 {

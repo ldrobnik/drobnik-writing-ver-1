@@ -11,7 +11,8 @@ import { Router } from "@angular/router";
 export class BioComponent implements OnInit {
 
     langEn: boolean; //specifies the language
-    portraitPath = "images/portrait.jpg"; //path of the portrait image
+    portraitPath = "images/portrait.jpg"; // path to the portrait image
+    logoPath = "images/bio-logo.png"; // path to the logo
 
     // Array with publication list
 
