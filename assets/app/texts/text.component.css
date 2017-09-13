@@ -72,13 +72,19 @@
   width: 100%;
   text-indent: 2.5em;
 }
-.story #first {
-  text-indent: 0;
-}
-.story #first::first-letter {
+#first::first-letter {
   font-family: 'Maven Pro', sans-serif;
   font-weight: 900;
   font-size: 2em;
+}
+.block-quote {
+  font-size: 0.8em !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+  text-indent: 0;
 }
 .story-footnote {
   margin-top: 30px;
@@ -86,17 +92,24 @@
   text-indent: 0 !important;
   text-align: center;
 }
+.story-footnote a {
+  text-decoration: none;
+  color: inherit;
+}
 .text-separator {
   display: inline-block;
   height: 55px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   width: 100%;
   background: transparent repeat-x center center;
   border-right-width: 12px;
   border-right-style: solid;
   border-right-color: white;
   padding: 0;
+}
+.no-indent {
+  text-indent: 0;
 }
 .read-on {
   display: block;

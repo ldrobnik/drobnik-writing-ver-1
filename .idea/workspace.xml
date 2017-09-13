@@ -6,8 +6,29 @@
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav.component.css" afterPath="$PROJECT_DIR$/assets/app/nav/nav.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav.component.less" afterPath="$PROJECT_DIR$/assets/app/nav/nav.component.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cmy.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-cmy.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-moths.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-moths.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine3en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine3en.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok2.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok2.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok3.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok3.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok3en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok3en.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok4.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok4.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text.component.css" afterPath="$PROJECT_DIR$/assets/app/texts/text.component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text.component.less" afterPath="$PROJECT_DIR$/assets/app/texts/text.component.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/bundle.js" afterPath="$PROJECT_DIR$/public/js/app/bundle.js" />
@@ -25,43 +46,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="bio.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.ts">
+      <file leaf-file-name="text-obrovskyen.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="19" column="76" lean-forward="false" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="68" column="4" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bio.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav.component.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
-              <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="19" />
+            <state relative-caret-position="528">
+              <caret line="96" column="7" lean-forward="false" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -70,28 +59,8 @@
       <file leaf-file-name="text.component.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/texts/text.component.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="145" column="20" lean-forward="false" selection-start-line="145" selection-start-column="20" selection-end-line="145" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bio.component.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
-              <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shared.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/shared.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="447">
+              <caret line="99" column="19" lean-forward="false" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -109,12 +78,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mongooseco</find>
-      <find>mongooseconne</find>
-      <find>mongooseconnect</find>
-      <find>mongooseconnec</find>
-      <find>c</find>
-      <find>conne</find>
       <find>connet</find>
       <find>connec</find>
       <find>connect</find>
@@ -137,13 +100,16 @@
       <find>timeline-panel</find>
       <find>timeline-heading</find>
       <find>scroll</find>
+      <find>footno</find>
       <find>a {</find>
       <find>Bieg</find>
+      <find />
+      <find>id=&quot;first&quot;</find>
+      <find>class=&quot;no-indent&quot;</find>
+      <find>#first</find>
+      <find>class=&quot;no-indent&quot;</find>
     </findStrings>
     <replaceStrings>
-      <replace>devonian</replace>
-      <replace>obrovsky</replace>
-      <replace>routerLink</replace>
       <replace>(click) = &quot;resetScroll()&quot; [routerLink]</replace>
       <replace>class=&quot;mobile-dropdown&quot;</replace>
       <replace>class=&quot;navbar-logo&quot;</replace>
@@ -171,6 +137,9 @@
       <replace>description</replace>
       <replace>“</replace>
       <replace />
+      <replace>id=&quot;first&quot;</replace>
+      <replace>class=&quot;no-indent&quot;</replace>
+      <replace>id=&quot;first&quot; class=&quot;no-indent&quot;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -179,25 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok4.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok2.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok3.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok3en.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/random-en.component.ts" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.ts" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-cmy.component.ts" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.ts" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.ts" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.ts" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-moths.component.ts" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.ts" />
@@ -213,10 +163,6 @@
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok4.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.ts" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.html" />
         <option value="$PROJECT_DIR$/assets/app/nav/nav.component.css" />
         <option value="$PROJECT_DIR$/assets/app/bio/bio-en.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/app.module.ts" />
@@ -229,6 +175,29 @@
         <option value="$PROJECT_DIR$/assets/app/bio/bio.component.html" />
         <option value="$PROJECT_DIR$/assets/app/bio/bio.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/nav/nav.component.less" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-cmy.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-moths.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine3en.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok2.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok3.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok3en.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok4.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text.component.less" />
       </list>
     </option>
@@ -243,10 +212,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="1" />
+    <option name="y" value="23" />
+    <option name="width" value="1918" />
+    <option name="height" value="1006" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -568,12 +537,12 @@
       <workItem from="1505196101054" duration="7310000" />
       <workItem from="1505234052628" duration="1000" />
       <workItem from="1505240060596" duration="1253000" />
-      <workItem from="1505283958959" duration="14999000" />
+      <workItem from="1505283958959" duration="17627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228796000" />
+    <option name="totallyTimeSpent" value="231424000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -585,17 +554,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="1" y="23" width="1918" height="1006" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24588235" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26705447" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26990914" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26923078" sideWeight="0.50216216" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32352942" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3230198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24880128" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2682353" sideWeight="0.49783784" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28217822" sideWeight="0.49783784" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -603,7 +573,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -637,125 +606,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cmy.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cmy.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-moths.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine3en.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -826,45 +676,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="24" column="315" lean-forward="false" selection-start-line="24" selection-start-column="315" selection-end-line="24" selection-end-column="315" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="295" lean-forward="false" selection-start-line="19" selection-start-column="295" selection-end-line="19" selection-end-column="295" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="919">
           <caret line="118" column="14" lean-forward="false" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="27" column="165" lean-forward="true" selection-start-line="27" selection-start-column="165" selection-end-line="27" selection-end-column="165" />
         </state>
       </provider>
     </entry>
@@ -890,20 +705,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/bio/bio-en.component.ts" />
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="90" lean-forward="true" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -956,14 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -990,10 +783,240 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cmy.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#5552#5558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-moths.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#5542#5548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#5573#5579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#5493#5499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#5496#5502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine3en.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#5588#5594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#5526#5532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#5519#5525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok4.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#5430#5436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok3en.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#5520#5526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok3.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#5429#5435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#5518#5524#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok2.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#5428#5434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#5518#5524#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok1.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#5470#5476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="96" column="7" lean-forward="false" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text.component.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="145" column="20" lean-forward="false" selection-start-line="145" selection-start-column="20" selection-end-line="145" selection-end-column="20" />
+        <state relative-caret-position="447">
+          <caret line="99" column="19" lean-forward="false" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
           <folding />
         </state>
       </provider>
