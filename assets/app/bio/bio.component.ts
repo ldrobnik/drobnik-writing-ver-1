@@ -13,6 +13,8 @@ export class BioComponent implements OnInit {
     langEn: boolean; //specifies the language
     portraitPath = "images/portrait.jpg"; // path to the portrait image
     logoPath = "images/bio-logo.png"; // path to the logo
+    imagePathBeginning = "images/bio-"; //specifies the beginnig of each timeline image file path
+    imagePathEnd = ".jpg"; //specifies the end of each timeline image file path
 
     // Array with publication list
 

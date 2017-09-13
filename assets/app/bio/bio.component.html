@@ -16,7 +16,7 @@
             <ul class="timeline">
                     <li *ngFor="let publication of publications; let i = index" [ngClass]="{'timeline-inverted': i%2 != 0}">
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" [src]="portraitPath" alt="">
+                            <img class="img-circle img-responsive" [src]="imagePathBeginning + publications[i].filename + imagePathEnd" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
