@@ -4,7 +4,11 @@
   -ms-user-select: none;
   user-select: none;
 }
-img {
+#portrait {
+  border-color: #b34a53;
+  margin-top: 80px;
+  max-width: 270px;
+  max-height: 270px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -13,12 +17,6 @@ img {
   background-clip: padding-box;
   border-width: 10px;
   border-style: solid;
-}
-#portrait {
-  border-color: #b34a53;
-  margin-top: 80px;
-  max-width: 270px;
-  max-height: 270px;
 }
 figcaption {
   font-size: 0.5em;
