@@ -63,6 +63,8 @@ figcaption {
 .timeline > li .timeline-panel {
   width: 100%;
   float: right;
+  padding-top: auto;
+  padding-bottom: auto;
   padding: 0 20px 0 100px;
   position: relative;
   text-align: left;
@@ -119,7 +121,7 @@ figcaption {
   margin-bottom: 0;
 }
 .timeline .timeline-heading h4 {
-  margin-top: 0;
+  margin-top: 20px;
   color: inherit;
 }
 .timeline .timeline-heading h4.subheading {
@@ -203,18 +205,21 @@ figcaption {
 .press-image {
   border-color: #a98086;
 }
-.press-text h4 {
+.press-text h4,
+.press-text h5 {
   color: #a98086 !important;
 }
 .book-image {
   border-color: #b34a53;
 }
-.book-text h4 {
+.book-text h4,
+.book-text h5 {
   color: #b34a53 !important;
 }
 .collection-image {
   border-color: #99aac6;
 }
-.collection-text h4 {
+.collection-text h4,
+.collection-text h5 {
   color: #99aac6 !important;
 }

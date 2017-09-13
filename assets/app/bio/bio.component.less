@@ -66,6 +66,8 @@ figcaption {
     .timeline-panel {
       width: 100%;
       float: right;
+      padding-top: auto;
+      padding-bottom: auto;
       padding: 0 20px 0 100px;
       position: relative;
       text-align: left;
@@ -124,7 +126,7 @@ figcaption {
   }
   .timeline-heading {
     h4 {
-      margin-top: 0;
+      margin-top: 20px;
       color: inherit;
       &.subheading {
         text-transform: none;
@@ -225,7 +227,7 @@ figcaption {
   border-color: @colorNocturine;
 }
 
-.press-text h4 {
+.press-text h4, .press-text h5 {
   color: @colorNocturine !important;
 }
 
@@ -235,7 +237,7 @@ figcaption {
   border-color: @colorObrovsky;
 }
 
-.book-text h4 {
+.book-text h4, .book-text h5 {
   color: @colorObrovsky !important;
 }
 
@@ -245,6 +247,6 @@ figcaption {
   border-color: @colorDevonian;
 }
 
-.collection-text h4 {
+.collection-text h4, .collection-text h5 {
   color: @colorDevonian !important;
 }

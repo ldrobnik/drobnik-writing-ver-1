@@ -31,9 +31,9 @@ export class BioComponent implements OnInit {
 
             url: 'http://www.wforma.eu/2017-antologia-wspolczesnych-polskich-opowiadan.html',
 
-            descriptionPl: 'Zbiór opowiadań z moim tekstem „Jeśli zapłonę” przygotowany przez wydawnictwo Forma',
+            descriptionPl: 'Zbiór opowiadań z moim tekstem „Jeśli zapłonę” (Forma)',
 
-            descriptionEn: 'A collection of Polish contemporary short stories featuring my piece “Jeśli zapłonę” published by Forma publishing house'
+            descriptionEn: 'A collection featuring my short story “Jeśli zapłonę” (Forma)'
 
         },
 
@@ -99,9 +99,9 @@ export class BioComponent implements OnInit {
 
             url: 'http://www.wforma.eu/318,2014-antologia-wspolczesnych-polskich-opowiadan.html',
 
-            descriptionPl: 'Zbiór opowiadań z moim tekstem „Biegnący człowiek” przygotowany przez wydawnictwo Forma',
+            descriptionPl: 'Zbiór opowiadań z moim tekstem „Biegnący człowiek” (Forma)',
 
-            descriptionEn: 'A collection of Polish contemporary short stories featuring my piece “Biegnący człowiek” published by Forma publishing house'
+            descriptionEn: 'A collection featuring my short story “Biegnący człowiek” (Forma)'
 
         },
 
