@@ -217,6 +217,17 @@ export class NavComponent implements OnInit {
                 }
             }
 
+            //check whether the user has acknowledged that the site uses local storage
+
+            if (localStorage.getItem("locStorageAccepted") !== "undefined"){
+                if (localStorage.getItem("locStorageAccepted") === "true") {
+                    this.locStorageAccepted = true;
+                } else if (localStorage.getItem("locStorageAccepted") === "false") {
+                    this.locStorageAccepted = false;
+                }
+            }
+
+
             //check info about visited links in local storage
             if (localStorage.getItem("visitedRoutesPl") !== null){
                 this.visitedRoutesPl = JSON.parse(localStorage.getItem("visitedRoutesPl"));
