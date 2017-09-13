@@ -32,6 +32,7 @@ figcaption {
   padding-right: 15px;
 }
 .timeline {
+  font-family: 'Maven Pro', sans-serif;
   list-style: none;
   padding: 0;
   position: relative;
@@ -198,4 +199,13 @@ figcaption {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+}
+.press-image {
+  border-color: #a98086;
+}
+.book-image {
+  border-color: #b34a53;
+}
+.collection-image {
+  border-color: #99aac6;
 }
