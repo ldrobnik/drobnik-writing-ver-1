@@ -143,9 +143,9 @@ export class BioComponent implements OnInit {
 
             url: 'http://nagrodaliterackagdynia.pl/sites/default/files/upload/dodatek-nr-9.pdf',
 
-            descriptionPl: 'Fragment powieści „Nocturine”',
+            descriptionPl: 'Fragment minipowieści „Nocturine”',
 
-            descriptionEn: 'A fragment of the novel “Nocturine”'
+            descriptionEn: 'A fragment of the novella “Nocturine”'
 
         },
 
@@ -177,9 +177,9 @@ export class BioComponent implements OnInit {
 
             url: 'http://www.dwutygodnik.com/wydanie/2011/57',
 
-            descriptionPl: 'Fragment powieści „Nocturine”',
+            descriptionPl: 'Fragment minipowieści „Nocturine”',
 
-            descriptionEn: 'A fragment of the novel “Nocturine”'
+            descriptionEn: 'A fragment of the novella “Nocturine”'
 
         },
 
