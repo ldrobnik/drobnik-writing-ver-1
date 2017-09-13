@@ -7,6 +7,9 @@
 a {
   cursor: pointer;
 }
+#bio {
+  background-image: url('images/bio-background.png');
+}
 #portrait {
   border-color: #b34a53;
   margin-top: 80px;
