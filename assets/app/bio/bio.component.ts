@@ -31,7 +31,7 @@ export class BioComponent implements OnInit {
 
             url: 'http://www.wforma.eu/2017-antologia-wspolczesnych-polskich-opowiadan.html',
 
-            descriptionPl: 'Zbiór opowiadań z&nbsp;moim tekstem „Jeśli zapłonę” przygotowany przez wydawnictwo Forma',
+            descriptionPl: 'Zbiór opowiadań z moim tekstem „Jeśli zapłonę” przygotowany przez wydawnictwo Forma',
 
             descriptionEn: 'A collection of Polish contemporary short stories featuring my piece “Jeśli zapłonę” published by Forma publishing house'
 
@@ -99,7 +99,7 @@ export class BioComponent implements OnInit {
 
             url: 'http://www.wforma.eu/318,2014-antologia-wspolczesnych-polskich-opowiadan.html',
 
-            descriptionPl: 'Zbiór opowiadań z&nbsp;moim tekstem „Biegnący człowiek” przygotowany przez wydawnictwo Forma',
+            descriptionPl: 'Zbiór opowiadań z moim tekstem „Biegnący człowiek” przygotowany przez wydawnictwo Forma',
 
             descriptionEn: 'A collection of Polish contemporary short stories featuring my piece “Biegnący człowiek” published by Forma publishing house'
 
@@ -135,7 +135,7 @@ export class BioComponent implements OnInit {
 
             url: 'http://nagrodaliterackagdynia.pl/sites/default/files/upload/dodatek-nr-9.pdf',
 
-            descriptionPl: 'Fragment powieści „Nocturine&rdquo',
+            descriptionPl: 'Fragment powieści „Nocturine”',
 
             descriptionEn: 'A fragment of the novel “Nocturine”'
 
@@ -169,7 +169,7 @@ export class BioComponent implements OnInit {
 
             url: 'http://www.dwutygodnik.com/artykul/2252-nocturine-fragment-powiesci.html',
 
-            descriptionPl: 'Fragment powieści „Nocturine&rdquo',
+            descriptionPl: 'Fragment powieści „Nocturine”',
 
             descriptionEn: 'A fragment of the novel “Nocturine”'
 

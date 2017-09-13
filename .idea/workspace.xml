@@ -9,6 +9,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bio/bio.component.css" afterPath="$PROJECT_DIR$/assets/app/bio/bio.component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bio/bio.component.html" afterPath="$PROJECT_DIR$/assets/app/bio/bio.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bio/bio.component.less" afterPath="$PROJECT_DIR$/assets/app/bio/bio.component.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bio/bio.component.ts" afterPath="$PROJECT_DIR$/assets/app/bio/bio.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/bundle.js" afterPath="$PROJECT_DIR$/public/js/app/bundle.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="bio.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1921">
-              <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+            <state relative-caret-position="179">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -39,8 +40,8 @@
       <file leaf-file-name="bio.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="17" column="175" lean-forward="false" selection-start-line="17" selection-start-column="175" selection-end-line="17" selection-end-column="175" />
+            <state relative-caret-position="1310">
+              <caret line="60" column="57" lean-forward="false" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -49,8 +50,8 @@
       <file leaf-file-name="bio.component.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="290">
+              <caret line="228" column="35" lean-forward="false" selection-start-line="228" selection-start-column="35" selection-end-line="228" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -78,7 +79,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>routes</find>
       <find>routesPl</find>
       <find>m</find>
       <find>mongo</find>
@@ -107,10 +107,10 @@
       <find>descprition</find>
       <find>ngClass</find>
       <find>&amp;ldquo;</find>
+      <find>&amp;</find>
       <find>border-width</find>
     </findStrings>
     <replaceStrings>
-      <replace>omnivoria</replace>
       <replace>devonian</replace>
       <replace>obrovsky</replace>
       <replace>routerLink</replace>
@@ -139,6 +139,7 @@
       <replace>routesPl</replace>
       <replace>RoutesPl</replace>
       <replace>description</replace>
+      <replace />
       <replace>“</replace>
     </replaceStrings>
   </component>
@@ -587,12 +588,12 @@
       <workItem from="1505196101054" duration="7310000" />
       <workItem from="1505234052628" duration="1000" />
       <workItem from="1505240060596" duration="1253000" />
-      <workItem from="1505283958959" duration="8635000" />
+      <workItem from="1505283958959" duration="9590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222432000" />
+    <option name="totallyTimeSpent" value="223387000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -985,19 +986,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1921">
-          <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+        <state relative-caret-position="179">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="17" column="175" lean-forward="false" selection-start-line="17" selection-start-column="175" selection-end-line="17" selection-end-column="175" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,10 +1002,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1310">
+          <caret line="60" column="57" lean-forward="false" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        <state relative-caret-position="290">
+          <caret line="228" column="35" lean-forward="false" selection-start-line="228" selection-start-column="35" selection-end-line="228" selection-end-column="35" />
           <folding />
         </state>
       </provider>

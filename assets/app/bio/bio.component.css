@@ -203,9 +203,18 @@ figcaption {
 .press-image {
   border-color: #a98086;
 }
+.press-text h4 {
+  color: #a98086 !important;
+}
 .book-image {
   border-color: #b34a53;
 }
+.book-text h4 {
+  color: #b34a53 !important;
+}
 .collection-image {
   border-color: #99aac6;
+}
+.collection-text h4 {
+  color: #99aac6 !important;
 }
