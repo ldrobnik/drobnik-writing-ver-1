@@ -71,7 +71,7 @@ export class BioComponent implements OnInit {
 
             filename: 'wyspa',
 
-            url: 'http://kwartalnikwyspa.pl/',
+            url: 'http://kwartalnikwyspa.pl/category/numer-2015suplement/',
 
             descriptionPl: 'Opowiadanie „Wszystkożerność”',
 
