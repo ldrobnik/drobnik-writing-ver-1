@@ -17,14 +17,21 @@ export class BioComponent implements OnInit {
     imagePathBeginning = "images/bio-"; //specifies the beginnig of each timeline image file path
     imagePathEnd = ".jpg"; //specifies the end of each timeline image file path
 
-    // Array with publication list
+    /* Array with a list o publications specifying the following properties:
+    * title - specifies the main heading of a timeline panel;
+    * type - 'press', 'collection' or 'book' to add different styles
+    * year - year of publication
+    * filename - partial filename of the image displayed in the timeline
+    * url - path to the publication/magazine/book website
+    * descriptionPl - Polish description
+    * descriptionEn - English description */
 
     publications = [
 
         {
             title: '2017. Antologia współczesnych polskich opowiadań',
 
-            type: 'press',
+            type: 'collection',
 
             year: 2017,
 
