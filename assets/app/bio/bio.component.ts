@@ -1,6 +1,7 @@
 import {Component, OnInit } from "@angular/core";
-
 import { Router } from "@angular/router";
+
+import { ResetScrollService } from "../services/reset-scroll.service";
 
 @Component({
     selector: 'app-bio',
@@ -208,6 +209,12 @@ export class BioComponent implements OnInit {
             descriptionEn: 'A short story “Astroskopia”'
         }
     ];
+
+    //method resetting window scrolling
+    resetScroll() {
+        const scrollService = new ResetScrollService();
+        scrollService.resetScroll();
+    }
 
     constructor(private router: Router) {
 
