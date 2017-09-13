@@ -10,6 +10,9 @@ a {
 #bio {
   background-image: url('images/bio-background.png');
 }
+.row {
+  max-width: 100% !important;
+}
 #portrait {
   border-color: #b34a53;
   margin-top: 80px;
