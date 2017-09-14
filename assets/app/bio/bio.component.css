@@ -9,6 +9,7 @@ a {
 }
 #bio {
   background-image: url('images/bio-background.png');
+  font-family: 'Maven Pro', sans-serif !important;
 }
 .row {
   max-width: 100% !important;
@@ -41,7 +42,6 @@ figcaption {
   padding-right: 15px;
 }
 .timeline {
-  font-family: 'Maven Pro', sans-serif;
   list-style: none;
   padding: 0;
   position: relative;
