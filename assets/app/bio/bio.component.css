@@ -14,6 +14,15 @@ a {
 .row {
   max-width: 100% !important;
 }
+#bio-introduction ::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #b34a53;
+}
+#bio-introduction ::selection {
+  color: white;
+  background: #b34a53;
+}
 #portrait {
   border-color: #b34a53;
   margin-top: 80px;

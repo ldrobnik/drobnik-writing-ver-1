@@ -24,3 +24,16 @@
   -ms-user-select: none;
   user-select: none;
 }
+
+.selection(@val) {
+  ::-moz-selection { /* Code for Firefox */
+    color: @lightColor;
+    background: @val;
+  }
+
+  ::selection {
+    color: @lightColor;
+    background: @val;
+  }
+
+}
