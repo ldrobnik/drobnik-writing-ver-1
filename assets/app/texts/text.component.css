@@ -137,6 +137,15 @@
   }
 }
 /* Styles for class .nocturine */
+.nocturine ::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #a98086;
+}
+.nocturine ::selection {
+  color: white;
+  background: #a98086;
+}
 .nocturine .main-jumbopanel,
 .nocturine .secondary-jumbopanel {
   background-color: #a98086;
@@ -157,6 +166,15 @@
   background-color: #be9ea3;
 }
 /* Styles for class .cunninghamella */
+.cunninghamella ::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #566f0c;
+}
+.cunninghamella ::selection {
+  color: white;
+  background: #566f0c;
+}
 .cunninghamella .main-jumbopanel,
 .cunninghamella .secondary-jumbopanel {
   background-color: #566f0c;
@@ -177,6 +195,15 @@
   background-color: #7a9d11;
 }
 /* Styles for class .vostok */
+.vostok ::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #a67847;
+}
+.vostok ::selection {
+  color: white;
+  background: #a67847;
+}
 .vostok .main-jumbopanel,
 .vostok .secondary-jumbopanel {
   background-color: #a67847;
@@ -197,6 +224,15 @@
   background-color: #bc9164;
 }
 /* Styles for class .omnivoria */
+.omnivoria ::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #616a65;
+}
+.omnivoria ::selection {
+  color: white;
+  background: #616a65;
+}
 .omnivoria .main-jumbopanel,
 .omnivoria .secondary-jumbopanel {
   background-color: #616a65;
@@ -217,6 +253,15 @@
   background-color: #79857e;
 }
 /* Styles for class .devonian */
+.devonian ::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #99aac6;
+}
+.devonian ::selection {
+  color: white;
+  background: #99aac6;
+}
 .devonian .main-jumbopanel,
 .devonian .secondary-jumbopanel {
   background-color: #99aac6;
@@ -237,6 +282,15 @@
   background-color: #bac5d8;
 }
 /* Styles for class .obrovsky */
+.obrovsky ::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #b34a53;
+}
+.obrovsky ::selection {
+  color: white;
+  background: #b34a53;
+}
 .obrovsky .main-jumbopanel,
 .obrovsky .secondary-jumbopanel {
   background-color: #b34a53;

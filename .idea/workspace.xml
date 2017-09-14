@@ -7,9 +7,9 @@
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bio/bio.component.css" afterPath="$PROJECT_DIR$/assets/app/bio/bio.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bio/bio.component.html" afterPath="$PROJECT_DIR$/assets/app/bio/bio.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bio/bio.component.less" afterPath="$PROJECT_DIR$/assets/app/bio/bio.component.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/shared.less" afterPath="$PROJECT_DIR$/assets/app/shared.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text.component.css" afterPath="$PROJECT_DIR$/assets/app/texts/text.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text.component.less" afterPath="$PROJECT_DIR$/assets/app/texts/text.component.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/bundle.js" afterPath="$PROJECT_DIR$/public/js/app/bundle.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -70,28 +70,28 @@
       <file leaf-file-name="bio.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="260">
               <caret line="10" column="365" lean-forward="true" selection-start-line="10" selection-start-column="365" selection-end-line="10" selection-end-column="365" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bio.component.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bio.component.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="343">
+              <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text.component.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="text.component.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/texts/text.component.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="90" column="8" lean-forward="false" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+            <state relative-caret-position="380">
+              <caret line="327" column="27" lean-forward="false" selection-start-line="327" selection-start-column="27" selection-end-line="327" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -241,7 +241,6 @@
         <option value="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html" />
         <option value="$PROJECT_DIR$/assets/app/nav/nav.component.ts" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text.component.less" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html" />
         <option value="$PROJECT_DIR$/assets/app/nav/nav.component.css" />
         <option value="$PROJECT_DIR$/assets/app/bio/bio.component.ts" />
@@ -250,6 +249,7 @@
         <option value="$PROJECT_DIR$/assets/app/bio/bio.component.html" />
         <option value="$PROJECT_DIR$/assets/app/shared.less" />
         <option value="$PROJECT_DIR$/assets/app/bio/bio.component.less" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text.component.less" />
       </list>
     </option>
   </component>
@@ -589,12 +589,12 @@
       <workItem from="1505234052628" duration="1000" />
       <workItem from="1505240060596" duration="1253000" />
       <workItem from="1505283958959" duration="22314000" />
-      <workItem from="1505332156063" duration="2770000" />
+      <workItem from="1505332156063" duration="4420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238881000" />
+    <option name="totallyTimeSpent" value="240531000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -989,14 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text.component.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="90" column="8" lean-forward="false" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/shared.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -1005,18 +997,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="260">
           <caret line="10" column="365" lean-forward="true" selection-start-line="10" selection-start-column="365" selection-end-line="10" selection-end-column="365" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.less">
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text.component.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        <state relative-caret-position="380">
+          <caret line="327" column="27" lean-forward="false" selection-start-line="327" selection-start-column="27" selection-end-line="327" selection-end-column="27" />
           <folding />
         </state>
       </provider>

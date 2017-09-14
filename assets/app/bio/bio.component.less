@@ -40,6 +40,7 @@ a {
   max-height: 270px;
   border-width: 10px;
   border-style: solid;
+  .no-select;
 }
 
 figcaption {
@@ -255,28 +256,43 @@ figcaption {
 
 .press-image {
   border-color: @colorNocturine;
+  .no-select;
 }
 
 .press-text h4, .press-text h5 {
   color: @colorNocturine !important;
 }
 
+.press-text {
+  .selection(@colorNocturine);
+}
+
 //Styles for the class .book
 
 .book-image {
   border-color: @colorObrovsky;
+  .no-select;
 }
 
 .book-text h4, .book-text h5 {
   color: @colorObrovsky !important;
 }
 
+.book-text {
+  .selection(@colorObrovsky);
+}
+
 //Styles for the class .collection
 
 .collection-image {
   border-color: @colorDevonian;
+  .no-select;
 }
 
 .collection-text h4, .collection-text h5 {
   color: @colorDevonian !important;
+}
+
+.collection-text {
+  .selection(@colorDevonian);
 }

@@ -30,6 +30,10 @@ a {
   max-height: 270px;
   border-width: 10px;
   border-style: solid;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 figcaption {
   font-size: 0.5em;
@@ -222,22 +226,61 @@ figcaption {
 }
 .press-image {
   border-color: #a98086;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .press-text h4,
 .press-text h5 {
   color: #a98086 !important;
 }
+.press-text ::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #a98086;
+}
+.press-text ::selection {
+  color: white;
+  background: #a98086;
+}
 .book-image {
   border-color: #b34a53;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .book-text h4,
 .book-text h5 {
   color: #b34a53 !important;
 }
+.book-text ::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #b34a53;
+}
+.book-text ::selection {
+  color: white;
+  background: #b34a53;
+}
 .collection-image {
   border-color: #99aac6;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .collection-text h4,
 .collection-text h5 {
   color: #99aac6 !important;
+}
+.collection-text ::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #99aac6;
+}
+.collection-text ::selection {
+  color: white;
+  background: #99aac6;
 }
