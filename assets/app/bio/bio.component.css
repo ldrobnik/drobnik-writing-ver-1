@@ -6,6 +6,12 @@
 }
 a {
   cursor: pointer;
+  text-decoration: none;
+  color: #b34a53;
+  font-weight: bold;
+}
+.coloured {
+  color: #b34a53;
 }
 #bio {
   background-image: url('images/bio-background.png');

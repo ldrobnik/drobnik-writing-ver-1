@@ -197,7 +197,10 @@ export class NavComponent implements OnInit {
             }
 
             this.resetScroll();
-            this.router.navigate([randomPath]);
+            // this.router.navigate([randomPath]);
+            setTimeout(()=>{
+                this.router.navigate([randomPath], {replaceUrl:true});
+            });
         }
     }
 
