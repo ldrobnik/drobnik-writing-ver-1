@@ -197,7 +197,9 @@ export class NavComponent implements OnInit {
             }
 
             this.resetScroll();
-            // this.router.navigate([randomPath]);
+
+            // navigates to the random path while removing the 'random' or 'random/en' route from history
+
             setTimeout(()=>{
                 this.router.navigate([randomPath], {replaceUrl:true});
             });
