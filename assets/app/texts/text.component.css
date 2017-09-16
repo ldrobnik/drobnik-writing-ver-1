@@ -11,6 +11,10 @@
   color: white;
   background: transparent;
 }
+.jumbotron a {
+  color: white;
+  text-decoration: none;
+}
 .jumbotron .main-jumbopanel {
   margin-top: 90px;
   padding: 1vw 3vw 2vw 3vw;
