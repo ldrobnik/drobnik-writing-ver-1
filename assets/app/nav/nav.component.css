@@ -163,7 +163,8 @@ button:hover {
 .nocturine .dropdown-menu {
   background-color: #a98086 !important;
 }
-.nocturine .dropdown-item {
+.nocturine .dropdown-item,
+.nocturine .navbar-toggle {
   background-color: #a98086;
 }
 .nocturine .navbar-default .navbar-nav > .open > a,
@@ -213,7 +214,8 @@ button:hover {
 .cunninghamella .dropdown-menu {
   background-color: #566f0c !important;
 }
-.cunninghamella .dropdown-item {
+.cunninghamella .dropdown-item,
+.cunninghamella .navbar-toggle {
   background-color: #566f0c;
 }
 .cunninghamella .navbar-default .navbar-nav > .open > a,
@@ -266,7 +268,8 @@ button:hover {
 .vostok .dropdown-menu {
   background-color: #a67847 !important;
 }
-.vostok .dropdown-item {
+.vostok .dropdown-item,
+.vostok .navbar-toggle {
   background-color: #a67847;
 }
 .vostok .navbar-default .navbar-nav > .open > a,
@@ -319,7 +322,8 @@ button:hover {
 .omnivoria .dropdown-menu {
   background-color: #616a65 !important;
 }
-.omnivoria .dropdown-item {
+.omnivoria .dropdown-item,
+.omnivoria .navbar-toggle {
   background-color: #616a65;
 }
 .omnivoria .navbar-default .navbar-nav > .open > a,
@@ -372,7 +376,8 @@ button:hover {
 .devonian .dropdown-menu {
   background-color: #99aac6 !important;
 }
-.devonian .dropdown-item {
+.devonian .dropdown-item,
+.devonian .navbar-toggle {
   background-color: #99aac6;
 }
 .devonian .navbar-default .navbar-nav > .open > a,
@@ -425,7 +430,8 @@ button:hover {
 .obrovsky .dropdown-menu {
   background-color: #b34a53 !important;
 }
-.obrovsky .dropdown-item {
+.obrovsky .dropdown-item,
+.obrovsky .navbar-toggle {
   background-color: #b34a53;
 }
 .obrovsky .navbar-default .navbar-nav > .open > a,
