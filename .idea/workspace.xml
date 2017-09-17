@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav.component.css" afterPath="$PROJECT_DIR$/assets/app/nav/nav.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav.component.less" afterPath="$PROJECT_DIR$/assets/app/nav/nav.component.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/bundle.js" afterPath="$PROJECT_DIR$/public/js/app/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +21,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="nav.component.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nav.component.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -36,8 +34,18 @@
       <file leaf-file-name="nav.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="152" lean-forward="false" selection-start-line="28" selection-start-column="152" selection-end-line="28" selection-end-column="152" />
+            <state relative-caret-position="128">
+              <caret line="22" column="133" lean-forward="false" selection-start-line="22" selection-start-column="127" selection-end-line="22" selection-end-column="133" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text-obrovskyen.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="63" column="307" lean-forward="false" selection-start-line="63" selection-start-column="307" selection-end-line="63" selection-end-column="307" />
               <folding />
             </state>
           </provider>
@@ -55,7 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>opacity</find>
       <find>hover</find>
       <find>storag</find>
       <find>#fist</find>
@@ -85,6 +92,7 @@
       <find>but he</find>
       <find>separ</find>
       <find>random</find>
+      <find>losowy</find>
     </findStrings>
     <replaceStrings>
       <replace>(click) = &quot;resetScroll()&quot; [routerLink]</replace>
@@ -173,9 +181,9 @@
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok3en.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html" />
         <option value="$PROJECT_DIR$/assets/app/nav/nav.component.html" />
         <option value="$PROJECT_DIR$/assets/app/nav/nav.component.less" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html" />
       </list>
     </option>
   </component>
@@ -517,12 +525,12 @@
       <workItem from="1505283958959" duration="22314000" />
       <workItem from="1505332156063" duration="5115000" />
       <workItem from="1505461492359" duration="16740000" />
-      <workItem from="1505632678516" duration="2383000" />
+      <workItem from="1505632678516" duration="3162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260349000" />
+    <option name="totallyTimeSpent" value="261128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,6 +548,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26990914" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26923078" sideWeight="0.50216216" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3207283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24880128" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -552,7 +561,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24414304" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -913,14 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="74" column="145" lean-forward="true" selection-start-line="74" selection-start-column="145" selection-end-line="74" selection-end-column="145" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -937,18 +937,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="152" lean-forward="false" selection-start-line="28" selection-start-column="152" selection-end-line="28" selection-end-column="152" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="502" column="35" lean-forward="false" selection-start-line="502" selection-start-column="35" selection-end-line="502" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="22" column="133" lean-forward="false" selection-start-line="22" selection-start-column="127" selection-end-line="22" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="63" column="307" lean-forward="false" selection-start-line="63" selection-start-column="307" selection-end-line="63" selection-end-column="307" />
           <folding />
         </state>
       </provider>
