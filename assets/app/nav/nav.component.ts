@@ -6,6 +6,7 @@ import "rxjs/add/operator/mergeMap";
 
 import { ResetScrollService } from "../services/reset-scroll.service";
 
+declare let ga: Function;
 
 @Component ({
     selector: 'app-nav',
@@ -268,6 +269,15 @@ export class NavComponent implements OnInit {
             .filter((route) => route.outlet === 'primary')
             .mergeMap((route) => route.data)
             .subscribe((event) => {
+
+                //to make Google Analytics track routes:
+                ga('set', 'page', event.urlAfterRedirects);
+                ga('send', 'pageview');
+                // window.dataLayer = window.dataLayer || [];
+                // function gtag(){dataLayer.push(arguments)};
+                // gtag('js', new Date());
+                //
+                // gtag('config', 'UA-96544723-2');
 
                 // console.log(localStorage);
                 // console.log(this.visitedRoutesPl.length + " " + this.routesPl.length);
