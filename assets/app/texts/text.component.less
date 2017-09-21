@@ -139,6 +139,13 @@
 
 }
 
+.inline-heading {
+  text-indent: 0;
+  font-family: @displayFont;
+  font-weight: 900;
+  font-size: 2em;
+}
+
 .no-indent {
   text-indent: 0;
 }
@@ -202,6 +209,10 @@
   }
 }
 
+.nocturine .inline-heading {
+  color: @colorNocturine;
+}
+
 /* Styles for class .cunninghamella */
 
 .cunninghamella {
@@ -232,6 +243,9 @@
   }
 }
 
+.cunninghamella .inline-heading {
+  color: @colorCunninghamella;
+}
 
 /* Styles for class .vostok */
 
@@ -263,6 +277,9 @@
   }
 }
 
+.vostok .inline-heading {
+  color: @colorVostok;
+}
 
 /* Styles for class .omnivoria */
 
@@ -292,6 +309,10 @@
   &:hover {
     background-color: lighten(@colorOmnivoria, 10%);
   }
+}
+
+.omnivoria .inline-heading {
+  color: @colorOmnivoria;
 }
 
 /* Styles for class .devonian */
@@ -324,6 +345,10 @@
   }
 }
 
+.devonian .inline-heading {
+  color: @colorDevonian;
+}
+
 /* Styles for class .obrovsky */
 
 .obrovsky {
@@ -352,4 +377,8 @@
   &:hover {
     background-color: lighten(@colorObrovsky, 10%);
   }
+}
+
+.obrovsky .inline-heading {
+  color: @colorObrovsky;
 }
