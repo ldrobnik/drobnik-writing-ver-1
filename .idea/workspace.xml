@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-moths.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-moths.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/texts/test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cmy.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-cmy.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/bundle.js" afterPath="$PROJECT_DIR$/public/js/app/bundle.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,54 +23,119 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="text-cmy.component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="text-cmy.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cmy.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="20" column="239" lean-forward="true" selection-start-line="20" selection-start-column="239" selection-end-line="20" selection-end-column="239" />
-              <folding />
+            <state relative-caret-position="1220">
+              <caret line="26" column="371" lean-forward="false" selection-start-line="26" selection-start-column="371" selection-end-line="26" selection-end-column="371" />
+              <folding>
+                <element signature="e#246#252#0" expanded="true" />
+                <element signature="e#256#262#0" expanded="true" />
+                <element signature="e#266#272#0" expanded="true" />
+                <element signature="e#1220#1226#0" expanded="true" />
+                <element signature="e#1328#1334#0" expanded="true" />
+                <element signature="e#1479#1485#0" expanded="true" />
+                <element signature="e#1499#1505#0" expanded="true" />
+                <element signature="e#1548#1554#0" expanded="true" />
+                <element signature="e#1698#1704#0" expanded="true" />
+                <element signature="e#2014#2020#0" expanded="true" />
+                <element signature="e#2032#2038#0" expanded="true" />
+                <element signature="e#2072#2079#0" expanded="true" />
+                <element signature="e#2085#2092#0" expanded="true" />
+                <element signature="e#2094#2101#0" expanded="true" />
+                <element signature="e#2105#2112#0" expanded="true" />
+                <element signature="e#2114#2121#0" expanded="true" />
+                <element signature="e#2136#2143#0" expanded="true" />
+                <element signature="e#2645#2652#0" expanded="true" />
+                <element signature="e#2781#2788#0" expanded="true" />
+                <element signature="e#2802#2808#0" expanded="true" />
+                <element signature="e#2836#2842#0" expanded="true" />
+                <element signature="e#2896#2902#0" expanded="true" />
+                <element signature="e#2920#2926#0" expanded="true" />
+                <element signature="e#3127#3133#0" expanded="true" />
+                <element signature="e#3158#3164#0" expanded="true" />
+                <element signature="e#3246#3252#0" expanded="true" />
+                <element signature="e#3524#3530#0" expanded="true" />
+                <element signature="e#3620#3626#0" expanded="true" />
+                <element signature="e#3937#3943#0" expanded="true" />
+                <element signature="e#4035#4041#0" expanded="true" />
+                <element signature="e#4075#4081#0" expanded="true" />
+                <element signature="e#4089#4095#0" expanded="true" />
+                <element signature="e#4139#4145#0" expanded="true" />
+                <element signature="e#4363#4369#0" expanded="true" />
+                <element signature="e#4399#4405#0" expanded="true" />
+                <element signature="e#4527#4533#0" expanded="true" />
+                <element signature="e#4589#4595#0" expanded="true" />
+                <element signature="e#4640#4646#0" expanded="true" />
+                <element signature="e#4691#4698#0" expanded="true" />
+                <element signature="e#4713#4720#0" expanded="true" />
+                <element signature="e#4814#4820#0" expanded="true" />
+                <element signature="e#4851#4857#0" expanded="true" />
+                <element signature="e#5149#5155#0" expanded="true" />
+                <element signature="e#5192#5198#0" expanded="true" />
+                <element signature="e#5232#5238#0" expanded="true" />
+                <element signature="e#5260#5266#0" expanded="true" />
+                <element signature="e#5401#5407#0" expanded="true" />
+                <element signature="e#5505#5511#0" expanded="true" />
+                <element signature="e#5638#5644#0" expanded="true" />
+                <element signature="e#5690#5696#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text-moths.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/app/texts/text-moths.component.html">
+      <file leaf-file-name="test" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/texts/test">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="15" column="132" lean-forward="false" selection-start-line="15" selection-start-column="132" selection-end-line="15" selection-end-column="132" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="371" />
               <folding>
-                <element signature="e#1119#1126#0" expanded="true" />
-                <element signature="e#1192#1199#0" expanded="true" />
-                <element signature="e#1252#1259#0" expanded="true" />
-                <element signature="e#2067#2074#0" expanded="true" />
-                <element signature="e#2083#2090#0" expanded="true" />
-                <element signature="e#2092#2099#0" expanded="true" />
-                <element signature="e#2107#2114#0" expanded="true" />
-                <element signature="e#2116#2123#0" expanded="true" />
-                <element signature="e#2134#2141#0" expanded="true" />
-                <element signature="e#2204#2211#0" expanded="true" />
-                <element signature="e#2240#2247#0" expanded="true" />
-                <element signature="e#2325#2332#0" expanded="true" />
-                <element signature="e#2371#2378#0" expanded="true" />
-                <element signature="e#2617#2624#0" expanded="true" />
-                <element signature="e#2672#2679#0" expanded="true" />
-                <element signature="e#3009#3016#0" expanded="true" />
-                <element signature="e#3313#3320#0" expanded="true" />
-                <element signature="e#3346#3353#0" expanded="true" />
-                <element signature="e#3528#3535#0" expanded="true" />
-                <element signature="e#3624#3631#0" expanded="true" />
-                <element signature="e#3727#3734#0" expanded="true" />
-                <element signature="e#3886#3893#0" expanded="true" />
-                <element signature="e#4571#4578#0" expanded="true" />
-                <element signature="e#4677#4684#0" expanded="true" />
-                <element signature="e#4759#4766#0" expanded="true" />
-                <element signature="e#4857#4864#0" expanded="true" />
-                <element signature="e#4990#4997#0" expanded="true" />
-                <element signature="e#5033#5040#0" expanded="true" />
-                <element signature="e#5122#5129#0" expanded="true" />
-                <element signature="e#5163#5170#0" expanded="true" />
-                <element signature="e#5199#5206#0" expanded="true" />
-                <element signature="e#5625#5632#0" expanded="true" />
+                <element signature="e#24#30#0" expanded="true" />
+                <element signature="e#132#138#0" expanded="true" />
+                <element signature="e#283#289#0" expanded="true" />
+                <element signature="e#303#309#0" expanded="true" />
+                <element signature="e#352#358#0" expanded="true" />
+                <element signature="e#502#508#0" expanded="true" />
+                <element signature="e#818#824#0" expanded="true" />
+                <element signature="e#836#842#0" expanded="true" />
+                <element signature="e#876#883#0" expanded="true" />
+                <element signature="e#889#896#0" expanded="true" />
+                <element signature="e#898#905#0" expanded="true" />
+                <element signature="e#909#916#0" expanded="true" />
+                <element signature="e#918#925#0" expanded="true" />
+                <element signature="e#940#947#0" expanded="true" />
+                <element signature="e#1449#1456#0" expanded="true" />
+                <element signature="e#1585#1592#0" expanded="true" />
+                <element signature="e#1606#1612#0" expanded="true" />
+                <element signature="e#1640#1646#0" expanded="true" />
+                <element signature="e#1700#1706#0" expanded="true" />
+                <element signature="e#1724#1730#0" expanded="true" />
+                <element signature="e#1931#1937#0" expanded="true" />
+                <element signature="e#1962#1968#0" expanded="true" />
+                <element signature="e#2050#2056#0" expanded="true" />
+                <element signature="e#2328#2334#0" expanded="true" />
+                <element signature="e#2424#2430#0" expanded="true" />
+                <element signature="e#2741#2747#0" expanded="true" />
+                <element signature="e#2839#2845#0" expanded="true" />
+                <element signature="e#2879#2885#0" expanded="true" />
+                <element signature="e#2893#2899#0" expanded="true" />
+                <element signature="e#2943#2949#0" expanded="true" />
+                <element signature="e#3167#3173#0" expanded="true" />
+                <element signature="e#3203#3209#0" expanded="true" />
+                <element signature="e#3331#3337#0" expanded="true" />
+                <element signature="e#3393#3399#0" expanded="true" />
+                <element signature="e#3444#3450#0" expanded="true" />
+                <element signature="e#3495#3502#0" expanded="true" />
+                <element signature="e#3517#3524#0" expanded="true" />
+                <element signature="e#3618#3624#0" expanded="true" />
+                <element signature="e#3655#3661#0" expanded="true" />
+                <element signature="e#3953#3959#0" expanded="true" />
+                <element signature="e#3996#4002#0" expanded="true" />
+                <element signature="e#4036#4042#0" expanded="true" />
+                <element signature="e#4064#4070#0" expanded="true" />
+                <element signature="e#4205#4211#0" expanded="true" />
+                <element signature="e#4309#4315#0" expanded="true" />
+                <element signature="e#4442#4448#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,16 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>wysp</find>
-      <find>http://kwartalnikwyspa.pl/category/numer-2015suplement/light</find>
-      <find>dwuto</find>
-      <find>2014</find>
-      <find>dodatek</find>
-      <find>lamp</find>
-      <find>but he</find>
-      <find>separ</find>
-      <find>random</find>
-      <find>losowy</find>
       <find>.desci</find>
       <find>.row</find>
       <find>pine</find>
@@ -112,27 +169,28 @@
       <find>&amp;hellip;</find>
       <find>&amp;hellip;…</find>
       <find>‘</find>
-      <find>”</find>
       <find>’</find>
-      <find>—</find>
+      <find>Jest gorzej niż w czasie styczniowej wyprzedaży\, kiedy nie chciałem iść\, ale nalegałaś\. To musiała być kara za kolację z moimi rodzicami\. Nie odwracając głowy\, dajesz lekki znak ręką\, jak zawsze to robisz\, każąc mi wziąć wózek\. Wokół roją się ludzie\, równie głośni i bezładni jak w czasie tamtej wyprzedaży\, lecz desperacja w ich oczach ma nowy wymiar\. Stajemy przed automatycznymi drzwiami\, drzwi się otwierają\.\nWnętrze supermarketu przepełnia zgiełk\, dach z falowanej blachy odbija dźwięki\: podniesione głosy\, po których trudno poznać wiek czy płeć\, szuranie stóp\, szelest plastikowych toreb\, raz po raz ciężkie tąpnięcie\. Przynajmniej możemy tu wytchnąć od nieustającego upału\.\nPowinniśmy byli zrobić listę\. Zawsze robiliśmy\. To znaczy zawsze mi kazałaś\, a potem\, już w sklepie\, tylko wydawałaś rozkazy\: \„weź to\”\, \„tędy\”\, \„najpierw nabiał\”\, rugałaś za wybranie nie tego niebieskiego sera\. Nie wierzę\, że mogłem być tak szczęśliwy\. To dziwne\, że szczęście poznajemy tylko przez kontrast\, doceniamy je\, kiedy już go nie ma\.\nWygląda na to\, że nie masz już żadnego planu\. Zdajesz się bezradna\, snując po dziale warzywnym\, omijając turlane po podłodze kapuściane głowy\, osaczona przez niemal puste półki\, na których wciąż jest parę zwiędłych marchwi\, kilka brukselek\, przez niezmordowany tłum\. Ile potrzebujemy ziemniaków\? Ile cebuli\? \— wydajesz się pytać\. Później\, kiedy wkładasz do wózka chleb\, twoje oczy są równie zmęczone jak wtedy\, gdy mówiłaś\, że odchodzisz \— przekrwione i bezsilne\.\nDział z nabiałem\. Napawamy się ciągnącym od lodówek chłodem\, a nasze ciała toną w niebieskawym blasku\. Zupełnie nie obchodzi cię już rodzaj sera\. Nie żeby był szczególny wybór\. Jakaś trzydziestolatka\, na oko pracowniczka korporacji\, odmawia modlitwy\, zgarniając do wózka camemberty i brie\. Patrzymy po sobie i nerwowo chichoczemy\.\nGdy mi powiedziałaś\, wszystko stało się odległe\, o całe mile\. Powiedziałaś\, że jesteś wykończona\, że to nie działa\, że już tak nie możesz\, powiedziałaś\, że przepraszasz\. Kazałaś mi się wyprowadzić przed końcem miesiąca\. To było wczoraj\. Dziś rano dotarła do nas wieść\.\nŻartowaliśmy\, że wrócimy do picia dopiero w ostatnich dniach na Ziemi\. Jest jasne\, że teraz zapijemy się na śmierć\, gdy więc idziemy w stronę półek niegdyś ciężkich od piw\, jedyne\, co zaprząta nam głowę\, to ile puszek na osobę na dzień\. Wychodzi nam dwanaście\. Dodaję pięć butelek białego wina\, dla pewności\. Pomyśleć\, że wierzyłem\, że skoro daliśmy radę piciu\, damy radę wszystkiemu\.\nBezustanne pikanie kas przywodzi na myśl sygnały w alfabecie Morse\’a\. Ciekawe\, dlaczego kasjerzy wciąż pracują\. Czy to szok\? Przyzwyczajenie\? A może ktoś im groził\? Nim stajemy w jednej z głośnych\, meandrujących kolejek\, zahaczamy o dział apteczny\, by zgarnąć trzy fiolki pigułek na sen\.\nPotem są krzyki\, kłótnie\, czekanie\, jestem ja patrzący na twoje białe plecy upstrzone pieprzykami\, na lekkie drżenie ręki\, gdy sięgasz po portfel\. Gdy w końcu wychodzimy na zewnątrz w pomarańczowe światło\, podnosimy głowy\, jak na komendę\.\nĆma\, tak ją nazwaliśmy\, ze względu na brązowawy odcień i chmury ułożone we wzory podobne jak na skrzydłach ćmy\, i to\, że zmierza ku nam jak ćma do płomienia\. A może po prostu nazwa podchwycona przez media \— \&lt;i\&gt;Nibiru\&lt;\/i\&gt; \— wydała nam się zbyt sztampowa\. Teraz to ledwie czerwonawa plamka wisząca nisko nad dachami\, w zmierzchu prawie niewidoczna\. Z pewnością byśmy ją przeoczyli\, gdyby nie całe zamieszanie\.\nKiedy niezauważeni opuszczamy parking\, pchając wypełniony po brzegi wózek\, dochodzę do wniosku\, że nasza nazwa nie jest jednak trafna\. Niedługo będzie na odwrót\: za parę dni to my poddamy się jej sile ciążenia\, zbaczając z wydeptanej ścieżki orbity\, szybciej i szybciej\, by wreszcie zanurkować w głębiny tych szarych i brunatnych chmur\.\nUlice są dziwnie ciche\. Pachną gorącym asfaltem\. Nieśpiesznie docieramy do samochodu\, otwieramy bagażnik i zaczynamy go wypełniać chlebem\, serem\, warzywami\, piwem\. Robimy to\, na co byśmy się nie poważyli w innych okolicznościach\: zostawiamy wózek przy drodze\. Nim spychasz go do rowu\, posyłasz mi psotny uśmiech\. Wsiadamy do środka i odjeżdżamy\.</find>
+      <find>^(.+)$</find>
       <find>…</find>
+      <find>„</find>
+      <find>”</find>
+      <find>—</find>
+      <find />
+      <find>i</find>
+      <find>i</find>
+      <find>a</find>
+      <find>w</find>
+      <find>z</find>
+      <find>o</find>
     </findStrings>
     <replaceStrings>
-      <replace>scrollService.resetScroll</replace>
-      <replace>visitedRoutes</replace>
-      <replace>&quot;handleLink()&quot;</replace>
-      <replace>&quot;handleLink('nocturine1')&quot; [routerLink]=&quot;['/nocturine1']&quot;</replace>
-      <replace>&quot;handleLink('nocturine2')&quot; [routerLink]=&quot;['/nocturine2']&quot;</replace>
-      <replace>&quot;handleLink('nocturine3')&quot; [routerLink]=&quot;['/nocturine3']&quot;</replace>
-      <replace>&quot;handleLink('nocturine3/en')&quot; [routerLink]=&quot;['/nocturine3/en']&quot;</replace>
-      <replace>&quot;handleLink('nocturine1/en')&quot; [routerLink]=&quot;['/nocturine1/en']&quot;</replace>
       <replace>&quot;handleLink('nocturine2/en')&quot; [routerLink]=&quot;['/nocturine2/en']&quot;</replace>
       <replace>/* styles specific for</replace>
       <replace>routesPl</replace>
       <replace>RoutesPl</replace>
       <replace>description</replace>
       <replace>“</replace>
-      <replace />
       <replace>class=&quot;no-indent&quot;</replace>
       <replace>id=&quot;first&quot; class=&quot;no-indent&quot;</replace>
       <replace>id=&quot;first&quot;</replace>
@@ -144,10 +202,19 @@
       <replace>src=&quot;videos/obrovsky.mp4&quot; poster=&quot;images/poster-obrovsky.jpg&quot;</replace>
       <replace>’,</replace>
       <replace>’.</replace>
-      <replace>&amp;mdash;</replace>
       <replace>&amp;hellip;</replace>
       <replace>&amp;lsquo;</replace>
       <replace>&amp;rsquo;</replace>
+      <replace />
+      <replace>&lt;p&gt;$1&lt;/p&gt;</replace>
+      <replace>&amp;bdquo;</replace>
+      <replace>&amp;rdquo;</replace>
+      <replace>&amp;mdash;</replace>
+      <replace>i&amp;nbsp;</replace>
+      <replace>a&amp;nbsp;</replace>
+      <replace>w&amp;nbsp;</replace>
+      <replace>z&amp;nbsp;</replace>
+      <replace>o&amp;nbsp;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -156,7 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine3en.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.ts" />
@@ -203,10 +269,11 @@
         <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-cmy.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-moths.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/test" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-cmy.component.html" />
       </list>
     </option>
   </component>
@@ -558,7 +625,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269950000" />
+    <option name="totallyTimeSpent" value="270521000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -633,13 +700,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok4.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok3en.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -962,7 +1022,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1124,14 +1184,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cmy.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="20" column="239" lean-forward="true" selection-start-line="20" selection-start-column="239" selection-end-line="20" selection-end-column="239" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-moths.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -1169,6 +1221,120 @@
             <element signature="e#5163#5170#0" expanded="true" />
             <element signature="e#5199#5206#0" expanded="true" />
             <element signature="e#5625#5632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="371" />
+          <folding>
+            <element signature="e#24#30#0" expanded="true" />
+            <element signature="e#132#138#0" expanded="true" />
+            <element signature="e#283#289#0" expanded="true" />
+            <element signature="e#303#309#0" expanded="true" />
+            <element signature="e#352#358#0" expanded="true" />
+            <element signature="e#502#508#0" expanded="true" />
+            <element signature="e#818#824#0" expanded="true" />
+            <element signature="e#836#842#0" expanded="true" />
+            <element signature="e#876#883#0" expanded="true" />
+            <element signature="e#889#896#0" expanded="true" />
+            <element signature="e#898#905#0" expanded="true" />
+            <element signature="e#909#916#0" expanded="true" />
+            <element signature="e#918#925#0" expanded="true" />
+            <element signature="e#940#947#0" expanded="true" />
+            <element signature="e#1449#1456#0" expanded="true" />
+            <element signature="e#1585#1592#0" expanded="true" />
+            <element signature="e#1606#1612#0" expanded="true" />
+            <element signature="e#1640#1646#0" expanded="true" />
+            <element signature="e#1700#1706#0" expanded="true" />
+            <element signature="e#1724#1730#0" expanded="true" />
+            <element signature="e#1931#1937#0" expanded="true" />
+            <element signature="e#1962#1968#0" expanded="true" />
+            <element signature="e#2050#2056#0" expanded="true" />
+            <element signature="e#2328#2334#0" expanded="true" />
+            <element signature="e#2424#2430#0" expanded="true" />
+            <element signature="e#2741#2747#0" expanded="true" />
+            <element signature="e#2839#2845#0" expanded="true" />
+            <element signature="e#2879#2885#0" expanded="true" />
+            <element signature="e#2893#2899#0" expanded="true" />
+            <element signature="e#2943#2949#0" expanded="true" />
+            <element signature="e#3167#3173#0" expanded="true" />
+            <element signature="e#3203#3209#0" expanded="true" />
+            <element signature="e#3331#3337#0" expanded="true" />
+            <element signature="e#3393#3399#0" expanded="true" />
+            <element signature="e#3444#3450#0" expanded="true" />
+            <element signature="e#3495#3502#0" expanded="true" />
+            <element signature="e#3517#3524#0" expanded="true" />
+            <element signature="e#3618#3624#0" expanded="true" />
+            <element signature="e#3655#3661#0" expanded="true" />
+            <element signature="e#3953#3959#0" expanded="true" />
+            <element signature="e#3996#4002#0" expanded="true" />
+            <element signature="e#4036#4042#0" expanded="true" />
+            <element signature="e#4064#4070#0" expanded="true" />
+            <element signature="e#4205#4211#0" expanded="true" />
+            <element signature="e#4309#4315#0" expanded="true" />
+            <element signature="e#4442#4448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cmy.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="26" column="371" lean-forward="false" selection-start-line="26" selection-start-column="371" selection-end-line="26" selection-end-column="371" />
+          <folding>
+            <element signature="e#246#252#0" expanded="true" />
+            <element signature="e#256#262#0" expanded="true" />
+            <element signature="e#266#272#0" expanded="true" />
+            <element signature="e#1220#1226#0" expanded="true" />
+            <element signature="e#1328#1334#0" expanded="true" />
+            <element signature="e#1479#1485#0" expanded="true" />
+            <element signature="e#1499#1505#0" expanded="true" />
+            <element signature="e#1548#1554#0" expanded="true" />
+            <element signature="e#1698#1704#0" expanded="true" />
+            <element signature="e#2014#2020#0" expanded="true" />
+            <element signature="e#2032#2038#0" expanded="true" />
+            <element signature="e#2072#2079#0" expanded="true" />
+            <element signature="e#2085#2092#0" expanded="true" />
+            <element signature="e#2094#2101#0" expanded="true" />
+            <element signature="e#2105#2112#0" expanded="true" />
+            <element signature="e#2114#2121#0" expanded="true" />
+            <element signature="e#2136#2143#0" expanded="true" />
+            <element signature="e#2645#2652#0" expanded="true" />
+            <element signature="e#2781#2788#0" expanded="true" />
+            <element signature="e#2802#2808#0" expanded="true" />
+            <element signature="e#2836#2842#0" expanded="true" />
+            <element signature="e#2896#2902#0" expanded="true" />
+            <element signature="e#2920#2926#0" expanded="true" />
+            <element signature="e#3127#3133#0" expanded="true" />
+            <element signature="e#3158#3164#0" expanded="true" />
+            <element signature="e#3246#3252#0" expanded="true" />
+            <element signature="e#3524#3530#0" expanded="true" />
+            <element signature="e#3620#3626#0" expanded="true" />
+            <element signature="e#3937#3943#0" expanded="true" />
+            <element signature="e#4035#4041#0" expanded="true" />
+            <element signature="e#4075#4081#0" expanded="true" />
+            <element signature="e#4089#4095#0" expanded="true" />
+            <element signature="e#4139#4145#0" expanded="true" />
+            <element signature="e#4363#4369#0" expanded="true" />
+            <element signature="e#4399#4405#0" expanded="true" />
+            <element signature="e#4527#4533#0" expanded="true" />
+            <element signature="e#4589#4595#0" expanded="true" />
+            <element signature="e#4640#4646#0" expanded="true" />
+            <element signature="e#4691#4698#0" expanded="true" />
+            <element signature="e#4713#4720#0" expanded="true" />
+            <element signature="e#4814#4820#0" expanded="true" />
+            <element signature="e#4851#4857#0" expanded="true" />
+            <element signature="e#5149#5155#0" expanded="true" />
+            <element signature="e#5192#5198#0" expanded="true" />
+            <element signature="e#5232#5238#0" expanded="true" />
+            <element signature="e#5260#5266#0" expanded="true" />
+            <element signature="e#5401#5407#0" expanded="true" />
+            <element signature="e#5505#5511#0" expanded="true" />
+            <element signature="e#5638#5644#0" expanded="true" />
+            <element signature="e#5690#5696#0" expanded="true" />
           </folding>
         </state>
       </provider>
