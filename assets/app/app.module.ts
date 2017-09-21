@@ -17,6 +17,7 @@ import { TextNocturine2EnComponent } from "./texts/text-nocturine2en.component";
 import { TextNocturine3EnComponent } from "./texts/text-nocturine3en.component";
 import { TextCunninghamella1Component } from "./texts/text-cunninghamella1.component";
 import { TextCunninghamella2Component } from "./texts/text-cunninghamella2.component";
+import { TextCunninghamella3Component } from "./texts/text-cunninghamella3.component";
 import { TextCunninghamella1EnComponent } from "./texts/text-cunninghamella1en.component";
 import { TextVostok1Component } from "./texts/text-vostok1.component";
 import { TextVostok2Component } from "./texts/text-vostok2.component";
@@ -48,6 +49,7 @@ import { TextObrovskyEnComponent } from "./texts/text-obrovskyen.component";
         TextNocturine3EnComponent,
         TextCunninghamella1Component,
         TextCunninghamella2Component,
+        TextCunninghamella3Component,
         TextCunninghamella1EnComponent,
         TextVostok1Component,
         TextVostok2Component,
