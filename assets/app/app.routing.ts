@@ -11,6 +11,7 @@ import { TextNocturine2EnComponent } from "./texts/text-nocturine2en.component";
 import { TextNocturine3EnComponent } from "./texts/text-nocturine3en.component";
 import { TextCunninghamella1Component } from "./texts/text-cunninghamella1.component";
 import { TextCunninghamella2Component } from "./texts/text-cunninghamella2.component";
+import { TextCunninghamella3Component } from "./texts/text-cunninghamella3.component";
 import { TextCunninghamella1EnComponent } from "./texts/text-cunninghamella1en.component";
 import { TextVostok1Component } from "./texts/text-vostok1.component";
 import { TextVostok2Component } from "./texts/text-vostok2.component";
@@ -42,6 +43,7 @@ const APP_ROUTES: Routes = [
     {path: 'nocturine3/en', component: TextNocturine3EnComponent, data: {title: 'Łukasz Drobnik - Nocturine - Landscape with Five Houses', theme: 0}},
     {path: 'cunninghamella1', component: TextCunninghamella1Component, data: {title: 'Łukasz Drobnik - Cunninghamella - Rozdział trzeci', theme: 1}},
     {path: 'cunninghamella2', component: TextCunninghamella2Component, data: {title: 'Łukasz Drobnik - Cunninghamella - Rozdział dziesiąty', theme: 1}},
+    {path: 'cunninghamella3', component: TextCunninghamella3Component, data: {title: 'Łukasz Drobnik - Cunninghamella - Rozdział dwunasty', theme: 1}},
     {path: 'cunninghamella1/en', component: TextCunninghamella1EnComponent, data: {title: 'Łukasz Drobnik - Cunninghamella - Chapter Three', theme: 1}},
     {path: 'vostok1', component: TextVostok1Component, data: {title: 'Łukasz Drobnik - Vostok - Rozdział pierwszy', theme: 2}},
     {path: 'vostok2', component: TextVostok2Component, data: {title: 'Łukasz Drobnik - Vostok - Rozdział drugi', theme: 2}},
