@@ -116,6 +116,12 @@
   border-color: white;
   padding: 0;
 }
+.inline-heading {
+  text-indent: 0;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 2em;
+}
 .no-indent {
   text-indent: 0;
 }
@@ -169,6 +175,9 @@
 .nocturine .read-on:hover {
   background-color: #be9ea3;
 }
+.nocturine .inline-heading {
+  color: #a98086;
+}
 /* Styles for class .cunninghamella */
 .cunninghamella ::-moz-selection {
   /* Code for Firefox */
@@ -197,6 +206,9 @@
 }
 .cunninghamella .read-on:hover {
   background-color: #7a9d11;
+}
+.cunninghamella .inline-heading {
+  color: #566f0c;
 }
 /* Styles for class .vostok */
 .vostok ::-moz-selection {
@@ -227,6 +239,9 @@
 .vostok .read-on:hover {
   background-color: #bc9164;
 }
+.vostok .inline-heading {
+  color: #a67847;
+}
 /* Styles for class .omnivoria */
 .omnivoria ::-moz-selection {
   /* Code for Firefox */
@@ -255,6 +270,9 @@
 }
 .omnivoria .read-on:hover {
   background-color: #79857e;
+}
+.omnivoria .inline-heading {
+  color: #616a65;
 }
 /* Styles for class .devonian */
 .devonian ::-moz-selection {
@@ -285,6 +303,9 @@
 .devonian .read-on:hover {
   background-color: #bac5d8;
 }
+.devonian .inline-heading {
+  color: #99aac6;
+}
 /* Styles for class .obrovsky */
 .obrovsky ::-moz-selection {
   /* Code for Firefox */
@@ -313,4 +334,7 @@
 }
 .obrovsky .read-on:hover {
   background-color: #c36d75;
+}
+.obrovsky .inline-heading {
+  color: #b34a53;
 }
