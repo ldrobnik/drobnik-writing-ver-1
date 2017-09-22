@@ -168,7 +168,7 @@
 <!-- Local storage message -->
 <div [ngClass]="{nocturine: theme == 0, cunninghamella: theme == 1, vostok: theme == 2, omnivoria: theme == 3, devonian: theme == 4, obrovsky: theme == 5}">
     <div id="storage-message" class="text-center" *ngIf="!locStorageAccepted && langSet">
-        <p *ngIf="!langEn">Ta strona przechowuje podstawowe informacje na temat preferencji użytkownika.</p>
+        <p *ngIf="!langEn">Strona przechowuje podstawowe informacje na temat preferencji użytkownika.</p>
         <p *ngIf="langEn">This website collects basic information about user preferences.</p>
         <button class="btn accept" *ngIf="!langEn" (click)="acceptLocalStorage()">Rozumiem</button>
         <button class="btn accept" *ngIf="langEn" (click)="acceptLocalStorage()">I understand</button>

@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,22 +20,38 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="nav.component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nav.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="142" column="156" lean-forward="false" selection-start-line="142" selection-start-column="156" selection-end-line="142" selection-end-column="156" />
+            <state relative-caret-position="166">
+              <caret line="170" column="28" lean-forward="false" selection-start-line="170" selection-start-column="28" selection-end-line="170" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text-obrovsky.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="text-obrovsky.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
               <caret line="102" column="65" lean-forward="false" selection-start-line="102" selection-start-column="65" selection-end-line="102" selection-end-column="65" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text-cunninghamella1.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1760">
+              <caret line="42" column="940" lean-forward="false" selection-start-line="42" selection-start-column="940" selection-end-line="42" selection-end-column="940" />
+              <folding>
+                <element signature="e#6971#6978#0" expanded="true" />
+                <element signature="e#7131#7138#0" expanded="true" />
+                <element signature="e#7185#7192#0" expanded="true" />
+                <element signature="e#7199#7206#0" expanded="true" />
+                <element signature="e#7364#7371#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,8 +187,8 @@
         <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella3.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text.component.less" />
-        <option value="$PROJECT_DIR$/assets/app/nav/nav.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/nav/nav.component.html" />
       </list>
     </option>
   </component>
@@ -521,12 +536,12 @@
       <workItem from="1505804313716" duration="1330000" />
       <workItem from="1505888877169" duration="2839000" />
       <workItem from="1506020143084" duration="9000" />
-      <workItem from="1506060943716" duration="9833000" />
+      <workItem from="1506060943716" duration="10560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="286327000" />
+    <option name="totallyTimeSpent" value="287054000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3253,20 +3268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="42" column="940" lean-forward="false" selection-start-line="42" selection-start-column="940" selection-end-line="42" selection-end-column="940" />
-          <folding>
-            <element signature="e#6971#6978#0" expanded="true" />
-            <element signature="e#7131#7138#0" expanded="true" />
-            <element signature="e#7185#7192#0" expanded="true" />
-            <element signature="e#7199#7206#0" expanded="true" />
-            <element signature="e#7364#7371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text.component.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-960">
@@ -3357,18 +3358,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="142" column="156" lean-forward="false" selection-start-line="142" selection-start-column="156" selection-end-line="142" selection-end-column="156" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="102" column="65" lean-forward="false" selection-start-line="102" selection-start-column="65" selection-end-line="102" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="42" column="940" lean-forward="false" selection-start-line="42" selection-start-column="940" selection-end-line="42" selection-end-column="940" />
+          <folding>
+            <element signature="e#6971#6978#0" expanded="true" />
+            <element signature="e#7131#7138#0" expanded="true" />
+            <element signature="e#7185#7192#0" expanded="true" />
+            <element signature="e#7199#7206#0" expanded="true" />
+            <element signature="e#7364#7371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="170" column="28" lean-forward="false" selection-start-line="170" selection-start-column="28" selection-end-line="170" selection-end-column="28" />
           <folding />
         </state>
       </provider>
