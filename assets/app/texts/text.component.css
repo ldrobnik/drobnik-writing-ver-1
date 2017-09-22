@@ -134,6 +134,15 @@
   font-size: 1em;
   color: white;
 }
+.sources {
+  color: #b9e82c;
+  font-size: 0.6em;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  text-indent: 0;
+  margin-top: 30px;
+}
 @media screen and (max-width: 1200px) {
   .story {
     padding-left: 12vw;
