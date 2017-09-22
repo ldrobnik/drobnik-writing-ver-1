@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav.component.html" afterPath="$PROJECT_DIR$/assets/app/nav/nav.component.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,118 +20,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="text-cunninghamella1en.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.html">
+      <file leaf-file-name="nav.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="42" column="1542" lean-forward="false" selection-start-line="42" selection-start-column="1542" selection-end-line="42" selection-end-column="1542" />
-              <folding>
-                <element signature="e#8009#8016#0" expanded="true" />
-                <element signature="e#8044#8051#0" expanded="true" />
-                <element signature="e#8235#8242#0" expanded="true" />
-                <element signature="e#8288#8295#0" expanded="true" />
-                <element signature="e#8362#8369#0" expanded="true" />
-                <element signature="e#8401#8408#0" expanded="true" />
-                <element signature="e#8432#8439#0" expanded="true" />
-                <element signature="e#8472#8479#0" expanded="true" />
-                <element signature="e#8587#8594#0" expanded="true" />
-                <element signature="e#8626#8633#0" expanded="true" />
-                <element signature="e#8746#8753#0" expanded="true" />
-                <element signature="e#8816#8823#0" expanded="true" />
-                <element signature="e#8845#8852#0" expanded="true" />
-                <element signature="e#8883#8890#0" expanded="true" />
-                <element signature="e#8966#8973#0" expanded="true" />
-                <element signature="e#8995#9002#0" expanded="true" />
-                <element signature="e#9051#9058#0" expanded="true" />
-                <element signature="e#9077#9084#0" expanded="true" />
-                <element signature="e#9097#9104#0" expanded="true" />
-                <element signature="e#9130#9137#0" expanded="true" />
-                <element signature="e#9155#9162#0" expanded="true" />
-                <element signature="e#9172#9179#0" expanded="true" />
-                <element signature="e#9229#9236#0" expanded="true" />
-                <element signature="e#9273#9280#0" expanded="true" />
-                <element signature="e#9610#9616#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text-cunninghamella1.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="42" column="940" lean-forward="false" selection-start-line="42" selection-start-column="940" selection-end-line="42" selection-end-column="940" />
-              <folding>
-                <element signature="e#6971#6978#0" expanded="true" />
-                <element signature="e#7131#7138#0" expanded="true" />
-                <element signature="e#7185#7192#0" expanded="true" />
-                <element signature="e#7199#7206#0" expanded="true" />
-                <element signature="e#7364#7371#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/texts/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="1004" />
+            <state relative-caret-position="208">
+              <caret line="142" column="156" lean-forward="false" selection-start-line="142" selection-start-column="156" selection-end-line="142" selection-end-column="156" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text-cunninghamella3.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella3.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="57" column="1027" lean-forward="false" selection-start-line="57" selection-start-column="1027" selection-end-line="57" selection-end-column="1027" />
-              <folding>
-                <element signature="e#10168#10175#0" expanded="true" />
-                <element signature="e#10197#10204#0" expanded="true" />
-                <element signature="e#10274#10281#0" expanded="true" />
-                <element signature="e#10285#10292#0" expanded="true" />
-                <element signature="e#10310#10317#0" expanded="true" />
-                <element signature="e#10328#10335#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text.component.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/app/texts/text.component.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="168" column="19" lean-forward="false" selection-start-line="168" selection-start-column="19" selection-end-line="168" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text-cunninghamella2.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="29" column="1298" lean-forward="false" selection-start-line="29" selection-start-column="1298" selection-end-line="29" selection-end-column="1298" />
-              <folding>
-                <element signature="e#3846#3853#0" expanded="true" />
-                <element signature="e#3873#3880#0" expanded="true" />
-                <element signature="e#3899#3906#0" expanded="true" />
-                <element signature="e#3926#3933#0" expanded="true" />
-                <element signature="e#3954#3961#0" expanded="true" />
-                <element signature="e#3974#3981#0" expanded="true" />
-                <element signature="e#4005#4012#0" expanded="true" />
-                <element signature="e#4019#4026#0" expanded="true" />
-                <element signature="e#4040#4047#0" expanded="true" />
-                <element signature="e#4061#4068#0" expanded="true" />
-                <element signature="e#4089#4096#0" expanded="true" />
-                <element signature="e#4111#4118#0" expanded="true" />
-                <element signature="e#4133#4140#0" expanded="true" />
-                <element signature="e#4157#4164#0" expanded="true" />
-                <element signature="e#4184#4191#0" expanded="true" />
-                <element signature="e#4209#4216#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -244,7 +138,6 @@
         <option value="$PROJECT_DIR$/assets/app/nav/nav.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/app.module.ts" />
         <option value="$PROJECT_DIR$/assets/app/app.routing.ts" />
-        <option value="$PROJECT_DIR$/assets/app/nav/nav.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html" />
@@ -269,6 +162,7 @@
         <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella3.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text.component.less" />
+        <option value="$PROJECT_DIR$/assets/app/nav/nav.component.html" />
       </list>
     </option>
   </component>
@@ -616,12 +510,12 @@
       <workItem from="1505804313716" duration="1330000" />
       <workItem from="1505888877169" duration="2839000" />
       <workItem from="1506020143084" duration="9000" />
-      <workItem from="1506060943716" duration="8013000" />
+      <workItem from="1506060943716" duration="9187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284507000" />
+    <option name="totallyTimeSpent" value="285681000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -634,6 +528,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="154" y="79" width="1625" height="912" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26932827" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -642,7 +537,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3207283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24880128" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31932774" sideWeight="0.49783784" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31932774" sideWeight="0.49783784" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1069,6 +964,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3920">
           <caret line="21" column="113" lean-forward="false" selection-start-line="21" selection-start-column="113" selection-end-line="21" selection-end-column="113" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1077,13 +973,6 @@
         <state relative-caret-position="20">
           <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="124" column="57" lean-forward="false" selection-start-line="124" selection-start-column="57" selection-end-line="124" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -3690,6 +3579,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="42" column="940" lean-forward="false" selection-start-line="42" selection-start-column="940" selection-end-line="42" selection-end-column="940" />
+          <folding>
+            <element signature="e#6971#6978#0" expanded="true" />
+            <element signature="e#7131#7138#0" expanded="true" />
+            <element signature="e#7185#7192#0" expanded="true" />
+            <element signature="e#7199#7206#0" expanded="true" />
+            <element signature="e#7364#7371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text.component.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-960">
+          <caret line="168" column="19" lean-forward="false" selection-start-line="168" selection-start-column="19" selection-end-line="168" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella3.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="57" column="1027" lean-forward="false" selection-start-line="57" selection-start-column="1027" selection-end-line="57" selection-end-column="1027" />
+          <folding>
+            <element signature="e#10168#10175#0" expanded="true" />
+            <element signature="e#10197#10204#0" expanded="true" />
+            <element signature="e#10274#10281#0" expanded="true" />
+            <element signature="e#10285#10292#0" expanded="true" />
+            <element signature="e#10310#10317#0" expanded="true" />
+            <element signature="e#10328#10335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="1004" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="29" column="1298" lean-forward="false" selection-start-line="29" selection-start-column="1298" selection-end-line="29" selection-end-column="1298" />
+          <folding>
+            <element signature="e#3846#3853#0" expanded="true" />
+            <element signature="e#3873#3880#0" expanded="true" />
+            <element signature="e#3899#3906#0" expanded="true" />
+            <element signature="e#3926#3933#0" expanded="true" />
+            <element signature="e#3954#3961#0" expanded="true" />
+            <element signature="e#3974#3981#0" expanded="true" />
+            <element signature="e#4005#4012#0" expanded="true" />
+            <element signature="e#4019#4026#0" expanded="true" />
+            <element signature="e#4040#4047#0" expanded="true" />
+            <element signature="e#4061#4068#0" expanded="true" />
+            <element signature="e#4089#4096#0" expanded="true" />
+            <element signature="e#4111#4118#0" expanded="true" />
+            <element signature="e#4133#4140#0" expanded="true" />
+            <element signature="e#4157#4164#0" expanded="true" />
+            <element signature="e#4184#4191#0" expanded="true" />
+            <element signature="e#4209#4216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -3724,72 +3683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.html">
+    <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="42" column="940" lean-forward="false" selection-start-line="42" selection-start-column="940" selection-end-line="42" selection-end-column="940" />
-          <folding>
-            <element signature="e#6971#6978#0" expanded="true" />
-            <element signature="e#7131#7138#0" expanded="true" />
-            <element signature="e#7185#7192#0" expanded="true" />
-            <element signature="e#7199#7206#0" expanded="true" />
-            <element signature="e#7364#7371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="29" column="1298" lean-forward="false" selection-start-line="29" selection-start-column="1298" selection-end-line="29" selection-end-column="1298" />
-          <folding>
-            <element signature="e#3846#3853#0" expanded="true" />
-            <element signature="e#3873#3880#0" expanded="true" />
-            <element signature="e#3899#3906#0" expanded="true" />
-            <element signature="e#3926#3933#0" expanded="true" />
-            <element signature="e#3954#3961#0" expanded="true" />
-            <element signature="e#3974#3981#0" expanded="true" />
-            <element signature="e#4005#4012#0" expanded="true" />
-            <element signature="e#4019#4026#0" expanded="true" />
-            <element signature="e#4040#4047#0" expanded="true" />
-            <element signature="e#4061#4068#0" expanded="true" />
-            <element signature="e#4089#4096#0" expanded="true" />
-            <element signature="e#4111#4118#0" expanded="true" />
-            <element signature="e#4133#4140#0" expanded="true" />
-            <element signature="e#4157#4164#0" expanded="true" />
-            <element signature="e#4184#4191#0" expanded="true" />
-            <element signature="e#4209#4216#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="1004" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cunninghamella3.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="57" column="1027" lean-forward="false" selection-start-line="57" selection-start-column="1027" selection-end-line="57" selection-end-column="1027" />
-          <folding>
-            <element signature="e#10168#10175#0" expanded="true" />
-            <element signature="e#10197#10204#0" expanded="true" />
-            <element signature="e#10274#10281#0" expanded="true" />
-            <element signature="e#10285#10292#0" expanded="true" />
-            <element signature="e#10310#10317#0" expanded="true" />
-            <element signature="e#10328#10335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text.component.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="168" column="19" lean-forward="false" selection-start-line="168" selection-start-column="19" selection-end-line="168" selection-end-column="19" />
+        <state relative-caret-position="208">
+          <caret line="142" column="156" lean-forward="false" selection-start-line="142" selection-start-column="156" selection-end-line="142" selection-end-column="156" />
           <folding />
         </state>
       </provider>
