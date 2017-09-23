@@ -4,7 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
+// var mongoose = require('mongoose');
 var dotenv = require('dotenv'); // to be able to access environment variables
 
 
@@ -16,11 +16,11 @@ var app = express();
 
 dotenv.load(); // load the environment variables
 
-var user = process.env.USER;
-var password = process.env.PASSWORD;
-var connectLink = "mongodb://" + user + ":" + password + "@ds159953.mlab.com:59953/lukasz-drobnik";
-
-mongoose.connect(connectLink); // connects with mongoose on each request
+// var user = process.env.USER;
+// var password = process.env.PASSWORD;
+// var connectLink = "mongodb://" + user + ":" + password + "@ds159953.mlab.com:59953/lukasz-drobnik";
+//
+// mongoose.connect(connectLink); // connects with mongoose on each request
 
 
 // view engine setup
