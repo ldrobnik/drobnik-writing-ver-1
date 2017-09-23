@@ -72,7 +72,6 @@ import { TextObrovskyEnComponent } from "./texts/text-obrovskyen.component";
         routing
     ],
     bootstrap: [AppComponent], // tells Angular to bootstrap with AppComponent
-    prividers: []
 })
 export class AppModule {
 
