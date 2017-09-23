@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/videos/cunninghamella.mp4" afterPath="$PROJECT_DIR$/public/videos/cunninghamella.mp4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/videos/devonian.mp4" afterPath="$PROJECT_DIR$/public/videos/devonian.mp4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/videos/nocturine.mp4" afterPath="$PROJECT_DIR$/public/videos/nocturine.mp4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/videos/obrovsky.mp4" afterPath="$PROJECT_DIR$/public/videos/obrovsky.mp4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/videos/omnivoria.mp4" afterPath="$PROJECT_DIR$/public/videos/omnivoria.mp4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/videos/vostok.mp4" afterPath="$PROJECT_DIR$/public/videos/vostok.mp4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cmy.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-cmy.component.html" />
@@ -703,7 +709,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300528000" />
+    <option name="totallyTimeSpent" value="300723000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -716,7 +722,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="27" width="1870" height="977" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24352941" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2687877" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -726,7 +731,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3207283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24880128" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29139924" sideWeight="0.49783784" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29139924" sideWeight="0.49783784" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
