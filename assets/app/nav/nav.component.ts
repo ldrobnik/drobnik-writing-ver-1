@@ -30,7 +30,7 @@ export class NavComponent implements OnInit {
     visitedRoutesEn: Array<string>; //same for English texts
 
 
-    constructor(private router: Router, private activatedRoute: ActivatedRoute) {
+    constructor(public router: Router, public activatedRoute: ActivatedRoute) {
 
     }
 

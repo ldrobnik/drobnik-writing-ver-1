@@ -223,7 +223,7 @@ export class BioComponent implements OnInit {
         scrollService.resetScroll();
     }
 
-    constructor(private router: Router) {
+    constructor(public router: Router) {
 
     }
 
