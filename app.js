@@ -52,9 +52,9 @@ app.use(function(req, res, next) {
 
 module.exports = app;
 
-
-//enable the video to play on android devices
-var video = document.getElementById('video');
-video.addEventListener('click',function(){
-    video.play();
-},false);
+//
+// //enable the video to play on android devices
+// var video = document.getElementById('video');
+// video.addEventListener('click',function(){
+//     video.play();
+// },false);
