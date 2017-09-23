@@ -10,7 +10,6 @@
   font-family: 'Maven Pro', sans-serif;
   color: white;
   background: transparent;
-  max-width: 100%;
 }
 .jumbotron a {
   color: white;
@@ -54,6 +53,8 @@
   /* The following will size the video to fit the full container. */
   min-width: 100%;
   min-height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
