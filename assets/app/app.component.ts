@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
     @Input() langEn: boolean;
 
 
-    constructor(private router: Router, private activatedRoute: ActivatedRoute, private titleService: Title) {
+    constructor(public router: Router, public activatedRoute: ActivatedRoute, public titleService: Title) {
 
     }
 
