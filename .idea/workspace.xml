@@ -6,31 +6,30 @@
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cmy.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-cmy.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-moths.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-moths.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine3en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine3en.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok2.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok2.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok3.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok3.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok3en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok3en.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok4.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok4.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cmy.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-cmy.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-moths.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-moths.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine3en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine3en.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok2.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok2.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok3.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok3.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok3en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok3en.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok4.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok4.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.ngfactory.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/bundle.js" afterPath="$PROJECT_DIR$/public/js/app/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,7 +47,7 @@
       <file leaf-file-name="text-vostok1.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok1.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="148">
               <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="82" />
               <folding />
             </state>
@@ -58,7 +57,7 @@
       <file leaf-file-name="text-biegnacyczlowiek.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="158">
               <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
@@ -78,7 +77,7 @@
       <file leaf-file-name="text-cmy.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cmy.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="138">
               <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
@@ -88,7 +87,7 @@
       <file leaf-file-name="text-moths.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/texts/text-moths.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="220">
               <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
@@ -109,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -682,7 +681,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303650000" />
+    <option name="totallyTimeSpent" value="303982000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -704,7 +703,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3207283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24880128" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2702381" sideWeight="0.49783784" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2702381" sideWeight="0.49783784" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -928,9 +927,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="17" column="86" lean-forward="true" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
-          <folding>
-            <element signature="e#58120#105366#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,178 +1031,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-142">
           <caret line="421" column="248958" lean-forward="true" selection-start-line="421" selection-start-column="248958" selection-end-line="421" selection-end-column="248958" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1506197558567" expanded="true" signature="2576:8157913" ph="[...]" />
-            <marker date="1506197558567" expanded="true" signature="6713311:6714249" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7473525:7473579" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7473572:7473577" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7473582:7473591" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7473592:7473597" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7536106:7536159" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7536152:7536157" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7536162:7536171" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7536172:7536177" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7536238:7542930" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7542923:7542928" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7542933:7542942" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7542943:7542948" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7543009:7550843" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7550836:7550841" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7550846:7550855" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7550856:7550861" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7550922:7554483" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7554476:7554481" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7554486:7554495" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7554496:7554501" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7554562:7559645" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7559638:7559643" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7559648:7559657" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7559658:7559663" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7559724:7563241" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7563234:7563239" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7563244:7563253" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7563254:7563259" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7563320:7564480" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7564473:7564478" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7564483:7564492" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7564493:7564498" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7564559:7566269" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7566262:7566267" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7566272:7566281" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7566282:7566287" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7566348:7576253" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7576246:7576251" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7576256:7576265" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7576266:7576271" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7576299:7591075" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7591068:7591073" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7591078:7591087" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7591088:7591093" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7591121:7591676" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7591669:7591674" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7591679:7591688" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7591689:7591694" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7591722:7606969" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7606962:7606967" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7606972:7606981" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7606982:7606987" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7607015:7634973" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7634966:7634971" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7634976:7634985" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7634986:7634991" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7635040:7639853" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7639846:7639851" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7639856:7639865" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7639866:7639871" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7639920:7643743" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7643736:7643741" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7643746:7643755" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7643756:7643761" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7643810:7656564" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7656557:7656562" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7656567:7656576" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7656577:7656582" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7656631:7660760" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7660753:7660758" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7660763:7660772" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7660773:7660778" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7660827:7667959" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7667952:7667957" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7667962:7667971" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7667972:7667977" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7668026:7685595" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7685588:7685593" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7685598:7685607" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7685608:7685613" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7685662:7698982" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7698975:7698980" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7698985:7698994" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7698995:7699000" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7699049:7712772" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7712765:7712770" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7712775:7712784" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7712785:7712790" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7712839:7713723" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7713716:7713721" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7713726:7713735" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7713736:7713741" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7713790:7714749" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7714742:7714747" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7714752:7714761" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7714762:7714767" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7714816:7715642" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7715635:7715640" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7715645:7715654" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7715655:7715660" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7715709:7716575" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7716568:7716573" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7716578:7716587" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7716588:7716593" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7716642:7727469" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7727462:7727467" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7727472:7727481" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7727482:7727487" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7727536:7733451" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7733444:7733449" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7733454:7733463" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7733464:7733469" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7733518:7741786" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7741779:7741784" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7741789:7741798" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7741799:7741804" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7741853:7749385" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7749378:7749383" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7749388:7749397" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7749398:7749403" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7749452:7764785" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7764778:7764783" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7764788:7764797" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7764798:7764803" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7764852:7776544" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7776537:7776542" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7776547:7776556" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7776557:7776562" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7776611:7793029" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7793022:7793027" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7793032:7793041" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7793042:7793047" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7793096:7799872" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7799865:7799870" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7799875:7799884" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7799885:7799890" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7799939:7814588" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7814581:7814586" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7814591:7814600" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7814601:7814606" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7814655:7827846" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7827839:7827844" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7827849:7827858" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7827859:7827864" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7827913:7830786" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7830779:7830784" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7830789:7830798" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7830799:7830804" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7830853:7834102" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7834095:7834100" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7834105:7834114" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7834115:7834120" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7834169:7836610" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7836603:7836608" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7836613:7836622" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7836623:7836628" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7836677:7838320" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7838313:7838318" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7838323:7838332" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7838333:7838338" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7838387:7854989" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="7854982:7854987" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7854992:7855001" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7855002:7855007" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="7855056:8157901" ph="{...}" />
-            <marker date="1506197558567" expanded="true" signature="8157894:8157899" ph="/*...*/" />
-            <marker date="1506197558567" expanded="true" signature="8157903:8157911" ph="/*...*/" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,7 +1093,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok1.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="148">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="82" />
           <folding />
         </state>
@@ -1275,7 +1101,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="158">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
@@ -1291,7 +1117,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-cmy.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="138">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
@@ -1299,7 +1125,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-moths.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="220">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
@@ -1316,7 +1142,7 @@
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding />
         </state>
       </provider>
