@@ -15,6 +15,6 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
     animation-name: loader-anim;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
 }
