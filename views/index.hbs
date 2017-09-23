@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pl">
 <head>
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <!-- Global Site Tag (gtag.js) - Google Analytics + video issue -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-ExampleApiKey"></script>
     <script>
 //        window.dataLayer = window.dataLayer || [];
@@ -17,6 +17,12 @@
 
                 ga('create', 'UA-ExampleApiKey', 'auto');
 //                ga('send', 'pageview');
+
+        //enable the video to play on android devices
+        var video = document.getElementById('video');
+        video.addEventListener('click',function(){
+            video.play();
+},false);
     </script>
     <!-- to make routing work as intended: -->
     <base href="/">
