@@ -19,8 +19,8 @@
 //                ga('send', 'pageview');
 
         //enable the video to play on android devices
-        var video = document.getElementById('video');
-        video.addEventListener('click',function(){
+        var video = document.getElementsByTagName('video');
+        video[0].addEventListener('click',function(){
             video.play();
 },false);
     </script>
