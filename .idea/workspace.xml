@@ -33,7 +33,7 @@
       <file leaf-file-name="nav.component.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3080">
+            <state relative-caret-position="20">
               <caret line="154" column="1" lean-forward="false" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
               <folding />
             </state>
@@ -43,8 +43,8 @@
       <file leaf-file-name="bio.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="11" column="346" lean-forward="false" selection-start-line="11" selection-start-column="346" selection-end-line="11" selection-end-column="346" />
+            <state relative-caret-position="260">
+              <caret line="12" column="754" lean-forward="false" selection-start-line="12" selection-start-column="754" selection-end-line="12" selection-end-column="754" />
               <folding />
             </state>
           </provider>
@@ -53,8 +53,8 @@
       <file leaf-file-name="nav.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="56" column="49" lean-forward="false" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+            <state relative-caret-position="140">
+              <caret line="42" column="144" lean-forward="true" selection-start-line="42" selection-start-column="144" selection-end-line="42" selection-end-column="144" />
               <folding />
             </state>
           </provider>
@@ -659,12 +659,12 @@
       <workItem from="1506240067191" duration="2836000" />
       <workItem from="1506257055310" duration="1403000" />
       <workItem from="1506279155703" duration="1581000" />
-      <workItem from="1506542693832" duration="701000" />
+      <workItem from="1506542693832" duration="838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313089000" />
+    <option name="totallyTimeSpent" value="313226000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1047,14 +1047,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3080">
-          <caret line="154" column="1" lean-forward="false" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -1063,18 +1055,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="154" column="1" lean-forward="false" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="56" column="49" lean-forward="false" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+        <state relative-caret-position="140">
+          <caret line="42" column="144" lean-forward="true" selection-start-line="42" selection-start-column="144" selection-end-line="42" selection-end-column="144" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" column="346" lean-forward="false" selection-start-line="11" selection-start-column="346" selection-end-line="11" selection-end-column="346" />
+        <state relative-caret-position="260">
+          <caret line="12" column="754" lean-forward="false" selection-start-line="12" selection-start-column="754" selection-end-line="12" selection-end-column="754" />
           <folding />
         </state>
       </provider>
