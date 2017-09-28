@@ -34,7 +34,7 @@
       <file leaf-file-name="text-vostok2en.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
+            <state relative-caret-position="-918">
               <caret line="42" column="1591" lean-forward="false" selection-start-line="42" selection-start-column="1591" selection-end-line="42" selection-end-column="1591" />
               <folding />
             </state>
@@ -515,12 +515,12 @@
       <workItem from="1506257055310" duration="1403000" />
       <workItem from="1506279155703" duration="1581000" />
       <workItem from="1506542693832" duration="1677000" />
-      <workItem from="1506598039435" duration="8353000" />
+      <workItem from="1506598039435" duration="9117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322418000" />
+    <option name="totallyTimeSpent" value="323182000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -533,7 +533,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1932" height="1048" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24352941" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21697612" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -543,7 +542,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24880128" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24470589" sideWeight="0.49783784" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24470589" sideWeight="0.49783784" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1105,7 +1104,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
+        <state relative-caret-position="-918">
           <caret line="42" column="1591" lean-forward="false" selection-start-line="42" selection-start-column="1591" selection-end-line="42" selection-end-column="1591" />
           <folding />
         </state>
