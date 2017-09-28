@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bio/bio.component.html" afterPath="$PROJECT_DIR$/assets/app/bio/bio.component.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="text-obrovsky.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html">
+      <file leaf-file-name="bio.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="74" column="140" lean-forward="false" selection-start-line="74" selection-start-column="140" selection-end-line="74" selection-end-column="140" />
+            <state relative-caret-position="180">
+              <caret line="11" column="195" lean-forward="false" selection-start-line="11" selection-start-column="195" selection-end-line="11" selection-end-column="195" />
               <folding />
             </state>
           </provider>
@@ -42,7 +42,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>poster=&quot;</find>
       <find>fog</find>
       <find>z</find>
       <find>z-</find>
@@ -72,6 +71,7 @@
       <find>z</find>
       <find>u</find>
       <find>które</find>
+      <find>przebiega</find>
     </findStrings>
     <replaceStrings>
       <replace>z&amp;nbsp;</replace>
@@ -151,7 +151,6 @@
         <option value="$PROJECT_DIR$/assets/app/texts/text.component.less" />
         <option value="$PROJECT_DIR$/assets/app/bio/bio.component.less" />
         <option value="$PROJECT_DIR$/assets/app/nav/nav.component.less" />
-        <option value="$PROJECT_DIR$/assets/app/bio/bio.component.html" />
         <option value="$PROJECT_DIR$/assets/app/nav/nav.component.html" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/app.js" />
@@ -166,6 +165,7 @@
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok2.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/bio/bio.component.html" />
       </list>
     </option>
   </component>
@@ -494,12 +494,12 @@
       <workItem from="1506257055310" duration="1403000" />
       <workItem from="1506279155703" duration="1581000" />
       <workItem from="1506542693832" duration="1677000" />
-      <workItem from="1506598039435" duration="4845000" />
+      <workItem from="1506598039435" duration="4910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="318910000" />
+    <option name="totallyTimeSpent" value="318975000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -563,14 +563,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/app/app.routing.ngsummary.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-898">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/app.module.ngfactory.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1188,6 +1180,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="74" column="140" lean-forward="false" selection-start-line="74" selection-start-column="140" selection-end-line="74" selection-end-column="140" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="195" lean-forward="false" selection-start-line="11" selection-start-column="195" selection-end-line="11" selection-end-column="195" />
           <folding />
         </state>
       </provider>
