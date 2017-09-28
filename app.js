@@ -13,16 +13,6 @@ var appRoutes = require('./routes/app'); // refers to the app.js file in the rou
 var app = express();
 
 
-
-dotenv.load(); // load the environment variables
-
-// var user = process.env.USER;
-// var password = process.env.PASSWORD;
-// var connectLink = "mongodb://" + user + ":" + password + "@ds159953.mlab.com:59953/lukasz-drobnik";
-//
-// mongoose.connect(connectLink); // connects with mongoose on each request
-
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
