@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bio/bio.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/bio/bio.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cmy.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-cmy.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella3.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella3.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok2.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok2.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/bundle.js" afterPath="$PROJECT_DIR$/public/js/app/bundle.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,24 +39,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="text-vostok1.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok1.component.html">
+      <file leaf-file-name="text-wszystkozernosc.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="61" column="804" lean-forward="false" selection-start-line="61" selection-start-column="804" selection-end-line="61" selection-end-column="804" />
-              <folding>
-                <element signature="e#10031#10037#0" expanded="true" />
-                <element signature="e#10073#10079#0" expanded="true" />
-                <element signature="e#10101#10107#0" expanded="true" />
-                <element signature="e#10155#10161#0" expanded="true" />
-                <element signature="e#10215#10221#0" expanded="true" />
-                <element signature="e#10302#10308#0" expanded="true" />
-                <element signature="e#10357#10363#0" expanded="true" />
-                <element signature="e#10418#10424#0" expanded="true" />
-                <element signature="e#10483#10489#0" expanded="true" />
-                <element signature="e#10495#10501#0" expanded="true" />
-                <element signature="e#10526#10532#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1020">
+              <caret line="23" column="116" lean-forward="false" selection-start-line="23" selection-start-column="116" selection-end-line="23" selection-end-column="116" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text-vostok2en.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="42" column="1591" lean-forward="false" selection-start-line="42" selection-start-column="1591" selection-end-line="42" selection-end-column="1591" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,8 +71,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>//</find>
-      <find>. i</find>
       <find>a</find>
       <find>ielżyński</find>
       <find>a</find>
@@ -84,6 +99,8 @@
       <find>no longer</find>
       <find>dense</find>
       <find>better tell me</find>
+      <find>przed w</find>
+      <find>drewniany</find>
     </findStrings>
     <replaceStrings>
       <replace>z&amp;nbsp;</replace>
@@ -163,7 +180,6 @@
         <option value="$PROJECT_DIR$/assets/app/nav/nav.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/bio/bio.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-cmy.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.html" />
@@ -175,9 +191,10 @@
         <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.html" />
         <option value="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.html" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html" />
       </list>
     </option>
   </component>
@@ -506,12 +523,12 @@
       <workItem from="1506257055310" duration="1403000" />
       <workItem from="1506279155703" duration="1581000" />
       <workItem from="1506542693832" duration="1677000" />
-      <workItem from="1506598039435" duration="6450000" />
+      <workItem from="1506598039435" duration="7267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="320515000" />
+    <option name="totallyTimeSpent" value="321332000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -893,127 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding>
-            <element signature="e#585#591#0" expanded="false" />
-            <element signature="e#709#715#0" expanded="false" />
-            <element signature="e#919#925#0" expanded="false" />
-            <element signature="e#945#951#0" expanded="false" />
-            <element signature="e#977#983#0" expanded="false" />
-            <element signature="e#1082#1088#0" expanded="false" />
-            <element signature="e#1103#1109#0" expanded="false" />
-            <element signature="e#1133#1139#0" expanded="false" />
-            <element signature="e#1198#1204#0" expanded="false" />
-            <element signature="e#1214#1220#0" expanded="false" />
-            <element signature="e#1762#1768#0" expanded="false" />
-            <element signature="e#1788#1794#0" expanded="false" />
-            <element signature="e#1963#1969#0" expanded="false" />
-            <element signature="e#2011#2017#0" expanded="false" />
-            <element signature="e#2325#2331#0" expanded="false" />
-            <element signature="e#2658#2664#0" expanded="false" />
-            <element signature="e#2859#2865#0" expanded="false" />
-            <element signature="e#3218#3224#0" expanded="false" />
-            <element signature="e#3431#3437#0" expanded="false" />
-            <element signature="e#3492#3498#0" expanded="false" />
-            <element signature="e#3708#3714#0" expanded="false" />
-            <element signature="e#3780#3786#0" expanded="false" />
-            <element signature="e#3958#3964#0" expanded="false" />
-            <element signature="e#4157#4163#0" expanded="false" />
-            <element signature="e#4338#4344#0" expanded="false" />
-            <element signature="e#4642#4648#0" expanded="false" />
-            <element signature="e#4939#4945#0" expanded="false" />
-            <element signature="e#5316#5322#0" expanded="false" />
-            <element signature="e#5675#5681#0" expanded="false" />
-            <element signature="e#6202#6208#0" expanded="false" />
-            <element signature="e#6249#6255#0" expanded="false" />
-            <element signature="e#6498#6504#0" expanded="false" />
-            <element signature="e#6633#6639#0" expanded="false" />
-            <element signature="e#7121#7127#0" expanded="false" />
-            <element signature="e#7276#7282#0" expanded="false" />
-            <element signature="e#7357#7363#0" expanded="false" />
-            <element signature="e#8212#8218#0" expanded="false" />
-            <element signature="e#8257#8263#0" expanded="false" />
-            <element signature="e#8481#8487#0" expanded="false" />
-            <element signature="e#9060#9066#0" expanded="false" />
-            <element signature="e#9115#9121#0" expanded="false" />
-            <element signature="e#9172#9178#0" expanded="false" />
-            <element signature="e#9263#9269#0" expanded="false" />
-            <element signature="e#9608#9614#0" expanded="false" />
-            <element signature="e#10060#10066#0" expanded="false" />
-            <element signature="e#10629#10635#0" expanded="false" />
-            <element signature="e#10821#10827#0" expanded="false" />
-            <element signature="e#11497#11503#0" expanded="false" />
-            <element signature="e#11776#11782#0" expanded="false" />
-            <element signature="e#12158#12164#0" expanded="false" />
-            <element signature="e#12264#12270#0" expanded="false" />
-            <element signature="e#13110#13116#0" expanded="false" />
-            <element signature="e#13173#13179#0" expanded="false" />
-            <element signature="e#13232#13238#0" expanded="false" />
-            <element signature="e#13607#13613#0" expanded="false" />
-            <element signature="e#14450#14456#0" expanded="false" />
-            <element signature="e#14783#14789#0" expanded="false" />
-            <element signature="e#14996#15002#0" expanded="false" />
-            <element signature="e#15528#15534#0" expanded="false" />
-            <element signature="e#15554#15560#0" expanded="false" />
-            <element signature="e#15787#15793#0" expanded="false" />
-            <element signature="e#15802#15808#0" expanded="false" />
-            <element signature="e#16035#16041#0" expanded="false" />
-            <element signature="e#16272#16278#0" expanded="false" />
-            <element signature="e#16584#16590#0" expanded="false" />
-            <element signature="e#16865#16871#0" expanded="false" />
-            <element signature="e#16948#16954#0" expanded="false" />
-            <element signature="e#17058#17064#0" expanded="false" />
-            <element signature="e#17214#17220#0" expanded="false" />
-            <element signature="e#17331#17337#0" expanded="false" />
-            <element signature="e#17358#17364#0" expanded="false" />
-            <element signature="e#17593#17599#0" expanded="false" />
-            <element signature="e#17718#17724#0" expanded="false" />
-            <element signature="e#17918#17924#0" expanded="false" />
-            <element signature="e#18044#18050#0" expanded="false" />
-            <element signature="e#18310#18316#0" expanded="false" />
-            <element signature="e#18457#18463#0" expanded="false" />
-            <element signature="e#18484#18490#0" expanded="false" />
-            <element signature="e#18519#18525#0" expanded="false" />
-            <element signature="e#18595#18601#0" expanded="false" />
-            <element signature="e#18709#18715#0" expanded="false" />
-            <element signature="e#19141#19147#0" expanded="false" />
-            <element signature="e#19690#19696#0" expanded="false" />
-            <element signature="e#19989#19995#0" expanded="false" />
-            <element signature="e#20056#20062#0" expanded="false" />
-            <element signature="e#20078#20084#0" expanded="false" />
-            <element signature="e#20094#20100#0" expanded="false" />
-            <element signature="e#20112#20118#0" expanded="false" />
-            <element signature="e#20732#20738#0" expanded="false" />
-            <element signature="e#20822#20828#0" expanded="false" />
-            <element signature="e#20846#20852#0" expanded="false" />
-            <element signature="e#20969#20975#0" expanded="false" />
-            <element signature="e#21110#21116#0" expanded="false" />
-            <element signature="e#21390#21396#0" expanded="false" />
-            <element signature="e#21467#21473#0" expanded="false" />
-            <element signature="e#22028#22034#0" expanded="false" />
-            <element signature="e#22099#22105#0" expanded="false" />
-            <element signature="e#22373#22379#0" expanded="false" />
-            <element signature="e#22417#22423#0" expanded="false" />
-            <element signature="e#22433#22439#0" expanded="false" />
-            <element signature="e#22616#22622#0" expanded="false" />
-            <element signature="e#23445#23451#0" expanded="false" />
-            <element signature="e#23568#23574#0" expanded="false" />
-            <element signature="e#23714#23720#0" expanded="false" />
-            <element signature="e#24111#24117#0" expanded="false" />
-            <element signature="e#24181#24187#0" expanded="false" />
-            <element signature="e#24343#24349#0" expanded="false" />
-            <element signature="e#24497#24503#0" expanded="false" />
-            <element signature="e#24572#24578#0" expanded="false" />
-            <element signature="e#24835#24841#0" expanded="false" />
-            <element signature="e#25020#25026#0" expanded="false" />
-            <element signature="e#25209#25215#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1182,14 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="42" column="1590" lean-forward="false" selection-start-line="42" selection-start-column="1590" selection-end-line="42" selection-end-column="1590" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1205,8 +1093,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok1.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="61" column="804" lean-forward="false" selection-start-line="61" selection-start-column="804" selection-end-line="61" selection-end-column="804" />
+        <state relative-caret-position="224">
+          <caret line="61" column="385" lean-forward="false" selection-start-line="61" selection-start-column="385" selection-end-line="61" selection-end-column="385" />
           <folding>
             <element signature="e#10031#10037#0" expanded="true" />
             <element signature="e#10073#10079#0" expanded="true" />
@@ -1220,6 +1108,22 @@
             <element signature="e#10495#10501#0" expanded="true" />
             <element signature="e#10526#10532#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1020">
+          <caret line="23" column="116" lean-forward="false" selection-start-line="23" selection-start-column="116" selection-end-line="23" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="42" column="1591" lean-forward="false" selection-start-line="42" selection-start-column="1591" selection-end-line="42" selection-end-column="1591" />
+          <folding />
         </state>
       </provider>
     </entry>
