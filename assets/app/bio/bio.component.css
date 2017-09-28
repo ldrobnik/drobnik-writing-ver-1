@@ -94,8 +94,6 @@ figcaption {
 .timeline > li .timeline-panel {
   width: 100%;
   float: right;
-  padding-top: auto;
-  padding-bottom: auto;
   padding: 0 20px 0 100px;
   position: relative;
   text-align: left;
