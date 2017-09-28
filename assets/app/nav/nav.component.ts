@@ -85,13 +85,13 @@ export class NavComponent implements OnInit {
         }
     }
 
-    //method to remember the user has acknowledge the use local storage
+    //method to remember the user has acknowledged the use local storage
     acceptLocalStorage() {
         this.locStorageAccepted = true;
         localStorage.setItem("locStorageAccepted", "true");
     }
 
-    //method for choosing language on splash screen
+    //method for choosing language on the splash screen
 
     chooseLang(lang: boolean) {
         this.langEn = lang; // set to false if Polish, to true if English
@@ -144,29 +144,10 @@ export class NavComponent implements OnInit {
         }
     }
 
-    //
-    // //method resetting visited routes arrays once all links have been visited
-    //
-    // resetVisitedRoutes() {
-    //     if (this.visitedRoutesEn.length >= this.routesEn.length - 1) {
-    //
-    //             this.visitedRoutesEn.length = 0; //reset array if all English texts have been read
-    //     }
-    //     if (this.visitedRoutesPl.length >= this.routesPl.length - 1) {
-    //
-    //         this.visitedRoutesPl.length = 0; //reset array if all English texts have been read
-    //     }
-    //     console.log(this.visitedRoutesPl);
-    //     console.log(this.visitedRoutesEn);
-    // }
 
 
     //method navigating to a random text (that hasn't been yet read) in the current language
     goToRandomText() {
-
-        console.log(this.visitedRoutesPl);
-
-
 
         var randomPath : string; //holds the path to a randomly chosen text
 
@@ -177,8 +158,6 @@ export class NavComponent implements OnInit {
 
                     do {
                         randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
-                        console.log(this.visitedRoutesPl.indexOf("/" + randomPath));
-                        console.log(randomPath);
                     } while (this.visitedRoutesPl.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
                 } else {
                         randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
@@ -210,9 +189,9 @@ export class NavComponent implements OnInit {
 
     ngOnInit() {
 
-        //
-        // //check whether language and texts visited are stored in local storage
-        //
+
+        //check whether language and texts visited are stored in local storage
+
         if (typeof(Storage) !== "undefined") {
 
             //check info about language in local storage
@@ -273,26 +252,12 @@ export class NavComponent implements OnInit {
                 //to make Google Analytics track routes:
                 ga('set', 'page', event.urlAfterRedirects);
                 ga('send', 'pageview');
-                // window.dataLayer = window.dataLayer || [];
-                // function gtag(){dataLayer.push(arguments)};
-                // gtag('js', new Date());
-                //
-                // gtag('config', 'UA-ExampleApiKey');
-
-                // console.log(localStorage);
-                // console.log(this.visitedRoutesPl.length + " " + this.routesPl.length);
-                // console.log(this.visitedRoutesEn.length + " " + this.routesEn.length);
 
                 if (!this.router.url.includes('random') && !this.router.url.includes('bio')) {
                     this.trackText(this.router.url);
                 }
                 this.theme = event['theme'];
 
-                // if (this.theme == 9) {
-                //     do {
-                //         this.theme = Math.floor(Math.random() * 6);
-                //     } while (this.theme != 0 && this.theme != 4 && this.theme != 5); //assign random theme 0, 4 or 5 for the bio page
-                // }
                 this.logoPath = (this.theme == 1 || this.theme == 5) ? 'images/logo2.png' : 'images/logo1.png'; //choose theme-appropriate logo
 
                 if (!this.router.url.includes('random')) {
