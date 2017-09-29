@@ -129,6 +129,9 @@
 .no-indent {
   text-indent: 0;
 }
+.no-wrap {
+  white-space: nowrap;
+}
 .read-on {
   display: block;
   margin-left: auto;
