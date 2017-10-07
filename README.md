@@ -3,6 +3,7 @@
 
 ## Main features
 * Responsive design based on **Bootstrap 3** and **ngx-bootstrap**
+* Styling based on the **LESS** preprocessor
 * Dynamically changed page titles and colour themes
 * ‘Bio’ page with an easily expandable list of publications in the form of a timeline
 
