@@ -232,8 +232,6 @@ export class NavComponent implements OnInit {
                 this.visitedRoutesEn = [];
             }
 
-
-
         }
 
         //dynamically change theme depending on routing
