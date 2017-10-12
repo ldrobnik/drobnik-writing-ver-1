@@ -8,7 +8,7 @@
 * ‘Bio’ page with an easily expandable list of publications in the form of a timeline
 
 ## App Structure
-As there is no need for user authentication or any similar features, **Node.js-based back end** is minimal, most of the app made up by **Angular 4-based front end**.
+As there is no need for user authentication or any similar features, **Node.js-based back-end** is minimal, most of the app made up by **Angular 4-based front-end**.
 
 ### The Nav component
 The heart of the application, containing most of the code. Main features:
