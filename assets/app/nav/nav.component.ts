@@ -28,7 +28,7 @@ export class NavComponent implements OnInit {
     // equivalentPath: string; //specifies the path of the equivalent text in the other language, if exists
     visitedRoutesPl: Array<string>; //holds all visited paths to Polish texts
     visitedRoutesEn: Array<string>; //same for English texts
-    dropdownMaxHeight: string; // maximum height of dropdown menus depending on screen height
+    // dropdownMaxHeight: string = (window.innerHeight - 50) + "px"; // maximum height of dropdown menus depending on screen height
 
 
     constructor(public router: Router, public activatedRoute: ActivatedRoute) {
@@ -77,9 +77,10 @@ export class NavComponent implements OnInit {
 
     //set maximum dropdown menu height depending on screen height
 
+
     @HostListener('window:resize', ['$event'])
     onResize(event){
-        this.dropdownMaxHeight = (event.target.innerHeight - 20) + "px";
+        this.dropdownMaxHeight = (event.target.innerHeight - 50) + "px";
         console.log(this.dropdownMaxHeight);
     }
 
