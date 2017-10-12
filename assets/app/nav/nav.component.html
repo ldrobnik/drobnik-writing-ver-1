@@ -54,7 +54,7 @@
                     <ul class="nav navbar-nav">
                         <li dropdown>
                             <a dropdownToggle class="dropdown-toggle">teksty</a>
-                            <ul *dropdownMenu class="dropdown-menu" role="menu">
+                            <ul *dropdownMenu class="dropdown-menu" [ngStyle]="{'max-height': dropdownMaxHeight}" role="menu">
                                 <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/random']">[losowy tekst]</a></li>
                                 <!--<li class="divider dropdown-divider"></li>-->
                                 <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/nocturine1']">nocturine [1]</a></li>
