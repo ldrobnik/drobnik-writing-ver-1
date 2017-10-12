@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 // var mongoose = require('mongoose');
 var dotenv = require('dotenv'); // to be able to access environment variables
-var compression = require('compression'); //to enable compression
+// var compression = require('compression'); //to enable compression
 
 
 var appRoutes = require('./routes/app'); // refers to the app.js file in the routes folder
@@ -40,7 +40,7 @@ app.use(function(req, res, next) {
   res.render('index'); // direct to index page in case of error
 });
 
-//enable compression
-app.use(compression());
+// //enable compression
+// app.use(compression());
 
 module.exports = app;
