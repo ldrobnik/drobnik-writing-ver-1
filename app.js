@@ -13,10 +13,6 @@ var appRoutes = require('./routes/app'); // refers to the app.js file in the rou
 
 var app = express();
 
-
-//enable compression
-app.use(compression());
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
@@ -43,5 +39,8 @@ app.use('/', appRoutes); // imports the app.js file referred to in the appRoutes
 app.use(function(req, res, next) {
   res.render('index'); // direct to index page in case of error
 });
+
+//enable compression
+app.use(compression());
 
 module.exports = app;
