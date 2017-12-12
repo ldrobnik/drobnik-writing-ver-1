@@ -37,7 +37,7 @@ export class BioComponent implements OnInit {
 
             filename: 'barefiction10',
 
-            url: 'http://www.wforma.eu/2017-antologia-wspolczesnych-polskich-opowiadan.html',
+            url: 'http://www.barefictionmagazine.co.uk/buy/issues/bare-fiction-magazine-issue-10-november-2017/',
 
             descriptionPl: 'Opowiadanie „Drones”',
 
