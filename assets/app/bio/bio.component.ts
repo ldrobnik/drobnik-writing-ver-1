@@ -29,6 +29,23 @@ export class BioComponent implements OnInit {
     publications = [
 
         {
+            title: 'Bare Fiction (10)',
+
+            type: 'press',
+
+            year: 2017,
+
+            filename: 'barefiction10',
+
+            url: 'http://www.wforma.eu/2017-antologia-wspolczesnych-polskich-opowiadan.html',
+
+            descriptionPl: 'Opowiadanie „Drones”',
+
+            descriptionEn: 'A short story “Drones”'
+
+        },
+
+        {
             title: '2017. Antologia współczesnych polskich opowiadań',
 
             type: 'collection',
