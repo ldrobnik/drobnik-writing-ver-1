@@ -29,6 +29,23 @@ export class BioComponent implements OnInit {
     publications = [
 
         {
+            title: 'The Gravity of the Thing (Winter 2018)',
+
+            type: 'press',
+
+            year: 2018,
+
+            filename: 'thegravityofthething',
+
+            url: 'http://thegravityofthething.com/devonian-lukasz-drobnik/',
+
+            descriptionPl: 'Opowiadanie „Devonian”',
+
+            descriptionEn: 'A short story “Devonian”'
+
+        },
+
+        {
             title: 'Bare Fiction (10)',
 
             type: 'press',
