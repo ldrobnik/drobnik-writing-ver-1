@@ -7,7 +7,7 @@
 </div>
 <!--Polish version of the navbar-->
 <div *ngIf="langEn === false">
-    <div [ngClass]="{nocturine: theme == 0, cunninghamella: theme == 1, vostok: theme == 2, omnivoria: theme == 3, devonian: theme == 4, obrovsky: theme == 5}">
+    <div [ngClass]="{nocturine: theme == 0, cunninghamella: theme == 1, vostok: theme == 2, entropia: theme == 3, devonian: theme == 4, obrovsky: theme == 5}">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -93,7 +93,7 @@
 
 <!--English version of the navbar-->
 <div *ngIf="langEn">
-    <div [ngClass]="{nocturine: theme == 0, cunninghamella: theme == 1, vostok: theme == 2, omnivoria: theme == 3, devonian: theme == 4, obrovsky: theme == 5}">
+    <div [ngClass]="{nocturine: theme == 0, cunninghamella: theme == 1, vostok: theme == 2, entropia: theme == 3, devonian: theme == 4, obrovsky: theme == 5}">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -170,7 +170,7 @@
 </div>
 
 <!-- Local storage message -->
-<div [ngClass]="{nocturine: theme == 0, cunninghamella: theme == 1, vostok: theme == 2, omnivoria: theme == 3, devonian: theme == 4, obrovsky: theme == 5}">
+<div [ngClass]="{nocturine: theme == 0, cunninghamella: theme == 1, vostok: theme == 2, entropia: theme == 3, devonian: theme == 4, obrovsky: theme == 5}">
     <div id="storage-message" class="text-center" *ngIf="!locStorageAccepted && langSet">
         <p *ngIf="!langEn">Strona przechowuje podstawowe informacje na temat preferencji użytkownika.</p>
         <p *ngIf="langEn">This website collects basic information about user preferences.</p>

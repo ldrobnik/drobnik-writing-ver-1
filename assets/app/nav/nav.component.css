@@ -316,58 +316,58 @@ button:hover {
 .vostok .accept {
   color: #a67847;
 }
-/* styles specific for the .omnivoria class */
-.omnivoria nav {
+/* styles specific for the .entropia class */
+.entropia nav {
   background-color: #616a65;
 }
-.omnivoria a:hover {
+.entropia a:hover {
   color: #e6e6e6 !important;
 }
-.omnivoria .dropdown-menu {
+.entropia .dropdown-menu {
   background-color: #616a65 !important;
 }
-.omnivoria .dropdown-item,
-.omnivoria .navbar-toggle {
+.entropia .dropdown-item,
+.entropia .navbar-toggle {
   background-color: #616a65;
 }
-.omnivoria .navbar-default .navbar-nav > .open > a,
-.omnivoria .navbar-default .navbar-nav > .open > a:focus,
-.omnivoria .navbar-default .navbar-nav > .open > a:hover,
-.omnivoria .dropdown-item:hover {
+.entropia .navbar-default .navbar-nav > .open > a,
+.entropia .navbar-default .navbar-nav > .open > a:focus,
+.entropia .navbar-default .navbar-nav > .open > a:hover,
+.entropia .dropdown-item:hover {
   background-color: #79857e;
 }
-.omnivoria #dropdown-toggle:link,
-.omnivoria #dropdown-toggle-en:link {
+.entropia #dropdown-toggle:link,
+.entropia #dropdown-toggle-en:link {
   background-color: #79857e;
 }
-.omnivoria #dropdown-toggle:visited,
-.omnivoria #dropdown-toggle-en:visited {
+.entropia #dropdown-toggle:visited,
+.entropia #dropdown-toggle-en:visited {
   background-color: #79857e;
 }
-.omnivoria #dropdown-toggle:hover,
-.omnivoria #dropdown-toggle-en:hover {
+.entropia #dropdown-toggle:hover,
+.entropia #dropdown-toggle-en:hover {
   background-color: #79857e;
 }
-.omnivoria #dropdown-toggle:active,
-.omnivoria #dropdown-toggle-en:active {
+.entropia #dropdown-toggle:active,
+.entropia #dropdown-toggle-en:active {
   background-color: #79857e;
 }
-.omnivoria .open #dropdown-toggle,
-.omnivoria .open #dropdown-toggle {
+.entropia .open #dropdown-toggle,
+.entropia .open #dropdown-toggle {
   background-color: #79857e;
 }
-.omnivoria .main-logo {
+.entropia .main-logo {
   width: 25px;
   height: 25px;
   margin-top: -4px;
 }
-.omnivoria #splash-screen {
+.entropia #splash-screen {
   background-color: #616a65;
 }
-.omnivoria #storage-message {
+.entropia #storage-message {
   background-color: #616a65;
 }
-.omnivoria .accept {
+.entropia .accept {
   color: #616a65;
 }
 /* styles specific for the .devonian class */
