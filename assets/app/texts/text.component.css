@@ -258,36 +258,36 @@
 .vostok .inline-heading {
   color: #a67847;
 }
-/* Styles for class .omnivoria */
-.omnivoria ::-moz-selection {
+/* Styles for class .entropia */
+.entropia ::-moz-selection {
   /* Code for Firefox */
   color: white;
   background: #616a65;
 }
-.omnivoria ::selection {
+.entropia ::selection {
   color: white;
   background: #616a65;
 }
-.omnivoria .main-jumbopanel,
-.omnivoria .secondary-jumbopanel {
+.entropia .main-jumbopanel,
+.entropia .secondary-jumbopanel {
   background-color: #616a65;
 }
-.omnivoria #first::first-letter {
+.entropia #first::first-letter {
   color: #616a65;
 }
-.omnivoria .story-footnote {
+.entropia .story-footnote {
   color: #afb5b2;
 }
-.omnivoria .text-separator {
-  background-image: url("../images/sep-omnivoria.png");
+.entropia .text-separator {
+  background-image: url("../images/sep-entropia.png");
 }
-.omnivoria .read-on {
+.entropia .read-on {
   background-color: #616a65;
 }
-.omnivoria .read-on:hover {
+.entropia .read-on:hover {
   background-color: #79857e;
 }
-.omnivoria .inline-heading {
+.entropia .inline-heading {
   color: #616a65;
 }
 /* Styles for class .devonian */
