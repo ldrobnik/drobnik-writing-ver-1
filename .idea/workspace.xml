@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.html" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -106,8 +107,8 @@
       <file leaf-file-name="text-vostok1en.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="30" column="281" lean-forward="false" selection-start-line="30" selection-start-column="281" selection-end-line="30" selection-end-column="281" />
+            <state relative-caret-position="367">
+              <caret line="36" column="207" lean-forward="false" selection-start-line="36" selection-start-column="207" selection-end-line="36" selection-end-column="207" />
               <folding />
             </state>
           </provider>
@@ -558,12 +559,12 @@
       <workItem from="1515333106986" duration="461000" />
       <workItem from="1515570910652" duration="503000" />
       <workItem from="1515571693877" duration="3694000" />
-      <workItem from="1516957791255" duration="1589000" />
+      <workItem from="1516957791255" duration="3026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="348299000" />
+    <option name="totallyTimeSpent" value="349736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -576,6 +577,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="170" y="27" width="1601" height="954" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24074075" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20978121" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -584,7 +586,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31878307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24880128" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20238096" sideWeight="0.49783784" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20238096" sideWeight="0.49783784" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1001,8 +1003,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="30" column="281" lean-forward="false" selection-start-line="30" selection-start-column="281" selection-end-line="30" selection-end-column="281" />
+        <state relative-caret-position="367">
+          <caret line="36" column="207" lean-forward="false" selection-start-line="36" selection-start-column="207" selection-end-line="36" selection-end-column="207" />
           <folding />
         </state>
       </provider>
