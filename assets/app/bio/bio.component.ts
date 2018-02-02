@@ -29,6 +29,23 @@ export class BioComponent implements OnInit {
     publications = [
 
         {
+            title: 'The Write Launch (February 2018)',
+
+            type: 'press',
+
+            year: 2018,
+
+            filename: 'thewritelaunch',
+
+            url: 'https://thewritelaunch.com/2018/01/heart-mighty-power/',
+
+            descriptionPl: '„Heart Mighty Power”, fragment minipowieści „Nocturine”',
+
+            descriptionEn: '“Heart Mighty Power”, a fragment of the novella “Nocturine”'
+
+        },
+
+        {
             title: 'The Gravity of the Thing (Winter 2018)',
 
             type: 'press',
