@@ -29,6 +29,23 @@ export class BioComponent implements OnInit {
     publications = [
 
         {
+            title: 'Cartridge Lit (The Foul Play Temple Issue)',
+
+            type: 'press',
+
+            year: 2018,
+
+            filename: 'cartridgelit',
+
+            url: 'https://cartridgelit.com/2018/02/14/montezumas-revenge/',
+
+            descriptionPl: 'Opowiadanie „montezuma’s revenge”',
+
+            descriptionEn: 'A short story “montezuma’s revenge”'
+
+        },
+
+        {
             title: 'The Write Launch (February 2018)',
 
             type: 'press',
