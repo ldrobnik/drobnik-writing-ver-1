@@ -36,7 +36,7 @@ export class BioComponent implements OnInit {
 
             filename: 'helikopter',
 
-            url: 'https://opt-art.net/helikopter/3-2018/',
+            url: 'https://opt-art.net/helikopter/3-2018/lukasz-drobnik-drony/',
 
             descriptionPl: 'Opowiadanie „Drony” (polskie tłumaczenie opowiadania „Drones”)',
 
