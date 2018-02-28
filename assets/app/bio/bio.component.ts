@@ -40,7 +40,7 @@ export class BioComponent implements OnInit {
 
             descriptionPl: 'Opowiadanie „Drony” (polskie tłumaczenie opowiadania „Drones”)',
 
-            descriptionEn: 'A short story “Drony” (Polish translation of “Drones”'
+            descriptionEn: 'A short story “Drony” (Polish translation of “Drones”)'
 
         },
 
