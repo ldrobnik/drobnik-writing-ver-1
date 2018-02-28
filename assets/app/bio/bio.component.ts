@@ -27,6 +27,22 @@ export class BioComponent implements OnInit {
     * descriptionEn - English description */
 
     publications = [
+        {
+            title: 'Helikopter (3/2018)',
+
+            type: 'press',
+
+            year: 2018,
+
+            filename: 'helikopter',
+
+            url: 'https://opt-art.net/helikopter/3-2018/',
+
+            descriptionPl: 'Opowiadanie „Drony” (polskie tłumaczenie opowiadania „Drones”)',
+
+            descriptionEn: 'A short story “Drony” (Polish translation of “Drones”'
+
+        },
 
         {
             title: 'Cartridge Lit (The Foul Play Temple Issue)',
