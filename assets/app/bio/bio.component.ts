@@ -1,7 +1,7 @@
-import {Component, OnInit } from "@angular/core";
-import { Router } from "@angular/router";
+import {Component, OnInit} from "@angular/core";
+import {Router} from "@angular/router";
 
-import { ResetScrollService } from "../services/reset-scroll.service";
+import {ResetScrollService} from "../services/reset-scroll.service";
 
 @Component({
     selector: 'app-bio',
@@ -18,15 +18,31 @@ export class BioComponent implements OnInit {
     imagePathEnd = ".jpg"; //specifies the end of each timeline image file path
 
     /* Array with a list o publications specifying the following properties:
-    * title - specifies the main heading of a timeline panel;
-    * type - 'press', 'collection' or 'book' to add different styles
-    * year - year of publication
-    * filename - partial filename of the image displayed in the timeline
-    * url - path to the publication/magazine/book website
-    * descriptionPl - Polish description
-    * descriptionEn - English description */
+     * title - specifies the main heading of a timeline panel;
+     * type - 'press', 'collection' or 'book' to add different styles
+     * year - year of publication
+     * filename - partial filename of the image displayed in the timeline
+     * url - path to the publication/magazine/book website
+     * descriptionPl - Polish description
+     * descriptionEn - English description */
 
     publications = [
+        {
+            title: 'Inter– 2(16)/2018',
+
+            type: 'press',
+
+            year: 2018,
+
+            filename: 'inter',
+
+            url: 'https://pismointer.wordpress.com/aktualny-numer/proza/lukasz-drobnik-dewon/',
+
+            descriptionPl: 'Opowiadanie „Dewon” (polskie tłumaczenie opowiadania „Devonian”)',
+
+            descriptionEn: 'A short story “Dewon” (Polish translation of “Devonian”)'
+
+        },
         {
             title: 'Helikopter (3/2018)',
 
