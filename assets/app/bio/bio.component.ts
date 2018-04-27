@@ -28,6 +28,22 @@ export class BioComponent implements OnInit {
 
     publications = [
         {
+            title: 'The Chaffin Journal 2018',
+
+            type: 'press',
+
+            year: 2018,
+
+            filename: 'chaffin',
+
+            url: 'https://english.eku.edu/chaffin-journal',
+
+            descriptionPl: 'Opowiadanie „Elements”',
+
+            descriptionEn: 'A short story “Elements”'
+
+        },
+        {
             title: 'Inter– 2(16)/2018',
 
             type: 'press',
