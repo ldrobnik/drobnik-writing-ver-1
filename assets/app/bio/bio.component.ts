@@ -28,6 +28,22 @@ export class BioComponent implements OnInit {
 
     publications = [
         {
+            title: 'Obszary Przepisane 5',
+
+            type: 'press',
+
+            year: 2018,
+
+            filename: 'op',
+
+            url: 'http://obszaryprzepisane.com/wp-content/uploads/2018/04/05op-1.pdf',
+
+            descriptionPl: 'Opowiadanie „Żywioły” (polskie tłumaczenie opowiadania „Elements”)',
+
+            descriptionEn: 'A short story “Żywioły” (Polish translation of “Elements”)'
+
+        },
+        {
             title: 'The Chaffin Journal 2018',
 
             type: 'press',
