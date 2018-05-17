@@ -28,7 +28,7 @@ export class BioComponent implements OnInit {
 
     publications = [
         {
-            title: 'Obszary Przepisane 5',
+            title: 'Obszary Przepisane (5)',
 
             type: 'press',
 
@@ -44,7 +44,7 @@ export class BioComponent implements OnInit {
 
         },
         {
-            title: 'The Chaffin Journal 2018',
+            title: 'The Chaffin Journal (2018)',
 
             type: 'press',
 
@@ -60,7 +60,7 @@ export class BioComponent implements OnInit {
 
         },
         {
-            title: 'Inter– 2(16)/2018',
+            title: 'Inter– (2(16)/2018)',
 
             type: 'press',
 
