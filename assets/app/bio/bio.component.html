@@ -30,7 +30,9 @@
                         <div class="timeline-panel" [ngClass]="{'press-text': publications[i].type == 'press', 'book-text': publications[i].type == 'book', 'collection-text': publications[i].type == 'collection'}">
                             <div class="timeline-heading">
                                 <h4>{{publications[i].title}}</h4>
-                                <h5 class="subheading">{{publications[i].year}}</h5>
+                                <h5 class="subheading" *ngIf="publications[i].year != ''">{{publications[i].year}}</h5>
+                                <h5 class="subheading" *ngIf="publications[i].year == '' && !langEn"><i>w&nbsp;przygotowaniu</i></h5>
+                                <h5 class="subheading" *ngIf="publications[i].year == '' && langEn"><i>forthcoming</i></h5>
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted" *ngIf="!langEn">{{publications[i].descriptionPl}}</p>
