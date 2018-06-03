@@ -28,6 +28,22 @@ export class BioComponent implements OnInit {
 
     publications = [
         {
+            title: 'Quarterly West',
+
+            type: 'press',
+
+            year: '',
+
+            filename: 'qw',
+
+            url: 'https://www.quarterlywest.com/',
+
+            descriptionPl: 'Opowiadanie „Cetacean”',
+
+            descriptionEn: 'A short story “Cetacean”'
+
+        },
+        {
             title: 'Obszary Przepisane (5)',
 
             type: 'press',
@@ -316,7 +332,7 @@ export class BioComponent implements OnInit {
         },
 
         {
-            title: 'Latarnia Morska (1–2 2009/1 2010)',
+            title: 'Latarnia Morska (1–2 (11–12) 2009 / 1 (13) 2010)',
 
             type: 'press',
 
