@@ -32,7 +32,7 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: 2018,
+            year: '2018',
 
             filename: 'op',
 
@@ -48,7 +48,7 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: 2018,
+            year: '2018',
 
             filename: 'chaffin',
 
@@ -64,7 +64,7 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: 2018,
+            year: '2018',
 
             filename: 'inter',
 
@@ -80,7 +80,7 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: 2018,
+            year: '2018',
 
             filename: 'helikopter',
 
@@ -97,7 +97,7 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: 2018,
+            year: '2018',
 
             filename: 'cartridgelit',
 
@@ -114,7 +114,7 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: 2018,
+            year: '2018',
 
             filename: 'thewritelaunch',
 
@@ -131,7 +131,7 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: 2018,
+            year: '2018',
 
             filename: 'thegravityofthething',
 
@@ -148,7 +148,7 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: 2017,
+            year: '2017',
 
             filename: 'barefiction10',
 
@@ -165,7 +165,7 @@ export class BioComponent implements OnInit {
 
             type: 'collection',
 
-            year: 2017,
+            year: '2017',
 
             filename: 'antologia2017',
 
@@ -182,7 +182,7 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: 2016,
+            year: '2016',
 
             filename: 'fabularie',
 
@@ -199,7 +199,7 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: 2015,
+            year: '2015',
 
             filename: 'wyspa',
 
@@ -216,7 +216,7 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: 2015,
+            year: '2015',
 
             filename: 'lighthouse',
 
@@ -233,7 +233,7 @@ export class BioComponent implements OnInit {
 
             type: 'collection',
 
-            year: 2014,
+            year: '2014',
 
             filename: 'antologia2014',
 
@@ -251,7 +251,7 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: 2012,
+            year: '2012',
 
             filename: 'lampa2012',
 
@@ -269,7 +269,7 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: 2011,
+            year: '2011',
 
             filename: 'dodatek',
 
@@ -286,7 +286,7 @@ export class BioComponent implements OnInit {
 
             type: 'book',
 
-            year: 2011,
+            year: '2011',
 
             filename: 'noc-cun',
 
@@ -303,7 +303,7 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: 2011,
+            year: '2011',
 
             filename: 'dwutygodnik',
 
@@ -316,11 +316,45 @@ export class BioComponent implements OnInit {
         },
 
         {
+            title: 'Latarnia Morska (1–2 2009/1 2010)',
+
+            type: 'press',
+
+            year: '2009/2010',
+
+            filename: 'latarniamorska',
+
+            url: 'http://www.latarnia-morska.eu/pl/proza/513-nocturine',
+
+            descriptionPl: 'Fragment minipowieści „Nocturine”',
+
+            descriptionEn: 'A fragment of the novella “Nocturine”'
+
+        },
+
+        {
+            title: 'Pro Arte online 3 (61) 2006',
+
+            type: 'press',
+
+            year: '2006',
+
+            filename: 'proarte',
+
+            url: 'http://proarte.net.pl',
+
+            descriptionPl: 'Opowiadanie „ośmiobitowe sny”',
+
+            descriptionEn: 'A short story “ośmiobitowe sny”'
+
+        },
+
+        {
             title: 'Rita Baum (10)',
 
             type: 'press',
 
-            year: 2006,
+            year: '2006',
 
             filename: 'ritabaum',
 
@@ -337,7 +371,7 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: 2005,
+            year: '2005',
 
             filename: 'lampa2005',
 
