@@ -28,7 +28,23 @@ export class BioComponent implements OnInit {
 
     publications = [
         {
-            title: 'Quarterly West',
+            title: 'Nocturine',
+
+            type: 'book',
+
+            year: '',
+
+            filename: 'nocturinefb',
+
+            url: 'http://fathombooks.org/',
+
+            descriptionPl: 'Angielska wersja minipowieści „Nocturine”, która ukaże się w 2019 r. nakładem wydawnictwa Fathom Books',
+
+            descriptionEn: 'An English version of the novella “Nocturine” forthcoming in 2019 from Fathom Books'
+
+        },
+        {
+            title: 'Quarterly West (94)',
 
             type: 'press',
 
@@ -41,6 +57,38 @@ export class BioComponent implements OnInit {
             descriptionPl: 'Opowiadanie „Cetacean”',
 
             descriptionEn: 'A short story “Cetacean”'
+
+        },
+        {
+            title: 'SHARKPACK Annual (2018)',
+
+            type: 'press',
+
+            year: '',
+
+            filename: 'sharkpack',
+
+            url: 'https://sharkpackpoetry.com/spr-annual/',
+
+            descriptionPl: '„8-bit Dreams” i „Heart Mighty Power” (fragmenty minipowieści „Nocturine”)',
+
+            descriptionEn: '“8-bit Dreams” and “Heart Mighty Power” (fragments of the novella “Nocturine”)'
+
+        },
+        {
+            title: 'Magazyn Wizje (2/2018)',
+
+            type: 'press',
+
+            year: '',
+
+            filename: 'wizje',
+
+            url: 'http://magazynwizje.pl/',
+
+            descriptionPl: 'Opowiadanie „Światłoczułość”',
+
+            descriptionEn: 'A short story “Światłoczułość”'
 
         },
         {
