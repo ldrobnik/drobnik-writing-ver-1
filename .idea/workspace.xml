@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/main.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -106,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
-              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -262,9 +263,9 @@
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/webpack.config.prod.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/routes/app.js" />
         <option value="$PROJECT_DIR$/assets/app/main.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -278,10 +279,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
-    <option name="y" value="80" />
+    <option name="x" value="40" />
+    <option name="y" value="391" />
     <option name="width" value="1708" />
-    <option name="height" value="928" />
+    <option name="height" value="588" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -633,7 +634,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="392839000" />
+    <option name="totallyTimeSpent" value="393012000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -645,7 +646,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="80" width="1708" height="928" extended-state="0" />
+    <frame x="40" y="391" width="1708" height="588" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2821229" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26369658" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -654,7 +656,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31878307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24880128" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23561645" sideWeight="0.49783784" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.49783784" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -690,6 +692,75 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown-container.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/services/reset-scroll.service.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok2.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/random.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine3en.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text.component.css.shim.ngstyle.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok3en.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok3.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-cmy.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/random-en.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella3.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/random-en.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine3en.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok3en.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-moths.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/random.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok4.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok4.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-cunninghamella3.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok3.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-moths.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-cmy.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-vostok2.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/app.module.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/app.component.css.shim.ngstyle.js" />
+        <option value="$PROJECT_DIR$/assets/app/app.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/app.module.js" />
+        <option value="$PROJECT_DIR$/assets/app/main.js" />
+        <option value="$PROJECT_DIR$/assets/app/main.aot.js" />
+        <option value="$PROJECT_DIR$/assets/app/polyfills.js" />
+        <option value="$PROJECT_DIR$/assets/app/app.routing.js" />
+        <option value="$PROJECT_DIR$/assets/app/app.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/bio/bio.component.css.shim.ngstyle.js" />
+        <option value="$PROJECT_DIR$/assets/app/bio/bio.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/bio/bio.component.js" />
+        <option value="$PROJECT_DIR$/assets/app/nav/nav.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/assets/app/nav/nav.component.css.shim.ngstyle.js" />
+        <option value="$PROJECT_DIR$/assets/app/nav/nav.component.js" />
       </list>
     </option>
   </component>
@@ -1038,14 +1109,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/balanced-match/README.md" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1061,6 +1124,14 @@
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
