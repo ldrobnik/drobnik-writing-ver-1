@@ -19,10 +19,10 @@ export class NavComponent implements OnInit {
     logoPath: string; //specifies the path of website logo depending on the current theme
     theme: number; //the number 0-5 specifying the theme
     langSet = false; //specifies whether the user has chosen the language or reached the site with language-specific route (thus automatically setting the language)
-    routesPl = ['nocturine1', 'nocturine2', 'nocturine3', 'cunninghamella1', 'cunninghamella2', 'cunninghamella3', 'vostok1', 'vostok2', 'vostok3', 'vostok4', 'biegnacyczlowiek', 'wszystkozernosc', 'cmy', 'obrovsky']; //specifies all available urls of Polish texts
+    routesPl = ['nocturine', 'cunninghamella', 'vostok', 'wszystkozernosc', 'cmy', 'obrovsky']; //specifies all available urls of Polish texts
     langEn: boolean; //specifies whether the language is English (true) or Polish (false)
     locStorageAccepted: boolean; //specifies whether the user has acknowledged that the site uses local storage
-    routesEn = ['nocturine1/en', 'nocturine2/en', 'nocturine3/en', 'cunninghamella1/en', 'vostok1/en', 'vostok2/en', 'vostok3/en', 'vostok4/en', 'moths/en', 'obrovsky/en']; //specifies all available urls of English texts
+    routesEn = ['nocturine/en', 'cunninghamella/en', 'vostok/en', 'moths/en', 'obrovsky/en']; //specifies all available urls of English texts
     // randomPath : string; //holds the path to randomly chosen text
     // currentUrl: string; //holds the current path
     // equivalentPath: string; //specifies the path of the equivalent text in the other language, if exists
