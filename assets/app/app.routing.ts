@@ -17,63 +17,146 @@ import {TextObrovskyEnComponent} from "./texts/text-obrovskyen.component";
 
 
 const APP_ROUTES: Routes = [
-    {path: '', redirectTo: '/random', pathMatch: 'full'},
-    {path: 'bio', component: BioComponent, data: {title: 'Łukasz Drobnik - prozaik', theme: 5}},
-    {path: 'bio/en', component: BioComponent, data: {title: 'Łukasz Drobnik - fiction writer', theme: 5}},
+    {
+        path: '',
+        redirectTo: '/random',
+        pathMatch: 'full'
+    },
+    {
+        path: 'bio',
+        component: BioComponent,
+        data:
+            {
+                title: 'Łukasz Drobnik - prozaik',
+                theme: 5
+            }
+            },
+    {
+        path: 'bio/en',
+        component: BioComponent,
+        data:
+            {
+                title: 'Łukasz Drobnik - fiction writer',
+                theme: 5
+            }
+            },
     {
         path: 'random',
         component: RandomComponent,
-        data: {title: 'Łukasz Drobnik - oficjalna strona / official website', theme: 0}
+        data:
+            {
+                title: 'Łukasz Drobnik - oficjalna strona / official website',
+                theme: 0
+            }
     },
     {
         path: 'random/en',
         component: RandomEnComponent,
-        data: {title: 'Łukasz Drobnik - oficjalna strona / official website', theme: 0}
+        data: {
+            title: 'Łukasz Drobnik - oficjalna strona / official website',
+            theme: 0
+        }
     },
     {
         path: 'nocturine',
         component: TextNocturineComponent,
-        data: {title: 'Łukasz Drobnik - Nocturine (fragment)', theme: 0}
+        data: {
+            title: 'Łukasz Drobnik - Nocturine (fragment)',
+            theme: 0
+        }
     },
     {
         path: 'nocturine/en',
         component: TextNocturineEnComponent,
-        data: {title: 'Łukasz Drobnik - Nocturine (fragment)', theme: 0}
+        data: {
+            title: 'Łukasz Drobnik - Nocturine (fragment)',
+            theme: 0
+        }
     },
     {
         path: 'cunninghamella',
         component: TextCunninghamellaComponent,
-        data: {title: 'Łukasz Drobnik - Cunninghamella (fragment)', theme: 1}
+        data: {
+            title: 'Łukasz Drobnik - Cunninghamella (fragment)',
+            theme: 1
+        }
     },
     {
         path: 'cunninghamella/en',
         component: TextCunninghamellaEnComponent,
-        data: {title: 'Łukasz Drobnik - Cunninghamella (fragment)', theme: 1}
+        data:
+            {
+                title: 'Łukasz Drobnik - Cunninghamella (fragment)',
+                theme: 1
+            }
     },
-    {path: 'vostok', component: TextVostokComponent, data: {title: 'Łukasz Drobnik - Vostok (fragmenty)', theme: 2}},
+    {
+        path: 'vostok',
+        component: TextVostokComponent,
+        data:
+            {
+                title: 'Łukasz Drobnik - Vostok (fragmenty)',
+                theme: 2
+            }
+        },
     {
         path: 'vostok/en',
         component: TextVostokEnComponent,
-        data: {title: 'Łukasz Drobnik - Vostok (fragments)', theme: 2}
+        data:
+            {
+                title: 'Łukasz Drobnik - Vostok (fragments)',
+                theme: 2
+            }
     },
     {
         path: 'wszystkozernosc',
         component: TextWszystkozernoscComponent,
-        data: {title: 'Łukasz Drobnik - Wszystkożerność', theme: 3}
+        data:
+            {
+                title: 'Łukasz Drobnik - Wszystkożerność',
+                theme: 3
+            }
     },
-    {path: 'cmy', component: TextCmyComponent, data: {title: 'Łukasz Drobnik - Ćmy', theme: 4}},
-    {path: 'moths/en', component: TextMothsComponent, data: {title: 'Łukasz Drobnik - Moths', theme: 4}},
+    {
+        path: 'cmy',
+        component: TextCmyComponent,
+        data:
+            {
+                title: 'Łukasz Drobnik - Ćmy',
+                theme: 4
+            }
+    },
+    {
+        path: 'moths/en',
+        component: TextMothsComponent,
+        data:
+            {
+                title: 'Łukasz Drobnik - Moths',
+                theme: 4
+            }
+    },
     {
         path: 'obrovsky',
         component: TextObrovskyComponent,
-        data: {title: 'Łukasz Drobnik - Obrovsky (fragment)', theme: 5}
+        data:
+            {
+                title: 'Łukasz Drobnik - Obrovsky (fragment)',
+                theme: 5
+            }
     },
     {
         path: 'obrovsky/en',
         component: TextObrovskyEnComponent,
-        data: {title: 'Łukasz Drobnik - Obrovsky (fragment)', theme: 5}
+        data:
+            {
+                title: 'Łukasz Drobnik - Obrovsky (fragment)',
+                theme: 5
+            }
     },
-    {path: '**', redirectTo: '/random'}
+    {
+        path: '**',
+        redirectTo: '/random'
+    }
 ];
 
 export const routing = RouterModule.forRoot(APP_ROUTES);
