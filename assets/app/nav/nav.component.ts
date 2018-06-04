@@ -1,14 +1,14 @@
-import { Component, OnInit, HostListener } from "@angular/core";
-import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
+import {Component, OnInit, HostListener} from "@angular/core";
+import {Router, NavigationEnd, ActivatedRoute} from '@angular/router';
 import "rxjs/add/operator/filter";
 import "rxjs/add/operator/map";
 import "rxjs/add/operator/mergeMap";
 
-import { ResetScrollService } from "../services/reset-scroll.service";
+import {ResetScrollService} from "../services/reset-scroll.service";
 
 declare let ga: Function;
 
-@Component ({
+@Component({
     selector: 'app-nav',
     templateUrl: './nav.component.html',
     styleUrls: ['./nav.component.css']
@@ -19,10 +19,10 @@ export class NavComponent implements OnInit {
     logoPath: string; //specifies the path of website logo depending on the current theme
     theme: number; //the number 0-5 specifying the theme
     langSet = false; //specifies whether the user has chosen the language or reached the site with language-specific route (thus automatically setting the language)
-    routesPl = ['nocturine1', 'nocturine2', 'nocturine3', 'cunninghamella1', 'cunninghamella2', 'cunninghamella3', 'vostok1', 'vostok2', 'vostok3', 'vostok4', 'biegnacyczlowiek', 'wszystkozernosc', 'cmy', 'obrovsky']; //specifies all available urls of Polish texts
+    routesPl = ['nocturine', 'cunninghamella', 'vostok', 'wszystkozernosc', 'cmy', 'obrovsky']; //specifies all available urls of Polish texts
     langEn: boolean; //specifies whether the language is English (true) or Polish (false)
     locStorageAccepted: boolean; //specifies whether the user has acknowledged that the site uses local storage
-    routesEn = ['nocturine1/en', 'nocturine2/en', 'nocturine3/en', 'cunninghamella1/en', 'vostok1/en', 'vostok2/en', 'vostok3/en', 'vostok4/en', 'moths/en', 'obrovsky/en']; //specifies all available urls of English texts
+    routesEn = ['nocturine/en', 'cunninghamella/en', 'vostok/en', 'moths/en', 'obrovsky/en']; //specifies all available urls of English texts
     // randomPath : string; //holds the path to randomly chosen text
     // currentUrl: string; //holds the current path
     // equivalentPath: string; //specifies the path of the equivalent text in the other language, if exists
@@ -55,12 +55,12 @@ export class NavComponent implements OnInit {
                 equivalentPath = currentUrl + "/en";
             }
         }
-        this.langEn =! this.langEn; //change website language langEN - English; !langEn - Polish
+        this.langEn = !this.langEn; //change website language langEN - English; !langEn - Polish
         this.storeLang(); //stores the language in local storage
 
         //for English texts not having equivalents in Polish, go to random Polish text, for the rest - go to the Polish equivalent text path:
 
-        if (currentUrl.includes('cunninghamella2') || currentUrl.includes('wszystkozernosc') || currentUrl.includes('biegnacyczlowiek')) {
+        if (currentUrl.includes('wszystkozernosc')) {
             this.goToRandomText();
         } else {
             this.router.navigate([equivalentPath]);
@@ -79,7 +79,7 @@ export class NavComponent implements OnInit {
 
 
     @HostListener('window:resize', ['$event'])
-    onResize(event){
+    onResize(event) {
         this.dropdownMaxHeight = (event.target.innerHeight - 60) + "px";
     }
 
@@ -153,11 +153,10 @@ export class NavComponent implements OnInit {
     }
 
 
-
     //method navigating to a random text (that hasn't been yet read) in the current language
     goToRandomText() {
 
-        var randomPath : string; //holds the path to a randomly chosen text
+        var randomPath: string; //holds the path to a randomly chosen text
 
         if (this.langSet == true) {
             if (!this.langEn) {
@@ -168,7 +167,7 @@ export class NavComponent implements OnInit {
                         randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
                     } while (this.visitedRoutesPl.indexOf("/" + randomPath) >= 0); //only go to a given path if it hasn't been visited yet
                 } else {
-                        randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
+                    randomPath = this.routesPl[Math.floor(Math.random() * this.routesPl.length)];
                     this.visitedRoutesPl.length = 0;
                 }
 
@@ -186,10 +185,10 @@ export class NavComponent implements OnInit {
 
             this.resetScroll();
 
-            // navigates to the random path while removing the 'random' or 'random/en' route from history
+            // navigates to the random path while removing the 'random' route from history
 
-            setTimeout(()=>{
-                this.router.navigate([randomPath], {replaceUrl:true});
+            setTimeout(() => {
+                this.router.navigate([randomPath], {replaceUrl: true});
             });
         }
     }
@@ -203,7 +202,7 @@ export class NavComponent implements OnInit {
         if (typeof(Storage) !== "undefined") {
 
             //check info about language in local storage
-            if (localStorage.getItem("langEn") !== "undefined"){
+            if (localStorage.getItem("langEn") !== "undefined") {
                 if (localStorage.getItem("langEn") === "true") {
                     this.langEn = true;
                     this.langSet = true;
@@ -218,7 +217,7 @@ export class NavComponent implements OnInit {
 
             //check whether the user has acknowledged that the site uses local storage
 
-            if (localStorage.getItem("locStorageAccepted") !== "undefined"){
+            if (localStorage.getItem("locStorageAccepted") !== "undefined") {
                 if (localStorage.getItem("locStorageAccepted") === "true") {
                     this.locStorageAccepted = true;
                 } else {
@@ -228,13 +227,13 @@ export class NavComponent implements OnInit {
 
 
             //check info about visited links in local storage
-            if (localStorage.getItem("visitedRoutesPl") !== null){
+            if (localStorage.getItem("visitedRoutesPl") !== null) {
                 this.visitedRoutesPl = JSON.parse(localStorage.getItem("visitedRoutesPl"));
             } else {
                 this.visitedRoutesPl = [];
             }
 
-            if (localStorage.getItem("visitedRoutesEn") !== null){
+            if (localStorage.getItem("visitedRoutesEn") !== null) {
                 this.visitedRoutesEn = JSON.parse(localStorage.getItem("visitedRoutesEn"));
             } else {
                 this.visitedRoutesEn = [];
@@ -275,7 +274,6 @@ export class NavComponent implements OnInit {
                     this.goToRandomText();
                 }
             });
-
 
 
     }

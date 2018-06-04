@@ -19,30 +19,35 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <ul *dropdownMenu class="dropdown-menu mobile-dropdown" [ngStyle]="{'max-height': dropdownMaxHeight}" role="menu">
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/random']">[losowy tekst]</a></li>
+                        <ul *dropdownMenu class="dropdown-menu mobile-dropdown"
+                            [ngStyle]="{'max-height': dropdownMaxHeight}" role="menu">
+                            <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                   [routerLink]="['/random']">[losowy tekst]</a></li>
                             <!--<li class="divider dropdown-divider"></li>-->
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/nocturine1']">nocturine [1]</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/nocturine2']">nocturine [2]</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/nocturine3']">nocturine [3]</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/cunninghamella1']">cunninghamella [1]</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/cunninghamella2']">cunninghamella [2]</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/cunninghamella3']">cunninghamella [3]</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/vostok1']">vostok [1]</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/vostok2']">vostok [2]</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/vostok3']">vostok [3]</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/vostok4']">vostok [4]</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/biegnacyczlowiek']">biegnący człowiek</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/wszystkozernosc']">wszystkożerność</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/moths']">ćmy</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/obrovsky']">obrovsky</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                   [routerLink]="['/nocturine']">nocturine</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                   [routerLink]="['/cunninghamella']">cunninghamella</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                   [routerLink]="['/vostok']">vostok</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                   [routerLink]="['/wszystkozernosc']">wszystkożerność</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                   [routerLink]="['/moths']">ćmy</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                   [routerLink]="['/obrovsky']">obrovsky</a></li>
                             <li class="divider dropdown-divider"></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/bio']">bio</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                   [routerLink]="['/bio']">bio</a></li>
                             <li class="divider dropdown-divider"></li>
-                            <li role="menuitem"><a class="dropdown-item" href="http://facebook.com/drobnik.books" target="_blank">facebook</a></li>
-                            <li role="menuitem"><a class="dropdown-item" href="https://twitter.com/drobnik" target="_blank">twitter</a></li>
-                            <li role="menuitem"><a class="dropdown-item" href="https://www.instagram.com/ldrobnik/" target="_blank">instagram</a></li>
-                            <li role="menuitem"><a class="dropdown-item" href="https://www.patreon.com/drobnik" target="_blank">patreon</a></li>
+                            <li role="menuitem"><a class="dropdown-item" href="http://facebook.com/drobnik.books"
+                                                   target="_blank">facebook</a></li>
+                            <li role="menuitem"><a class="dropdown-item" href="https://twitter.com/drobnik"
+                                                   target="_blank">twitter</a></li>
+                            <li role="menuitem"><a class="dropdown-item" href="https://www.instagram.com/ldrobnik/"
+                                                   target="_blank">instagram</a></li>
+                            <li role="menuitem"><a class="dropdown-item" href="https://www.patreon.com/drobnik"
+                                                   target="_blank">patreon</a></li>
                             <li class="divider dropdown-divider"></li>
                             <li><a class="dropdown-item" (click)="changeLang()">en</a></li>
                         </ul>
@@ -56,32 +61,37 @@
                     <ul class="nav navbar-nav">
                         <li dropdown>
                             <a dropdownToggle class="dropdown-toggle">teksty</a>
-                            <ul *dropdownMenu class="dropdown-menu" [ngStyle]="{'max-height': dropdownMaxHeight}" role="menu">
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/random']">[losowy tekst]</a></li>
+                            <ul *dropdownMenu class="dropdown-menu" [ngStyle]="{'max-height': dropdownMaxHeight}"
+                                role="menu">
+                                <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                       [routerLink]="['/random']">[losowy tekst]</a></li>
                                 <!--<li class="divider dropdown-divider"></li>-->
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/nocturine1']">nocturine [1]</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/nocturine2']">nocturine [2]</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/nocturine3']">nocturine [3]</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/cunninghamella1']">cunninghamella [1]</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/cunninghamella2']">cunninghamella [2]</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/cunninghamella3']">cunninghamella [3]</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/vostok1']">vostok [1]</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/vostok2']">vostok [2]</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/vostok3']">vostok [3]</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/vostok4']">vostok [4]</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/biegnacyczlowiek']">biegnący człowiek</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/wszystkozernosc']">wszystkożerność</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/cmy']">ćmy</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/obrovsky']">obrovsky</a></li>
+                                <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                       [routerLink]="['/nocturine']">nocturine</a></li>
+                                <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                       [routerLink]="['/cunninghamella']">cunninghamella</a></li>
+                                <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                       [routerLink]="['/vostok']">vostok</a></li>
+                                <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                       [routerLink]="['/wszystkozernosc']">wszystkożerność</a></li>
+                                <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                       [routerLink]="['/cmy']">ćmy</a></li>
+                                <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                       [routerLink]="['/obrovsky']">obrovsky</a></li>
                             </ul>
                         </li>
-                        <li><a (click) = "resetScroll()" [routerLink]="['/bio']">bio</a></li>
+                        <li><a (click)="resetScroll()" [routerLink]="['/bio']">bio</a></li>
                         <li dropdown>
                             <a dropdownToggle class="dropdown-toggle">linki</a>
                             <ul *dropdownMenu class="dropdown-menu" role="menu">
-                                <li role="menuitem"><a class="dropdown-item" href="http://facebook.com/drobnik.books" target="_blank">facebook</a></li>
-                                <li role="menuitem"><a class="dropdown-item" href="https://twitter.com/drobnik" target="_blank">twitter</a></li>
-                                <li role="menuitem"><a class="dropdown-item" href="https://www.patreon.com/drobnik" target="_blank">patreon</a></li>
+                                <li role="menuitem"><a class="dropdown-item" href="http://facebook.com/drobnik.books"
+                                                       target="_blank">facebook</a></li>
+                                <li role="menuitem"><a class="dropdown-item" href="https://twitter.com/drobnik"
+                                                       target="_blank">twitter</a></li>
+                                <li role="menuitem"><a class="dropdown-item" href="https://www.instagram.com/ldrobnik/"
+                                                       target="_blank">instagram</a></li>
+                                <li role="menuitem"><a class="dropdown-item" href="https://www.patreon.com/drobnik"
+                                                       target="_blank">patreon</a></li>
                             </ul>
                         </li>
                         <li><a (click)="changeLang()">en</a></li>
@@ -106,25 +116,31 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <ul *dropdownMenu class="dropdown-menu mobile-dropdown" [ngStyle]="{'max-height': dropdownMaxHeight}" role="menu">
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/random/en']">[random text]</a></li>
+                        <ul *dropdownMenu class="dropdown-menu mobile-dropdown"
+                            [ngStyle]="{'max-height': dropdownMaxHeight}" role="menu">
+                            <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                   [routerLink]="['/random/en']">[random text]</a></li>
                             <!--<li class="divider dropdown-divider"></li>-->
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/nocturine1/en']">nocturine [1]</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/nocturine2/en']">nocturine [2]</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/nocturine3/en']">nocturine [3]</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/cunninghamella1/en']">cunninghamella</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/vostok1/en']">vostok [1]</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/vostok2/en']">vostok [2]</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/vostok3/en']">vostok [3]</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/vostok4/en']">vostok [4]</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/moths/en']">moths</a></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/obrovsky/en']">obrovsky</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                   [routerLink]="['/nocturine/en']">nocturine</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                   [routerLink]="['/cunninghamella/en']">cunninghamella</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                   [routerLink]="['/vostok/en']">vostok</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                   [routerLink]="['/moths/en']">moths</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                   [routerLink]="['/obrovsky/en']">obrovsky</a></li>
                             <li class="divider dropdown-divider"></li>
-                            <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/bio/en']">bio</a></li>
+                            <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                   [routerLink]="['/bio/en']">bio</a></li>
                             <li class="divider dropdown-divider"></li>
-                            <li role="menuitem"><a class="dropdown-item" href="http://facebook.com/drobnik.books" target="_blank">facebook</a></li>
-                            <li role="menuitem"><a class="dropdown-item" href="https://twitter.com/drobnik" target="_blank">twitter</a></li>
-                            <li role="menuitem"><a class="dropdown-item" href="https://www.patreon.com/drobnik" target="_blank">patreon</a></li>
+                            <li role="menuitem"><a class="dropdown-item" href="http://facebook.com/drobnik.books"
+                                                   target="_blank">facebook</a></li>
+                            <li role="menuitem"><a class="dropdown-item" href="https://twitter.com/drobnik"
+                                                   target="_blank">twitter</a></li>
+                            <li role="menuitem"><a class="dropdown-item" href="https://www.patreon.com/drobnik"
+                                                   target="_blank">patreon</a></li>
                             <li class="divider dropdown-divider"></li>
                             <li><a class="dropdown-item" (click)="changeLang()">pl</a></li>
                         </ul>
@@ -138,29 +154,35 @@
                     <ul class="nav navbar-nav">
                         <li dropdown>
                             <a dropdownToggle class="dropdown-toggle">texts</a>
-                            <ul *dropdownMenu class="dropdown-menu" [ngStyle]="{'max-height': dropdownMaxHeight}" role="menu">
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/random/en']">[random text]</a></li>
+                            <ul *dropdownMenu class="dropdown-menu" [ngStyle]="{'max-height': dropdownMaxHeight}"
+                                role="menu">
+                                <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                       [routerLink]="['/random/en']">[random text]</a></li>
                                 <!--<li class="divider dropdown-divider"></li>-->
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/nocturine1/en']">nocturine [1]</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/nocturine2/en']">nocturine [2]</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/nocturine3/en']">nocturine [3]</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/cunninghamella1/en']">cunninghamella</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/vostok1/en']">vostok [1]</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/vostok2/en']">vostok [2]</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/vostok3/en']">vostok [3]</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/vostok4/en']">vostok [4]</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/moths/en']">moths</a></li>
-                                <li role="menuitem"><a class="dropdown-item" (click) = "resetScroll()" [routerLink]="['/obrovsky/en']">obrovsky</a></li>
+                                <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                       [routerLink]="['/nocturine/en']">nocturine</a></li>
+                                <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                       [routerLink]="['/cunninghamella/en']">cunninghamella</a></li>
+                                <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                       [routerLink]="['/vostok/en']">vostok</a></li>
+                                <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                       [routerLink]="['/moths/en']">moths</a></li>
+                                <li role="menuitem"><a class="dropdown-item" (click)="resetScroll()"
+                                                       [routerLink]="['/obrovsky/en']">obrovsky</a></li>
                             </ul>
                         </li>
-                        <li><a (click) = "resetScroll()" [routerLink]="['/bio/en']">bio</a></li>
+                        <li><a (click)="resetScroll()" [routerLink]="['/bio/en']">bio</a></li>
                         <li dropdown>
                             <a dropdownToggle class="dropdown-toggle">links</a>
                             <ul *dropdownMenu class="dropdown-menu" role="menu">
-                                <li role="menuitem"><a class="dropdown-item" href="http://facebook.com/drobnik.books" target="_blank">facebook</a></li>
-                                <li role="menuitem"><a class="dropdown-item" href="https://twitter.com/drobnik" target="_blank">twitter</a></li>
-                                <li role="menuitem"><a class="dropdown-item" href="https://www.instagram.com/ldrobnik/" target="_blank">instagram</a></li>
-                                <li role="menuitem"><a class="dropdown-item" href="https://www.patreon.com/drobnik" target="_blank">patreon</a></li>
+                                <li role="menuitem"><a class="dropdown-item" href="http://facebook.com/drobnik.books"
+                                                       target="_blank">facebook</a></li>
+                                <li role="menuitem"><a class="dropdown-item" href="https://twitter.com/drobnik"
+                                                       target="_blank">twitter</a></li>
+                                <li role="menuitem"><a class="dropdown-item" href="https://www.instagram.com/ldrobnik/"
+                                                       target="_blank">instagram</a></li>
+                                <li role="menuitem"><a class="dropdown-item" href="https://www.patreon.com/drobnik"
+                                                       target="_blank">patreon</a></li>
                             </ul>
                         </li>
                         <li><a (click)="changeLang()">pl</a></li>
