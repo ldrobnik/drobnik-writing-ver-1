@@ -3,37 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/app.module.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/app.module.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bio/bio.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/bio/bio.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/nav/nav.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/nav/nav.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-biegnacyczlowiek.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cmy.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-cmy.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella1en.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella2.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella3.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-cunninghamella3.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-moths.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-moths.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine1.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine1en.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine2.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine2en.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine3.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-nocturine3en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-nocturine3en.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-obrovsky.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-obrovskyen.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok1.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok1en.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok2.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok2.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok2en.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok3.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok3.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok3en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok3en.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok4.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok4.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-vostok4en.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.ngfactory.ts" afterPath="$PROJECT_DIR$/assets/app/texts/text-wszystkozernosc.component.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/common.ngfactory.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/common/common.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/core.ngfactory.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/core/core.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/platform-browser.ngfactory.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/platform-browser.ngfactory.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/bundle.js" afterPath="$PROJECT_DIR$/public/js/app/bundle.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -554,7 +523,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="371154000" />
+    <option name="totallyTimeSpent" value="371428000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
