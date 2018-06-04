@@ -3,6 +3,7 @@ import { Routes, RouterModule } from "@angular/router";
 import { BioComponent } from "./bio/bio.component";
 import { RandomComponent } from "./texts/random.component";
 import { RandomEnComponent } from "./texts/random-en.component";
+import { TextNocturineComponent } from "/texts/text-nocturine.component.ts";
 import { TextNocturine1Component } from "./texts/text-nocturine1.component";
 import { TextNocturine2Component } from "./texts/text-nocturine2.component";
 import { TextNocturine3Component } from "./texts/text-nocturine3.component";
@@ -35,6 +36,7 @@ const APP_ROUTES: Routes = [
     {path: 'bio/en', component: BioComponent, data: {title: 'Łukasz Drobnik - fiction writer', theme: 5}},
     {path: 'random', component: RandomComponent, data: {title: 'Łukasz Drobnik - oficjalna strona / official website', theme: 0 }},
     {path: 'random/en', component: RandomEnComponent, data: {title: 'Łukasz Drobnik - oficjalna strona / official website', theme: 0 }},
+    {path: 'nocturine', component: TextNocturineComponent, data: {title: 'Łukasz Drobnik - Nocturine (fragment)', theme: 0}},
     {path: 'nocturine1', component: TextNocturine1Component, data: {title: 'Łukasz Drobnik - Nocturine - Ośmiobitowe sny', theme: 0}},
     {path: 'nocturine2', component: TextNocturine2Component, data: {title: 'Łukasz Drobnik - Nocturine - W morskiej wnętrzności', theme: 0}},
     {path: 'nocturine3', component: TextNocturine3Component, data: {title: 'Łukasz Drobnik - Nocturine - Pejzaż z pięcioma domami', theme: 0}},
