@@ -4,11 +4,7 @@ import { BioComponent } from "./bio/bio.component";
 import { RandomComponent } from "./texts/random.component";
 import { RandomEnComponent } from "./texts/random-en.component";
 import { TextNocturine1Component } from "./texts/text-nocturine1.component";
-import { TextNocturine2Component } from "./texts/text-nocturine2.component";
-import { TextNocturine3Component } from "./texts/text-nocturine3.component";
 import { TextNocturine1EnComponent } from "./texts/text-nocturine1en.component";
-import { TextNocturine2EnComponent } from "./texts/text-nocturine2en.component";
-import { TextNocturine3EnComponent } from "./texts/text-nocturine3en.component";
 import { TextCunninghamella1Component } from "./texts/text-cunninghamella1.component";
 import { TextCunninghamella2Component } from "./texts/text-cunninghamella2.component";
 import { TextCunninghamella3Component } from "./texts/text-cunninghamella3.component";
@@ -36,11 +32,7 @@ const APP_ROUTES: Routes = [
     {path: 'random', component: RandomComponent, data: {title: 'Łukasz Drobnik - oficjalna strona / official website', theme: 0 }},
     {path: 'random/en', component: RandomEnComponent, data: {title: 'Łukasz Drobnik - oficjalna strona / official website', theme: 0 }},
     {path: 'nocturine1', component: TextNocturine1Component, data: {title: 'Łukasz Drobnik - Nocturine - Ośmiobitowe sny', theme: 0}},
-    {path: 'nocturine2', component: TextNocturine2Component, data: {title: 'Łukasz Drobnik - Nocturine - W morskiej wnętrzności', theme: 0}},
-    {path: 'nocturine3', component: TextNocturine3Component, data: {title: 'Łukasz Drobnik - Nocturine - Pejzaż z pięcioma domami', theme: 0}},
     {path: 'nocturine1/en', component: TextNocturine1EnComponent, data: {title: 'Łukasz Drobnik - Nocturine - 8-bit Dreams', theme: 0}},
-    {path: 'nocturine2/en', component: TextNocturine2EnComponent, data: {title: 'Łukasz Drobnik - Nocturine - Through the Sea’s Gut', theme: 0}},
-    {path: 'nocturine3/en', component: TextNocturine3EnComponent, data: {title: 'Łukasz Drobnik - Nocturine - Landscape with Five Houses', theme: 0}},
     {path: 'cunninghamella1', component: TextCunninghamella1Component, data: {title: 'Łukasz Drobnik - Cunninghamella - Rozdział trzeci', theme: 1}},
     {path: 'cunninghamella2', component: TextCunninghamella2Component, data: {title: 'Łukasz Drobnik - Cunninghamella - Rozdział dziesiąty', theme: 1}},
     {path: 'cunninghamella3', component: TextCunninghamella3Component, data: {title: 'Łukasz Drobnik - Cunninghamella - Rozdział dwunasty', theme: 1}},
