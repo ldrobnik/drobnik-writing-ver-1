@@ -1,9 +1,10 @@
-import {Component} from "@angular/core";
+import { Component } from "@angular/core";
 
-import {ResetScrollService} from "../services/reset-scroll.service";
+import { ResetScrollService } from "../services/reset-scroll.service";
+
 
 @Component({
-    templateUrl: 'text-nocturine.component.html',
+    templateUrl: 'text-nocturine1.component.html',
     styleUrls: ['text.component.css']
 })
 
@@ -13,4 +14,5 @@ export class TextNocturineComponent {
         const scrollService = new ResetScrollService();
         scrollService.resetScroll();
     }
+
 }
