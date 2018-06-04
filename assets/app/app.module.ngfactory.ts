@@ -13,183 +13,130 @@ import * as i3 from '../../node_modules/ngx-bootstrap/dropdown/bs-dropdown-conta
 import * as i4 from './bio/bio.component.ngfactory';
 import * as i5 from './texts/random.component.ngfactory';
 import * as i6 from './texts/random-en.component.ngfactory';
-import * as i7 from './texts/text-nocturine1.component.ngfactory';
-import * as i8 from './texts/text-nocturine2.component.ngfactory';
-import * as i9 from './texts/text-nocturine3.component.ngfactory';
-import * as i10 from './texts/text-nocturine1en.component.ngfactory';
-import * as i11 from './texts/text-nocturine2en.component.ngfactory';
-import * as i12 from './texts/text-nocturine3en.component.ngfactory';
-import * as i13 from './texts/text-cunninghamella1.component.ngfactory';
-import * as i14 from './texts/text-cunninghamella2.component.ngfactory';
-import * as i15 from './texts/text-cunninghamella3.component.ngfactory';
-import * as i16 from './texts/text-cunninghamella1en.component.ngfactory';
-import * as i17 from './texts/text-vostok1.component.ngfactory';
-import * as i18 from './texts/text-vostok2.component.ngfactory';
-import * as i19 from './texts/text-vostok3.component.ngfactory';
-import * as i20 from './texts/text-vostok4.component.ngfactory';
-import * as i21 from './texts/text-vostok1en.component.ngfactory';
-import * as i22 from './texts/text-vostok2en.component.ngfactory';
-import * as i23 from './texts/text-vostok3en.component.ngfactory';
-import * as i24 from './texts/text-vostok4en.component.ngfactory';
-import * as i25 from './texts/text-biegnacyczlowiek.component.ngfactory';
-import * as i26 from './texts/text-wszystkozernosc.component.ngfactory';
-import * as i27 from './texts/text-cmy.component.ngfactory';
-import * as i28 from './texts/text-moths.component.ngfactory';
-import * as i29 from './texts/text-obrovsky.component.ngfactory';
-import * as i30 from './texts/text-obrovskyen.component.ngfactory';
-import * as i31 from './app.component.ngfactory';
-import * as i32 from '@angular/common';
-import * as i33 from '@angular/platform-browser';
-import * as i34 from 'ngx-bootstrap/positioning/positioning.service';
-import * as i35 from 'ngx-bootstrap/component-loader/component-loader.factory';
-import * as i36 from 'ngx-bootstrap/dropdown/bs-dropdown.state';
-import * as i37 from '@angular/router';
-import * as i38 from 'ngx-bootstrap/dropdown/bs-dropdown.module';
-import * as i39 from './bio/bio.component';
-import * as i40 from './texts/random.component';
-import * as i41 from './texts/random-en.component';
-import * as i42 from './texts/text-nocturine1.component';
-import * as i43 from './texts/text-nocturine2.component';
-import * as i44 from './texts/text-nocturine3.component';
-import * as i45 from './texts/text-nocturine1en.component';
-import * as i46 from './texts/text-nocturine2en.component';
-import * as i47 from './texts/text-nocturine3en.component';
-import * as i48 from './texts/text-cunninghamella1.component';
-import * as i49 from './texts/text-cunninghamella2.component';
-import * as i50 from './texts/text-cunninghamella3.component';
-import * as i51 from './texts/text-cunninghamella1en.component';
-import * as i52 from './texts/text-vostok1.component';
-import * as i53 from './texts/text-vostok2.component';
-import * as i54 from './texts/text-vostok3.component';
-import * as i55 from './texts/text-vostok4.component';
-import * as i56 from './texts/text-vostok1en.component';
-import * as i57 from './texts/text-vostok2en.component';
-import * as i58 from './texts/text-vostok3en.component';
-import * as i59 from './texts/text-vostok4en.component';
-import * as i60 from './texts/text-biegnacyczlowiek.component';
-import * as i61 from './texts/text-wszystkozernosc.component';
-import * as i62 from './texts/text-cmy.component';
-import * as i63 from './texts/text-moths.component';
-import * as i64 from './texts/text-obrovsky.component';
-import * as i65 from './texts/text-obrovskyen.component';
-import * as i66 from 'ngx-bootstrap/dropdown/bs-dropdown.config';
+import * as i7 from './texts/text-nocturine3.component.ngfactory';
+import * as i8 from './texts/text-nocturine3en.component.ngfactory';
+import * as i9 from './texts/text-cunninghamella1.component.ngfactory';
+import * as i10 from './texts/text-cunninghamella1en.component.ngfactory';
+import * as i11 from './texts/text-vostok1.component.ngfactory';
+import * as i12 from './texts/text-vostok1en.component.ngfactory';
+import * as i13 from './texts/text-wszystkozernosc.component.ngfactory';
+import * as i14 from './texts/text-cmy.component.ngfactory';
+import * as i15 from './texts/text-moths.component.ngfactory';
+import * as i16 from './texts/text-obrovsky.component.ngfactory';
+import * as i17 from './texts/text-obrovskyen.component.ngfactory';
+import * as i18 from './app.component.ngfactory';
+import * as i19 from '@angular/common';
+import * as i20 from '@angular/platform-browser';
+import * as i21 from 'ngx-bootstrap/positioning/positioning.service';
+import * as i22 from 'ngx-bootstrap/component-loader/component-loader.factory';
+import * as i23 from 'ngx-bootstrap/dropdown/bs-dropdown.state';
+import * as i24 from '@angular/router';
+import * as i25 from 'ngx-bootstrap/dropdown/bs-dropdown.module';
+import * as i26 from './bio/bio.component';
+import * as i27 from './texts/random.component';
+import * as i28 from './texts/random-en.component';
+import * as i29 from './texts/text-nocturine3.component';
+import * as i30 from './texts/text-nocturine3en.component';
+import * as i31 from './texts/text-cunninghamella1.component';
+import * as i32 from './texts/text-cunninghamella1en.component';
+import * as i33 from './texts/text-vostok1.component';
+import * as i34 from './texts/text-vostok1en.component';
+import * as i35 from './texts/text-wszystkozernosc.component';
+import * as i36 from './texts/text-cmy.component';
+import * as i37 from './texts/text-moths.component';
+import * as i38 from './texts/text-obrovsky.component';
+import * as i39 from './texts/text-obrovskyen.component';
+import * as i40 from 'ngx-bootstrap/dropdown/bs-dropdown.config';
 export const AppModuleNgFactory:i0.NgModuleFactory<i1.AppModule> = i0.ɵcmf(i1.AppModule,
     [i2.AppComponent],(_l:any) => {
       return i0.ɵmod([i0.ɵmpd(512,i0.ComponentFactoryResolver,i0.ɵCodegenComponentFactoryResolver,
           [[8,[i3.BsDropdownContainerComponentNgFactory,i4.BioComponentNgFactory,i5.RandomComponentNgFactory,
-              i6.RandomEnComponentNgFactory,i7.TextNocturine1ComponentNgFactory,i8.TextNocturine2ComponentNgFactory,
-              i9.TextNocturine3ComponentNgFactory,i10.TextNocturine1EnComponentNgFactory,
-              i11.TextNocturine2EnComponentNgFactory,i12.TextNocturine3EnComponentNgFactory,
-              i13.TextCunninghamella1ComponentNgFactory,i14.TextCunninghamella2ComponentNgFactory,
-              i15.TextCunninghamella3ComponentNgFactory,i16.TextCunninghamella1EnComponentNgFactory,
-              i17.TextVostok1ComponentNgFactory,i18.TextVostok2ComponentNgFactory,
-              i19.TextVostok3ComponentNgFactory,i20.TextVostok4ComponentNgFactory,
-              i21.TextVostok1EnComponentNgFactory,i22.TextVostok2EnComponentNgFactory,
-              i23.TextVostok3EnComponentNgFactory,i24.TextVostok4EnComponentNgFactory,
-              i25.TextBiegnacyczlowiekComponentNgFactory,i26.TextWszystkozernoscComponentNgFactory,
-              i27.TextCmyComponentNgFactory,i28.TextMothsComponentNgFactory,i29.TextObrovskyComponentNgFactory,
-              i30.TextObrovskyEnComponentNgFactory,i31.AppComponentNgFactory]],[3,
-              i0.ComponentFactoryResolver],i0.NgModuleRef]),i0.ɵmpd(5120,i0.LOCALE_ID,
-          i0.ɵm,[[3,i0.LOCALE_ID]]),i0.ɵmpd(4608,i32.NgLocalization,i32.NgLocaleLocalization,
-          [i0.LOCALE_ID]),i0.ɵmpd(5120,i0.APP_ID,i0.ɵf,([] as any[])),i0.ɵmpd(5120,
-          i0.IterableDiffers,i0.ɵk,([] as any[])),i0.ɵmpd(5120,i0.KeyValueDiffers,
-          i0.ɵl,([] as any[])),i0.ɵmpd(4608,i33.DomSanitizer,i33.ɵe,[i32.DOCUMENT]),
-          i0.ɵmpd(6144,i0.Sanitizer,(null as any),[i33.DomSanitizer]),i0.ɵmpd(4608,
-              i33.HAMMER_GESTURE_CONFIG,i33.HammerGestureConfig,([] as any[])),i0.ɵmpd(5120,
-              i33.EVENT_MANAGER_PLUGINS,(p0_0:any,p1_0:any,p2_0:any,p2_1:any) => {
-                return [new i33.ɵDomEventsPlugin(p0_0),new i33.ɵKeyEventsPlugin(p1_0),
-                    new i33.ɵHammerGesturesPlugin(p2_0,p2_1)];
-              },[i32.DOCUMENT,i32.DOCUMENT,i32.DOCUMENT,i33.HAMMER_GESTURE_CONFIG]),
-          i0.ɵmpd(4608,i33.EventManager,i33.EventManager,[i33.EVENT_MANAGER_PLUGINS,
-              i0.NgZone]),i0.ɵmpd(135680,i33.ɵDomSharedStylesHost,i33.ɵDomSharedStylesHost,
-              [i32.DOCUMENT]),i0.ɵmpd(4608,i33.ɵDomRendererFactory2,i33.ɵDomRendererFactory2,
-              [i33.EventManager,i33.ɵDomSharedStylesHost]),i0.ɵmpd(6144,i0.RendererFactory2,
-              (null as any),[i33.ɵDomRendererFactory2]),i0.ɵmpd(6144,i33.ɵSharedStylesHost,
-              (null as any),[i33.ɵDomSharedStylesHost]),i0.ɵmpd(4608,i0.Testability,
-              i0.Testability,[i0.NgZone]),i0.ɵmpd(4608,i33.Meta,i33.Meta,[i32.DOCUMENT]),
-          i0.ɵmpd(4608,i33.Title,i33.Title,[i32.DOCUMENT]),i0.ɵmpd(4608,i34.PositioningService,
-              i34.PositioningService,([] as any[])),i0.ɵmpd(4608,i35.ComponentLoaderFactory,
-              i35.ComponentLoaderFactory,[i0.ComponentFactoryResolver,i0.NgZone,i0.Injector,
-                  i34.PositioningService,i0.ApplicationRef]),i0.ɵmpd(4608,i36.BsDropdownState,
-              i36.BsDropdownState,([] as any[])),i0.ɵmpd(5120,i37.ActivatedRoute,i37.ɵf,
-              [i37.Router]),i0.ɵmpd(4608,i37.NoPreloading,i37.NoPreloading,([] as any[])),
-          i0.ɵmpd(6144,i37.PreloadingStrategy,(null as any),[i37.NoPreloading]),i0.ɵmpd(135680,
-              i37.RouterPreloader,i37.RouterPreloader,[i37.Router,i0.NgModuleFactoryLoader,
-                  i0.Compiler,i0.Injector,i37.PreloadingStrategy]),i0.ɵmpd(4608,i37.PreloadAllModules,
-              i37.PreloadAllModules,([] as any[])),i0.ɵmpd(5120,i37.ROUTER_INITIALIZER,
-              i37.ɵi,[i37.ɵg]),i0.ɵmpd(5120,i0.APP_BOOTSTRAP_LISTENER,(p0_0:any) => {
+              i6.RandomEnComponentNgFactory,i7.TextNocturine3ComponentNgFactory,i8.TextNocturine3EnComponentNgFactory,
+              i9.TextCunninghamella1ComponentNgFactory,i10.TextCunninghamella1EnComponentNgFactory,
+              i11.TextVostok1ComponentNgFactory,i12.TextVostok1EnComponentNgFactory,
+              i13.TextWszystkozernoscComponentNgFactory,i14.TextCmyComponentNgFactory,
+              i15.TextMothsComponentNgFactory,i16.TextObrovskyComponentNgFactory,i17.TextObrovskyEnComponentNgFactory,
+              i18.AppComponentNgFactory]],[3,i0.ComponentFactoryResolver],i0.NgModuleRef]),
+          i0.ɵmpd(5120,i0.LOCALE_ID,i0.ɵm,[[3,i0.LOCALE_ID]]),i0.ɵmpd(4608,i19.NgLocalization,
+              i19.NgLocaleLocalization,[i0.LOCALE_ID]),i0.ɵmpd(5120,i0.APP_ID,i0.ɵf,
+              ([] as any[])),i0.ɵmpd(5120,i0.IterableDiffers,i0.ɵk,([] as any[])),
+          i0.ɵmpd(5120,i0.KeyValueDiffers,i0.ɵl,([] as any[])),i0.ɵmpd(4608,i20.DomSanitizer,
+              i20.ɵe,[i19.DOCUMENT]),i0.ɵmpd(6144,i0.Sanitizer,(null as any),[i20.DomSanitizer]),
+          i0.ɵmpd(4608,i20.HAMMER_GESTURE_CONFIG,i20.HammerGestureConfig,([] as any[])),
+          i0.ɵmpd(5120,i20.EVENT_MANAGER_PLUGINS,(p0_0:any,p1_0:any,p2_0:any,p2_1:any) => {
+            return [new i20.ɵDomEventsPlugin(p0_0),new i20.ɵKeyEventsPlugin(p1_0),
+                new i20.ɵHammerGesturesPlugin(p2_0,p2_1)];
+          },[i19.DOCUMENT,i19.DOCUMENT,i19.DOCUMENT,i20.HAMMER_GESTURE_CONFIG]),i0.ɵmpd(4608,
+              i20.EventManager,i20.EventManager,[i20.EVENT_MANAGER_PLUGINS,i0.NgZone]),
+          i0.ɵmpd(135680,i20.ɵDomSharedStylesHost,i20.ɵDomSharedStylesHost,[i19.DOCUMENT]),
+          i0.ɵmpd(4608,i20.ɵDomRendererFactory2,i20.ɵDomRendererFactory2,[i20.EventManager,
+              i20.ɵDomSharedStylesHost]),i0.ɵmpd(6144,i0.RendererFactory2,(null as any),
+              [i20.ɵDomRendererFactory2]),i0.ɵmpd(6144,i20.ɵSharedStylesHost,(null as any),
+              [i20.ɵDomSharedStylesHost]),i0.ɵmpd(4608,i0.Testability,i0.Testability,
+              [i0.NgZone]),i0.ɵmpd(4608,i20.Meta,i20.Meta,[i19.DOCUMENT]),i0.ɵmpd(4608,
+              i20.Title,i20.Title,[i19.DOCUMENT]),i0.ɵmpd(4608,i21.PositioningService,
+              i21.PositioningService,([] as any[])),i0.ɵmpd(4608,i22.ComponentLoaderFactory,
+              i22.ComponentLoaderFactory,[i0.ComponentFactoryResolver,i0.NgZone,i0.Injector,
+                  i21.PositioningService,i0.ApplicationRef]),i0.ɵmpd(4608,i23.BsDropdownState,
+              i23.BsDropdownState,([] as any[])),i0.ɵmpd(5120,i24.ActivatedRoute,i24.ɵf,
+              [i24.Router]),i0.ɵmpd(4608,i24.NoPreloading,i24.NoPreloading,([] as any[])),
+          i0.ɵmpd(6144,i24.PreloadingStrategy,(null as any),[i24.NoPreloading]),i0.ɵmpd(135680,
+              i24.RouterPreloader,i24.RouterPreloader,[i24.Router,i0.NgModuleFactoryLoader,
+                  i0.Compiler,i0.Injector,i24.PreloadingStrategy]),i0.ɵmpd(4608,i24.PreloadAllModules,
+              i24.PreloadAllModules,([] as any[])),i0.ɵmpd(5120,i24.ROUTER_INITIALIZER,
+              i24.ɵi,[i24.ɵg]),i0.ɵmpd(5120,i0.APP_BOOTSTRAP_LISTENER,(p0_0:any) => {
             return [p0_0];
-          },[i37.ROUTER_INITIALIZER]),i0.ɵmpd(512,i32.CommonModule,i32.CommonModule,
-              ([] as any[])),i0.ɵmpd(1024,i0.ErrorHandler,i33.ɵa,([] as any[])),i0.ɵmpd(1024,
+          },[i24.ROUTER_INITIALIZER]),i0.ɵmpd(512,i19.CommonModule,i19.CommonModule,
+              ([] as any[])),i0.ɵmpd(1024,i0.ErrorHandler,i20.ɵa,([] as any[])),i0.ɵmpd(1024,
               i0.NgProbeToken,() => {
-                return [i37.ɵb()];
-              },([] as any[])),i0.ɵmpd(512,i37.ɵg,i37.ɵg,[i0.Injector]),i0.ɵmpd(1024,
+                return [i24.ɵb()];
+              },([] as any[])),i0.ɵmpd(512,i24.ɵg,i24.ɵg,[i0.Injector]),i0.ɵmpd(1024,
               i0.APP_INITIALIZER,(p0_0:any,p0_1:any,p1_0:any) => {
-                return [i33.ɵc(p0_0,p0_1),i37.ɵh(p1_0)];
-              },[[2,i33.NgProbeToken],[2,i0.NgProbeToken],i37.ɵg]),i0.ɵmpd(512,i0.ApplicationInitStatus,
+                return [i20.ɵc(p0_0,p0_1),i24.ɵh(p1_0)];
+              },[[2,i20.NgProbeToken],[2,i0.NgProbeToken],i24.ɵg]),i0.ɵmpd(512,i0.ApplicationInitStatus,
               i0.ApplicationInitStatus,[[2,i0.APP_INITIALIZER]]),i0.ɵmpd(131584,i0.ɵe,
               i0.ɵe,[i0.NgZone,i0.ɵConsole,i0.Injector,i0.ErrorHandler,i0.ComponentFactoryResolver,
                   i0.ApplicationInitStatus]),i0.ɵmpd(2048,i0.ApplicationRef,(null as any),
               [i0.ɵe]),i0.ɵmpd(512,i0.ApplicationModule,i0.ApplicationModule,[i0.ApplicationRef]),
-          i0.ɵmpd(512,i33.BrowserModule,i33.BrowserModule,[[3,i33.BrowserModule]]),
-          i0.ɵmpd(512,i38.BsDropdownModule,i38.BsDropdownModule,([] as any[])),i0.ɵmpd(1024,
-              i37.ɵa,i37.ɵd,[[3,i37.Router]]),i0.ɵmpd(512,i37.UrlSerializer,i37.DefaultUrlSerializer,
-              ([] as any[])),i0.ɵmpd(512,i37.ChildrenOutletContexts,i37.ChildrenOutletContexts,
-              ([] as any[])),i0.ɵmpd(256,i37.ROUTER_CONFIGURATION,{},([] as any[])),
-          i0.ɵmpd(1024,i32.LocationStrategy,i37.ɵc,[i32.PlatformLocation,[2,i32.APP_BASE_HREF],
-              i37.ROUTER_CONFIGURATION]),i0.ɵmpd(512,i32.Location,i32.Location,[i32.LocationStrategy]),
+          i0.ɵmpd(512,i20.BrowserModule,i20.BrowserModule,[[3,i20.BrowserModule]]),
+          i0.ɵmpd(512,i25.BsDropdownModule,i25.BsDropdownModule,([] as any[])),i0.ɵmpd(1024,
+              i24.ɵa,i24.ɵd,[[3,i24.Router]]),i0.ɵmpd(512,i24.UrlSerializer,i24.DefaultUrlSerializer,
+              ([] as any[])),i0.ɵmpd(512,i24.ChildrenOutletContexts,i24.ChildrenOutletContexts,
+              ([] as any[])),i0.ɵmpd(256,i24.ROUTER_CONFIGURATION,{},([] as any[])),
+          i0.ɵmpd(1024,i19.LocationStrategy,i24.ɵc,[i19.PlatformLocation,[2,i19.APP_BASE_HREF],
+              i24.ROUTER_CONFIGURATION]),i0.ɵmpd(512,i19.Location,i19.Location,[i19.LocationStrategy]),
           i0.ɵmpd(512,i0.Compiler,i0.Compiler,([] as any[])),i0.ɵmpd(512,i0.NgModuleFactoryLoader,
               i0.SystemJsNgModuleLoader,[i0.Compiler,[2,i0.SystemJsNgModuleLoaderConfig]]),
-          i0.ɵmpd(1024,i37.ROUTES,() => {
-            return [[{path:'',redirectTo:'/random',pathMatch:'full'},{path:'bio',component:i39.BioComponent,
-                data:{title:'Łukasz Drobnik - prozaik',theme:5}},{path:'bio/en',component:i39.BioComponent,
+          i0.ɵmpd(1024,i24.ROUTES,() => {
+            return [[{path:'',redirectTo:'/random',pathMatch:'full'},{path:'bio',component:i26.BioComponent,
+                data:{title:'Łukasz Drobnik - prozaik',theme:5}},{path:'bio/en',component:i26.BioComponent,
                 data:{title:'Łukasz Drobnik - fiction writer',theme:5}},{path:'random',
-                component:i40.RandomComponent,data:{title:'Łukasz Drobnik - oficjalna strona / official website',
-                    theme:0}},{path:'random/en',component:i41.RandomEnComponent,data:{title:'Łukasz Drobnik - oficjalna strona / official website',
-                theme:0}},{path:'nocturine1',component:i42.TextNocturine1Component,
-                data:{title:'Łukasz Drobnik - Nocturine - Ośmiobitowe sny',theme:0}},
-                {path:'nocturine2',component:i43.TextNocturine2Component,data:{title:'Łukasz Drobnik - Nocturine - W morskiej wnętrzności',
-                    theme:0}},{path:'nocturine3',component:i44.TextNocturine3Component,
-                    data:{title:'Łukasz Drobnik - Nocturine - Pejzaż z pięcioma domami',
-                        theme:0}},{path:'nocturine1/en',component:i45.TextNocturine1EnComponent,
-                    data:{title:'Łukasz Drobnik - Nocturine - 8-bit Dreams',theme:0}},
-                {path:'nocturine2/en',component:i46.TextNocturine2EnComponent,data:{title:'Łukasz Drobnik - Nocturine - Through the Sea’s Gut',
-                    theme:0}},{path:'nocturine3/en',component:i47.TextNocturine3EnComponent,
-                    data:{title:'Łukasz Drobnik - Nocturine - Landscape with Five Houses',
-                        theme:0}},{path:'cunninghamella1',component:i48.TextCunninghamella1Component,
-                    data:{title:'Łukasz Drobnik - Cunninghamella - Rozdział trzeci',
-                        theme:1}},{path:'cunninghamella2',component:i49.TextCunninghamella2Component,
-                    data:{title:'Łukasz Drobnik - Cunninghamella - Rozdział dziesiąty',
-                        theme:1}},{path:'cunninghamella3',component:i50.TextCunninghamella3Component,
-                    data:{title:'Łukasz Drobnik - Cunninghamella - Rozdział dwunasty',
-                        theme:1}},{path:'cunninghamella1/en',component:i51.TextCunninghamella1EnComponent,
-                    data:{title:'Łukasz Drobnik - Cunninghamella - Chapter Three',
-                        theme:1}},{path:'vostok1',component:i52.TextVostok1Component,
-                    data:{title:'Łukasz Drobnik - Vostok - Rozdział pierwszy',theme:2}},
-                {path:'vostok2',component:i53.TextVostok2Component,data:{title:'Łukasz Drobnik - Vostok - Rozdział drugi',
-                    theme:2}},{path:'vostok3',component:i54.TextVostok3Component,data:{title:'Łukasz Drobnik - Vostok - Rozdział trzeci',
-                    theme:2}},{path:'vostok4',component:i55.TextVostok4Component,data:{title:'Łukasz Drobnik - Vostok - Rozdział czwarty',
-                    theme:2}},{path:'vostok1/en',component:i56.TextVostok1EnComponent,
+                component:i27.RandomComponent,data:{title:'Łukasz Drobnik - oficjalna strona / official website',
+                    theme:0}},{path:'random/en',component:i28.RandomEnComponent,data:{title:'Łukasz Drobnik - oficjalna strona / official website',
+                theme:0}},{path:'nocturine',component:i29.TextNocturine3Component,
+                data:{title:'Łukasz Drobnik - Nocturine (fragment)',theme:0}},{path:'nocturine/en',
+                component:i30.TextNocturine3EnComponent,data:{title:'Łukasz Drobnik - Nocturine (fragment)',
+                    theme:0}},{path:'cunninghamella',component:i31.TextCunninghamella1Component,
+                data:{title:'Łukasz Drobnik - Cunninghamella (fragment)',theme:1}},
+                {path:'cunninghamella/en',component:i32.TextCunninghamella1EnComponent,
+                    data:{title:'Łukasz Drobnik - Cunninghamella (fragment)',theme:1}},
+                {path:'vostok',component:i33.TextVostok1Component,data:{title:'Łukasz Drobnik - Vostok - Rozdział pierwszy',
+                    theme:2}},{path:'vostok/en',component:i34.TextVostok1EnComponent,
                     data:{title:'Łukasz Drobnik - Vostok - Chapter One',theme:2}},
-                {path:'vostok2/en',component:i57.TextVostok2EnComponent,data:{title:'Łukasz Drobnik - Vostok - Chapter Two',
-                    theme:2}},{path:'vostok3/en',component:i58.TextVostok3EnComponent,
-                    data:{title:'Łukasz Drobnik - Vostok - Chapter Three',theme:2}},
-                {path:'vostok4/en',component:i59.TextVostok4EnComponent,data:{title:'Łukasz Drobnik - Vostok - Chapter Four',
-                    theme:2}},{path:'biegnacyczlowiek',component:i60.TextBiegnacyczlowiekComponent,
-                    data:{title:'Łukasz Drobnik - Biegnący człowiek',theme:3}},{path:'wszystkozernosc',
-                    component:i61.TextWszystkozernoscComponent,data:{title:'Łukasz Drobnik - Wszystkożerność',
-                        theme:3}},{path:'cmy',component:i62.TextCmyComponent,data:{title:'Łukasz Drobnik - Ćmy',
-                    theme:4}},{path:'moths/en',component:i63.TextMothsComponent,data:{title:'Łukasz Drobnik - Moths',
-                    theme:4}},{path:'obrovsky',component:i64.TextObrovskyComponent,
-                    data:{title:'Łukasz Drobnik - Obrovsky - Wszystko, co podziemne',
-                        theme:5}},{path:'obrovsky/en',component:i65.TextObrovskyEnComponent,
+                {path:'wszystkozernosc',component:i35.TextWszystkozernoscComponent,
+                    data:{title:'Łukasz Drobnik - Wszystkożerność',theme:3}},{path:'cmy',
+                    component:i36.TextCmyComponent,data:{title:'Łukasz Drobnik - Ćmy',
+                        theme:4}},{path:'moths/en',component:i37.TextMothsComponent,
+                    data:{title:'Łukasz Drobnik - Moths',theme:4}},{path:'obrovsky',
+                    component:i38.TextObrovskyComponent,data:{title:'Łukasz Drobnik - Obrovsky - Wszystko, co podziemne',
+                        theme:5}},{path:'obrovsky/en',component:i39.TextObrovskyEnComponent,
                     data:{title:'Łukasz Drobnik - Obrovsky - All Things Subterranean',
                         theme:5}},{path:'**',redirectTo:'/random'}]];
-          },([] as any[])),i0.ɵmpd(1024,i37.Router,i37.ɵe,[i0.ApplicationRef,i37.UrlSerializer,
-              i37.ChildrenOutletContexts,i32.Location,i0.Injector,i0.NgModuleFactoryLoader,
-              i0.Compiler,i37.ROUTES,i37.ROUTER_CONFIGURATION,[2,i37.UrlHandlingStrategy],
-              [2,i37.RouteReuseStrategy]]),i0.ɵmpd(512,i37.RouterModule,i37.RouterModule,
-              [[2,i37.ɵa],[2,i37.Router]]),i0.ɵmpd(512,i1.AppModule,i1.AppModule,([] as any[])),
-          i0.ɵmpd(256,i66.BsDropdownConfig,{autoClose:true},([] as any[]))]);
+          },([] as any[])),i0.ɵmpd(1024,i24.Router,i24.ɵe,[i0.ApplicationRef,i24.UrlSerializer,
+              i24.ChildrenOutletContexts,i19.Location,i0.Injector,i0.NgModuleFactoryLoader,
+              i0.Compiler,i24.ROUTES,i24.ROUTER_CONFIGURATION,[2,i24.UrlHandlingStrategy],
+              [2,i24.RouteReuseStrategy]]),i0.ɵmpd(512,i24.RouterModule,i24.RouterModule,
+              [[2,i24.ɵa],[2,i24.Router]]),i0.ɵmpd(512,i1.AppModule,i1.AppModule,([] as any[])),
+          i0.ɵmpd(256,i40.BsDropdownConfig,{autoClose:true},([] as any[]))]);
     });
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiRTovd2ViZGV2L2x1a2Fzei1kcm9ibmlrLmNvbS9sdWthc3otZHJvYm5pay5jb20vYXNzZXRzL2FwcC9hcHAubW9kdWxlLm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL0U6L3dlYmRldi9sdWthc3otZHJvYm5pay5jb20vbHVrYXN6LWRyb2JuaWsuY29tL2Fzc2V0cy9hcHAvYXBwLm1vZHVsZS50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIgIl0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzsifQ==
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiRTovd2ViZGV2L2x1a2Fzei1kcm9ibmlrLmNvbS9sdWthc3otZHJvYm5pay5jb20vYXNzZXRzL2FwcC9hcHAubW9kdWxlLm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL0U6L3dlYmRldi9sdWthc3otZHJvYm5pay5jb20vbHVrYXN6LWRyb2JuaWsuY29tL2Fzc2V0cy9hcHAvYXBwLm1vZHVsZS50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIgIl0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7In0=
