@@ -3,7 +3,7 @@ import { Routes, RouterModule } from "@angular/router";
 import { BioComponent } from "./bio/bio.component";
 import { RandomComponent } from "./texts/random.component";
 import { RandomEnComponent } from "./texts/random-en.component";
-import { TextNocturineComponent } from "./texts/text-nocturine.component.ts";
+import { TextNocturineComponent } from "./texts/text-nocturine.component";
 import { TextNocturine1Component } from "./texts/text-nocturine1.component";
 import { TextNocturine2Component } from "./texts/text-nocturine2.component";
 import { TextNocturine3Component } from "./texts/text-nocturine3.component";
