@@ -39,9 +39,9 @@ app.use(function(req, res, next) {
 app.use('/', appRoutes); // imports the app.js file referred to in the appRoutes variable
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  res.render('index'); // direct to index page in case of error
-});
+// app.use(function(req, res, next) {
+//   res.render('index'); // direct to index page in case of error
+// });
 
 
 module.exports = app;
