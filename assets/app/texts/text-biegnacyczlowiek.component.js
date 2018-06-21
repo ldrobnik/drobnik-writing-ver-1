@@ -15,12 +15,12 @@ var TextBiegnacyczlowiekComponent = (function () {
         var scrollService = new reset_scroll_service_1.ResetScrollService();
         scrollService.resetScroll();
     };
+    TextBiegnacyczlowiekComponent = __decorate([
+        core_1.Component({
+            templateUrl: 'text-biegnacyczlowiek.component.html',
+            styleUrls: ['text.component.css']
+        })
+    ], TextBiegnacyczlowiekComponent);
     return TextBiegnacyczlowiekComponent;
 }());
-TextBiegnacyczlowiekComponent = __decorate([
-    core_1.Component({
-        templateUrl: 'text-biegnacyczlowiek.component.html',
-        styleUrls: ['text.component.css']
-    })
-], TextBiegnacyczlowiekComponent);
 exports.TextBiegnacyczlowiekComponent = TextBiegnacyczlowiekComponent;

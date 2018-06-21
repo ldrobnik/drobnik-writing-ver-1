@@ -15,12 +15,12 @@ var TextNocturine3Component = (function () {
         var scrollService = new reset_scroll_service_1.ResetScrollService();
         scrollService.resetScroll();
     };
+    TextNocturine3Component = __decorate([
+        core_1.Component({
+            templateUrl: 'text-nocturine3.component.html',
+            styleUrls: ['text.component.css']
+        })
+    ], TextNocturine3Component);
     return TextNocturine3Component;
 }());
-TextNocturine3Component = __decorate([
-    core_1.Component({
-        templateUrl: 'text-nocturine3.component.html',
-        styleUrls: ['text.component.css']
-    })
-], TextNocturine3Component);
 exports.TextNocturine3Component = TextNocturine3Component;

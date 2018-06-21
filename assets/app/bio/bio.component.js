@@ -38,15 +38,6 @@ var BioComponent = (function () {
                 descriptionEn: 'An English version of the novella “Nocturine” forthcoming in 2019 from Fathom Books'
             },
             {
-                title: 'Quarterly West (94)',
-                type: 'press',
-                year: '',
-                filename: 'qw',
-                url: 'https://www.quarterlywest.com/',
-                descriptionPl: 'Opowiadanie „Cetacean”',
-                descriptionEn: 'A short story “Cetacean”'
-            },
-            {
                 title: 'SHARKPACK Annual (2018)',
                 type: 'press',
                 year: '',
@@ -63,6 +54,15 @@ var BioComponent = (function () {
                 url: 'http://magazynwizje.pl/',
                 descriptionPl: 'Opowiadanie „Światłoczułość”',
                 descriptionEn: 'A short story “Światłoczułość”'
+            },
+            {
+                title: 'Quarterly West (94)',
+                type: 'press',
+                year: '2018',
+                filename: 'qw',
+                url: 'https://www.quarterlywest.com/issue-94/cetacean',
+                descriptionPl: 'Opowiadanie „Cetacean”',
+                descriptionEn: 'A short story “Cetacean”'
             },
             {
                 title: 'Obszary Przepisane (5)',
@@ -263,14 +263,14 @@ var BioComponent = (function () {
     BioComponent.prototype.ngOnInit = function () {
         this.langEn = this.router.url.includes('/en');
     };
+    BioComponent = __decorate([
+        core_1.Component({
+            selector: 'app-bio',
+            templateUrl: './bio.component.html',
+            styleUrls: ['./bio.component.css']
+        }),
+        __metadata("design:paramtypes", [router_1.Router])
+    ], BioComponent);
     return BioComponent;
 }());
-BioComponent = __decorate([
-    core_1.Component({
-        selector: 'app-bio',
-        templateUrl: './bio.component.html',
-        styleUrls: ['./bio.component.css']
-    }),
-    __metadata("design:paramtypes", [router_1.Router])
-], BioComponent);
 exports.BioComponent = BioComponent;

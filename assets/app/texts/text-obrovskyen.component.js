@@ -15,12 +15,12 @@ var TextObrovskyEnComponent = (function () {
         var scrollService = new reset_scroll_service_1.ResetScrollService();
         scrollService.resetScroll();
     };
+    TextObrovskyEnComponent = __decorate([
+        core_1.Component({
+            templateUrl: 'text-obrovskyen.component.html',
+            styleUrls: ['text.component.css']
+        })
+    ], TextObrovskyEnComponent);
     return TextObrovskyEnComponent;
 }());
-TextObrovskyEnComponent = __decorate([
-    core_1.Component({
-        templateUrl: 'text-obrovskyen.component.html',
-        styleUrls: ['text.component.css']
-    })
-], TextObrovskyEnComponent);
 exports.TextObrovskyEnComponent = TextObrovskyEnComponent;

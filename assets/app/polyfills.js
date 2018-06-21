@@ -1,5 +1,5 @@
-// specifies polyfills to be used
 "use strict";
+// specifies polyfills to be used
 Object.defineProperty(exports, "__esModule", { value: true });
 require("core-js/es6");
 require("core-js/es7/reflect");

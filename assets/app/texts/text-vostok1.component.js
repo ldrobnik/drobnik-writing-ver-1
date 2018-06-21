@@ -15,12 +15,12 @@ var TextVostok1Component = (function () {
         var scrollService = new reset_scroll_service_1.ResetScrollService();
         scrollService.resetScroll();
     };
+    TextVostok1Component = __decorate([
+        core_1.Component({
+            templateUrl: 'text-vostok1.component.html',
+            styleUrls: ['text.component.css']
+        })
+    ], TextVostok1Component);
     return TextVostok1Component;
 }());
-TextVostok1Component = __decorate([
-    core_1.Component({
-        templateUrl: 'text-vostok1.component.html',
-        styleUrls: ['text.component.css']
-    })
-], TextVostok1Component);
 exports.TextVostok1Component = TextVostok1Component;

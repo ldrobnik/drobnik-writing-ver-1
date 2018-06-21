@@ -10,11 +10,11 @@ var core_1 = require("@angular/core");
 var RandomComponent = (function () {
     function RandomComponent() {
     }
+    RandomComponent = __decorate([
+        core_1.Component({
+            template: ''
+        })
+    ], RandomComponent);
     return RandomComponent;
 }());
-RandomComponent = __decorate([
-    core_1.Component({
-        template: ''
-    })
-], RandomComponent);
 exports.RandomComponent = RandomComponent;
