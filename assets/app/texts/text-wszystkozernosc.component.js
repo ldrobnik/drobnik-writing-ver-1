@@ -15,12 +15,12 @@ var TextWszystkozernoscComponent = (function () {
         var scrollService = new reset_scroll_service_1.ResetScrollService();
         scrollService.resetScroll();
     };
+    TextWszystkozernoscComponent = __decorate([
+        core_1.Component({
+            templateUrl: 'text-wszystkozernosc.component.html',
+            styleUrls: ['text.component.css']
+        })
+    ], TextWszystkozernoscComponent);
     return TextWszystkozernoscComponent;
 }());
-TextWszystkozernoscComponent = __decorate([
-    core_1.Component({
-        templateUrl: 'text-wszystkozernosc.component.html',
-        styleUrls: ['text.component.css']
-    })
-], TextWszystkozernoscComponent);
 exports.TextWszystkozernoscComponent = TextWszystkozernoscComponent;

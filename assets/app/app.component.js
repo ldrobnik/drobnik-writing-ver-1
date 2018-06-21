@@ -38,18 +38,18 @@ var AppComponent = (function () {
             _this.titleService.setTitle(event['title']);
         });
     };
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Boolean)
+    ], AppComponent.prototype, "langEn", void 0);
+    AppComponent = __decorate([
+        core_1.Component({
+            selector: 'my-app',
+            templateUrl: './app.component.html',
+            styleUrls: ['./app.component.css']
+        }),
+        __metadata("design:paramtypes", [router_1.Router, router_1.ActivatedRoute, platform_browser_1.Title])
+    ], AppComponent);
     return AppComponent;
 }());
-__decorate([
-    core_1.Input(),
-    __metadata("design:type", Boolean)
-], AppComponent.prototype, "langEn", void 0);
-AppComponent = __decorate([
-    core_1.Component({
-        selector: 'my-app',
-        templateUrl: './app.component.html',
-        styleUrls: ['./app.component.css']
-    }),
-    __metadata("design:paramtypes", [router_1.Router, router_1.ActivatedRoute, platform_browser_1.Title])
-], AppComponent);
 exports.AppComponent = AppComponent;

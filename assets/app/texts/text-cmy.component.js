@@ -15,12 +15,12 @@ var TextCmyComponent = (function () {
         var scrollService = new reset_scroll_service_1.ResetScrollService();
         scrollService.resetScroll();
     };
+    TextCmyComponent = __decorate([
+        core_1.Component({
+            templateUrl: 'text-cmy.component.html',
+            styleUrls: ['text.component.css']
+        })
+    ], TextCmyComponent);
     return TextCmyComponent;
 }());
-TextCmyComponent = __decorate([
-    core_1.Component({
-        templateUrl: 'text-cmy.component.html',
-        styleUrls: ['text.component.css']
-    })
-], TextCmyComponent);
 exports.TextCmyComponent = TextCmyComponent;

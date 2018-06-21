@@ -15,12 +15,12 @@ var TextCunninghamella3Component = (function () {
         var scrollService = new reset_scroll_service_1.ResetScrollService();
         scrollService.resetScroll();
     };
+    TextCunninghamella3Component = __decorate([
+        core_1.Component({
+            templateUrl: 'text-cunninghamella3.component.html',
+            styleUrls: ['text.component.css']
+        })
+    ], TextCunninghamella3Component);
     return TextCunninghamella3Component;
 }());
-TextCunninghamella3Component = __decorate([
-    core_1.Component({
-        templateUrl: 'text-cunninghamella3.component.html',
-        styleUrls: ['text.component.css']
-    })
-], TextCunninghamella3Component);
 exports.TextCunninghamella3Component = TextCunninghamella3Component;

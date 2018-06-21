@@ -15,12 +15,12 @@ var TextMothsComponent = (function () {
         var scrollService = new reset_scroll_service_1.ResetScrollService();
         scrollService.resetScroll();
     };
+    TextMothsComponent = __decorate([
+        core_1.Component({
+            templateUrl: 'text-moths.component.html',
+            styleUrls: ['text.component.css']
+        })
+    ], TextMothsComponent);
     return TextMothsComponent;
 }());
-TextMothsComponent = __decorate([
-    core_1.Component({
-        templateUrl: 'text-moths.component.html',
-        styleUrls: ['text.component.css']
-    })
-], TextMothsComponent);
 exports.TextMothsComponent = TextMothsComponent;

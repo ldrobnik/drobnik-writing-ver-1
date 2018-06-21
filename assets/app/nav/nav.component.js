@@ -223,20 +223,20 @@ var NavComponent = (function () {
             }
         });
     };
+    __decorate([
+        core_1.HostListener('window:resize', ['$event']),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", void 0)
+    ], NavComponent.prototype, "onResize", null);
+    NavComponent = __decorate([
+        core_1.Component({
+            selector: 'app-nav',
+            templateUrl: './nav.component.html',
+            styleUrls: ['./nav.component.css']
+        }),
+        __metadata("design:paramtypes", [router_1.Router, router_1.ActivatedRoute])
+    ], NavComponent);
     return NavComponent;
 }());
-__decorate([
-    core_1.HostListener('window:resize', ['$event']),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", void 0)
-], NavComponent.prototype, "onResize", null);
-NavComponent = __decorate([
-    core_1.Component({
-        selector: 'app-nav',
-        templateUrl: './nav.component.html',
-        styleUrls: ['./nav.component.css']
-    }),
-    __metadata("design:paramtypes", [router_1.Router, router_1.ActivatedRoute])
-], NavComponent);
 exports.NavComponent = NavComponent;
