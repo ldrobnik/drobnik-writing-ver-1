@@ -44,22 +44,6 @@ export class BioComponent implements OnInit {
 
         },
         {
-            title: 'Quarterly West (94)',
-
-            type: 'press',
-
-            year: '',
-
-            filename: 'qw',
-
-            url: 'https://www.quarterlywest.com/',
-
-            descriptionPl: 'Opowiadanie „Cetacean”',
-
-            descriptionEn: 'A short story “Cetacean”'
-
-        },
-        {
             title: 'SHARKPACK Annual (2018)',
 
             type: 'press',
@@ -89,6 +73,22 @@ export class BioComponent implements OnInit {
             descriptionPl: 'Opowiadanie „Światłoczułość”',
 
             descriptionEn: 'A short story “Światłoczułość”'
+
+        },
+        {
+            title: 'Quarterly West (94)',
+
+            type: 'press',
+
+            year: '2018',
+
+            filename: 'qw',
+
+            url: 'https://www.quarterlywest.com/issue-94/cetacean',
+
+            descriptionPl: 'Opowiadanie „Cetacean”',
+
+            descriptionEn: 'A short story “Cetacean”'
 
         },
         {
