@@ -64,11 +64,11 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: '',
+            year: '2018',
 
             filename: 'wizje',
 
-            url: 'http://magazynwizje.pl/',
+            url: 'http://magazynwizje.pl/lukasz-drobnik-swiatloczulosc/',
 
             descriptionPl: 'Opowiadanie „Światłoczułość”',
 

@@ -49,9 +49,9 @@ var BioComponent = (function () {
             {
                 title: 'Magazyn Wizje (2/2018)',
                 type: 'press',
-                year: '',
+                year: '2018',
                 filename: 'wizje',
-                url: 'http://magazynwizje.pl/',
+                url: 'http://magazynwizje.pl/lukasz-drobnik-swiatloczulosc/',
                 descriptionPl: 'Opowiadanie „Światłoczułość”',
                 descriptionEn: 'A short story “Światłoczułość”'
             },
