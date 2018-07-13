@@ -132,7 +132,7 @@ export class BioComponent implements OnInit {
 
             filename: 'inter',
 
-            url: 'https://pismointer.wordpress.com/aktualny-numer/proza/lukasz-drobnik-dewon/',
+            url: 'https://pismointer.wordpress.com/numery-archiwalne/nr-216-2018/lukasz-drobnik-dewon/',
 
             descriptionPl: 'Opowiadanie „Dewon” (polskie tłumaczenie opowiadania „Devonian”)',
 
