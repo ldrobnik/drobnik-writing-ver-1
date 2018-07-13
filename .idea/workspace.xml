@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app/bio/bio.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app/bio/bio.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -100,8 +100,8 @@
       <file leaf-file-name="bio.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="70" column="71" selection-start-line="70" selection-start-column="71" selection-end-line="70" selection-end-column="71" />
+            <state relative-caret-position="186">
+              <caret line="134" column="102" selection-start-line="134" selection-start-column="102" selection-end-line="134" selection-end-column="102" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -270,9 +270,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="35" />
-    <option name="y" value="86" />
+    <option name="y" value="85" />
     <option name="width" value="1885" />
     <option name="height" value="880" />
   </component>
@@ -285,7 +285,17 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="drobnik.co" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drobnik.co" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -430,12 +440,13 @@
       <workItem from="1529609308622" duration="848000" />
       <workItem from="1529613334904" duration="1364000" />
       <workItem from="1529776848884" duration="29000" />
-      <workItem from="1530867732943" duration="992000" />
+      <workItem from="1530867732943" duration="1630000" />
+      <workItem from="1531494310905" duration="67000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="399228000" />
+    <option name="totallyTimeSpent" value="399933000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -447,17 +458,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="69" width="1508" height="704" extended-state="1" />
+    <frame x="28" y="68" width="1508" height="704" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.28073394" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.26240653" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.26240653" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32971016" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50216216" side_tool="true" weight="0.26923078" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31878307" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.24880128" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49783784" visible="true" weight="0.30642202" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49783784" visible="true" weight="0.30642202" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -469,9 +481,9 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.32804233" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.209377" />
       <window_info id="Structure" order="0" weight="0.24880128" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -479,12 +491,12 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32971016" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.24074075" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31878307" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3282353" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49783784" weight="0.20238096" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50216216" side_tool="true" weight="0.26923078" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3282353" />
       <window_info id="Favorites" order="1" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -806,8 +818,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="70" column="71" selection-start-line="70" selection-start-column="71" selection-end-line="70" selection-end-column="71" />
+        <state relative-caret-position="186">
+          <caret line="134" column="102" selection-start-line="134" selection-start-column="102" selection-end-line="134" selection-end-column="102" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
