@@ -42,9 +42,9 @@ function View_BioComponent_3(_l) {
             }
             return ad;
         }, null, null)), i1.ɵdid(671744, null, 0, i2.RouterLinkWithHref, [i2.Router, i2.ActivatedRoute, i3.LocationStrategy], { routerLink: [0, 'routerLink'] }, null), i1.ɵpad(1), (_l()(), i1.ɵted(null, ['teksty'])), (_l()(),
-            i1.ɵted(null, ['. Można mnie też znaleźć na '])), (_l()(), i1.ɵeld(0, null, null, 1, 'a', [['href', 'http://facebook.com/drobnik.books'],
+            i1.ɵted(null, ['. Można mnie też znaleźć na '])), (_l()(), i1.ɵeld(0, null, null, 1, 'a', [['href', 'http://facebook.com/drobnik.writes'],
             ['target', '_blank']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['Facebooku'])), (_l()(), i1.ɵted(null, [', '])), (_l()(), i1.ɵeld(0, null, null, 1, 'a', [['href', 'https://twitter.com/drobnik'],
-            ['target', '_blank']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['Twitterze'])), (_l()(), i1.ɵted(null, [', '])), (_l()(), i1.ɵeld(0, null, null, 1, 'a', [['href', 'https://www.instagram.com/ldrobnik/'],
+            ['target', '_blank']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['Twitterze'])), (_l()(), i1.ɵted(null, [', '])), (_l()(), i1.ɵeld(0, null, null, 1, 'a', [['href', 'https://www.instagram.com/drobnikwrites/'],
             ['target', '_blank']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['Instagramie'])), (_l()(),
             i1.ɵted(null, [' i '])), (_l()(), i1.ɵeld(0, null, null, 1, 'a', [['href', 'https://www.patreon.com/drobnik'], ['target', '_blank']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['Patreonie'])), (_l()(), i1.ɵted(null, ['.'])), (_l()(), i1.ɵted(null, ['\n        ']))], function (_ck, _v) {
         var currVal_2 = _ck(_v, 12, 0, '/random');
@@ -75,9 +75,9 @@ function View_BioComponent_4(_l) {
             }
             return ad;
         }, null, null)), i1.ɵdid(671744, null, 0, i2.RouterLinkWithHref, [i2.Router, i2.ActivatedRoute, i3.LocationStrategy], { routerLink: [0, 'routerLink'] }, null), i1.ɵpad(1), (_l()(), i1.ɵted(null, ['texts'])), (_l()(),
-            i1.ɵted(null, [' section. You can also find me on '])), (_l()(), i1.ɵeld(0, null, null, 1, 'a', [['href', 'http://facebook.com/drobnik.books'],
+            i1.ɵted(null, [' section. You can also find me on '])), (_l()(), i1.ɵeld(0, null, null, 1, 'a', [['href', 'http://facebook.com/drobnik.writes'],
             ['target', '_blank']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['Facebook'])), (_l()(), i1.ɵted(null, [', '])), (_l()(), i1.ɵeld(0, null, null, 1, 'a', [['href', 'https://twitter.com/drobnik'],
-            ['target', '_blank']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['Twitter'])), (_l()(), i1.ɵted(null, [', '])), (_l()(), i1.ɵeld(0, null, null, 1, 'a', [['href', 'https://www.instagram.com/ldrobnik/'],
+            ['target', '_blank']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['Twitter'])), (_l()(), i1.ɵted(null, [', '])), (_l()(), i1.ɵeld(0, null, null, 1, 'a', [['href', 'https://www.instagram.com/drobnikwrites/'],
             ['target', '_blank']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['Instagram'])), (_l()(), i1.ɵted(null, [' and '])), (_l()(), i1.ɵeld(0, null, null, 1, 'a', [['href',
                 'https://www.patreon.com/drobnik'], ['target', '_blank']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['Patreon'])), (_l()(), i1.ɵted(null, ['.'])), (_l()(), i1.ɵted(null, ['\n        ']))], function (_ck, _v) {
         var currVal_2 = _ck(_v, 12, 0, '/random/en');
