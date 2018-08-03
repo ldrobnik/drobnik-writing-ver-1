@@ -38,6 +38,15 @@ var BioComponent = (function () {
                 descriptionEn: 'An English version of the novella “Nocturine” forthcoming in 2019 from Fathom Books'
             },
             {
+                title: 'wydawnictwo j',
+                type: 'press',
+                year: '',
+                filename: 'wydawnictwoj',
+                url: 'http://wydawnictwoj.pl/',
+                descriptionPl: 'Fragment powieści „Vostok”',
+                descriptionEn: 'A fragment of the novel “Vostok”'
+            },
+            {
                 title: 'SHARKPACK Annual (2018)',
                 type: 'press',
                 year: '',
