@@ -52,8 +52,8 @@ var BioComponent = (function () {
                 year: '',
                 filename: 'sharkpack',
                 url: 'https://sharkpackpoetry.com/spr-annual/',
-                descriptionPl: '„8-bit Dreams” i „Heart Mighty Power” (fragmenty minipowieści „Nocturine”)',
-                descriptionEn: '“8-bit Dreams” and “Heart Mighty Power” (fragments of the novella “Nocturine”)'
+                descriptionPl: '„8-bit Dreams” (fragment minipowieści „Nocturine”)',
+                descriptionEn: '“8-bit Dreams” (a fragment of the novella “Nocturine”)'
             },
             {
                 title: 'Magazyn Wizje (2/2018)',

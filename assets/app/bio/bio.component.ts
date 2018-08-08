@@ -70,9 +70,9 @@ export class BioComponent implements OnInit {
 
             url: 'https://sharkpackpoetry.com/spr-annual/',
 
-            descriptionPl: '„8-bit Dreams” i „Heart Mighty Power” (fragmenty minipowieści „Nocturine”)',
+            descriptionPl: '„8-bit Dreams” (fragment minipowieści „Nocturine”)',
 
-            descriptionEn: '“8-bit Dreams” and “Heart Mighty Power” (fragments of the novella “Nocturine”)'
+            descriptionEn: '“8-bit Dreams” (a fragment of the novella “Nocturine”)'
 
         },
         {
