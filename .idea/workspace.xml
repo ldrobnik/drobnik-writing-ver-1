@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="95d6d2bc-ccb0-4794-a042-327d83448961" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/app/bio/bio.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app/bio/bio.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/app/bio/bio.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app/bio/bio.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app/bio/bio.component.ngfactory.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app/bio/bio.component.ngfactory.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,7 +29,7 @@
       <file leaf-file-name="nav.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
+            <state relative-caret-position="2832">
               <caret line="177" column="33" selection-start-line="177" selection-start-column="33" selection-end-line="177" selection-end-column="33" />
               <folding>
                 <marker date="1532334943230" expanded="true" signature="18597:18624" ph="..." />
@@ -45,7 +43,7 @@
       <file leaf-file-name="bio.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
+            <state relative-caret-position="496">
               <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
@@ -409,12 +407,13 @@
       <workItem from="1531494310905" duration="267000" />
       <workItem from="1532334837798" duration="1504000" />
       <workItem from="1532414507449" duration="29000" />
-      <workItem from="1533320601758" duration="548000" />
+      <workItem from="1533320601758" duration="1402000" />
+      <workItem from="1533371165104" duration="134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="402214000" />
+    <option name="totallyTimeSpent" value="403202000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,9 +447,9 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.32804233" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.209377" />
       <window_info id="Structure" order="0" weight="0.24880128" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -458,12 +457,12 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32971016" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.24074075" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31878307" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3282353" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49783784" weight="0.20238096" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50216216" side_tool="true" weight="0.26923078" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3282353" />
       <window_info id="Favorites" order="1" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -764,10 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="16" column="410" selection-start-line="16" selection-start-column="410" selection-end-line="16" selection-end-column="410" />
-          <folding>
-            <element signature="e#953#959#0" expanded="true" />
-            <element signature="e#1007#1013#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -780,7 +775,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/nav/nav.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
+        <state relative-caret-position="2832">
           <caret line="177" column="33" selection-start-line="177" selection-start-column="33" selection-end-line="177" selection-end-column="33" />
           <folding>
             <marker date="1532334943230" expanded="true" signature="18597:18624" ph="..." />
@@ -792,7 +787,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
+        <state relative-caret-position="496">
           <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
