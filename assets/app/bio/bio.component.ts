@@ -44,22 +44,6 @@ export class BioComponent implements OnInit {
 
         },
         {
-            title: 'wydawnictwo j',
-
-            type: 'press',
-
-            year: '',
-
-            filename: 'wydawnictwoj',
-
-            url: 'http://wydawnictwoj.pl/',
-
-            descriptionPl: 'Fragment powieści „Vostok”',
-
-            descriptionEn: 'A fragment of the novel “Vostok”'
-
-        },
-        {
             title: 'SHARKPACK Annual (2018)',
 
             type: 'press',
@@ -73,6 +57,22 @@ export class BioComponent implements OnInit {
             descriptionPl: '„8-bit Dreams” (fragment minipowieści „Nocturine”)',
 
             descriptionEn: '“8-bit Dreams” (a fragment of the novella “Nocturine”)'
+
+        },
+        {
+            title: 'wydawnictwo j',
+
+            type: 'press',
+
+            year: '2018',
+
+            filename: 'wydawnictwoj',
+
+            url: 'http://wydawnictwoj.pl/uncategorized/pismo/proza/lukasz-drobnik-vostok-fragment/',
+
+            descriptionPl: 'Fragment powieści „Vostok”',
+
+            descriptionEn: 'A fragment of the novel “Vostok”'
 
         },
         {
