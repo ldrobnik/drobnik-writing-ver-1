@@ -44,6 +44,22 @@ export class BioComponent implements OnInit {
 
         },
         {
+            title: 'Mojave Heart Review (September 2018)',
+
+            type: 'press',
+
+            year: '',
+
+            filename: 'mojave',
+
+            url: 'https://mojaveheart.com/',
+
+            descriptionPl: 'Opowiadanie „Cellulose”',
+
+            descriptionEn: 'A short story “Cellulose”'
+
+        },
+        {
             title: 'SHARKPACK Annual (2018)',
 
             type: 'press',
@@ -57,6 +73,22 @@ export class BioComponent implements OnInit {
             descriptionPl: '„8-bit Dreams” (fragment minipowieści „Nocturine”)',
 
             descriptionEn: '“8-bit Dreams” (a fragment of the novella “Nocturine”)'
+
+        },
+        {
+            title: 'The Selkie',
+
+            type: 'press',
+
+            year: '',
+
+            filename: 'theselkie',
+
+            url: 'http://theselkie.co.uk/',
+
+            descriptionPl: 'Opowiadanie „Airborne”',
+
+            descriptionEn: 'A short story “Airborne”'
 
         },
         {

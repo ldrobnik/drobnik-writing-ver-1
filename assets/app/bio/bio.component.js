@@ -38,6 +38,15 @@ var BioComponent = (function () {
                 descriptionEn: 'An English version of the novella “Nocturine” forthcoming in 2019 from Fathom Books'
             },
             {
+                title: 'Mojave Heart Review (September 2018)',
+                type: 'press',
+                year: '',
+                filename: 'mojave',
+                url: 'https://mojaveheart.com/',
+                descriptionPl: 'Opowiadanie „Cellulose”',
+                descriptionEn: 'A short story “Cellulose”'
+            },
+            {
                 title: 'SHARKPACK Annual (2018)',
                 type: 'press',
                 year: '',
@@ -45,6 +54,15 @@ var BioComponent = (function () {
                 url: 'https://sharkpackpoetry.com/spr-annual/',
                 descriptionPl: '„8-bit Dreams” (fragment minipowieści „Nocturine”)',
                 descriptionEn: '“8-bit Dreams” (a fragment of the novella “Nocturine”)'
+            },
+            {
+                title: 'The Selkie',
+                type: 'press',
+                year: '',
+                filename: 'theselkie',
+                url: 'http://theselkie.co.uk/',
+                descriptionPl: 'Opowiadanie „Airborne”',
+                descriptionEn: 'A short story “Airborne”'
             },
             {
                 title: 'wydawnictwo j',
