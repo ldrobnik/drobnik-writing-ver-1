@@ -38,6 +38,15 @@ var BioComponent = (function () {
                 descriptionEn: 'An English version of the novella “Nocturine” forthcoming in 2019 from Fathom Books'
             },
             {
+                title: 'Afront 2(5)/2018',
+                type: 'press',
+                year: '',
+                filename: 'afront',
+                url: 'https://afront.org.pl/',
+                descriptionPl: 'Opowiadania „Waleń” i „Skomplikowane przeczucie”',
+                descriptionEn: 'Short stories “Skomplikowane przeczucie” and “Waleń”'
+            },
+            {
                 title: 'Mojave Heart Review (September 2018)',
                 type: 'press',
                 year: '',
