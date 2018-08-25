@@ -56,7 +56,7 @@ export class BioComponent implements OnInit {
 
             descriptionPl: 'Opowiadania „Waleń” i „Skomplikowane przeczucie”',
 
-            descriptionEn: 'Short stories “Skomplikowane przeczucie” and “Waleń”'
+            descriptionEn: 'Short stories “Waleń” and “Skomplikowane przeczucie”'
 
         },
         {
