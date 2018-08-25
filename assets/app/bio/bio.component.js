@@ -44,7 +44,7 @@ var BioComponent = (function () {
                 filename: 'afront',
                 url: 'https://afront.org.pl/',
                 descriptionPl: 'Opowiadania „Waleń” i „Skomplikowane przeczucie”',
-                descriptionEn: 'Short stories “Skomplikowane przeczucie” and “Waleń”'
+                descriptionEn: 'Short stories “Waleń” and “Skomplikowane przeczucie”'
             },
             {
                 title: 'Mojave Heart Review (September 2018)',
