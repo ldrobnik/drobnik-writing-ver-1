@@ -44,22 +44,6 @@ export class BioComponent implements OnInit {
 
         },
         {
-            title: 'Afront 2(5)/2018',
-
-            type: 'press',
-
-            year: '',
-
-            filename: 'afront',
-
-            url: 'https://afront.org.pl/',
-
-            descriptionPl: 'Opowiadania „Waleń” i „Skomplikowane przeczucie”',
-
-            descriptionEn: 'Short stories “Waleń” and “Skomplikowane przeczucie”'
-
-        },
-        {
             title: 'Mojave Heart Review (September 2018)',
 
             type: 'press',
@@ -105,6 +89,22 @@ export class BioComponent implements OnInit {
             descriptionPl: 'Opowiadanie „Airborne”',
 
             descriptionEn: 'A short story “Airborne”'
+
+        },
+        {
+            title: 'Afront 2(5)/2018',
+
+            type: 'press',
+
+            year: '2018',
+
+            filename: 'afront',
+
+            url: 'https://afront.org.pl/',
+
+            descriptionPl: 'Opowiadania „Waleń” i „Skomplikowane przeczucie”',
+
+            descriptionEn: 'Short stories “Waleń” and “Skomplikowane przeczucie”'
 
         },
         {
