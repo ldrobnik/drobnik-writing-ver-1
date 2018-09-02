@@ -38,15 +38,6 @@ var BioComponent = (function () {
                 descriptionEn: 'An English version of the novella “Nocturine” forthcoming in 2019 from Fathom Books'
             },
             {
-                title: 'Mojave Heart Review (September 2018)',
-                type: 'press',
-                year: '',
-                filename: 'mojave',
-                url: 'https://mojaveheart.com/',
-                descriptionPl: 'Opowiadanie „Cellulose”',
-                descriptionEn: 'A short story “Cellulose”'
-            },
-            {
                 title: 'SHARKPACK Annual (2018)',
                 type: 'press',
                 year: '',
@@ -63,6 +54,15 @@ var BioComponent = (function () {
                 url: 'http://theselkie.co.uk/',
                 descriptionPl: 'Opowiadanie „Airborne”',
                 descriptionEn: 'A short story “Airborne”'
+            },
+            {
+                title: 'Mojave Heart Review (September 2018)',
+                type: 'press',
+                year: '2018',
+                filename: 'mojave',
+                url: 'https://mojaveheart.com/cellulose/',
+                descriptionPl: 'Opowiadanie „Cellulose”',
+                descriptionEn: 'A short story “Cellulose”'
             },
             {
                 title: 'Afront 2(5)/2018',
