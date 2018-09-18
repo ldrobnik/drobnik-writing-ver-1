@@ -76,6 +76,22 @@ export class BioComponent implements OnInit {
 
         },
         {
+            title: 'Underwood',
+
+            type: 'press',
+
+            year: '',
+
+            filename: 'underwood',
+
+            url: 'https://underwoodpress.com/inaugural-issue/',
+
+            descriptionPl: 'Opowiadanie „Photosensitivity” (angielskie tłumaczenie opowiadania „Światłoczułość”)',
+
+            descriptionEn: 'A short story “Photosensitivity” (English translation of “Światłoczułość”'
+
+        },
+        {
             title: 'Mojave Heart Review (September 2018)',
 
             type: 'press',
@@ -102,9 +118,9 @@ export class BioComponent implements OnInit {
 
             url: 'https://afront.org.pl/',
 
-            descriptionPl: 'Opowiadania „Waleń” i „Skomplikowane przeczucie”',
+            descriptionPl: 'Opowiadania „Skomplikowane przeczucie” i „Waleń” (polskie tłumaczenie opowiadania „Cetacean”)',
 
-            descriptionEn: 'Short stories “Waleń” and “Skomplikowane przeczucie”'
+            descriptionEn: 'Short stories “Skomplikowane przeczucie” and “Waleń” (Polish translation of “Cetacean”)'
 
         },
         {
