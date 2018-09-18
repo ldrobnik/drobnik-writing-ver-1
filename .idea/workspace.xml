@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/app/bio/bio.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app/bio/bio.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/app/bio/bio.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app/bio/bio.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app/bundle.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,8 +45,8 @@
       <file leaf-file-name="bio.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
+            <state relative-caret-position="158">
+              <caret line="123" selection-start-line="123" selection-end-line="123" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -210,10 +211,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="35" />
-    <option name="y" value="85" />
-    <option name="width" value="1885" />
-    <option name="height" value="880" />
+    <option name="x" value="188" />
+    <option name="y" value="217" />
+    <option name="width" value="1509" />
+    <option name="height" value="705" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -416,12 +417,14 @@
       <workItem from="1534157656927" duration="102000" />
       <workItem from="1535192599361" duration="2252000" />
       <workItem from="1535696688661" duration="1155000" />
-      <workItem from="1535884559351" duration="81000" />
+      <workItem from="1535884559351" duration="1018000" />
+      <workItem from="1537124621461" duration="606000" />
+      <workItem from="1537280761048" duration="1581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="411119000" />
+    <option name="totallyTimeSpent" value="414243000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,18 +436,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="68" width="1508" height="704" extended-state="0" />
-    <editor active="true" />
+    <frame x="151" y="174" width="1207" height="564" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.28073394" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.26240653" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.32991454" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32971016" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50216216" side_tool="true" weight="0.26923078" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31878307" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.24880128" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49783784" visible="true" weight="0.30642202" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49783784" visible="true" weight="0.41234568" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -796,8 +798,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
+        <state relative-caret-position="158">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
