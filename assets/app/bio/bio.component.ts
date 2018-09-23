@@ -80,11 +80,11 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: '',
+            year: '2018',
 
             filename: 'underwood',
 
-            url: 'https://underwoodpress.com/inaugural-issue/',
+            url: 'https://underwoodpress.com/inaugural-issue/september-2018/photosensitivity-by-lukasz-drobnik/',
 
             descriptionPl: 'Opowiadanie „Photosensitivity” (angielskie tłumaczenie opowiadania „Światłoczułość”)',
 
