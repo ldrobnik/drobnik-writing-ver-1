@@ -76,7 +76,7 @@ export class BioComponent implements OnInit {
 
         },
         {
-            title: 'Underwood',
+            title: 'Underwood (September 2018)',
 
             type: 'press',
 
