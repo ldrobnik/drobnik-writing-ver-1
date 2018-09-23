@@ -56,7 +56,7 @@ var BioComponent = (function () {
                 descriptionEn: 'A short story “Airborne”'
             },
             {
-                title: 'Underwood',
+                title: 'Underwood (September 2018)',
                 type: 'press',
                 year: '2018',
                 filename: 'underwood',
