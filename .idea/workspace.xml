@@ -45,8 +45,8 @@
       <file leaf-file-name="bio.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1696">
-              <caret line="101" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="262">
+              <caret line="90" column="88" selection-start-line="90" selection-start-column="88" selection-end-line="90" selection-end-column="88" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -212,8 +212,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="120" />
-    <option name="y" value="136" />
-    <option name="width" value="1614" />
+    <option name="y" value="135" />
+    <option name="width" value="1615" />
     <option name="height" value="835" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -224,6 +224,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,7 +261,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,12 +421,14 @@
       <workItem from="1537124621461" duration="606000" />
       <workItem from="1537280761048" duration="2232000" />
       <workItem from="1537689508223" duration="1025000" />
-      <workItem from="1537724281266" duration="627000" />
+      <workItem from="1537724281266" duration="1422000" />
+      <workItem from="1537909602357" duration="128000" />
+      <workItem from="1538729625820" duration="1045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="416546000" />
+    <option name="totallyTimeSpent" value="418514000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -438,11 +440,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="96" y="109" width="1291" height="668" extended-state="0" />
-    <editor active="true" />
+    <frame x="96" y="108" width="1292" height="668" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.28073394" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.307815" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.3075697" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32971016" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50216216" side_tool="true" weight="0.26923078" />
@@ -801,8 +802,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/bio/bio.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1696">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="262">
+          <caret line="90" column="88" selection-start-line="90" selection-start-column="88" selection-end-line="90" selection-end-column="88" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
