@@ -56,6 +56,15 @@ var BioComponent = (function () {
                 descriptionEn: 'A short story “Airborne”'
             },
             {
+                title: 'Stoner Polski (1)',
+                type: 'press',
+                year: '',
+                filename: 'stoner',
+                url: 'http://stonerpolski.pl/',
+                descriptionPl: 'Opowiadanie „Celuloza” (polskie tłumaczenie opowiadania „Cellulose”)',
+                descriptionEn: 'A short story “Celuloza” (Polish translation of “Cellulose”)'
+            },
+            {
                 title: 'Underwood (September 2018)',
                 type: 'press',
                 year: '2018',
