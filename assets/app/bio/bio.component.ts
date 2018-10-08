@@ -80,11 +80,11 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: '',
+            year: '2018',
 
             filename: 'stoner',
 
-            url: 'http://stonerpolski.pl/',
+            url: 'http://www.stonerpolski.pl/numer-1/102-celuloza-lukasz-drobnik.html',
 
             descriptionPl: 'Opowiadanie „Celuloza” (polskie tłumaczenie opowiadania „Cellulose”)',
 
