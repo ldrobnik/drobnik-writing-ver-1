@@ -38,6 +38,15 @@ var BioComponent = (function () {
                 descriptionEn: 'An English version of the novella “Nocturine” forthcoming in 2019 from Fathom Books'
             },
             {
+                title: 'Transformation Anthology',
+                type: 'collection',
+                year: '',
+                filename: 'theselkie',
+                url: 'http://theselkie.co.uk/transformation/',
+                descriptionPl: 'Opowiadanie „Airborne” w antologii przygotowywanej przez magazyn The Selkie',
+                descriptionEn: 'A short story “Airborne” in an anthology forthcoming from The Selkie'
+            },
+            {
                 title: 'SHARKPACK Annual (2018)',
                 type: 'press',
                 year: '',
@@ -45,15 +54,6 @@ var BioComponent = (function () {
                 url: 'https://sharkpackpoetry.com/spr-annual/',
                 descriptionPl: '„8-bit Dreams” (fragment minipowieści „Nocturine”)',
                 descriptionEn: '“8-bit Dreams” (a fragment of the novella “Nocturine”)'
-            },
-            {
-                title: 'The Selkie',
-                type: 'press',
-                year: '',
-                filename: 'theselkie',
-                url: 'http://theselkie.co.uk/',
-                descriptionPl: 'Opowiadanie „Airborne”',
-                descriptionEn: 'A short story “Airborne”'
             },
             {
                 title: 'Stoner Polski (1)',

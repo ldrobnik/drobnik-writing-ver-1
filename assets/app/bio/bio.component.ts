@@ -44,6 +44,22 @@ export class BioComponent implements OnInit {
 
         },
         {
+            title: 'Transformation Anthology',
+
+            type: 'collection',
+
+            year: '',
+
+            filename: 'theselkie',
+
+            url: 'http://theselkie.co.uk/transformation/',
+
+            descriptionPl: 'Opowiadanie „Airborne” w antologii przygotowywanej przez magazyn The Selkie',
+
+            descriptionEn: 'A short story “Airborne” in an anthology forthcoming from The Selkie'
+
+        },
+        {
             title: 'SHARKPACK Annual (2018)',
 
             type: 'press',
@@ -57,22 +73,6 @@ export class BioComponent implements OnInit {
             descriptionPl: '„8-bit Dreams” (fragment minipowieści „Nocturine”)',
 
             descriptionEn: '“8-bit Dreams” (a fragment of the novella “Nocturine”)'
-
-        },
-        {
-            title: 'The Selkie',
-
-            type: 'press',
-
-            year: '',
-
-            filename: 'theselkie',
-
-            url: 'http://theselkie.co.uk/',
-
-            descriptionPl: 'Opowiadanie „Airborne”',
-
-            descriptionEn: 'A short story “Airborne”'
 
         },
         {
