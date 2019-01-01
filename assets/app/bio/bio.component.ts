@@ -44,6 +44,22 @@ export class BioComponent implements OnInit {
 
         },
         {
+            title: 'Foglifter Volume 4 Issue 1',
+
+            type: 'press',
+
+            year: '',
+
+            filename: 'foglifter',
+
+            url: 'https://foglifterjournal.com/',
+
+            descriptionPl: 'Opowiadanie „Landmines”',
+
+            descriptionEn: 'A short story “Landmines”'
+
+        },
+        {
             title: 'Transformation Anthology',
 
             type: 'collection',

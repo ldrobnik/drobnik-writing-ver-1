@@ -38,6 +38,15 @@ var BioComponent = (function () {
                 descriptionEn: 'An English version of the novella “Nocturine” forthcoming in 2019 from Fathom Books'
             },
             {
+                title: 'Foglifter Volume 4 Issue 1',
+                type: 'press',
+                year: '',
+                filename: 'foglifter',
+                url: 'https://foglifterjournal.com/',
+                descriptionPl: 'Opowiadanie „Landmines”',
+                descriptionEn: 'A short story “Landmines”'
+            },
+            {
                 title: 'Transformation Anthology',
                 type: 'collection',
                 year: '',
