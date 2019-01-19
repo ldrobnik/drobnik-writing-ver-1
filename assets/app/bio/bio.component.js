@@ -49,18 +49,18 @@ var BioComponent = (function () {
             {
                 title: 'Transformation Anthology',
                 type: 'collection',
-                year: '',
+                year: '2019',
                 filename: 'theselkie',
-                url: 'http://theselkie.co.uk/transformation/',
+                url: 'http://theselkie.co.uk/anthology/',
                 descriptionPl: 'Opowiadanie „Airborne” w antologii przygotowywanej przez magazyn The Selkie',
                 descriptionEn: 'A short story “Airborne” in an anthology forthcoming from The Selkie'
             },
             {
                 title: 'SHARKPACK Annual (2018)',
                 type: 'press',
-                year: '',
+                year: '2018',
                 filename: 'sharkpack',
-                url: 'https://sharkpackpoetry.com/spr-annual/',
+                url: 'http://fathombooks.org/html/issueone.html',
                 descriptionPl: '„8-bit Dreams” (fragment minipowieści „Nocturine”)',
                 descriptionEn: '“8-bit Dreams” (a fragment of the novella “Nocturine”)'
             },
