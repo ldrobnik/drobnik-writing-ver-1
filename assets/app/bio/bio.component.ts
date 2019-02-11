@@ -44,6 +44,22 @@ export class BioComponent implements OnInit {
 
         },
         {
+            title: 'X-R-A-Y Literary Magazine',
+
+            type: 'press',
+
+            year: '',
+
+            filename: 'xray',
+
+            url: 'http://x-r-a-y.com/',
+
+            descriptionPl: 'Opowiadanie „Spores”',
+
+            descriptionEn: 'A short story “Spores”'
+
+        },
+        {
             title: 'Foglifter Volume 4 Issue 1',
 
             type: 'press',
