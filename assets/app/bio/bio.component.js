@@ -38,15 +38,6 @@ var BioComponent = (function () {
                 descriptionEn: 'An English version of the novella “Nocturine” forthcoming in 2019 from Fathom Books'
             },
             {
-                title: 'X-R-A-Y Literary Magazine',
-                type: 'press',
-                year: '',
-                filename: 'xray',
-                url: 'http://x-r-a-y.com/',
-                descriptionPl: 'Opowiadanie „Spores”',
-                descriptionEn: 'A short story “Spores”'
-            },
-            {
                 title: 'Foglifter Volume 4 Issue 1',
                 type: 'press',
                 year: '',
@@ -54,6 +45,15 @@ var BioComponent = (function () {
                 url: 'https://foglifterjournal.com/',
                 descriptionPl: 'Opowiadanie „Landmines”',
                 descriptionEn: 'A short story “Landmines”'
+            },
+            {
+                title: 'X-R-A-Y Literary Magazine',
+                type: 'press',
+                year: '2019',
+                filename: 'xray',
+                url: 'http://x-r-a-y.com/spores-lukasz-drobnik/fiction/',
+                descriptionPl: 'Opowiadanie „Spores”',
+                descriptionEn: 'A short story “Spores”'
             },
             {
                 title: 'Transformation Anthology',

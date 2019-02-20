@@ -44,22 +44,6 @@ export class BioComponent implements OnInit {
 
         },
         {
-            title: 'X-R-A-Y Literary Magazine',
-
-            type: 'press',
-
-            year: '',
-
-            filename: 'xray',
-
-            url: 'http://x-r-a-y.com/',
-
-            descriptionPl: 'Opowiadanie „Spores”',
-
-            descriptionEn: 'A short story “Spores”'
-
-        },
-        {
             title: 'Foglifter Volume 4 Issue 1',
 
             type: 'press',
@@ -73,6 +57,22 @@ export class BioComponent implements OnInit {
             descriptionPl: 'Opowiadanie „Landmines”',
 
             descriptionEn: 'A short story “Landmines”'
+
+        },
+        {
+            title: 'X-R-A-Y Literary Magazine',
+
+            type: 'press',
+
+            year: '2019',
+
+            filename: 'xray',
+
+            url: 'http://x-r-a-y.com/spores-lukasz-drobnik/fiction/',
+
+            descriptionPl: 'Opowiadanie „Spores”',
+
+            descriptionEn: 'A short story “Spores”'
 
         },
         {
