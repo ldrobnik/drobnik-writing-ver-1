@@ -38,6 +38,15 @@ var BioComponent = (function () {
                 descriptionEn: 'An English version of the novella “Nocturine” forthcoming in 2019 from Fathom Books'
             },
             {
+                title: 'Atticus Review',
+                type: 'press',
+                year: '',
+                filename: 'atticus',
+                url: 'https://foglifterjournal.com/',
+                descriptionPl: 'Opowiadanie „Treasures”',
+                descriptionEn: 'A short story “Treasures”'
+            },
+            {
                 title: 'Foglifter Volume 4 Issue 1',
                 type: 'press',
                 year: '',
