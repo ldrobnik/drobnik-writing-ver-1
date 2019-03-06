@@ -52,7 +52,7 @@ export class BioComponent implements OnInit {
 
             filename: 'atticus',
 
-            url: 'https://foglifterjournal.com/',
+            url: 'https://atticusreview.org/',
 
             descriptionPl: 'Opowiadanie „Treasures”',
 

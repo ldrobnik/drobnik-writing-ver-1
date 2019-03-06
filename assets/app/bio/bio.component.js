@@ -42,7 +42,7 @@ var BioComponent = (function () {
                 type: 'press',
                 year: '',
                 filename: 'atticus',
-                url: 'https://foglifterjournal.com/',
+                url: 'https://atticusreview.org/',
                 descriptionPl: 'Opowiadanie „Treasures”',
                 descriptionEn: 'A short story “Treasures”'
             },
