@@ -44,6 +44,22 @@ export class BioComponent implements OnInit {
 
         },
         {
+            title: 'Atticus Review',
+
+            type: 'press',
+
+            year: '',
+
+            filename: 'atticus',
+
+            url: 'https://foglifterjournal.com/',
+
+            descriptionPl: 'Opowiadanie „Treasures”',
+
+            descriptionEn: 'A short story “Treasures”'
+
+        },
+        {
             title: 'Foglifter Volume 4 Issue 1',
 
             type: 'press',
