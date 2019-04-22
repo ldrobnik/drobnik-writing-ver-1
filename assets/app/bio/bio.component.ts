@@ -44,6 +44,22 @@ export class BioComponent implements OnInit {
 
         },
         {
+            title: 'Pithead Chapel',
+
+            type: 'press',
+
+            year: '',
+
+            filename: 'pithead',
+
+            url: 'https://pitheadchapel.com/',
+
+            descriptionPl: 'Opowiadanie „Entrails”',
+
+            descriptionEn: 'A short story “Entrails”'
+
+        },
+        {
             title: 'Atticus Review',
 
             type: 'press',
@@ -64,7 +80,7 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: '',
+            year: '2019',
 
             filename: 'foglifter',
 
