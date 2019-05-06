@@ -64,7 +64,7 @@ export class BioComponent implements OnInit {
 
             type: 'press',
 
-            year: '',
+            year: '2019',
 
             filename: 'atticus',
 
