@@ -1,5 +1,5 @@
 # drobnik.co
-[drobnik.co](http://www.drobnik.co) is my official writing website showcasing pieces of my fiction both in English and my native Polish. It is a single-page app built with **Node.js**, **Express.js** and **Angular 4**.
+My old writing [website](http://lukasz-drobnik.herokuapp.com/) showcasing pieces of my fiction both in English and my native Polish. It is a single-page app built with **Node.js**, **Express.js** and **Angular 4**.
 
 ## Main features
 * Responsive design based on **Bootstrap 3** and **ngx-bootstrap**
