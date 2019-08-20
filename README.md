@@ -1,4 +1,4 @@
-# My Legacy Author Website
+# My Previous Author Website
 My old writing [website](http://lukasz-drobnik.herokuapp.com/) showcasing pieces of my fiction both in English and my native Polish. It is a single-page app built with **Node.js**, **Express.js** and **Angular 4**.
 
 ## Main features
