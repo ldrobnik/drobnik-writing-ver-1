@@ -20,7 +20,7 @@ The heart of the application, containing most of the code. Main features:
 * A **splash screen** with a prompt to choose the language if it hasn’t been selected yet.
 
 ### The Bio component
-A simple page containing my biographical statement and **a list publication in the form of a timeline**. The timeline is built dynamically from an array of objects containing such information as the publication title, English and Polish descriptions (displayed based on the currently set language), publication year or an URL pointing to a given magazine/publishing house website.
+A simple page containing my biographical statement and **a list of publications in the form of a timeline**. The timeline is built dynamically from an array of objects containing such information as the publication title, English and Polish descriptions (displayed based on the currently set language), publication year or an URL pointing to a given magazine/publishing house website.
 
 ### The Text components
 The meat of the app: **pieces of fiction in Polish and English**. Every text component has a similar structure, with a jumbotron displaying a video relevant to a given theme as a background, the text (sometimes using decorative text separators matching the theme) and a footer with copyright information. At the end there is a button which prompts the user to read another text.
