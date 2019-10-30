@@ -20,10 +20,10 @@ The heart of the application, containing most of the code. Main features:
 * A **splash screen** with a prompt to choose the language if it hasn’t been selected yet.
 
 ### The Bio component
-A simple page containing my biographical statement and **a list of publications in the form of a timeline**. The timeline is built dynamically from an array of objects containing such information as the publication title, English and Polish descriptions (displayed based on the currently set language), publication year or an URL pointing to a given magazine/publishing house website.
+A simple page containing my biographical statement and **a list of publications in the form of a timeline**. The timeline is built dynamically from an array of objects containing such information as the publication title, English and Polish descriptions (displayed based on the currently set language) or publication year.
 
 ### The Text components
-The meat of the app: **pieces of fiction in Polish and English**. Every text component has a similar structure, with a jumbotron displaying a video relevant to a given theme as a background, the text (sometimes using decorative text separators matching the theme) and a footer with copyright information. At the end there is a button which prompts the user to read another text.
+The meat of the app: **pieces of fiction in Polish and English**. Every text component has a similar structure, with a jumbotron displaying a video relevant to a given theme in the background, the text (sometimes using decorative text separators matching the theme) and a footer with copyright information. At the end there is a button which prompts the user to read another text.
 
 ## Acknowledgements
 The app is based on a modified seed project from **Maximillian Schwarzmüller’s** course [Angular (Angular 2+) & NodeJS - The MEAN Stack Guide](https://www.udemy.com/angular-2-and-nodejs-the-practical-guide/).
