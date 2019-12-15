@@ -2,3 +2,5 @@
 node_modules/*
 npm-debug.log
 /public/js
+.idea
+.netlify
